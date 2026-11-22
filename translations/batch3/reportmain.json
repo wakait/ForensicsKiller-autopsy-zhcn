@@ -1,0 +1,8 @@
+{
+  "DefaultReportConfigurationPanel.infoLabel.text": "该报告将在下一个界面中配置。",
+  "ReportBranding.defaultReportTitle.text": "Autopsy 取证报告",
+  "ReportBranding.defaultReportFooter.text": "由 Autopsy 开源数字取证平台提供支持 - www.sleuthkit.org",
+  "ReportProgressPanel.initPathLabel.noFile": "<html><u>没有报告文件</u></html>",
+  "ReportProgressPanel.start.progress.text": "正在启动报告...",
+  "ReportProgressPanel.complete.processLb2.text": "已完成，但有错误"
+}

@@ -1,0 +1,465 @@
+{
+ "jar": "platform/core/core.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_continue",
+   "en": "Disable Modules and Continue"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_exit",
+   "en": "Exit"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_failed_install_new",
+   "en": "Warning - could not install some modules:"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_failed_install_new_unexpected",
+   "en": "Warning - could not install module {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_auto_restore",
+   "en": "Done loading modules."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_disable_modules",
+   "en": "Turning off modules...done."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_enable_modules",
+   "en": "Turning on modules...done."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_load_boot_modules",
+   "en": "Loading core...done."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_read",
+   "en": "Reading module storage...done."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_info",
+   "en": "Information"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_install",
+   "en": "Installing {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_load_layers",
+   "en": "Loading module services..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_load_section",
+   "en": "Loading modules..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_restore",
+   "en": "Starting modules..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_auto_restore",
+   "en": "Loading modules..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_disable_modules",
+   "en": "Turning off modules..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_enable_modules",
+   "en": "Turning on modules..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_load_boot_modules",
+   "en": "Loading core..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_read",
+   "en": "Reading module storage..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_startlevelinfo",
+   "en": ", startlevel={0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_uninstall",
+   "en": "Stopping {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_update",
+   "en": "Starting a new version of {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_warning",
+   "en": "Warning"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "currentVersion",
+   "en": "Apache NetBeans Platform Dev (Build {0})"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_no_user_directory",
+   "en": "netbeans.user is not set.\\nPlease check your NetBeans startup script."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_user_dir_is_inside_home",
+   "en": "Your user directory ({0}) cannot reside inside your NetBeans installation directory ({1})."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "LBL_splash_window_title",
+   "en": "Starting Apache NetBeans Platform"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_About_Title",
+   "en": "About"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_About_Detail",
+   "en": "Detail"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ACSD_AboutDialog",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ACSN_AboutTabs",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ACSD_AboutTabs",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashOnByDefault",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SPLASH_WIDTH",
+   "en": "473"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SPLASH_HEIGHT",
+   "en": "300"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashShowProgressBar",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_globalFontSize",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextBounds",
+   "en": "10, 235, 450, 12"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarBounds",
+   "en": "0, 249, 473, 3"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextFontSize",
+   "en": "11"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextFontType",
+   "en": "Dialog"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextColor",
+   "en": "0xFFFFFF"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarColor",
+   "en": "0xE00000"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarEdgeColor",
+   "en": "0xC5646F"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarCornerColor",
+   "en": "0xB4A2B5"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_UIExpected",
+   "en": "UI class name expected, using default UI..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_UserDirExpected",
+   "en": "Directory expected after --userdir or --cachedir switch"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_UINotFound",
+   "en": "UI class {0} not found, using default UI..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_FontSizeExpected",
+   "en": "Font size expected, using default font size..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_BadFontSize",
+   "en": "Bad format of the font size, using default font size..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_BrandingNeedsArgument",
+   "en": "Option --branding requires one argument"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_LocaleExpected",
+   "en": "Locale specification expected after --locale switch"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome_notexists",
+   "en": "netbeans.home points to a non-existent directory."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome1",
+   "en": "netbeans.home does not point to a directory."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome2",
+   "en": "netbeans.user points to a non-existent directory."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome3",
+   "en": "netbeans.user does not point to a directory."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_CannotCreate_text",
+   "en": "Cannot create system directory in {0}. A file with the same name already exists."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_CannotCreateSysDir_text",
+   "en": "Cannot create system directory in {0}."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Cannot_mount_system_fs",
+   "en": "Cannot add System filesystem, exiting..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_IDEInit",
+   "en": "Initializing..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_nbres_cannot_connect",
+   "en": "Could not connect to URL {0}. No such resource was found."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "GTK_FONTSIZE_UNSUPPORTED",
+   "en": "--fontsize is not supported on GTK look and feel. \\ Adjust your desktop font size instead."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_GraphicsStartFails1",
+   "en": "Error: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_GraphicsStartFails2",
+   "en": "See the {0} for details."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_too_old",
+   "en": "The module {0} was requested in version >= {1} but only {2} was found."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_disabled",
+   "en": "The module {0} would also need to be installed."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "LBL_no_impl_version",
+   "en": "[no version specified]"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_wrong_version",
+   "en": "The module {0} was requested in implementation version \"{1}\" but only \"{2}\" was found."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_needed_not_found",
+   "en": "The module named {0} was needed and not found."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_require_disabled",
+   "en": "None of the modules providing the capability {0} could be installed."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_require_not_found",
+   "en": "No module providing the capability {0} could be found."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_class_not_loaded",
+   "en": "The package containing the class {0} was not loaded."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_package_not_loaded_or_old",
+   "en": "The package {0} was not loaded or was an outdated version."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_java_too_old",
+   "en": "The Java platform version {0} or higher was requested but only {1} is running."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_also_dep_modules",
+   "en": "{0,choice,1#Another module|1<{0} further modules} could not be installed due to the above problems."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_MissingResourceException_class_name",
+   "en": "Missing resource from class: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_MissingResourceException_key",
+   "en": "Key which was not found: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_sax_parse",
+   "en": "Parse error in file {1} (PUBLIC {0})"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_sax_parse_col_line",
+   "en": "Parse error in file {1} line {3} column {2} (PUBLIC {0})"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_cant_delete_enabled_autoload",
+   "en": "The module {0} could not be deleted as it was an autoload or eager module and still in use."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_finish_deploy_test_module",
+   "en": "Finished deploying test module."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_finish_disable_modules",
+   "en": "Turning off modules:"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_finish_enable_modules",
+   "en": "Turning on modules:"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_install",
+   "en": "Installing new module: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_misc_prop_mismatch",
+   "en": "An attempt was made to change the property {1} of the module {0} in the system/Modules folder.\\nThe actual value is \"{3}\" but it was changed on disk to read \"{2}\".\\nThis property cannot be changed while the IDE is running, so this attempt had no effect."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_missing_jar_file",
+   "en": "Warning: the module {0} could not be found, ignoring..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_patch",
+   "en": "Module patch or custom extension: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_start_deploy_test_module",
+   "en": "Deploying test module in {0} ..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_update",
+   "en": "Updating module: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "UpdateAllResources",
+   "en": "always"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/impl/Bundle.properties",
+   "key": "MSG_start_load_cache",
+   "en": "Loading cached objects..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/impl/Bundle.properties",
+   "key": "MSG_end_load_cache",
+   "en": "Loading cached objects...done."
+  }
+ ]
+}

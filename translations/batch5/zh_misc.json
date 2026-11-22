@@ -1,0 +1,143 @@
+{
+ "jar": "platform/modules/org-netbeans-core-multitabs.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_DocumentList",
+   "en": "Show opened documents list",
+   "zh": "显示已打开的文档列表"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_MaximizeRestore",
+   "en": "Maximize/restore window",
+   "zh": "最大化/还原窗口"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_ScrollLeft",
+   "en": "Scroll documents left",
+   "zh": "向左滚动文档"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_ScrollRight",
+   "en": "Scroll documents right",
+   "zh": "向右滚动文档"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/impl/Bundle.properties",
+   "key": "BtnClose_Tooltip",
+   "en": "<html>Shift + click to close all documents<br>Alt + click to close other documents",
+   "zh": "<html>Shift + 单击可关闭所有文档<br>Alt + 单击可关闭其他文档"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementTop.text",
+   "en": "T&op",
+   "zh": "顶部(&O)"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementLeft.text",
+   "en": "&Left",
+   "zh": "左(&L)"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementBottom.text",
+   "en": "&Bottom",
+   "zh": "底部(&B)"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementRight.text",
+   "en": "&Right",
+   "zh": "右(&R)"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkProjectColors.text",
+   "en": "Same background color for files from the same project",
+   "zh": "同一项目的文件使用相同背景色"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.jLabel1.text",
+   "en": "Tab placement:",
+   "zh": "标签页位置:"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkMultiRow.text",
+   "en": "&Multi-row tabs",
+   "zh": "多行标签页(&M)"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkSortDocumentList.text",
+   "en": "Sort opened documents list by project",
+   "zh": "按项目对已打开的文档列表排序"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioRowPerProject.text",
+   "en": "One row per project",
+   "zh": "每个项目一行"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioRowCount.text",
+   "en": "Maximum row count:",
+   "zh": "最大行数:"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkShowFolderName.text",
+   "en": "Show parent folder name in tab title",
+   "zh": "在标签页标题中显示父文件夹名称"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkShowFullPath.text",
+   "en": "Show full file path",
+   "zh": "显示完整文件路径"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "KW_WindowOptions",
+   "en": "Window Options,Appearance, Editor tab placement, Multi-row tabs, Window dragging, Floating Windows, Look and Feel",
+   "zh": "窗口选项,外观, 编辑器标签页位置, 多行标签页, 窗口拖动, 浮动窗口, 界面外观"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "AdvancedOption_DisplayName_MultiTabs",
+   "en": "Document Tabs",
+   "zh": "文档标签页"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "AdvancedOption_Keywords_MultiTabs",
+   "en": "Multitabs, Editor, TabControl",
+   "zh": "多标签页, 编辑器, 标签页控件"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkProjectColors.actionCommand",
+   "en": "Same back&ground color for files from the same project",
+   "zh": "同一项目的文件使用相同背景色(&G)"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkMultiRow.actionCommand",
+   "en": "Multi-ro&w tabs",
+   "zh": "多行标签页(&W)"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioRowPerProject.actionCommand",
+   "en": "One row per pro&ject",
+   "zh": "每个项目一行(&J)"
+  }
+ ]
+}

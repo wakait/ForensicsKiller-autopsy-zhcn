@@ -1,0 +1,11 @@
+{
+  "OsAccountDataPanel_basic_creationDate": "创建日期",
+  "OsAccountDataPanel_basic_fullname": "全名",
+  "OsAccountDataPanel_basic_objId": "对象 ID",
+  "OsAccountDataPanel_basic_title": "基本属性",
+  "OsAccountDataPanel_data_accessed_title": "最后登录",
+  "OsAccountDataPanel_host_count_title": "登录次数",
+  "OsAccountDataPanel_realm_title": "领域属性",
+  "OsAccountViewer_title": "操作系统账户",
+  "OsAccountViewer_tooltip": "查看与所选节点相关的操作系统账户。"
+}

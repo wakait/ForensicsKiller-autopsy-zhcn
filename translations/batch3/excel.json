@@ -1,0 +1,15 @@
+{
+  "ReportExcel.exceptionMessage.dataTooLarge": "值过长，无法放入一个 Excel 单元格。",
+  "ReportExcel.exceptionMessage.errorText": "在 Excel 单元格中显示数据时出错。",
+  "ReportExcel.numAartifacts.text": "产物数量：",
+  "ReportExcel.getName.text": "Excel 报告",
+  "ReportExcel.getDesc.text": "以 Excel（XLS）格式呈现结果与已标记项目的报告。",
+  "ReportExcel.cellVal.caseName": "案例名称：",
+  "ReportExcel.cellVal.caseNum": "案例编号：",
+  "ReportExcel.cellVal.numImages": "映像数量：",
+  "ReportExcel.endReport.srcModuleName.text": "Excel 报告",
+  "ReportExcel.writeSummary.caseName": "案例名称：",
+  "ReportExcel.writeSummary.caseNotes": "案例备注：",
+  "ReportExcel.writeSummary.caseNum": "案例编号：",
+  "ReportExcel.writeSummary.numImages": "案例中的数据源数量："
+}

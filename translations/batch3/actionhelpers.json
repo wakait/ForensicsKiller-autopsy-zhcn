@@ -1,0 +1,11 @@
+{
+  "ExtractActionHelper.extractFiles.cantCreateFolderErr.msg": "无法创建所选文件夹。",
+  "ExtractActionHelper.confDlg.destFileExist.msg": "目标文件 {0} 已存在，是否覆盖？",
+  "ExtractActionHelper.confDlg.destFileExist.title": "文件已存在",
+  "ExtractActionHelper.msgDlg.cantOverwriteFile.msg": "无法覆盖已有文件 {0}",
+  "ExtractActionHelper.noOpenCase.errMsg": "没有已打开的案例。",
+  "ExtractActionHelper.notifyDlg.noFileToExtr.msg": "没有可提取的文件。",
+  "ExtractActionHelper.done.notifyMsg.fileExtr.text": "文件已提取。",
+  "ExtractActionHelper.progress.extracting": "正在提取到 {0}",
+  "ExtractActionHelper.progress.fileExtracting": "正在提取文件：{0}"
+}

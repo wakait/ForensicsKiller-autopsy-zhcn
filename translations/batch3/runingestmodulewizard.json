@@ -1,0 +1,10 @@
+{
+  "IngestModulesConfigWizardPanel.name.text": "配置摄取模块",
+  "IngestProfileSelectionPanel.customSettings.description": "在向导的下一步中配置各模块设置",
+  "IngestProfileSelectionPanel.customSettings.name": "自定义设置",
+  "IngestProfileSelectionPanel.ingestSettingsButton.text": "摄取设置",
+  "IngestProfileSelectionPanel.profileListLabel.text": "选择配置文件：",
+  "IngestProfileWizardPanel.panelName": "摄取配置文件选择",
+  "RunIngestModulesAction.actionPerformed.errorMessage": "查询所选项目的案例数据库时出错。",
+  "RunIngestModulesAction.name": "运行摄取模块"
+}

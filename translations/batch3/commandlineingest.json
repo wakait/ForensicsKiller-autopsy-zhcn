@@ -1,0 +1,19 @@
+{
+  "CommandLineIngestSettingPanel_empty_report_name_mgs": "报告配置文件名为空，未创建配置文件。",
+  "CommandLineIngestSettingPanel_existing_report_name_mgs": "报告配置文件名称已存在，未创建配置文件。",
+  "CommandLineIngestSettingPanel_invalid_report_name_mgs": "报告配置文件名称含有非法字符，未创建配置文件。",
+  "CommandListIngestSettingsPanel_Make_Config": "新建配置文件...",
+  "CommandListIngestSettingsPanel_Report_Name_Msg": "请输入报告配置文件名称（仅限字母、数字和下划线）：",
+  "OptionsCategory_Keywords_Command_Line_Ingest_Settings": "命令行摄取设置",
+  "OptionsCategory_Name_Command_Line_Ingest": "命令行摄取",
+  "CommandLinePanel.jLabel1.text": "正在运行命令行任务。",
+  "CommandLineStartupWindow.title.text": "正以命令行模式运行",
+  "CommandLineIngestSettingsPanel.bnEditReportSettings.actionCommand": "报告模块设置",
+  "CommandLineIngestSettingsPanel.bnEditReportSettings.toolTipText": "命令行处理模式的报告生成设置。",
+  "CommandLineIngestSettingsPanel.bnEditIngestSettings.toolTipText": "命令行处理模式的摄取作业设置。",
+  "CommandLineIngestSettingsPanel.ingestDescriptionTextPane.text": "配置从命令行使用的配置文件。",
+  "CommandLineIngestSettingsPanel.reportDescriptionTextPane.text": "报告配置文件定义使用哪个报告模块及其配置。",
+  "CommandLineIngestSettingsPanel.reportProfileLabel.text": "报告配置文件：",
+  "CommandLineIngestSettingsPanel.ingestProfileLabel.text": "摄取配置文件：",
+  "CommandLineIngestSettingsPanel.jTextPane1.text": "摄取配置文件定义使用哪些摄取过滤器、模块及其配置。"
+}

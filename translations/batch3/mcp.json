@@ -1,0 +1,13 @@
+{
+  "McpOptionsPanel.claudeConfigLabel.text": "Claude 配置（粘贴到 claude_desktop_config.json 或 .claude.json）：",
+  "McpOptionsPanel.copyButton.text": "复制到剪贴板",
+  "McpOptionsPanel.descriptionLabel.text": "<html>Autopsy MCP（模型上下文协议）服务器允许 Claude 等 AI 助手用自然语言查询当前打开的案例。启用后，Autopsy 会开放一个仅限本机连接的网络端口。下方列出的 STDIO CLI 程序由 Claude Desktop 启动，并连接到 Autopsy 的端口。</html>",
+  "McpOptionsPanel.enabledCheckBox.text": "启用 MCP 服务器",
+  "McpOptionsPanel.startErrorMessage.text": "启动 MCP 服务器失败：{0}",
+  "McpOptionsPanel.startErrorTitle.text": "MCP 服务器错误",
+  "McpOptionsPanel.stdioLocationLabel.text": "STDIO CLI 工具位置：",
+  "McpOptionsPanel.stdioNotFoundLabel.text": "未找到",
+  "McpOptionsPanel.windowsOnlyLabel.text": "MCP 服务器仅在 Windows 上受支持。",
+  "OptionsCategory_Name_MCP": "AI：MCP 服务器",
+  "OptionsCategory_Keywords_MCP": "mcp ai claude llm server"
+}

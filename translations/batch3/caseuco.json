@@ -1,0 +1,13 @@
+{
+  "CaseUcoReportModule.ingestWarning": "警告：该报告将在摄取服务完成之前创建",
+  "CaseUcoReportModule.ioError": "生成报告时遇到 I/O 错误",
+  "CaseUcoReportModule.noCaseOpen": "当前没有已打开的案例",
+  "CaseUcoReportModule.noDataSourceSelected": "未为 CASE-UCO 报告选择数据源",
+  "CaseUcoReportModule.notInitialized": "CASE-UCO 设置面板尚未初始化",
+  "CaseUcoReportModule.processingDataSource": "正在处理数据源：%s",
+  "CaseUcoReportModule.srcModuleName": "CASE-UCO 报告",
+  "CaseUcoReportModule.tskCoreException": "生成报告时遇到 TskCoreException [%s]。详情请参阅日志。",
+  "CaseUcoReportModule.unableToCreateDirectories": "无法为 CASE-UCO 报告创建目录",
+  "CaseUcoReportModule.getDesc.text": "CASE-UCO 格式的报告，包含每个文件的基本属性字段。",
+  "ReportCaseUcoConfigPanel.jLabelSelectDataSource.text": "为 CASE-UCO 报告选择数据源"
+}

@@ -1,0 +1,9 @@
+{
+  "ReportBodyFile.progress.querying": "正在查询文件...",
+  "ReportBodyFile.ingestWarning.text": "警告：该报告在摄取服务完成之前已运行\\!",
+  "ReportBodyFile.progress.loading": "正在加载文件...",
+  "ReportBodyFile.progress.processing": "正在处理 {0}...",
+  "ReportBodyFile.getName.text": "TSK Body 文件",
+  "ReportBodyFile.getDesc.text": "Body 文件格式的报告，包含每个文件的 MAC 时间。该格式可用于时间线视图。",
+  "ReportBodyFile.generateReport.srcModuleName.text": "TSK Body 文件"
+}

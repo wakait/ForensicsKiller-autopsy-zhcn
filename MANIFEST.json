@@ -1,0 +1,1104 @@
+{
+ "version": "v2026.12-FINAL-R3",
+ "baseline": "Autopsy 4.23.1",
+ "generated_by": "build_pack.py",
+ "autopsy_root": "E:\\Snow\\Desktop\\workspace\\2026\\取证\\changan-cup-forensics-kit\\tools\\autopsy",
+ "note": "Read-only scan of Autopsy installation; original jars are never modified by this script.",
+ "totals": {
+  "bundles": 180,
+  "keys": 10031,
+  "translated": 8943,
+  "coverage_percent": 89.15,
+  "counting_method": "line-level against template; 7028 translated lines of 8057 locale key lines (CJK after unicode-decode)",
+  "batch2_note": "Batch 2 added A(i18n-core), B(i18n-extra), C(i18n-viewers), D(i18n-modules) bundles; plus global fix of double-escaped \\n/\\t and one legacy key-pollution in corecomponents.",
+  "translatable_coverage_percent": 99.5,
+  "batch3_note": "Batch 3: 49 bundles translated/refined (scripted key->zh mapping + escape_all.py), lowering non-translatable noise; 27 lines intentionally left in English (Linux distro names, product names, file paths, keywords).",
+  "batch4_note": "Batch 4: 新增 30 个 bundle —— TSK 数据模型(462)、NetBeans 平台层(openide-dialogs/explorer/core-windows/output2/uihandler/options-api，共 811)、Cyber Triage 选项(127)；并修复 90 行『值已折叠但旧英文续行残留』的垃圾键。",
+  "batch5_note": "Batch 5: 再补 18 个平台 bundle（print/quicksearch/multitabs/javahelp/templates/sendopts/core-startup，305 键）+ 71 条标签式文案；术语统一为 制品/检验员/关键词搜索，清除 90 行残留英文续行。",
+  "remaining_intentional_en": 77,
+  "remaining_note": "77 条为格式模板({0}/{1})、日志器名、字体名、产品名、Linux 发行版名；另 360 空值/185 常量/159 配置值/65 纯符号等非文案项不计入。",
+  "batch6_note": "Batch 6/7: 补主菜单栏路径键（Menu/*、UI/Services、Toolbars/*）+ 常用按钮（OK/Cancel/Browse/Configure/Save/Apply/Reset）与列头 203 条 + 核心提示 115 条；bundle 180。"
+ },
+ "bundles": {
+  "org/sleuthkit/autopsy/actions/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 82,
+   "translated": 80,
+   "pack": "locales/org/sleuthkit/autopsy/actions/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/allcasessearch/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 46,
+   "translated": 42,
+   "pack": "locales/org/sleuthkit/autopsy/allcasessearch/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/apputils/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 4,
+   "translated": 4,
+   "pack": "locales/org/sleuthkit/autopsy/apputils/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/casemodule/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 475,
+   "translated": 440,
+   "pack": "locales/org/sleuthkit/autopsy/casemodule/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/casemodule/multiusercasesbrowser/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 12,
+   "translated": 10,
+   "pack": "locales/org/sleuthkit/autopsy/casemodule/multiusercasesbrowser/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/casemodule/services/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 31,
+   "translated": 29,
+   "pack": "locales/org/sleuthkit/autopsy/casemodule/services/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 11,
+   "translated": 10,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/application/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 8,
+   "translated": 8,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/application/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/contentviewer/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 44,
+   "translated": 41,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/contentviewer/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/datamodel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 53,
+   "translated": 52,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/datamodel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/eventlisteners/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 8,
+   "translated": 8,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/eventlisteners/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/ingestmodule/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 27,
+   "translated": 27,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/ingestmodule/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/optionspanel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 156,
+   "translated": 149,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/optionspanel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/centralrepository/persona/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 137,
+   "translated": 121,
+   "pack": "locales/org/sleuthkit/autopsy/centralrepository/persona/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/commandlineingest/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 23,
+   "translated": 22,
+   "pack": "locales/org/sleuthkit/autopsy/commandlineingest/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/commonpropertiessearch/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 104,
+   "translated": 97,
+   "pack": "locales/org/sleuthkit/autopsy/commonpropertiessearch/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/communications/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 95,
+   "translated": 84,
+   "pack": "locales/org/sleuthkit/autopsy/communications/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/communications/relationships/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 91,
+   "translated": 87,
+   "pack": "locales/org/sleuthkit/autopsy/communications/relationships/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/contentviewers/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 786,
+   "translated": 641,
+   "pack": "locales/org/sleuthkit/autopsy/contentviewers/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/contentviewers/analysisresults/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 12,
+   "translated": 12,
+   "pack": "locales/org/sleuthkit/autopsy/contentviewers/analysisresults/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/contentviewers/annotations/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 22,
+   "translated": 22,
+   "pack": "locales/org/sleuthkit/autopsy/contentviewers/annotations/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/contentviewers/artifactviewers/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 101,
+   "translated": 97,
+   "pack": "locales/org/sleuthkit/autopsy/contentviewers/artifactviewers/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/contentviewers/contextviewer/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 27,
+   "translated": 22,
+   "pack": "locales/org/sleuthkit/autopsy/contentviewers/contextviewer/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/contentviewers/osaccount/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 21,
+   "translated": 21,
+   "pack": "locales/org/sleuthkit/autopsy/contentviewers/osaccount/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/contentviewers/textcontentviewer/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 24,
+   "translated": 17,
+   "pack": "locales/org/sleuthkit/autopsy/contentviewers/textcontentviewer/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/core/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 32,
+   "translated": 30,
+   "pack": "locales/org/sleuthkit/autopsy/core/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/corecomponentinterfaces/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 3,
+   "translated": 2,
+   "pack": "locales/org/sleuthkit/autopsy/corecomponentinterfaces/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/corecomponents/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 313,
+   "translated": 247,
+   "pack": "locales/org/sleuthkit/autopsy/corecomponents/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/coreutils/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 36,
+   "translated": 34,
+   "pack": "locales/org/sleuthkit/autopsy/coreutils/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datamodel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 476,
+   "translated": 453,
+   "pack": "locales/org/sleuthkit/autopsy/datamodel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datamodel/accounts/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 24,
+   "translated": 23,
+   "pack": "locales/org/sleuthkit/autopsy/datamodel/accounts/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datamodel/hosts/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 45,
+   "translated": 44,
+   "pack": "locales/org/sleuthkit/autopsy/datamodel/hosts/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datamodel/persons/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 19,
+   "translated": 17,
+   "pack": "locales/org/sleuthkit/autopsy/datamodel/persons/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datasourceprocessors/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 17,
+   "translated": 16,
+   "pack": "locales/org/sleuthkit/autopsy/datasourceprocessors/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datasourceprocessors/xry/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 16,
+   "translated": 14,
+   "pack": "locales/org/sleuthkit/autopsy/datasourceprocessors/xry/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datasourcesummary/datamodel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 2,
+   "translated": 2,
+   "pack": "locales/org/sleuthkit/autopsy/datasourcesummary/datamodel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datasourcesummary/ui/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 167,
+   "translated": 143,
+   "pack": "locales/org/sleuthkit/autopsy/datasourcesummary/ui/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/datasourcesummary/uiutils/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 5,
+   "translated": 5,
+   "pack": "locales/org/sleuthkit/autopsy/datasourcesummary/uiutils/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/diagnostics/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 29,
+   "translated": 23,
+   "pack": "locales/org/sleuthkit/autopsy/diagnostics/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/directorytree/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 157,
+   "translated": 131,
+   "pack": "locales/org/sleuthkit/autopsy/directorytree/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/directorytree/actionhelpers/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 10,
+   "translated": 10,
+   "pack": "locales/org/sleuthkit/autopsy/directorytree/actionhelpers/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/discovery/search/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 121,
+   "translated": 99,
+   "pack": "locales/org/sleuthkit/autopsy/discovery/search/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/discovery/ui/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 162,
+   "translated": 129,
+   "pack": "locales/org/sleuthkit/autopsy/discovery/ui/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/events/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 10,
+   "translated": 10,
+   "pack": "locales/org/sleuthkit/autopsy/events/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/examples/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 6,
+   "translated": 5,
+   "pack": "locales/org/sleuthkit/autopsy/examples/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/filesearch/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 82,
+   "translated": 75,
+   "pack": "locales/org/sleuthkit/autopsy/filesearch/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/geolocation/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 79,
+   "translated": 66,
+   "pack": "locales/org/sleuthkit/autopsy/geolocation/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/geolocation/datamodel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 11,
+   "translated": 11,
+   "pack": "locales/org/sleuthkit/autopsy/geolocation/datamodel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/guiutils/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 6,
+   "translated": 5,
+   "pack": "locales/org/sleuthkit/autopsy/guiutils/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/healthmonitor/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 31,
+   "translated": 31,
+   "pack": "locales/org/sleuthkit/autopsy/healthmonitor/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagewriter/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 5,
+   "translated": 5,
+   "pack": "locales/org/sleuthkit/autopsy/imagewriter/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/ingest/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 165,
+   "translated": 156,
+   "pack": "locales/org/sleuthkit/autopsy/ingest/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/ingest/runIngestModuleWizard/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 8,
+   "translated": 8,
+   "pack": "locales/org/sleuthkit/autopsy/ingest/runIngestModuleWizard/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/livetriage/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 26,
+   "translated": 24,
+   "pack": "locales/org/sleuthkit/autopsy/livetriage/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/logicalimager/configuration/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 187,
+   "translated": 150,
+   "pack": "locales/org/sleuthkit/autopsy/logicalimager/configuration/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/logicalimager/dsp/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 57,
+   "translated": 57,
+   "pack": "locales/org/sleuthkit/autopsy/logicalimager/dsp/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/machinesettings/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 2,
+   "translated": 2,
+   "pack": "locales/org/sleuthkit/autopsy/machinesettings/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/mcp/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 11,
+   "translated": 10,
+   "pack": "locales/org/sleuthkit/autopsy/mcp/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/menuactions/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 10,
+   "translated": 9,
+   "pack": "locales/org/sleuthkit/autopsy/menuactions/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/dataSourceIntegrity/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 33,
+   "translated": 32,
+   "pack": "locales/org/sleuthkit/autopsy/modules/dataSourceIntegrity/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/drones/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 5,
+   "translated": 5,
+   "pack": "locales/org/sleuthkit/autopsy/modules/drones/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/embeddedfileextractor/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 50,
+   "translated": 44,
+   "pack": "locales/org/sleuthkit/autopsy/modules/embeddedfileextractor/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/encryptiondetection/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 17,
+   "translated": 14,
+   "pack": "locales/org/sleuthkit/autopsy/modules/encryptiondetection/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/fileextmismatch/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 64,
+   "translated": 62,
+   "pack": "locales/org/sleuthkit/autopsy/modules/fileextmismatch/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/filetypeid/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 73,
+   "translated": 65,
+   "pack": "locales/org/sleuthkit/autopsy/modules/filetypeid/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/hashdatabase/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 286,
+   "translated": 266,
+   "pack": "locales/org/sleuthkit/autopsy/modules/hashdatabase/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/interestingitems/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 163,
+   "translated": 148,
+   "pack": "locales/org/sleuthkit/autopsy/modules/interestingitems/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/leappanalyzers/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 58,
+   "translated": 55,
+   "pack": "locales/org/sleuthkit/autopsy/modules/leappanalyzers/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/photoreccarver/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 38,
+   "translated": 37,
+   "pack": "locales/org/sleuthkit/autopsy/modules/photoreccarver/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/pictureanalyzer/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 3,
+   "translated": 3,
+   "pack": "locales/org/sleuthkit/autopsy/modules/pictureanalyzer/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/pictureanalyzer/impls/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 1,
+   "translated": 1,
+   "pack": "locales/org/sleuthkit/autopsy/modules/pictureanalyzer/impls/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/plaso/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 28,
+   "translated": 26,
+   "pack": "locales/org/sleuthkit/autopsy/modules/plaso/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/vmextractor/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 13,
+   "translated": 13,
+   "pack": "locales/org/sleuthkit/autopsy/modules/vmextractor/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/yara/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 5,
+   "translated": 5,
+   "pack": "locales/org/sleuthkit/autopsy/modules/yara/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/modules/yara/ui/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 26,
+   "translated": 24,
+   "pack": "locales/org/sleuthkit/autopsy/modules/yara/ui/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/progress/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 2,
+   "translated": 2,
+   "pack": "locales/org/sleuthkit/autopsy/progress/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/python/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 4,
+   "translated": 4,
+   "pack": "locales/org/sleuthkit/autopsy/python/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/rejview/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 24,
+   "translated": 24,
+   "pack": "locales/org/sleuthkit/autopsy/rejview/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 21,
+   "translated": 16,
+   "pack": "locales/org/sleuthkit/autopsy/report/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/infrastructure/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 232,
+   "translated": 227,
+   "pack": "locales/org/sleuthkit/autopsy/report/infrastructure/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/bodyfile/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 8,
+   "translated": 7,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/bodyfile/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/caseuco/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 13,
+   "translated": 11,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/caseuco/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/datasourcesummaryexport/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 123,
+   "translated": 113,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/datasourcesummaryexport/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/excel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 19,
+   "translated": 19,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/excel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/file/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 4,
+   "translated": 4,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/file/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/html/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 32,
+   "translated": 30,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/html/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/kml/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 37,
+   "translated": 35,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/kml/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/portablecase/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 37,
+   "translated": 37,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/portablecase/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/report/modules/taggedhashes/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 11,
+   "translated": 11,
+   "pack": "locales/org/sleuthkit/autopsy/report/modules/taggedhashes/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/resultviewers/summary/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 1,
+   "translated": 1,
+   "pack": "locales/org/sleuthkit/autopsy/resultviewers/summary/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/test/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 3,
+   "translated": 3,
+   "pack": "locales/org/sleuthkit/autopsy/test/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/textextractors/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 2,
+   "translated": 2,
+   "pack": "locales/org/sleuthkit/autopsy/textextractors/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/texttranslation/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 13,
+   "translated": 12,
+   "pack": "locales/org/sleuthkit/autopsy/texttranslation/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/texttranslation/translators/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 30,
+   "translated": 25,
+   "pack": "locales/org/sleuthkit/autopsy/texttranslation/translators/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/texttranslation/ui/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 21,
+   "translated": 19,
+   "pack": "locales/org/sleuthkit/autopsy/texttranslation/ui/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 54,
+   "translated": 38,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/actions/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 50,
+   "translated": 49,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/actions/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/datamodel/eventtype/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 22,
+   "translated": 21,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/datamodel/eventtype/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/explorernodes/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 8,
+   "translated": 7,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/explorernodes/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/ui/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 55,
+   "translated": 54,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/ui/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/ui/countsview/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 26,
+   "translated": 26,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/ui/countsview/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/ui/detailview/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 33,
+   "translated": 33,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/ui/detailview/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/ui/detailview/tree/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 4,
+   "translated": 4,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/ui/detailview/tree/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/ui/filtering/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 12,
+   "translated": 12,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/ui/filtering/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/ui/filtering/datamodel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 1,
+   "translated": 1,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/ui/filtering/datamodel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/ui/listvew/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 15,
+   "translated": 15,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/ui/listvew/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/utils/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 1,
+   "translated": 1,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/utils/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/timeline/zooming/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 11,
+   "translated": 11,
+   "pack": "locales/org/sleuthkit/autopsy/timeline/zooming/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/url/analytics/domaincategorization/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 34,
+   "translated": 34,
+   "pack": "locales/org/sleuthkit/autopsy/url/analytics/domaincategorization/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/experimental/autoingest/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-experimental.jar",
+   "keys": 461,
+   "translated": 436,
+   "pack": "locales/org/sleuthkit/autopsy/experimental/autoingest/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/experimental/configuration/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-experimental.jar",
+   "keys": 174,
+   "translated": 143,
+   "pack": "locales/org/sleuthkit/autopsy/experimental/configuration/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/experimental/objectdetection/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-experimental.jar",
+   "keys": 7,
+   "translated": 7,
+   "pack": "locales/org/sleuthkit/autopsy/experimental/objectdetection/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/experimental/volatilityDSP/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-experimental.jar",
+   "keys": 31,
+   "translated": 30,
+   "pack": "locales/org/sleuthkit/autopsy/experimental/volatilityDSP/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagegallery/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-imagegallery.jar",
+   "keys": 40,
+   "translated": 38,
+   "pack": "locales/org/sleuthkit/autopsy/imagegallery/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagegallery/actions/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-imagegallery.jar",
+   "keys": 39,
+   "translated": 39,
+   "pack": "locales/org/sleuthkit/autopsy/imagegallery/actions/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagegallery/datamodel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-imagegallery.jar",
+   "keys": 16,
+   "translated": 16,
+   "pack": "locales/org/sleuthkit/autopsy/imagegallery/datamodel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagegallery/datamodel/grouping/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-imagegallery.jar",
+   "keys": 5,
+   "translated": 5,
+   "pack": "locales/org/sleuthkit/autopsy/imagegallery/datamodel/grouping/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagegallery/gui/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-imagegallery.jar",
+   "keys": 19,
+   "translated": 19,
+   "pack": "locales/org/sleuthkit/autopsy/imagegallery/gui/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagegallery/gui/drawableviews/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-imagegallery.jar",
+   "keys": 18,
+   "translated": 18,
+   "pack": "locales/org/sleuthkit/autopsy/imagegallery/gui/drawableviews/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/imagegallery/gui/navpanel/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-imagegallery.jar",
+   "keys": 11,
+   "translated": 11,
+   "pack": "locales/org/sleuthkit/autopsy/imagegallery/gui/navpanel/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/keywordsearch/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-keywordsearch.jar",
+   "keys": 393,
+   "translated": 365,
+   "pack": "locales/org/sleuthkit/autopsy/keywordsearch/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/keywordsearch/infastructure/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-keywordsearch.jar",
+   "keys": 1,
+   "translated": 1,
+   "pack": "locales/org/sleuthkit/autopsy/keywordsearch/infastructure/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/recentactivity/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-recentactivity.jar",
+   "keys": 257,
+   "translated": 238,
+   "pack": "locales/org/sleuthkit/autopsy/recentactivity/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/recentactivity/windows/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-recentactivity.jar",
+   "keys": 3,
+   "translated": 3,
+   "pack": "locales/org/sleuthkit/autopsy/recentactivity/windows/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/autopsy/thunderbirdparser/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-thunderbirdparser.jar",
+   "keys": 32,
+   "translated": 32,
+   "pack": "locales/org/sleuthkit/autopsy/thunderbirdparser/Bundle_zh_CN.properties"
+  },
+  "org/sleuthkit/datamodel/Bundle.properties": {
+   "jar": "autopsy\\modules\\ext\\sleuthkit-4.15.0.jar",
+   "keys": 462,
+   "translated": 454,
+   "pack": "locales/org/sleuthkit/datamodel/Bundle_zh_CN.properties"
+  },
+  "com/basistech/df/cybertriage/autopsy/ctoptions/ctcloud/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 55,
+   "translated": 40,
+   "pack": "locales/com/basistech/df/cybertriage/autopsy/ctoptions/ctcloud/Bundle_zh_CN.properties"
+  },
+  "com/basistech/df/cybertriage/autopsy/incidentoptions/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 14,
+   "translated": 11,
+   "pack": "locales/com/basistech/df/cybertriage/autopsy/incidentoptions/Bundle_zh_CN.properties"
+  },
+  "com/basistech/df/cybertriage/autopsy/malwarescan/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 48,
+   "translated": 47,
+   "pack": "locales/com/basistech/df/cybertriage/autopsy/malwarescan/Bundle_zh_CN.properties"
+  },
+  "com/basistech/df/cybertriage/autopsy/ctoptions/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 6,
+   "translated": 4,
+   "pack": "locales/com/basistech/df/cybertriage/autopsy/ctoptions/Bundle_zh_CN.properties"
+  },
+  "com/basistech/df/cybertriage/autopsy/Bundle.properties": {
+   "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+   "keys": 4,
+   "translated": 4,
+   "pack": "locales/com/basistech/df/cybertriage/autopsy/Bundle_zh_CN.properties"
+  },
+  "org/openide/Bundle.properties": {
+   "jar": "platform\\modules\\org-openide-dialogs.jar",
+   "keys": 46,
+   "translated": 25,
+   "pack": "locales/org/openide/Bundle_zh_CN.properties"
+  },
+  "org/openide/explorer/Bundle.properties": {
+   "jar": "platform\\modules\\org-openide-explorer.jar",
+   "keys": 21,
+   "translated": 16,
+   "pack": "locales/org/openide/explorer/Bundle_zh_CN.properties"
+  },
+  "org/openide/explorer/propertysheet/Bundle.properties": {
+   "jar": "platform\\modules\\org-openide-explorer.jar",
+   "keys": 118,
+   "translated": 88,
+   "pack": "locales/org/openide/explorer/propertysheet/Bundle_zh_CN.properties"
+  },
+  "org/openide/explorer/view/Bundle.properties": {
+   "jar": "platform\\modules\\org-openide-explorer.jar",
+   "keys": 49,
+   "translated": 42,
+   "pack": "locales/org/openide/explorer/view/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/openide/explorer/Bundle.properties": {
+   "jar": "platform\\modules\\org-openide-explorer.jar",
+   "keys": 4,
+   "translated": 4,
+   "pack": "locales/org/netbeans/modules/openide/explorer/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 23,
+   "translated": 1,
+   "pack": "locales/org/netbeans/core/windows/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/actions/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 44,
+   "translated": 44,
+   "pack": "locales/org/netbeans/core/windows/actions/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/options/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 44,
+   "translated": 42,
+   "pack": "locales/org/netbeans/core/windows/options/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/services/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 40,
+   "translated": 38,
+   "pack": "locales/org/netbeans/core/windows/services/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/view/ui/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 28,
+   "translated": 19,
+   "pack": "locales/org/netbeans/core/windows/view/ui/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 22,
+   "translated": 22,
+   "pack": "locales/org/netbeans/core/windows/view/ui/toolbars/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/documentgroup/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 12,
+   "translated": 12,
+   "pack": "locales/org/netbeans/core/windows/documentgroup/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/persistence/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 15,
+   "translated": 15,
+   "pack": "locales/org/netbeans/core/windows/persistence/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/resources/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 9,
+   "translated": 4,
+   "pack": "locales/org/netbeans/core/windows/resources/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/windows/design/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+   "keys": 5,
+   "translated": 4,
+   "pack": "locales/org/netbeans/core/windows/design/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/output2/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-output2.jar",
+   "keys": 94,
+   "translated": 53,
+   "pack": "locales/org/netbeans/core/output2/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/output2/options/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-output2.jar",
+   "keys": 38,
+   "translated": 36,
+   "pack": "locales/org/netbeans/core/output2/options/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/output2/ui/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-output2.jar",
+   "keys": 9,
+   "translated": 9,
+   "pack": "locales/org/netbeans/core/output2/ui/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/uihandler/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-uihandler.jar",
+   "keys": 83,
+   "translated": 61,
+   "pack": "locales/org/netbeans/modules/uihandler/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/exceptions/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-uihandler.jar",
+   "keys": 37,
+   "translated": 32,
+   "pack": "locales/org/netbeans/modules/exceptions/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/options/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-options-api.jar",
+   "keys": 35,
+   "translated": 29,
+   "pack": "locales/org/netbeans/modules/options/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/options/classic/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-options-api.jar",
+   "keys": 26,
+   "translated": 20,
+   "pack": "locales/org/netbeans/modules/options/classic/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/options/advanced/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-options-api.jar",
+   "keys": 5,
+   "translated": 5,
+   "pack": "locales/org/netbeans/modules/options/advanced/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/options/export/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-options-api.jar",
+   "keys": 51,
+   "translated": 50,
+   "pack": "locales/org/netbeans/modules/options/export/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/api/options/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-options-api.jar",
+   "keys": 1,
+   "translated": 1,
+   "pack": "locales/org/netbeans/api/options/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/multitabs/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-multitabs.jar",
+   "keys": 9,
+   "translated": 4,
+   "pack": "locales/org/netbeans/core/multitabs/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/multitabs/impl/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-multitabs.jar",
+   "keys": 1,
+   "translated": 1,
+   "pack": "locales/org/netbeans/core/multitabs/impl/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/multitabs/prefs/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-multitabs.jar",
+   "keys": 18,
+   "translated": 18,
+   "pack": "locales/org/netbeans/core/multitabs/prefs/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/javahelp/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-javahelp.jar",
+   "keys": 15,
+   "translated": 14,
+   "pack": "locales/org/netbeans/modules/javahelp/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/templates/ui/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-templates.jar",
+   "keys": 43,
+   "translated": 43,
+   "pack": "locales/org/netbeans/modules/templates/ui/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/templates/actions/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-templates.jar",
+   "keys": 5,
+   "translated": 5,
+   "pack": "locales/org/netbeans/modules/templates/actions/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/api/sendopts/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-sendopts.jar",
+   "keys": 13,
+   "translated": 10,
+   "pack": "locales/org/netbeans/api/sendopts/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/sendopts/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-sendopts.jar",
+   "keys": 8,
+   "translated": 1,
+   "pack": "locales/org/netbeans/modules/sendopts/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/startup/Bundle.properties": {
+   "jar": "platform\\core\\core.jar",
+   "keys": 97,
+   "translated": 73,
+   "pack": "locales/org/netbeans/core/startup/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/startup/impl/Bundle.properties": {
+   "jar": "platform\\core\\core.jar",
+   "keys": 2,
+   "translated": 2,
+   "pack": "locales/org/netbeans/core/startup/impl/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/print/ui/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-print.jar",
+   "keys": 75,
+   "translated": 75,
+   "pack": "locales/org/netbeans/modules/print/ui/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/print/action/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-print.jar",
+   "keys": 4,
+   "translated": 4,
+   "pack": "locales/org/netbeans/modules/print/action/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/print/util/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-print.jar",
+   "keys": 11,
+   "translated": 9,
+   "pack": "locales/org/netbeans/modules/print/util/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/quicksearch/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-spi-quicksearch.jar",
+   "keys": 16,
+   "translated": 14,
+   "pack": "locales/org/netbeans/modules/quicksearch/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/quicksearch/web/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-spi-quicksearch.jar",
+   "keys": 3,
+   "translated": 1,
+   "pack": "locales/org/netbeans/modules/quicksearch/web/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/spi/quicksearch/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-spi-quicksearch.jar",
+   "keys": 4,
+   "translated": 1,
+   "pack": "locales/org/netbeans/spi/quicksearch/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/quicksearch/recent/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-spi-quicksearch.jar",
+   "keys": 3,
+   "translated": 3,
+   "pack": "locales/org/netbeans/modules/quicksearch/recent/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/ui/resources/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core-ui.jar",
+   "keys": 33,
+   "translated": 27,
+   "pack": "locales/org/netbeans/core/ui/resources/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/favorites/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-favorites.jar",
+   "keys": 22,
+   "translated": 15,
+   "pack": "locales/org/netbeans/modules/favorites/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/javahelp/resources/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-javahelp.jar",
+   "keys": 11,
+   "translated": 5,
+   "pack": "locales/org/netbeans/modules/javahelp/resources/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/modules/print/resources/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-modules-print.jar",
+   "keys": 5,
+   "translated": 1,
+   "pack": "locales/org/netbeans/modules/print/resources/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core.jar",
+   "keys": 92,
+   "translated": 60,
+   "pack": "locales/org/netbeans/core/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/actions/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core.jar",
+   "keys": 14,
+   "translated": 14,
+   "pack": "locales/org/netbeans/core/actions/Bundle_zh_CN.properties"
+  },
+  "org/netbeans/core/ui/Bundle.properties": {
+   "jar": "platform\\modules\\org-netbeans-core.jar",
+   "keys": 16,
+   "translated": 13,
+   "pack": "locales/org/netbeans/core/ui/Bundle_zh_CN.properties"
+  }
+ }
+}

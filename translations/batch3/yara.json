@@ -1,0 +1,7 @@
+{
+  "Yara_Module_Description": "YARA 分析器使用 YARA 在文件中搜索文本或二进制模式。",
+  "Yara_Module_Name": "YARA 分析器",
+  "YaraIngestModule_no_ruleSets": "无法运行 YARA 摄取：YARA 规则集列表为空。",
+  "YaraIngestModule_windows_error_msg": "YARA 摄取模块仅在 64 位 Windows 上可用。",
+  "YaraIngestModule_yarac_not_found": "无法编译 YARA 规则文件：在以下位置找不到可执行文件："
+}

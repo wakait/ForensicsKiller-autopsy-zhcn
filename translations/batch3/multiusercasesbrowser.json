@@ -1,0 +1,10 @@
+{
+  "MultiUserCaseBrowserCustomizer.column.caseDbDeleteStatus": "案例数据库已删除",
+  "MultiUserCaseBrowserCustomizer.column.caseDirDeleteStatus": "案例目录已删除",
+  "MultiUserCaseBrowserCustomizer.column.createTime": "创建时间",
+  "MultiUserCaseBrowserCustomizer.column.dataSourcesDeleteStatus": "数据源已删除",
+  "MultiUserCaseBrowserCustomizer.column.lastAccessTime": "最后访问时间",
+  "MultiUserCaseBrowserCustomizer.column.manifestFileZNodesDeleteStatus": "清单 Znode 已删除",
+  "MultiUserCaseBrowserCustomizer.column.textIndexDeleteStatus": "文本索引已删除",
+  "MultiUserCasesBrowserPanel.waitNode.message": "请稍候..."
+}

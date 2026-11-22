@@ -1,0 +1,7 @@
+{
+  "ImageWriter.progressBar.message": "正在完成 {0} 的采集（拔出设备可取消）",
+  "ImageWriterService.serviceName": "映像写入器",
+  "ImageWriterService.waitingForVHDs": "正在等待 VHD 完成",
+  "ImageWriterService.shouldWait": "是否等待进行中的 VHD 完成？",
+  "ImageWriterService.localDisk": "本地磁盘映像复制"
+}

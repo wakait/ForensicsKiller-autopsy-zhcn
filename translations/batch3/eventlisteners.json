@@ -1,0 +1,9 @@
+{
+  "CentralRepositoryNotificationDialog.bulletHeader": "这些数据用于：",
+  "CentralRepositoryNotificationDialog.bulletOne": "忽略常见项目（文件、域名和账户）",
+  "CentralRepositoryNotificationDialog.bulletThree": "创建用于归组账户的人员档案",
+  "CentralRepositoryNotificationDialog.bulletTwo": "识别某项目此前在何处出现过",
+  "CentralRepositoryNotificationDialog.finalRemarks": "如需限制存储内容，请使用中央存储库选项面板。",
+  "CentralRepositoryNotificationDialog.header": "Autopsy 会把每个案例的数据存储到中央存储库中。",
+  "Installer.centralRepoUpgradeFailed.title": "中央存储库已禁用"
+}

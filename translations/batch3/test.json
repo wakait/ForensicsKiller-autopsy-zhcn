@@ -1,0 +1,5 @@
+{
+  "CustomArtifactsCreatorDataSourceIngestModule.exceptionMessage.errorCreatingCustomType": "创建自定义产物类型时出错。",
+  "CustomArtifactsCreatorFileIngestModule.exceptionMessage.errorCreatingCustomType": "创建自定义产物类型时出错。",
+  "InterestingArtifactCreatorIngestModule.exceptionMessage.errorCreatingCustomType": "创建自定义产物类型时出错。"
+}

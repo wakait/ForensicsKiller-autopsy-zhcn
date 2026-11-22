@@ -1,0 +1,6 @@
+{
+  "CheckBoxListPanel.checkButton.text": "全部勾选",
+  "CheckBoxListPanel.uncheckButton.text": "全部取消勾选",
+  "StatusIconCellRenderer.tooltiptext.error": "发生错误",
+  "StatusIconCellRenderer.tooltiptext.warning": "发生警告"
+}

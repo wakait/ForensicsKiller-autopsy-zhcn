@@ -1,0 +1,9 @@
+{
+  "EventTypeZoomLevel.rootType": "根类型",
+  "EventTypeZoomLevel.baseType": "基础类型",
+  "EventTypeZoomLevel.subType": "子类型",
+  "ZoomSettingsPane.descrLODLabel.text": "描述详细程度：",
+  "ZoomSettingsPane.sliderChange.errorText": "响应滑块值变化时出错。",
+  "ZoomSettingsPane.timeUnitLabel.text": "时间单位：",
+  "ZoomSettingsPane.typeZoomLabel.text": "事件类型："
+}

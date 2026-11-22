@@ -1,0 +1,13 @@
+{
+  "AnnotationsContentViewer.onEmpty": "未找到该项目的任何注释。",
+  "AnnotationsContentViewer.toolTip": "显示与所选内容关联的标签和备注。",
+  "AnnotationUtils.centralRepositoryEntry.title": "中央存储库备注",
+  "AnnotationUtils.fileHitEntry.artifactCommentTitle": "产物备注",
+  "AnnotationUtils.fileHitEntry.hashSetHitTitle": "哈希集命中备注",
+  "AnnotationUtils.fileHitEntry.interestingFileHitTitle": "关注文件命中备注",
+  "AnnotationUtils.fileHitEntry.interestingItemTitle": "关注项备注",
+  "AnnotationUtils.fileHitEntry.setName": "集合名称：",
+  "AnnotationUtils.onEmpty": "未找到该项目的任何注释。",
+  "AnnotationUtils.sourceFile.title": "来源文件",
+  "AnnotationUtils.toolTip": "显示与所选内容关联的标签和备注。"
+}

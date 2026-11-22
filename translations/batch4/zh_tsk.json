@@ -1,0 +1,2316 @@
+{
+ "jar": "autopsy/modules/ext/sleuthkit-4.15.0.jar",
+ "bundle": "org/sleuthkit/datamodel/Bundle.properties",
+ "items": [
+  {
+   "key": "BlackboardArtifact.tskGenInfo.text",
+   "en": "General Info",
+   "zh": "常规信息"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebBookmark.text",
+   "en": "Web Bookmarks",
+   "zh": "网页书签"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebCookie.text",
+   "en": "Web Cookies",
+   "zh": "网页 Cookie"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebHistory.text",
+   "en": "Web History",
+   "zh": "网页历史"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebDownload.text",
+   "en": "Web Downloads",
+   "zh": "网页下载"
+  },
+  {
+   "key": "BlackboardArtifact.tsk.recentObject.text",
+   "en": "Recent Documents",
+   "zh": "最近文档"
+  },
+  {
+   "key": "BlackboardArtifact.tskGpsTrackpoint.text",
+   "en": "GPS Trackpoints",
+   "zh": "GPS 轨迹点"
+  },
+  {
+   "key": "BlackboardArtifact.tskInstalledProg.text",
+   "en": "Installed Programs",
+   "zh": "已安装程序"
+  },
+  {
+   "key": "BlackboardArtifact.tskKeywordHits.text",
+   "en": "Keyword Hits",
+   "zh": "关键字命中"
+  },
+  {
+   "key": "BlackboardArtifact.tskHashsetHit.text",
+   "en": "Hashset Hits",
+   "zh": "哈希集命中"
+  },
+  {
+   "key": "BlackboardArtifact.tskDeviceAttached.text",
+   "en": "USB Device Attached",
+   "zh": "USB 设备接入"
+  },
+  {
+   "key": "BlackboardArtifact.tskInterestingFileHit.text",
+   "en": "Interesting Files",
+   "zh": "关注文件"
+  },
+  {
+   "key": "BlackboardArtifact.tskEmailMsg.text",
+   "en": "E-Mail Messages",
+   "zh": "电子邮件"
+  },
+  {
+   "key": "BlackboardArtifact.tskExtractedText.text",
+   "en": "Extracted Text",
+   "zh": "提取的文本"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebSearchQuery.text",
+   "en": "Web Search",
+   "zh": "网页搜索"
+  },
+  {
+   "key": "BlackboardArtifact.tskMetadataExif.text",
+   "en": "EXIF Metadata",
+   "zh": "EXIF 元数据"
+  },
+  {
+   "key": "BlackboardArtifact.tagFile.text",
+   "en": "Tagged Files",
+   "zh": "已标记文件"
+  },
+  {
+   "key": "BlackboardArtifact.tskTagArtifact.text",
+   "en": "Tagged Results",
+   "zh": "已标记结果"
+  },
+  {
+   "key": "BlackboardArtifact.tskOsInfo.text",
+   "en": "Operating System Information",
+   "zh": "操作系统信息"
+  },
+  {
+   "key": "BlackboardArtifact.tskOsAccount.text",
+   "en": "Operating System User Account",
+   "zh": "操作系统用户账户"
+  },
+  {
+   "key": "BlackboardArtifact.tskServiceAccount.text",
+   "en": "Web Accounts",
+   "zh": "网络账户"
+  },
+  {
+   "key": "BlackboardArtifact.tskToolOutput.text",
+   "en": "Raw Tool Output",
+   "zh": "工具原始输出"
+  },
+  {
+   "key": "BlackboardArtifact.tskContact.text",
+   "en": "Contacts",
+   "zh": "联系人"
+  },
+  {
+   "key": "BlackboardArtifact.tskMessage.text",
+   "en": "Messages",
+   "zh": "消息"
+  },
+  {
+   "key": "BlackboardArtifact.tskCalllog.text",
+   "en": "Call Logs",
+   "zh": "通话记录"
+  },
+  {
+   "key": "BlackboardArtifact.tskCalendarEntry.text",
+   "en": "Calendar Entries",
+   "zh": "日历条目"
+  },
+  {
+   "key": "BlackboardArtifact.tskSpeedDialEntry.text",
+   "en": "Speed Dial Entries",
+   "zh": "快速拨号条目"
+  },
+  {
+   "key": "BlackboardArtifact.tskBluetoothPairing.text",
+   "en": "BlueTooth Pairings",
+   "zh": "蓝牙配对"
+  },
+  {
+   "key": "BlackboardArtifact.tskGpsBookmark.text",
+   "en": "GPS Bookmarks",
+   "zh": "GPS 书签"
+  },
+  {
+   "key": "BlackboardArtifact.tskGpsLastKnownLocation.text",
+   "en": "GPS Last Known Location",
+   "zh": "GPS 最后已知位置"
+  },
+  {
+   "key": "BlackboardArtifact.tskGpsSearch.text",
+   "en": "GPS Searches",
+   "zh": "GPS 搜索记录"
+  },
+  {
+   "key": "BlackboardArtifact.tskProgRun.text",
+   "en": "Run Programs",
+   "zh": "运行程序"
+  },
+  {
+   "key": "BlackboardArtifact.tskEncryptionDetected.text",
+   "en": "Encryption Detected",
+   "zh": "检测到加密"
+  },
+  {
+   "key": "BlackboardArtifact.tskEncryptionSuspected.text",
+   "en": "Encryption Suspected",
+   "zh": "疑似加密"
+  },
+  {
+   "key": "BlackboardArtifact.tskExtMismatchDetected.text",
+   "en": "Extension Mismatch Detected",
+   "zh": "检测到扩展名不匹配"
+  },
+  {
+   "key": "BlackboardArtifact.tskInterestingArtifactHit.text",
+   "en": "Interesting Results",
+   "zh": "关注结果"
+  },
+  {
+   "key": "BlackboardArtifact.tskRemoteDrive.text",
+   "en": "Remote Drive",
+   "zh": "远程驱动器"
+  },
+  {
+   "key": "BlackboardArtifact.tskFaceDetected.text",
+   "en": "Face Detected",
+   "zh": "检测到人脸"
+  },
+  {
+   "key": "BlackboardArtifact.tskAccount.text",
+   "en": "Accounts",
+   "zh": "账户"
+  },
+  {
+   "key": "BlackboardArtifact.tskTLEvent.text",
+   "en": "TL Events",
+   "zh": "时间线事件"
+  },
+  {
+   "key": "BlackboardArtifact.tskObjectDetected.text",
+   "en": "Object Detected",
+   "zh": "检测到对象"
+  },
+  {
+   "key": "BlackboardArtifact.tskWIFINetwork.text",
+   "en": "Wireless Networks",
+   "zh": "无线网络"
+  },
+  {
+   "key": "BlackboardArtifact.tskDeviceInfo.text",
+   "en": "Device Info",
+   "zh": "设备信息"
+  },
+  {
+   "key": "BlackboardArtifact.tskSimAttached.text",
+   "en": "SIM Attached",
+   "zh": "SIM 卡接入"
+  },
+  {
+   "key": "BlackboardArtifact.tskBluetoothAdapter.text",
+   "en": "Bluetooth Adapter",
+   "zh": "蓝牙适配器"
+  },
+  {
+   "key": "BlackboardArtifact.tskWIFINetworkAdapter.text",
+   "en": "Wireless Network Adapters",
+   "zh": "无线网卡"
+  },
+  {
+   "key": "BlackboardArtifact.tskVerificationFailed.text",
+   "en": "Verification Failure",
+   "zh": "校验失败"
+  },
+  {
+   "key": "BlackboardArtifact.tskDataSourceUsage.text",
+   "en": "Data Source Usage",
+   "zh": "数据源使用情况"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebFormAutofill.text",
+   "en": "Web Form Autofill",
+   "zh": "网页表单自动填充"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebFormAddresses.text",
+   "en": "Web Form Addresses",
+   "zh": "网页表单地址"
+  },
+  {
+   "key": "BlackboardArtifact.tskDownloadSource.text",
+   "en": "Download Source",
+   "zh": "下载来源"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebCache.text",
+   "en": "Web Cache",
+   "zh": "网页缓存"
+  },
+  {
+   "key": "BlackboardArtifact.tskClipboardContent.text",
+   "en": "Clipboard Content",
+   "zh": "剪贴板内容"
+  },
+  {
+   "key": "BlackboardArtifact.tskUserContentSuspected.text",
+   "en": "User Content Suspected",
+   "zh": "疑似用户内容"
+  },
+  {
+   "key": "BlackboardArtifact.tskMetadata.text",
+   "en": "Metadata",
+   "zh": "元数据"
+  },
+  {
+   "key": "BlackboardArtifact.tskTrack.text",
+   "en": "GPS Track",
+   "zh": "GPS 轨迹"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebAccountType.text",
+   "en": "Web Account Type",
+   "zh": "网络账户类型"
+  },
+  {
+   "key": "BlackboardArtifact.tskScreenShots.text",
+   "en": "Screenshots",
+   "zh": "屏幕截图"
+  },
+  {
+   "key": "BlackboardArtifact.tskDhcpInfo.text",
+   "en": "DHCP Information",
+   "zh": "DHCP 信息"
+  },
+  {
+   "key": "BlackboardArtifact.tskProgNotifications.text",
+   "en": "Program Notifications",
+   "zh": "程序通知"
+  },
+  {
+   "key": "BlackboardArtifact.tskBackupEvent.text",
+   "en": "Backup Events",
+   "zh": "备份事件"
+  },
+  {
+   "key": "BlackboardArtifact.tskDeletedProg.text",
+   "en": "Deleted Programs",
+   "zh": "已删除程序"
+  },
+  {
+   "key": "BlackboardArtifact.tskUserDeviceEvent.text",
+   "en": "User Device Events",
+   "zh": "用户设备事件"
+  },
+  {
+   "key": "BlackboardArtifact.shortDescriptionDate.text",
+   "en": "at {0}",
+   "zh": "于 {0}"
+  },
+  {
+   "key": "BlackboardArtifact.tskAssociatedObject.text",
+   "en": "Associated Object",
+   "zh": "关联对象"
+  },
+  {
+   "key": "BlackboardArtifact.tskWebCategorization.text",
+   "en": "Web Categories",
+   "zh": "网页分类"
+  },
+  {
+   "key": "BlackboardArtifact.tskPreviouslySeen.text",
+   "en": "Previously Seen",
+   "zh": "此前已见"
+  },
+  {
+   "key": "BlackboardArtifact.tskPreviouslyUnseen.text",
+   "en": "Previously Unseen",
+   "zh": "此前未见"
+  },
+  {
+   "key": "BlackboardArtifact.tskPreviouslyNotable.text",
+   "en": "Previously Notable",
+   "zh": "此前已关注"
+  },
+  {
+   "key": "BlackboardArtifact.tskInterestingItem.text",
+   "en": "Interesting Items",
+   "zh": "关注项"
+  },
+  {
+   "key": "BlackboardArtifact.tskMalware.text",
+   "en": "Malware",
+   "zh": "恶意软件"
+  },
+  {
+   "key": "BlackboardArtifact.tskYaraHit.text",
+   "en": "YARA Hit",
+   "zh": "YARA 命中"
+  },
+  {
+   "key": "BlackboardArtifact.tskGPSArea.text",
+   "en": "GPS Area",
+   "zh": "GPS 区域"
+  },
+  {
+   "key": "BlackboardAttribute.tskAccountType.text",
+   "en": "Account Type",
+   "zh": "账户类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskUrl.text",
+   "en": "URL",
+   "zh": "URL"
+  },
+  {
+   "key": "BlackboardAttribute.tskDatetime.text",
+   "en": "Date/Time",
+   "zh": "日期/时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskName.text",
+   "en": "Name",
+   "zh": "名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskProgName.text",
+   "en": "Program Name",
+   "zh": "程序名"
+  },
+  {
+   "key": "BlackboardAttribute.tskValue.text",
+   "en": "Value",
+   "zh": "值"
+  },
+  {
+   "key": "BlackboardAttribute.tskFlag.text",
+   "en": "Flag",
+   "zh": "标志"
+  },
+  {
+   "key": "BlackboardAttribute.tskPath.text",
+   "en": "Path",
+   "zh": "路径"
+  },
+  {
+   "key": "BlackboardAttribute.tskKeyword.text",
+   "en": "Keyword",
+   "zh": "关键字"
+  },
+  {
+   "key": "BlackboardAttribute.tskKeywordRegexp.text",
+   "en": "Keyword Regular Expression",
+   "zh": "关键字正则表达式"
+  },
+  {
+   "key": "BlackboardAttribute.tskKeywordPreview.text",
+   "en": "Keyword Preview",
+   "zh": "关键字预览"
+  },
+  {
+   "key": "BlackboardAttribute.tskKeywordSet.text",
+   "en": "Keyword Set",
+   "zh": "关键字集"
+  },
+  {
+   "key": "BlackboardAttribute.tskUserName.text",
+   "en": "Username",
+   "zh": "用户名"
+  },
+  {
+   "key": "BlackboardAttribute.tskDomain.text",
+   "en": "Domain",
+   "zh": "域"
+  },
+  {
+   "key": "BlackboardAttribute.tskPassword.text",
+   "en": "Password",
+   "zh": "密码"
+  },
+  {
+   "key": "BlackboardAttribute.tskNamePerson.text",
+   "en": "Person Name",
+   "zh": "姓名"
+  },
+  {
+   "key": "BlackboardAttribute.tskDeviceModel.text",
+   "en": "Device Model",
+   "zh": "设备型号"
+  },
+  {
+   "key": "BlackboardAttribute.tskDeviceMake.text",
+   "en": "Device Make",
+   "zh": "设备厂商"
+  },
+  {
+   "key": "BlackboardAttribute.tskDeviceId.text",
+   "en": "Device ID",
+   "zh": "设备 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmail.text",
+   "en": "Email",
+   "zh": "电子邮件"
+  },
+  {
+   "key": "BlackboardAttribute.tskHashMd5.text",
+   "en": "MD5 Hash",
+   "zh": "MD5 哈希"
+  },
+  {
+   "key": "BlackboardAttribute.tskHashSha1.text",
+   "en": "SHA1 Hash",
+   "zh": "SHA1 哈希"
+  },
+  {
+   "key": "BlackboardAttribute.tskHashSha225.text",
+   "en": "SHA2-256 Hash",
+   "zh": "SHA2-256 哈希"
+  },
+  {
+   "key": "BlackboardAttribute.tskHashSha2512.text",
+   "en": "SHA2-512 Hash",
+   "zh": "SHA2-512 哈希"
+  },
+  {
+   "key": "BlackboardAttribute.tskText.text",
+   "en": "Text",
+   "zh": "文本"
+  },
+  {
+   "key": "BlackboardAttribute.tskTextFile.text",
+   "en": "Text File",
+   "zh": "文本文件"
+  },
+  {
+   "key": "BlackboardAttribute.tskTextLanguage.text",
+   "en": "Text Language",
+   "zh": "文本语言"
+  },
+  {
+   "key": "BlackboardAttribute.tskEntropy.text",
+   "en": "Entropy",
+   "zh": "熵"
+  },
+  {
+   "key": "BlackboardAttribute.tskHashsetName.text",
+   "en": "Hashset Name",
+   "zh": "哈希集名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskInterestingFile.text",
+   "en": "Interesting File",
+   "zh": "关注文件"
+  },
+  {
+   "key": "BlackboardAttribute.tskReferrer.text",
+   "en": "Referrer URL",
+   "zh": "来源 URL"
+  },
+  {
+   "key": "BlackboardAttribute.tskDateTimeAccessed.text",
+   "en": "Date Accessed",
+   "zh": "访问时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskIpAddress.text",
+   "en": "IP Address",
+   "zh": "IP 地址"
+  },
+  {
+   "key": "BlackboardAttribute.tskPhoneNumber.text",
+   "en": "Phone Number",
+   "zh": "电话号码"
+  },
+  {
+   "key": "BlackboardAttribute.tskPathId.text",
+   "en": "Path ID",
+   "zh": "路径 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskSetName.text",
+   "en": "Set Name",
+   "zh": "集名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskEncryptionDetected.text",
+   "en": "Encryption Detected",
+   "zh": "检测到加密"
+  },
+  {
+   "key": "BlackboardAttribute.tskMalwareDetected.text",
+   "en": "Malware Detected",
+   "zh": "检测到恶意软件"
+  },
+  {
+   "key": "BlackboardAttribute.tskStegDetected.text",
+   "en": "Steganography Detected",
+   "zh": "检测到隐写"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailTo.text",
+   "en": "E-Mail To",
+   "zh": "收件人"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailCc.text",
+   "en": "E-Mail CC",
+   "zh": "抄送"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailBcc.text",
+   "en": "E-Mail BCC",
+   "zh": "密送"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailFrom.text",
+   "en": "E-Mail From",
+   "zh": "发件人"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailContentPlain.text",
+   "en": "Message (Plaintext)",
+   "zh": "邮件正文（纯文本）"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailContentHtml.text",
+   "en": "Message (HTML)",
+   "zh": "邮件正文（HTML）"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailContentRtf.text",
+   "en": "Message (RTF)",
+   "zh": "邮件正文（RTF）"
+  },
+  {
+   "key": "BlackboardAttribute.tskMsgId.text",
+   "en": "Message ID",
+   "zh": "消息 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskMsgReplyId.text",
+   "en": "Message Reply ID",
+   "zh": "消息回复 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskDateTimeRcvd.text",
+   "en": "Date Received",
+   "zh": "接收时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskDateTimeSent.text",
+   "en": "Date Sent",
+   "zh": "发送时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskSubject.text",
+   "en": "Subject",
+   "zh": "主题"
+  },
+  {
+   "key": "BlackboardAttribute.tskTitle.text",
+   "en": "Title",
+   "zh": "标题"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoLatitude.text",
+   "en": "Latitude",
+   "zh": "纬度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoLongitude.text",
+   "en": "Longitude",
+   "zh": "经度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoVelocity.text",
+   "en": "Velocity",
+   "zh": "速度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoAltitude.text",
+   "en": "Altitude",
+   "zh": "海拔"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoBearing.text",
+   "en": "Bearing",
+   "zh": "方位角"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoHPrecision.text",
+   "en": "Horizontal Precision",
+   "zh": "水平精度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoVPrecision.text",
+   "en": "Vertical Precision",
+   "zh": "垂直精度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoMapDatum.text",
+   "en": "Map Datum",
+   "zh": "地图基准"
+  },
+  {
+   "key": "BlackboardAttribute.tskFileTypeSig.text",
+   "en": "File Type (signature)",
+   "zh": "文件类型（特征）"
+  },
+  {
+   "key": "BlackboardAttribute.tskFileTypeExt.text",
+   "en": "File Type (extension)",
+   "zh": "文件类型（扩展名）"
+  },
+  {
+   "key": "BlackboardAttribute.tskTaggedArtifact.text",
+   "en": "Tagged Result",
+   "zh": "已标记结果"
+  },
+  {
+   "key": "BlackboardAttribute.tskTagName.text",
+   "en": "Tag Name",
+   "zh": "标签名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskComment.text",
+   "en": "Comment",
+   "zh": "备注"
+  },
+  {
+   "key": "BlackboardAttribute.tskUrlDecoded.text",
+   "en": "Decoded URL",
+   "zh": "解码后 URL"
+  },
+  {
+   "key": "BlackboardAttribute.tskDateTimeCreated.text",
+   "en": "Date Created",
+   "zh": "创建时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskDateTimeModified.text",
+   "en": "Date Modified",
+   "zh": "修改时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskProcessorArchitecture.text",
+   "en": "Processor Architecture",
+   "zh": "处理器架构"
+  },
+  {
+   "key": "BlackboardAttribute.tskVersion.text",
+   "en": "Version",
+   "zh": "版本"
+  },
+  {
+   "key": "BlackboardAttribute.tskUserId.text",
+   "en": "User ID",
+   "zh": "用户 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskDescription.text",
+   "en": "Description",
+   "zh": "描述"
+  },
+  {
+   "key": "BlackboardAttribute.tskMessageType.text",
+   "en": "Message Type",
+   "zh": "消息类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskPhoneNumberHome.text",
+   "en": "Phone Number (Home)",
+   "zh": "电话号码（住宅）"
+  },
+  {
+   "key": "BlackboardAttribute.tskPhoneNumberOffice.text",
+   "en": "Phone Number (Office)",
+   "zh": "电话号码（办公）"
+  },
+  {
+   "key": "BlackboardAttribute.tskPhoneNumberMobile.text",
+   "en": "Phone Number (Mobile)",
+   "zh": "电话号码（移动）"
+  },
+  {
+   "key": "BlackboardAttribute.tskPhoneNumberFrom.text",
+   "en": "From Phone Number",
+   "zh": "主叫号码"
+  },
+  {
+   "key": "BlackboardAttribute.tskPhoneNumberTo.text",
+   "en": "To Phone Number",
+   "zh": "被叫号码"
+  },
+  {
+   "key": "BlackboardAttribute.tskDirection.text",
+   "en": "Direction",
+   "zh": "方向"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailHome.text",
+   "en": "Email (Home)",
+   "zh": "电子邮件（个人）"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailOffice.text",
+   "en": "Email (Office)",
+   "zh": "电子邮件（工作）"
+  },
+  {
+   "key": "BlackboardAttribute.tskDateTimeStart.text",
+   "en": "Start Date/Time",
+   "zh": "开始日期/时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskDateTimeEnd.text",
+   "en": "End Date/Time",
+   "zh": "结束日期/时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskCalendarEntryType.text",
+   "en": "Calendar Entry Type",
+   "zh": "日历条目类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskLocation.text",
+   "en": "Location",
+   "zh": "位置"
+  },
+  {
+   "key": "BlackboardAttribute.tskShortcut.text",
+   "en": "Short Cut",
+   "zh": "快捷方式"
+  },
+  {
+   "key": "BlackboardAttribute.tskDeviceName.text",
+   "en": "Device Name",
+   "zh": "设备名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskCategory.text",
+   "en": "Category",
+   "zh": "类别"
+  },
+  {
+   "key": "BlackboardAttribute.tskEmailReplyTo.text",
+   "en": "ReplyTo Address",
+   "zh": "回复地址"
+  },
+  {
+   "key": "BlackboardAttribute.tskServerName.text",
+   "en": "Server Name",
+   "zh": "服务器名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskCount.text",
+   "en": "Count",
+   "zh": "计数"
+  },
+  {
+   "key": "BlackboardAttribute.tskMinCount.text",
+   "en": "Minimum Count",
+   "zh": "最小计数"
+  },
+  {
+   "key": "BlackboardAttribute.tskPathSource.text",
+   "en": "Path Source",
+   "zh": "路径来源"
+  },
+  {
+   "key": "BlackboardAttribute.tskPermissions.text",
+   "en": "Permissions",
+   "zh": "权限"
+  },
+  {
+   "key": "BlackboardAttribute.tskAssociatedArtifact.text",
+   "en": "Associated Artifact",
+   "zh": "关联工件"
+  },
+  {
+   "key": "BlackboardAttribute.tskIsDeleted.text",
+   "en": "Is Deleted",
+   "zh": "已删除"
+  },
+  {
+   "key": "BlackboardAttribute.tskLocalPath.text",
+   "en": "Local Path",
+   "zh": "本地路径"
+  },
+  {
+   "key": "BlackboardAttribute.tskRemotePath.text",
+   "en": "Remote Path",
+   "zh": "远程路径"
+  },
+  {
+   "key": "BlackboardAttribute.tskProcessorName.text",
+   "en": "Processor Name",
+   "zh": "处理器名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskTempDir.text",
+   "en": "Temporary Files Directory",
+   "zh": "临时文件目录"
+  },
+  {
+   "key": "BlackboardAttribute.tskProductId.text",
+   "en": "Product ID",
+   "zh": "产品 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskOwner.text",
+   "en": "Owner",
+   "zh": "所有者"
+  },
+  {
+   "key": "BlackboardAttribute.tskOrganization.text",
+   "en": "Organization",
+   "zh": "组织"
+  },
+  {
+   "key": "BlackboardAttribute.tskCardNumber.text",
+   "en": "Card Number",
+   "zh": "卡号"
+  },
+  {
+   "key": "BlackboardAttribute.tskCardExpiration.text",
+   "en": "Card Expiration (YYMM)",
+   "zh": "卡有效期（YYMM）"
+  },
+  {
+   "key": "BlackboardAttribute.tskCardServiceCode.text",
+   "en": "Card Service Code",
+   "zh": "卡服务代码"
+  },
+  {
+   "key": "BlackboardAttribute.tskCardDiscretionary.text",
+   "en": "Card Discretionary Data",
+   "zh": "卡附加数据"
+  },
+  {
+   "key": "BlackboardAttribute.tskCardLRC.text",
+   "en": "Card Longitudinal Redundancy Check",
+   "zh": "卡纵向冗余校验"
+  },
+  {
+   "key": "BlackboardAttribute.tskKeywordSearchDocumentID.text",
+   "en": "Keyword Search Document ID",
+   "zh": "关键字搜索文档 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskCardScheme.text",
+   "en": "Card Scheme",
+   "zh": "卡组织"
+  },
+  {
+   "key": "BlackboardAttribute.tskCardType.text",
+   "en": "Card Type",
+   "zh": "卡类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskBrandName.text",
+   "en": "Brand Name",
+   "zh": "品牌名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskBankName.text",
+   "en": "Bank Name",
+   "zh": "银行名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskCountry.text",
+   "en": "Country",
+   "zh": "国家"
+  },
+  {
+   "key": "BlackboardAttribute.tskCity.text",
+   "en": "City",
+   "zh": "城市"
+  },
+  {
+   "key": "BlackboardAttribute.tskKeywordSearchType.text",
+   "en": "Keyword Search Type",
+   "zh": "关键字搜索类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskHeaders.text",
+   "en": "Headers",
+   "zh": "头部"
+  },
+  {
+   "key": "BlackboardAttribute.tskId.text",
+   "en": "ID",
+   "zh": "ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskTLEventType.text",
+   "en": "Event Type",
+   "zh": "事件类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskSsid.text",
+   "en": "SSID",
+   "zh": "SSID"
+  },
+  {
+   "key": "BlackboardAttribute.tskBssid.text",
+   "en": "BSSID",
+   "zh": "BSSID"
+  },
+  {
+   "key": "BlackboardAttribute.tskMacAddress.text",
+   "en": "MAC Address",
+   "zh": "MAC 地址"
+  },
+  {
+   "key": "BlackboardAttribute.tskImei.text",
+   "en": "IMEI",
+   "zh": "IMEI"
+  },
+  {
+   "key": "BlackboardAttribute.tskImsi.text",
+   "en": "IMSI",
+   "zh": "IMSI"
+  },
+  {
+   "key": "BlackboardAttribute.tskIccid.text",
+   "en": "ICCID",
+   "zh": "ICCID"
+  },
+  {
+   "key": "BlackboardAttribute.tskthreadid.text",
+   "en": "Thread ID",
+   "zh": "线程 ID"
+  },
+  {
+   "key": "BlackboardAttribute.tskdatetimedeleted.text",
+   "en": "Time Deleted",
+   "zh": "删除时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskdatetimepwdreset.text",
+   "en": "Password Reset Date",
+   "zh": "密码重置时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskdatetimepwdfail.text",
+   "en": "Password Fail Date",
+   "zh": "密码失败时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskdisplayname.text",
+   "en": "Display Name",
+   "zh": "显示名称"
+  },
+  {
+   "key": "BlackboardAttribute.tskpasswordsettings.text",
+   "en": "Password Settings",
+   "zh": "密码设置"
+  },
+  {
+   "key": "BlackboardAttribute.tskaccountsettings.text",
+   "en": "Account Settings",
+   "zh": "账户设置"
+  },
+  {
+   "key": "BlackboardAttribute.tskpasswordhint.text",
+   "en": "Password Hint",
+   "zh": "密码提示"
+  },
+  {
+   "key": "BlackboardAttribute.tskgroups.text",
+   "en": "Groups",
+   "zh": "组"
+  },
+  {
+   "key": "BlackboardAttribute.tskattachments.text",
+   "en": "Message Attachments",
+   "zh": "消息附件"
+  },
+  {
+   "key": "BlackboardAttribute.tskgeopath.text",
+   "en": "List of Track Points",
+   "zh": "轨迹点列表"
+  },
+  {
+   "key": "BlackboardAttribute.tskgeowaypoints.text",
+   "en": "List of Waypoints",
+   "zh": "航点列表"
+  },
+  {
+   "key": "BlackboardAttribute.tskdistancetraveled.text",
+   "en": "Distance Traveled",
+   "zh": "行驶距离"
+  },
+  {
+   "key": "BlackboardAttribute.tskdistancefromhome.text",
+   "en": "Distance from Homepoint",
+   "zh": "距原点距离"
+  },
+  {
+   "key": "BlackboardAttribute.tskhashphotodna.text",
+   "en": "PhotoDNA Hash",
+   "zh": "PhotoDNA 哈希"
+  },
+  {
+   "key": "BlackboardAttribute.tskbytessent.text",
+   "en": "Bytes Sent",
+   "zh": "发送字节数"
+  },
+  {
+   "key": "BlackboardAttribute.tskbytesreceived.text",
+   "en": "Bytes Received",
+   "zh": "接收字节数"
+  },
+  {
+   "key": "BlackboardAttribute.tsklastprinteddatetime.text",
+   "en": "Last Printed Date",
+   "zh": "最后打印时间"
+  },
+  {
+   "key": "BlackboardAttribute.tskgeoareapoints.text",
+   "en": "List of points making up the outline of an area",
+   "zh": "构成区域轮廓的点列表"
+  },
+  {
+   "key": "BlackboardAttribute.tskrule.text",
+   "en": " Rule",
+   "zh": "规则"
+  },
+  {
+   "key": "BlackboardAttribute.tskActivityType.text",
+   "en": "Activity Type",
+   "zh": "活动类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskRealm.text",
+   "en": "Realm",
+   "zh": "域"
+  },
+  {
+   "key": "BlackboardAttribute.tskHost.text",
+   "en": "Host",
+   "zh": "主机"
+  },
+  {
+   "key": "BlackboardAttribute.tskHomeDir.text",
+   "en": "Home Directory",
+   "zh": "主目录"
+  },
+  {
+   "key": "BlackboardAttribute.tskIsAdmin.text",
+   "en": "Is Administrator",
+   "zh": "是否为管理员"
+  },
+  {
+   "key": "BlackboardAttribute.tskCorrelationType.text",
+   "en": "Correlation Type",
+   "zh": "关联类型"
+  },
+  {
+   "key": "BlackboardAttribute.tskCorrelationValue.text",
+   "en": "Correlation Value",
+   "zh": "关联值"
+  },
+  {
+   "key": "BlackboardAttribute.tskOtherCases.text",
+   "en": "Other Cases",
+   "zh": "其他案件"
+  },
+  {
+   "key": "AbstractFile.readLocal.exception.msg4.text",
+   "en": "Error reading local file\\: {0}",
+   "zh": "读取本地文件出错：{0}"
+  },
+  {
+   "key": "AbstractFile.readLocal.exception.msg1.text",
+   "en": "Error reading local file, local path is not set",
+   "zh": "读取本地文件出错，未设置本地路径"
+  },
+  {
+   "key": "AbstractFile.readLocal.exception.msg2.text",
+   "en": "Error reading local file, it does not exist at local path\\: {0}",
+   "zh": "读取本地文件出错，本地路径 {0} 处不存在该文件"
+  },
+  {
+   "key": "AbstractFile.readLocal.exception.msg3.text",
+   "en": "Error reading local file, file not readable at local path\\: {0}",
+   "zh": "读取本地文件出错，本地路径 {0} 处文件不可读"
+  },
+  {
+   "key": "AbstractFile.readLocal.exception.msg5.text",
+   "en": "Cannot read local file\\: {0}",
+   "zh": "无法读取本地文件：{0}"
+  },
+  {
+   "key": "DerviedFile.derivedMethod.exception.msg1.text",
+   "en": "Error getting derived method for file id\\: {0}",
+   "zh": "获取文件 ID {0} 的派生方法时出错"
+  },
+  {
+   "key": "FsContent.readInt.err.msg.text",
+   "en": "Image file does not exist or is inaccessible.",
+   "zh": "镜像文件不存在或无法访问。"
+  },
+  {
+   "key": "Image.verifyImageSize.errStr1.text",
+   "en": "\\nPossible Incomplete Image\\: Error reading volume at offset {0}",
+   "zh": "\\n可能是不完整镜像：读取偏移 {0} 处的卷时出错"
+  },
+  {
+   "key": "Image.verifyImageSize.errStr2.text",
+   "en": "\\nPossible Incomplete Image\\: Error reading volume at offset {0}",
+   "zh": "\\n可能是不完整镜像：读取偏移 {0} 处的卷时出错"
+  },
+  {
+   "key": "Image.verifyImageSize.errStr3.text",
+   "en": "\\nPossible Incomplete Image\\: Error reading file system at offset {0}",
+   "zh": "\\n可能是不完整镜像：读取偏移 {0} 处的文件系统时出错"
+  },
+  {
+   "key": "Image.verifyImageSize.errStr4.text",
+   "en": "\\nPossible Incomplete Image\\: Error reading file system at offset {0}",
+   "zh": "\\n可能是不完整镜像：读取偏移 {0} 处的文件系统时出错"
+  },
+  {
+   "key": "SlackFile.readInt.err.msg.text",
+   "en": "Image file does not exist or is inaccessible.",
+   "zh": "镜像文件不存在或无法访问。"
+  },
+  {
+   "key": "SleuthkitCase.isFileFromSource.exception.msg.text",
+   "en": "Error, data source should be parent-less (images, file-sets), got\\: {0}",
+   "zh": "错误，数据源应无父对象（镜像、文件集），实际为：{0}"
+  },
+  {
+   "key": "SleuthkitCase.isFileFromSource.exception.msg2.text",
+   "en": "Error, data source should be Image or VirtualDirectory, got\\: {0}",
+   "zh": "错误，数据源应为镜像或虚拟目录，实际为：{0}"
+  },
+  {
+   "key": "SleuthkitCase.SchemaVersionMismatch",
+   "en": "Schema version does not match",
+   "zh": "架构版本不匹配"
+  },
+  {
+   "key": "SleuthkitCase.findFiles.exception.msg1.text",
+   "en": "Error, data source should be parent-less (images, file-sets), got\\: {0}",
+   "zh": "错误，数据源应无父对象（镜像、文件集），实际为：{0}"
+  },
+  {
+   "key": "SleuthkitCase.findFiles.exception.msg2.text",
+   "en": "Error, data source should be Image or VirtualDirectory, got\\: {0}",
+   "zh": "错误，数据源应为镜像或虚拟目录，实际为：{0}"
+  },
+  {
+   "key": "SleuthkitCase.findFiles.exception.msg3.text",
+   "en": "Error finding files in the data source by name,",
+   "zh": "按名称在数据源中查找文件时出错，"
+  },
+  {
+   "key": "SleuthkitCase.findFiles3.exception.msg1.text",
+   "en": "Error, data source should be parent-less (images, file-sets), got\\: {0}",
+   "zh": "错误，数据源应无父对象（镜像、文件集），实际为：{0}"
+  },
+  {
+   "key": "SleuthkitCase.findFiles3.exception.msg2.text",
+   "en": "Error, data source should be Image or VirtualDirectory, got\\: {0}",
+   "zh": "错误，数据源应为镜像或虚拟目录，实际为：{0}"
+  },
+  {
+   "key": "SleuthkitCase.findFiles3.exception.msg3.text",
+   "en": "Error finding files in the data source by name,",
+   "zh": "按名称在数据源中查找文件时出错，"
+  },
+  {
+   "key": "SleuthkitCase.addDerivedFile.exception.msg1.text",
+   "en": "Error creating a derived file, cannot get new id of the object, file name\\: {0}",
+   "zh": "创建派生文件出错，无法获取对象的新 ID，文件名：{0}"
+  },
+  {
+   "key": "SleuthkitCase.addDerivedFile.exception.msg2.text",
+   "en": "Error creating a derived file, file name\\: {0}",
+   "zh": "创建派生文件出错，文件名：{0}"
+  },
+  {
+   "key": "SleuthkitCase.addLocalFile.exception.msg1.text",
+   "en": "Error adding local file\\: {0}, parent to add to is null",
+   "zh": "添加本地文件出错：{0}，要添加到的父对象为空"
+  },
+  {
+   "key": "SleuthkitCase.addLocalFile.exception.msg2.text",
+   "en": "Error creating a local file, cannot get new id of the object, file name\\: {0}",
+   "zh": "创建本地文件出错，无法获取对象的新 ID，文件名：{0}"
+  },
+  {
+   "key": "SleuthkitCase.addLocalFile.exception.msg3.text",
+   "en": "Error creating a derived file, file name\\: {0}",
+   "zh": "创建派生文件出错，文件名：{0}"
+  },
+  {
+   "key": "SleuthkitCase.getLastObjectId.exception.msg.text",
+   "en": "Error closing result set after getting last object id.",
+   "zh": "获取最后一个对象 ID 后关闭结果集出错。"
+  },
+  {
+   "key": "TskData.tskFsNameFlagEnum.unknown",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "TskData.tskFsNameFlagEnum.allocated",
+   "en": "Allocated",
+   "zh": "已分配"
+  },
+  {
+   "key": "TskData.tskFsNameFlagEnum.unallocated",
+   "en": "Unallocated",
+   "zh": "未分配"
+  },
+  {
+   "key": "TskData.tskFsMetaFlagEnum.unknown",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "TskData.tskFsMetaFlagEnum.allocated",
+   "en": "Allocated",
+   "zh": "已分配"
+  },
+  {
+   "key": "TskData.tskFsMetaFlagEnum.unallocated",
+   "en": "Unallocated",
+   "zh": "未分配"
+  },
+  {
+   "key": "TskData.tskFsMetaFlagEnum.used",
+   "en": "Used",
+   "zh": "已使用"
+  },
+  {
+   "key": "TskData.tskFsMetaFlagEnum.unused",
+   "en": "Unused",
+   "zh": "未使用"
+  },
+  {
+   "key": "TskData.tskFsMetaFlagEnum.compressed",
+   "en": "Compressed",
+   "zh": "已压缩"
+  },
+  {
+   "key": "TskData.tskFsMetaFlagEnum.orphan",
+   "en": "Orphan",
+   "zh": "孤立"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.autoDetect",
+   "en": "Auto Detect",
+   "zh": "自动检测"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.NTFSautoDetect",
+   "en": "NTFS (Auto Detection)",
+   "zh": "NTFS（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.FATautoDetect",
+   "en": "FAT (Auto Detection)",
+   "zh": "FAT（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.ExtXautoDetect",
+   "en": "ExtX (Auto Detection)",
+   "zh": "ExtX（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.SWAPautoDetect",
+   "en": "SWAP (Auto Detection)",
+   "zh": "SWAP（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.RAWautoDetect",
+   "en": "RAW (Auto Detection)",
+   "zh": "RAW（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.ISO9660autoDetect",
+   "en": "ISO9660 (Auto Detection)",
+   "zh": "ISO9660（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.HFSautoDetect",
+   "en": "HFS (Auto Detection)",
+   "zh": "HFS（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.YAFFS2autoDetect",
+   "en": "YAFFS2 (Auto Detection)",
+   "zh": "YAFFS2（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.APFSautoDetect",
+   "en": "APFS (Auto Detection)",
+   "zh": "APFS（自动检测）"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.unsupported",
+   "en": "Unsupported File System",
+   "zh": "不支持的文件系统"
+  },
+  {
+   "key": "TskData.tskImgTypeEnum.autoDetect",
+   "en": "Auto Detect",
+   "zh": "自动检测"
+  },
+  {
+   "key": "TskData.tskImgTypeEnum.rawSingle",
+   "en": "Raw Single",
+   "zh": "单一 RAW"
+  },
+  {
+   "key": "TskData.tskImgTypeEnum.rawSplit",
+   "en": "Raw Split",
+   "zh": "分卷 RAW"
+  },
+  {
+   "key": "TskData.tskImgTypeEnum.unknown",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "TskData.tskVSTypeEnum.autoDetect",
+   "en": "Auto Detect",
+   "zh": "自动检测"
+  },
+  {
+   "key": "TskData.tskVSTypeEnum.fake",
+   "en": "Fake",
+   "zh": "伪造"
+  },
+  {
+   "key": "TskData.tskVSTypeEnum.unsupported",
+   "en": "Unsupported",
+   "zh": "不支持"
+  },
+  {
+   "key": "TskData.tskVSTypeEnum.exception.msg1.text",
+   "en": "No TSK_VS_TYPE_ENUM of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TSK_VS_TYPE_ENUM"
+  },
+  {
+   "key": "TskData.fileKnown.unknown",
+   "en": "unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "TskData.fileKnown.known",
+   "en": "known",
+   "zh": "已知"
+  },
+  {
+   "key": "TskData.fileKnown.knownBad",
+   "en": "notable",
+   "zh": "关注"
+  },
+  {
+   "key": "TskData.fileKnown.exception.msg1.text",
+   "en": "No FileKnown of value\\: {0}",
+   "zh": "不存在值为 {0} 的 FileKnown"
+  },
+  {
+   "key": "TskData.tagType.unknown",
+   "en": "unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "TskData.tagType.known",
+   "en": "known",
+   "zh": "已知"
+  },
+  {
+   "key": "TskData.tagType.knownBad",
+   "en": "notable",
+   "zh": "关注"
+  },
+  {
+   "key": "TskData.tagType.suspicious",
+   "en": "suspicious",
+   "zh": "可疑"
+  },
+  {
+   "key": "TskData.tagType.exception.msg1.text",
+   "en": "No TagType of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TagType"
+  },
+  {
+   "key": "TskData.encodingType.exception.msg1.text",
+   "en": "No EncodingType of value\\: {0}",
+   "zh": "不存在值为 {0} 的 EncodingType"
+  },
+  {
+   "key": "TskData.collectedStatus.exception.msg1.text",
+   "en": "No CollectedStatus of value\\: {0}",
+   "zh": "不存在值为 {0} 的 CollectedStatus"
+  },
+  {
+   "key": "TskData.keywordSearchQueryType.exception.msg1.text",
+   "en": "No KeywordSearchQueryType of value\\: {0}",
+   "zh": "不存在值为 {0} 的 KeywordSearchQueryType"
+  },
+  {
+   "key": "TskData.tskDbFilesTypeEnum.exception.msg1.text",
+   "en": "No TSK_FILE_TYPE_ENUM of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TSK_FILE_TYPE_ENUM"
+  },
+  {
+   "key": "TskData.objectTypeEnum.exception.msg1.text",
+   "en": "No ObjectType of value\\: {0}",
+   "zh": "不存在值为 {0} 的 ObjectType"
+  },
+  {
+   "key": "TskData.tskImgTypeEnum.exception.msg1.text",
+   "en": "No TSK_IMG_TYPE_ENUM of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TSK_IMG_TYPE_ENUM"
+  },
+  {
+   "key": "TskData.tskFsTypeEnum.exception.msg1.text",
+   "en": "No TSK_FS_TYPE_ENUM of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TSK_FS_TYPE_ENUM"
+  },
+  {
+   "key": "TskData.tskFsAttrTypeEnum.exception.msg1.text",
+   "en": "No TSK_FS_ATTR_TYPE_ENUM of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TSK_FS_ATTR_TYPE_ENUM"
+  },
+  {
+   "key": "TskData.tskFsNameFlagEnum.exception.msg1.text",
+   "en": "No TSK_FS_NAME_FLAG_ENUM of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TSK_FS_NAME_FLAG_ENUM"
+  },
+  {
+   "key": "TskData.tskFsMetaTypeEnum.exception.msg1.text",
+   "en": "No TSK_FS_META_TYPE_ENUM of value\\: {0}",
+   "zh": "不存在值为 {0} 的 TSK_FS_META_TYPE_ENUM"
+  },
+  {
+   "key": "TskData.tskFsNameTypeEnum.exception.msg1.text",
+   "en": "No TSK_FS_NAME_TYPE_ENUM matching type\\: {0}",
+   "zh": "没有匹配类型 {0} 的 TSK_FS_NAME_TYPE_ENUM"
+  },
+  {
+   "key": "Volume.desc.text",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "Volume.read.exception.msg1.text",
+   "en": "This volume's parent should be a VolumeSystem, but it's not.",
+   "zh": "该卷的父对象应为卷系统，但实际不是。"
+  },
+  {
+   "key": "Volume.vsFlagToString.allocated",
+   "en": "Allocated",
+   "zh": "已分配"
+  },
+  {
+   "key": "Volume.vsFlagToString.unallocated",
+   "en": "Unallocated",
+   "zh": "未分配"
+  },
+  {
+   "key": "BlackboardArtifact.tskGpsRoute.text",
+   "en": "GPS Route",
+   "zh": "GPS 路线"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoLatitudeStart.text",
+   "en": "Starting Latitude",
+   "zh": "起始纬度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoLatitudeEnd.text",
+   "en": "Ending Latitude",
+   "zh": "结束纬度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoLongitudeStart.text",
+   "en": "Starting Longitude",
+   "zh": "起始经度"
+  },
+  {
+   "key": "BlackboardAttribute.tskGeoLongitudeEnd.text",
+   "en": "Ending Longitude",
+   "zh": "结束经度"
+  },
+  {
+   "key": "BlackboardAttribute.tskReadStatus.text",
+   "en": "Read",
+   "zh": "读取"
+  },
+  {
+   "key": "DatabaseConnectionCheck.Everything",
+   "en": "Invalid hostname, port number, username, password, and firewall settings.",
+   "zh": "主机名、端口号、用户名、密码或防火墙设置无效。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.Port",
+   "en": "Verify that PostgreSQL server is running, it's port number, and firewall settings.",
+   "zh": "请确认 PostgreSQL 服务器正在运行，并检查端口号和防火墙设置。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.HostnameOrPort",
+   "en": "Invalid hostname and/or port number.",
+   "zh": "主机名或端口号无效。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.Authentication",
+   "en": "Invalid username and/or password.",
+   "zh": "用户名或密码无效。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.Access",
+   "en": "Invalid username and/or password.",
+   "zh": "用户名或密码无效。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.ServerDiskSpace",
+   "en": "PostgreSQL server issue. Check disk space and memory availabilty on the PostgreSQL server.",
+   "zh": "PostgreSQL 服务器问题。请检查 PostgreSQL 服务器的磁盘空间与内存。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.ServerRestart",
+   "en": "\"PostgreSQL server issue. PostgreSQL server may need to be restarted.",
+   "zh": "\"PostgreSQL 服务器问题。PostgreSQL 服务器可能需要重启。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.InternalServerIssue",
+   "en": "Internal PostgreSQL issue. Database may be corrupted.",
+   "zh": "PostgreSQL 内部问题。数据库可能已损坏。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.Connection",
+   "en": "Invalid hostname, port, username, and/or password. Check firewall settings.",
+   "zh": "主机名、端口、用户名或密码无效。请检查防火墙设置。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.Installation",
+   "en": "Issue with installation. JDBC driver not found.",
+   "zh": "安装有问题。未找到 JDBC 驱动程序。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.MissingHostname",
+   "en": "Missing hostname.",
+   "zh": "缺少主机名。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.MissingPort",
+   "en": "Missing port number.",
+   "zh": "缺少端口号。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.MissingUsername",
+   "en": "Missing username.",
+   "zh": "缺少用户名。"
+  },
+  {
+   "key": "DatabaseConnectionCheck.MissingPassword",
+   "en": "Missing password.",
+   "zh": "缺少密码。"
+  },
+  {
+   "key": "IngestJobInfo.IngestJobStatusType.Started.displayName",
+   "en": "Started",
+   "zh": "已开始"
+  },
+  {
+   "key": "IngestJobInfo.IngestJobStatusType.Cancelled.displayName",
+   "en": "Cancelled",
+   "zh": "已取消"
+  },
+  {
+   "key": "IngestJobInfo.IngestJobStatusType.Completed.displayName",
+   "en": "Completed",
+   "zh": "已完成"
+  },
+  {
+   "key": "IngestModuleInfo.IngestModuleType.FileLevel.displayName",
+   "en": "File Level",
+   "zh": "文件级"
+  },
+  {
+   "key": "IngestModuleInfo.IngestModuleType.DataArtifact.displayName",
+   "en": "Data Artifact",
+   "zh": "数据工件"
+  },
+  {
+   "key": "IngestModuleInfo.IngestModuleType.AnalysisResult.displayName",
+   "en": "Analysis Result",
+   "zh": "分析结果"
+  },
+  {
+   "key": "IngestModuleInfo.IngestModuleType.DataSourceLevel.displayName",
+   "en": "Data Source Level",
+   "zh": "数据源级"
+  },
+  {
+   "key": "IngestModuleInfo.IngestModuleType.Multiple.displayName",
+   "en": "Multiple",
+   "zh": "多个"
+  },
+  {
+   "key": "ReviewStatus.Approved",
+   "en": "Approved",
+   "zh": "已批准"
+  },
+  {
+   "key": "ReviewStatus.Rejected",
+   "en": "Rejected",
+   "zh": "已拒绝"
+  },
+  {
+   "key": "ReviewStatus.Undecided",
+   "en": "Undecided",
+   "zh": "未决定"
+  },
+  {
+   "key": "CategoryType.DataArtifact",
+   "en": "Data Artifact",
+   "zh": "数据工件"
+  },
+  {
+   "key": "CategoryType.AnalysisResult",
+   "en": "Analysis Result",
+   "zh": "分析结果"
+  },
+  {
+   "key": "TimelineLevelOfDetail.low",
+   "en": "Low",
+   "zh": "低"
+  },
+  {
+   "key": "TimelineLevelOfDetail.medium",
+   "en": "Medium",
+   "zh": "中"
+  },
+  {
+   "key": "TimelineLevelOfDetail.high",
+   "en": "High",
+   "zh": "高"
+  },
+  {
+   "key": "BaseTypes.fileSystem.name",
+   "en": "File System",
+   "zh": "文件系统"
+  },
+  {
+   "key": "BaseTypes.webActivity.name",
+   "en": "Web Activity",
+   "zh": "网页活动"
+  },
+  {
+   "key": "BaseTypes.miscTypes.name",
+   "en": "Other",
+   "zh": "其他"
+  },
+  {
+   "key": "FileSystemTypes.fileModified.name",
+   "en": "File Modified",
+   "zh": "文件修改"
+  },
+  {
+   "key": "FileSystemTypes.fileAccessed.name",
+   "en": "File Accessed",
+   "zh": "文件访问"
+  },
+  {
+   "key": "FileSystemTypes.fileCreated.name",
+   "en": "File Created",
+   "zh": "文件创建"
+  },
+  {
+   "key": "FileSystemTypes.fileChanged.name",
+   "en": "File Changed",
+   "zh": "文件变更"
+  },
+  {
+   "key": "MiscTypes.message.name",
+   "en": "Messages",
+   "zh": "消息"
+  },
+  {
+   "key": "MiscTypes.GPSRoutes.name",
+   "en": "GPS Routes",
+   "zh": "GPS 路线"
+  },
+  {
+   "key": "MiscTypes.GPSTrackpoint.name",
+   "en": "GPS Trackpoint",
+   "zh": "GPS 轨迹点"
+  },
+  {
+   "key": "MiscTypes.Calls.name",
+   "en": "Call Begin",
+   "zh": "通话开始"
+  },
+  {
+   "key": "MiscTypes.CallsEnd.name",
+   "en": "Call End",
+   "zh": "通话结束"
+  },
+  {
+   "key": "MiscTypes.Email.name",
+   "en": "Email Sent",
+   "zh": "邮件发送"
+  },
+  {
+   "key": "MiscTypes.EmailRcvd.name",
+   "en": "Email Received",
+   "zh": "邮件接收"
+  },
+  {
+   "key": "MiscTypes.recentDocuments.name",
+   "en": "Recent Documents",
+   "zh": "最近文档"
+  },
+  {
+   "key": "MiscTypes.installedPrograms.name",
+   "en": "Program Installed",
+   "zh": "程序安装"
+  },
+  {
+   "key": "MiscTypes.exif.name",
+   "en": "Exif",
+   "zh": "EXIF"
+  },
+  {
+   "key": "MiscTypes.devicesAttached.name",
+   "en": "Devices Attached",
+   "zh": "设备接入"
+  },
+  {
+   "key": "MiscTypes.LogEntry.name",
+   "en": "Log Entry",
+   "zh": "日志条目"
+  },
+  {
+   "key": "MiscTypes.Registry.name",
+   "en": "Registry",
+   "zh": "注册表"
+  },
+  {
+   "key": "MiscTypes.GPSBookmark.name",
+   "en": "GPS Bookmark",
+   "zh": "GPS 书签"
+  },
+  {
+   "key": "MiscTypes.GPSLastknown.name",
+   "en": "GPS Last Known Location",
+   "zh": "GPS 最后已知位置"
+  },
+  {
+   "key": "MiscTypes.GPSearch.name",
+   "en": "GPS Search",
+   "zh": "GPS 搜索"
+  },
+  {
+   "key": "MiscTypes.GPSTrack.name",
+   "en": "GPS Track",
+   "zh": "GPS 轨迹"
+  },
+  {
+   "key": "MiscTypes.metadataLastPrinted.name",
+   "en": "Document Last Printed",
+   "zh": "文档最后打印"
+  },
+  {
+   "key": "MiscTypes.metadataLastSaved.name",
+   "en": "Document Last Saved",
+   "zh": "文档最后保存"
+  },
+  {
+   "key": "MiscTypes.metadataCreated.name",
+   "en": "Document Created",
+   "zh": "文档创建"
+  },
+  {
+   "key": "MiscTypes.programexecuted.name",
+   "en": "Program Run",
+   "zh": "程序运行"
+  },
+  {
+   "key": "RootEventType.eventTypes.name",
+   "en": "Event Types",
+   "zh": "事件类型"
+  },
+  {
+   "key": "WebTypes.webDownloads.name",
+   "en": "Web Downloads",
+   "zh": "网页下载"
+  },
+  {
+   "key": "WebTypes.webCookies.name",
+   "en": "Web Cookies Create",
+   "zh": "网页 Cookie 创建"
+  },
+  {
+   "key": "WebTypes.webCookiesAccessed.name",
+   "en": "Web Cookies Accessed",
+   "zh": "网页 Cookie 访问"
+  },
+  {
+   "key": "WebTypes.webCookiesStart.name",
+   "en": "Web Cookies Start",
+   "zh": "网页 Cookie 开始"
+  },
+  {
+   "key": "WebTypes.webCookiesEnd.name",
+   "en": "Web Cookies End",
+   "zh": "网页 Cookie 结束"
+  },
+  {
+   "key": "WebTypes.webBookmarks.name",
+   "en": "Web Bookmarks",
+   "zh": "网页书签"
+  },
+  {
+   "key": "WebTypes.webHistory.name",
+   "en": "Web History Accessed",
+   "zh": "网页历史访问"
+  },
+  {
+   "key": "WebTypes.webHistoryCreated.name",
+   "en": "Web History Created",
+   "zh": "网页历史创建"
+  },
+  {
+   "key": "WebTypes.webSearch.name",
+   "en": "Web Searches",
+   "zh": "网页搜索"
+  },
+  {
+   "key": "WebTypes.webFormAutoFill.name",
+   "en": "Web Form Autofill Created",
+   "zh": "网页表单自动填充创建"
+  },
+  {
+   "key": "WebTypes.webFormAddress.name",
+   "en": "Web Form Address Created",
+   "zh": "网页表单地址创建"
+  },
+  {
+   "key": "WebTypes.webFormAddressModified.name",
+   "en": "Web Form Address Modified",
+   "zh": "网页表单地址修改"
+  },
+  {
+   "key": "WebTypes.webFormAutofillAccessed.name",
+   "en": "Web Form Autofill Accessed",
+   "zh": "网页表单自动填充访问"
+  },
+  {
+   "key": "CustomTypes.other.name",
+   "en": "Standard Artifact Event",
+   "zh": "标准工件事件"
+  },
+  {
+   "key": "CustomTypes.userCreated.name",
+   "en": "Manually Created Event",
+   "zh": "手动创建事件"
+  },
+  {
+   "key": "CustomTypes.customArtifact.name",
+   "en": "Custom Artifact Event",
+   "zh": "自定义工件事件"
+  },
+  {
+   "key": "EventTypeHierarchyLevel.root",
+   "en": "Root",
+   "zh": "根"
+  },
+  {
+   "key": "EventTypeHierarchyLevel.category",
+   "en": "Category",
+   "zh": "类别"
+  },
+  {
+   "key": "EventTypeHierarchyLevel.event",
+   "en": "Event",
+   "zh": "事件"
+  },
+  {
+   "key": "DataSourcesFilter.displayName.text",
+   "en": "Limit data sources to",
+   "zh": "限定数据源为"
+  },
+  {
+   "key": "DescriptionFilter.mode.exclude",
+   "en": "Exclude",
+   "zh": "排除"
+  },
+  {
+   "key": "DescriptionFilter.mode.include",
+   "en": "Include",
+   "zh": "包含"
+  },
+  {
+   "key": "hashHitsFilter.displayName.text",
+   "en": "Must have hash hit",
+   "zh": "必须有哈希命中"
+  },
+  {
+   "key": "hideKnownFilter.displayName.text",
+   "en": "Hide Known Files",
+   "zh": "隐藏已知文件"
+  },
+  {
+   "key": "IntersectionFilter.displayName.text",
+   "en": "Intersection",
+   "zh": "交集"
+  },
+  {
+   "key": "tagsFilter.displayName.text",
+   "en": "Must be tagged",
+   "zh": "必须有标记"
+  },
+  {
+   "key": "TextFilter.displayName.text",
+   "en": "Must include text:",
+   "zh": "必须包含文本："
+  },
+  {
+   "key": "TypeFilter.displayName.text",
+   "en": "Limit event types to",
+   "zh": "限定事件类型为"
+  },
+  {
+   "key": "FileTypesFilter.displayName.text",
+   "en": "Limit file types to",
+   "zh": "限定文件类型为"
+  },
+  {
+   "key": "OsAccountStatus.Unknown.text",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "OsAccountStatus.Active.text",
+   "en": "Active",
+   "zh": "活动"
+  },
+  {
+   "key": "OsAccountStatus.Disabled.text",
+   "en": "Disabled",
+   "zh": "已禁用"
+  },
+  {
+   "key": "OsAccountStatus.Deleted.text",
+   "en": "Deleted",
+   "zh": "已删除"
+  },
+  {
+   "key": "OsAccountStatus.NonExistent.text",
+   "en": "Non Existent",
+   "zh": "不存在"
+  },
+  {
+   "key": "OsAccountType.Unknown.text",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "OsAccountType.Service.text",
+   "en": "Service",
+   "zh": "服务"
+  },
+  {
+   "key": "OsAccountType.Interactive.text",
+   "en": "Interactive",
+   "zh": "交互式"
+  },
+  {
+   "key": "OsAccountInstanceType.Launched.text",
+   "en": "Launched",
+   "zh": "已启动"
+  },
+  {
+   "key": "OsAccountInstanceType.Accessed.text",
+   "en": "Accessed",
+   "zh": "已访问"
+  },
+  {
+   "key": "OsAccountInstanceType.Referenced.text",
+   "en": "Referenced",
+   "zh": "被引用"
+  },
+  {
+   "key": "OsAccountInstanceType.Launched.descr.text",
+   "en": "User launched a program or had an interactive session on the host.",
+   "zh": "用户在该主机上启动了程序或进行了交互式会话。"
+  },
+  {
+   "key": "OsAccountInstanceType.Accessed.descr.text",
+   "en": "User accessed resources on the host via a service or created a file on the host.",
+   "zh": "用户通过服务访问主机资源，或在该主机上创建了文件。"
+  },
+  {
+   "key": "OsAccountInstanceType.Referenced.descr.text",
+   "en": "User was referenced on the host and it is unclear if they had any access. For example, if they are mentioned in a log file.",
+   "zh": "该用户在此主机上被引用，但无法确定其是否访问过。例如仅出现在日志文件中。"
+  },
+  {
+   "key": "OsAccountRealm.Known.text",
+   "en": "Known",
+   "zh": "已知"
+  },
+  {
+   "key": "OsAccountRealm.Inferred.text",
+   "en": "Inferred",
+   "zh": "推断"
+  },
+  {
+   "key": "OsAccountRealm.Unknown.text",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "OsAccountRealm.Local.text",
+   "en": "Local",
+   "zh": "本地"
+  },
+  {
+   "key": "OsAccountRealm.Domain.text",
+   "en": "Domain",
+   "zh": "域"
+  },
+  {
+   "key": "Score.Priority.Normal.displayName.text",
+   "en": "Normal",
+   "zh": "正常"
+  },
+  {
+   "key": "Score.Priority.Override.displayName.text",
+   "en": "Override",
+   "zh": "覆盖"
+  },
+  {
+   "key": "Significance.Unknown.displayName.text",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "key": "Significance.LikelyNone.displayName.text",
+   "en": "Likely Not Notable",
+   "zh": "可能不关注"
+  },
+  {
+   "key": "Significance.LikelyNotable.displayName.text",
+   "en": "Likely Notable",
+   "zh": "可能关注"
+  },
+  {
+   "key": "Significance.None.displayName.text",
+   "en": "Not Notable",
+   "zh": "不关注"
+  },
+  {
+   "key": "Significance.Notable.displayName.text",
+   "en": "Notable",
+   "zh": "关注"
+  },
+  {
+   "key": "TimelineEventType.BackupEventStart.txt",
+   "en": "Backup Begin",
+   "zh": "备份开始"
+  },
+  {
+   "key": "TimelineEventType.BackupEventEnd.txt",
+   "en": "Backup End",
+   "zh": "备份结束"
+  },
+  {
+   "key": "TimelineEventType.BackupEvent.description.start",
+   "en": "Backup Begin",
+   "zh": "备份开始"
+  },
+  {
+   "key": "TimelineEventType.BackupEvent.description.end",
+   "en": "Backup End",
+   "zh": "备份结束"
+  },
+  {
+   "key": "TimelineEventType.BluetoothPairingLastConnection.txt",
+   "en": "Bluetooth Pairing Last Connection",
+   "zh": "蓝牙配对最后连接"
+  },
+  {
+   "key": "TimelineEventType.BluetoothPairing.txt",
+   "en": "Bluetooth Pairing",
+   "zh": "蓝牙配对"
+  },
+  {
+   "key": "TimelineEventType.CalendarEntryStart.txt",
+   "en": "Calendar Entry Begin",
+   "zh": "日历条目开始"
+  },
+  {
+   "key": "TimelineEventType.CalendarEntryEnd.txt",
+   "en": "Calendar Entry End",
+   "zh": "日历条目结束"
+  },
+  {
+   "key": "TimelineEventType.DeletedProgram.txt",
+   "en": "Program Deleted",
+   "zh": "程序删除"
+  },
+  {
+   "key": "TimelineEventType.DeletedProgramDeleted.txt",
+   "en": "Application Deleted",
+   "zh": "应用删除"
+  },
+  {
+   "key": "TimelineEventType.OSAccountAccessed.txt",
+   "en": "Operating System Account Accessed",
+   "zh": "操作系统账户访问"
+  },
+  {
+   "key": "TimelineEventType.OSAccountCreated.txt",
+   "en": "Operating System Account Created",
+   "zh": "操作系统账户创建"
+  },
+  {
+   "key": "TimelineEventType.OSAccountPwdFail.txt",
+   "en": "Operating System Account Password Fail",
+   "zh": "操作系统账户密码错误"
+  },
+  {
+   "key": "TimelineEventType.OSAccountPwdReset.txt",
+   "en": "Operating System Account Password Reset",
+   "zh": "操作系统账户密码重置"
+  },
+  {
+   "key": "TimelineEventType.OSInfo.txt",
+   "en": "Operating System Information",
+   "zh": "操作系统信息"
+  },
+  {
+   "key": "TimelineEventType.ProgramNotification.txt",
+   "en": "Program Notification",
+   "zh": "程序通知"
+  },
+  {
+   "key": "TimelineEventType.ScreenShot.txt",
+   "en": "Screen Shot",
+   "zh": "屏幕截图"
+  },
+  {
+   "key": "TimelineEventType.UserDeviceEventStart.txt",
+   "en": "User Activity Begin",
+   "zh": "用户活动开始"
+  },
+  {
+   "key": "TimelineEventType.UserDeviceEventEnd.txt",
+   "en": "User Activity End",
+   "zh": "用户活动结束"
+  },
+  {
+   "key": "TimelineEventType.ServiceAccount.txt",
+   "en": "Service Account",
+   "zh": "服务账户"
+  },
+  {
+   "key": "TimelineEventType.WIFINetwork.txt",
+   "en": "Wifi Network",
+   "zh": "无线网络"
+  },
+  {
+   "key": "TimelineEventType.WebCache.text",
+   "en": "Web Cache",
+   "zh": "网页缓存"
+  },
+  {
+   "key": "TimelineEventType.BluetoothAdapter.txt",
+   "en": "Bluetooth Adapter",
+   "zh": "蓝牙适配器"
+  },
+  {
+   "key": "BaseTypes.geolocation.name",
+   "en": "Geolocation",
+   "zh": "地理位置"
+  },
+  {
+   "key": "BaseTypes.communication.name",
+   "en": "Communication",
+   "zh": "通信"
+  },
+  {
+   "key": "TskData.ObjectType.IMG.name",
+   "en": "Disk Image",
+   "zh": "磁盘镜像"
+  },
+  {
+   "key": "TskData.ObjectType.VS.name",
+   "en": "Volume System",
+   "zh": "卷系统"
+  },
+  {
+   "key": "TskData.ObjectType.VOL.name",
+   "en": "Volume",
+   "zh": "卷"
+  },
+  {
+   "key": "TskData.ObjectType.FS.name",
+   "en": "File System",
+   "zh": "文件系统"
+  },
+  {
+   "key": "TskData.ObjectType.AbstractFile.name",
+   "en": "File",
+   "zh": "文件"
+  },
+  {
+   "key": "TskData.ObjectType.Artifact.name",
+   "en": "Artifact",
+   "zh": "工件"
+  },
+  {
+   "key": "TskData.ObjectType.Report.name",
+   "en": "Report",
+   "zh": "报告"
+  },
+  {
+   "key": "TskData.ObjectType.Pool.name",
+   "en": "Pool",
+   "zh": "池"
+  },
+  {
+   "key": "TskData.ObjectType.OsAccount.name",
+   "en": "OS Account",
+   "zh": "操作系统账户"
+  },
+  {
+   "key": "TskData.ObjectType.HostAddress.name",
+   "en": "Host Address",
+   "zh": "主机地址"
+  },
+  {
+   "key": "TskData.ObjectType.Unsupported.name",
+   "en": "Unsupported",
+   "zh": "不支持"
+  }
+ ]
+}

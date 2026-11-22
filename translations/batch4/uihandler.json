@@ -1,0 +1,570 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-uihandler.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "Actions/Window/org-netbeans-modules-exceptions-ReporterResultAction.instance",
+   "en": "ReporterResult"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BTN_ReviewAndReport",
+   "en": "&Review and Report Problem"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_AfterRestartReportQuestion",
+   "en": "There was an error during the last run of NetBeans IDE.\\nCan you please report the problem?"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "METRICS_LOGGER_NAME",
+   "en": "org.myapplication.ui.metrics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "TTL_AfterRestartReport",
+   "en": "Unexpected Exception on Last Run"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_LOGGER_NAME",
+   "en": "org.myapplication.ui"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_PERFORMANCE_LOGGER_NAME",
+   "en": "org.myapplication.ui.performance"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SubmitDialogTitle",
+   "en": "UI Gestures Collector"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_StackTraceElement",
+   "en": "{4}.{2}:{3}"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_RootDisplayName",
+   "en": "UI Gestures"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_USER_CONFIGURATION",
+   "en": "The operating system is {0}, virtual machine {1}, Application version {2} and user name {3}."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ApplicationVersionResourceBundle",
+   "en": "org.myapplication.Bundle"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ApplicationVersionResourceKey",
+   "en": "currentVersion"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ApplicationVersionSysPropertyResourceArg",
+   "en": "buildnumber"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_DISABLED_MODULES",
+   "en": "List of disabled modules {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_ENABLED_MODULES",
+   "en": "List of enabled modules {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "EXIT_URL",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_EXIT_URL_EXIT",
+   "en": "E&xit without Getting Statistics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "INIT_URL",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_INIT_URL_EXIT",
+   "en": "Remind &Later"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "WELCOME_URL",
+   "en": "https://myapplication.org/uigestures/welcome.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_WELCOME_URL_EXIT",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "METRICS_URL",
+   "en": "https://myapplication.org/uigestures/metrics.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_METRICS_URL_EXIT",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ERROR_URL",
+   "en": "https://myapplication.org/uigestures/error.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ERROR_URL_EXIT",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SubmitButton",
+   "en": "&Review and Report Problem"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "CHECKING_SERVER_URL",
+   "en": "http://statistics.myapplication.org/analytics/authenticate?username={0}&secur_passwd={1}"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LOG_FILE",
+   "en": "var/log/messages.log"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LOG_FILE_LAST",
+   "en": "var/log/messages.log.1"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailed",
+   "en": "Upload of log to {0} failed!"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailedReport",
+   "en": "Upload of log failed, please report the original problem directly at [URL]http://www.myapplication.org/bugs.html[/URL] and attach messages.log file.\\ \\nThe messages.log file is located at [TTC]{2}[/TTC]."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailedWithResponse",
+   "en": "Upload of log to {0} failed: {3}"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailedReportWithResponse",
+   "en": "Upload of log failed ({3}), please report the original problem directly at [URL]http://www.myapplication.org/bugs.html[/URL] and attach messages.log file.\\ \\nThe messages.log file is located at [TTC]{2}[/TTC]."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadProgressHandle",
+   "en": "Uploading log file"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadConnecting",
+   "en": "Connecting..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadSending",
+   "en": "Sending logs..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadReading",
+   "en": "Reading reply..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ErrorDialogTitle",
+   "en": "Connecting ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "SubmitPanel.jLabel1.text_1",
+   "en": "Show Record\\:"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "Metrics_title",
+   "en": "Usage Statistics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_BottomText1",
+   "en": "<html>Help us improve the MyApplication by providing anonymous usage data.</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_BottomText2",
+   "en": "<html>If you agree to participate, the application will send anonymous \\ information about the high-level features that you use to a database at myapplication.org.</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_BottomText3",
+   "en": "<html>The usage statistics help us better understand user \\ requirements and prioritize improvements in future releases. We will never \\ reverse-engineer the collected data to find specific details about your projects.</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_MetricsEnable",
+   "en": "I Agree"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSN_MetricsEnable",
+   "en": "Enable usage statistics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSD_MetricsEnable",
+   "en": "Enable usage statistics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_MetricsCancel",
+   "en": "No, Thank You"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSN_MetricsCancel",
+   "en": "Disable usage statistics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSD_MetricsCancel",
+   "en": "Disable usage statistics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "METRICS_INFO_URL",
+   "en": "https://www.myapplication.org/about/usage-tracking.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_LearnMore",
+   "en": "<html><font color=\"#0000FF\" <u>Learn more</u></font></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSN_LearnMore",
+   "en": "Learn more"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSD_LearnMore",
+   "en": "Learn more"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "VIEW_DATA_TILTE",
+   "en": "Data"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_TAB_TITLE",
+   "en": "UI Log"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "IDE_LOG_TAB_TITLE",
+   "en": "Application Log"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LowPerformance",
+   "en": "Slowness detected. Was it a problem?"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BlockedForLowPerformance",
+   "en": "Not responsive for {0,choice,0#{0} ms|5000#{1} s}. \\ Do you want to report it?"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "GoToType",
+   "en": "Slow Go to Type detected. Was it a problem?"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BlockedForGoToType",
+   "en": "Go to Type Action took {0,choice,0#{0} ms|5000#{1} s}. \\ Do you want to report it?"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "CodeCompletion",
+   "en": "Slow Code Completion detected. Was it a problem?"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BlockedForCodeCompletion",
+   "en": "Invoking Code Completion took {0,choice,0#{0} ms|5000#{1} s}. \\ Do you want to report it?"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "Report",
+   "en": "Review and Report Problem."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "IDE_STARTUP",
+   "en": "Application startup"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "SubmitPanel.profileData.text",
+   "en": "Show profiler data"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "SubmitPanel.heapDump.text",
+   "en": "Show heap dump"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ReportPanel.sendButton.tooltip",
+   "en": "Sends a report once description or steps to reproduce are provided."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LOADING_TEXT",
+   "en": "Loading ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SCAN_CANCELLED",
+   "en": "<html>It is not possible to interrupt the scanning process.<br>\\ If you are encountering a problem related to the scanning process<br>\\ and would like to send us your log file click Send Report."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SCAN_CANCELLED2",
+   "en": "<html>It is not possible to interrupt the scanning process.<br>\\ If you are encountering a problem related to the scanning process and would like to send us your<br>\\ log file click Send Report. <p><p>\\ In case the slowness appears repeatedly, you may <b>enable internal profiling</b> for further reports<br>\\ by clicking Send Report and Enable Profiling. Profiling will be enabled for <b>this IDE run only</b> and<br>\\ will be disabled again once the IDE is restarted. By providing profiling data, you significantly<br>\\ enhance the chances the real problem is identified and solved. <p><p>\\ Profiling is off by default, because it might slow the IDE operations. To enable it permanently,<br>\\ add \"-J-Dorg.netbeans.modules.parsing.impl.indexing.RepositoryUpdater.indexerSampling=enable\"<br>\\ option to the etc/netbeans.conf file in your IDE installation."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "TITLE_SCAN_CANCELLED",
+   "en": "Scan canceled"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_SendReport",
+   "en": "Send Report"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_SendReportAndProfile",
+   "en": "Send Report and Enable Profiling"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SCAN_CANCELLED_EARLY",
+   "en": "<html>It is not possible to interrupt the scanning process.<br>\\ If you are encountering a problem related to scanning and would like to report it,<br>\\ please wait for <b>several minutes</b> so statistics are gathered, then the report <br>\\ will be generated and you will be prompted with an option to send the report."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "TITLE_SCAN_CANCELLED_EARLY",
+   "en": "Scan canceled too early"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "CTL_ReporterResultAction",
+   "en": "E&xception Reporter"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "CTL_ReporterResultTopComponent",
+   "en": "Exception Reporter"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "HINT_ReporterResultTopComponent",
+   "en": "This is an Exception Reporter Window"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "userNameURL",
+   "en": "http://statistics.myapplication.org/analytics/feedback.do?userName="
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "userIdURL",
+   "en": "http://statistics.myapplication.org/analytics/feedback.do?userId="
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel1.text",
+   "en": "&Username:"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel3.text",
+   "en": "If you want to get informed about the state of this problem, you need to be a registered user."
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel2.text",
+   "en": "If you are not registered, you can send the report as a guest, or register now."
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel6.text",
+   "en": "<html><a href=\"#\">Register</a></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.AccessibleContext.accessibleDescription",
+   "en": "Dialog for reporting issues"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.AccessibleContext.accessibleName",
+   "en": "Report Dialog"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.loginField.AccessibleContext.accessibleName",
+   "en": "My Application user name"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.loginField.AccessibleContext.accessibleDescription",
+   "en": "My Application user name. You should fill this field if you are a registered user."
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.summaryField.AccessibleContext.accessibleDescription",
+   "en": "You should write short summary of the exception"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.commentArea.AccessibleContext.accessibleDescription",
+   "en": "You can describe here what you were doing when this issue arose."
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel9.text",
+   "en": "Su&mmary:"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel4.text",
+   "en": "&Describe what you were doing when the problem occurred, please:"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.summaryField.AccessibleContext.accessibleName",
+   "en": "Issue summary"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.commentArea.AccessibleContext.accessibleName",
+   "en": "Comment area"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.summaryField.text",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "REGISTRATION_URL",
+   "en": "https://www.myapplication.org/people/new"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel8.text_1",
+   "en": "The report contains UI gesture data collected prior to the problem."
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel5.text_1",
+   "en": "&Password:"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "jCheckBox1.text",
+   "en": "R&emember password"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel10.text",
+   "en": "Username or password is wrong"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.checking_password",
+   "en": "Checking your password"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel11.text",
+   "en": "(Your MyApplication.org username)"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.asAGuestCheckBox.text",
+   "en": "Send &Report as a Guest"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jPasswordField1.AccessibleContext.accessibleName",
+   "en": "Password field"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jPasswordField1.AccessibleContext.accessibleDescription",
+   "en": "Type your MyApplication.org password"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.rememberCheckBox.AccessibleContext.accessibleDescription",
+   "en": "null"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReporterResultTopComponent.jButton1.text",
+   "en": "Show my issues"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "no_data_found",
+   "en": "<p>No data found at <a href=\"{0}\">{0}</a>.\\ <p>The problem can be caused by broken internet connection or on server side. \\ Try to report problem later again. If you would face this problem repeatedly, \\ submit a bug at <a href=\"https://myapplication.org/bugzilla/enter_bug.cgi?product=app&component=Report%20Exception\">\\ https://myapplication.org/bugzilla/enter_bug.cgi</a> against Exception reporter, please."
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "LoadingMessage",
+   "en": "Loading"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.oomInfo.text",
+   "en": "Heap dump is needed to resolve this problem, the upload might have up to 30MB."
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ExceptionsSettings.password.description",
+   "en": "Exception reporter login"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.commentArea.text",
+   "en": "<Please provide a description of the problem or the steps to reproduce>"
+  }
+ ]
+}

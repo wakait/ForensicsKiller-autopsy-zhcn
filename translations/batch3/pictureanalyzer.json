@@ -1,0 +1,5 @@
+{
+  "PictureAnalyzerIngestModule.cannot_run_file_type": "无法运行文件类型检测。",
+  "PictureAnalyzerIngestModuleFactory.module_description": "对图片文件进行常规分析，包括提取 EXIF 元数据以及在格式之间转换。",
+  "PictureAnalyzerIngestModuleFactory.module_name": "图片分析器"
+}

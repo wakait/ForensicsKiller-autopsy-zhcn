@@ -1,0 +1,7 @@
+{
+  "SampleIngestModuleFactory.moduleName": "示例摄取模块",
+  "SampleIngestModuleFactory.moduleDescription": "该模块是供软件开发人员参考的示例摄取模块。",
+  "SampleIngestModuleIngestJobSettingsPanel.skipKnownFilesCheckBox.text": "跳过已知文件（NSRL）",
+  "SampleExecutableIngestModuleFactory.moduleName": "示例可执行文件摄取模块",
+  "SampleExecutableIngestModuleFactory.moduleDescription": "该模块是供软件开发人员参考的示例可执行文件摄取模块。"
+}

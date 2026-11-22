@@ -1,0 +1,6 @@
+{
+  "JythonModuleLoader.errorMessages.failedToOpenModule": "无法打开 {0}。详情请查看日志。",
+  "JythonModuleLoader.errorMessages.failedToLoadModule": "无法加载 {0}。{1}。详情请查看日志。",
+  "JythonModuleLoader.pythonInterpreterError.msg": "无法加载 Python 模块，详情请查看日志",
+  "JythonModuleLoader.pythonInterpreterError.title": "Python 模块"
+}

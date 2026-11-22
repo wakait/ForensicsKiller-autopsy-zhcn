@@ -1,0 +1,565 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-options-api.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CategoryButton_AccessibleDescription",
+   "en": "{0} category button. Use the arrow keys to move between top level categories."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Filter_Textfield_Hint",
+   "en": "Filter ({0})"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Filter_Textfield_Tooltip",
+   "en": "Press Esc or Enter with empty text to clear the filter"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Get_Config_File_Lengthy_Operation",
+   "en": "Please wait while getting config file."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Loading_HelpCtx_Lengthy_Operation",
+   "en": "Please wait while help context is being loaded."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Options_Window_Action",
+   "en": "&Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Options_Dialog_Title",
+   "en": "Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_OK",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_APPLY",
+   "en": "Apply"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Classic",
+   "en": "Advanced Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Classic_Title",
+   "en": "Advanced Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Modern",
+   "en": "&Basic Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Loading_Options",
+   "en": "Loading Settings ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Error_Loading_Options",
+   "en": "Loading Options Failed."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Some_values_changed",
+   "en": "There are some changes. Do you want to apply them?"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Export",
+   "en": "Expor&t..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Import",
+   "en": "&Import..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_OKButton",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_APPLYButton",
+   "en": "Apply button"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_ClassicButton",
+   "en": " Invokes Advanced Options dialog"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_OptionsPanel",
+   "en": "Options Dialog"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_Export",
+   "en": "Export Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_Import",
+   "en": "Import Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Saving_Options_Lengthy_Operation",
+   "en": "Please wait while options are being saved."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Saving_Options_Lengthy_Operation_Title",
+   "en": "Lengthy operation in progress"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "TabbedController.pane.AD",
+   "en": "Options Panel"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "QuickSearch/GoToOption",
+   "en": "Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Searching_Options",
+   "en": "Searching Settings ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Options_Search_Nothing_Found",
+   "en": "Nothing found"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_action_define",
+   "en": "Define Here"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_action_revert",
+   "en": "Revert Def."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_action_delete",
+   "en": "Delete"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "MSG_ask_remove_above_defined_files",
+   "en": "Moving the definition here will remove any values stored in layers left of the selected column.\\n\\nDo you want to proceed?"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_defined",
+   "en": "Setting Definition"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_ignored",
+   "en": "Unused Setting Value"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_inherited",
+   "en": "Setting Inherited"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_undefined",
+   "en": "Setting value is not defined here"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Session-Layer",
+   "en": "User"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Desc_Session-Layer",
+   "en": "Session Settings Level"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Modules-Layer",
+   "en": "Default"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Desc_Modules-Layer",
+   "en": "Default Installation Settings Level"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "Options",
+   "en": "&Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "CTL_close_button",
+   "en": "&Close"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSD_close_button",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSN_optionsTree",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSD_optionsTree",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_computing",
+   "en": "Initializing settings ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Name",
+   "en": "<<"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Description",
+   "en": "Show Levels (press +)"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Name_Expanded",
+   "en": ">>"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Description_Expanded",
+   "en": "Hide Levels (press +)"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "CTL_Templates_name",
+   "en": "Templates"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "CTL_ExplorerTitle",
+   "en": "Explorer"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSN_ExplorerBeanTree",
+   "en": "Explorer Tree"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSD_ExplorerBeanTree",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "CTL_Advanced_Options",
+   "en": "&Miscellaneous"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "CTL_Advanced_Options_Title",
+   "en": "Miscellaneous"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "CTL_Advanced_Options_Description",
+   "en": "Miscellaneous"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "AdvancedPanel.tabbedPanel.AD",
+   "en": "Miscellaneous tabbed panel"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "Advanced.Export.Category",
+   "en": "Miscellaneous"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "Export_Notification_DetailsText",
+   "en": "File saved at {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OPT_RestartAfterImport",
+   "en": "false"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.lblHint.text",
+   "en": "&Select Options for Export:"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.all",
+   "en": "All"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.header.tree",
+   "en": "Available Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.AN",
+   "en": "Available Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.AD",
+   "en": "Tree of available options"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.lblFile.text",
+   "en": "&Target zip file:"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.btnBrowse",
+   "en": "B&rowse..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.btnBrowse.AN",
+   "en": "Browse"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.btnBrowse.AD",
+   "en": "Browse"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.txtFile.AD",
+   "en": "Source or target of import/export."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.loading",
+   "en": "Loading..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.file.warning",
+   "en": "Please, select a valid target zip file"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.nooption.warning",
+   "en": "Please, select something to export"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.noparent.warning",
+   "en": "Please, specify the canonical path for the target zip file"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.nowrite.warning",
+   "en": "The zip file's targeting folder is not writable"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.file.chooser.title",
+   "en": "Select target zip file"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.file.chooser.approve",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.title",
+   "en": "Select Options to Export"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.status.text",
+   "en": "Options Export Finished."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.passwords.category.displayName",
+   "en": "Keyring & Passwords"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.passwords.displayName",
+   "en": "Passwords"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.title",
+   "en": "Select Options to Import"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.lblFile.text",
+   "en": "&Import Source:"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.lblHint.text",
+   "en": "&Select Options for Import:"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.file.warning",
+   "en": "Please, select a valid zip file or userdir"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.nooption.warning",
+   "en": "Please, select something to import"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.file.chooser.title",
+   "en": "Select zip file or userdir"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.invalid.userdir.title",
+   "en": "Invalid Userdir?"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.invalid.userdir",
+   "en": "Folder {0} does not seem to be a valid userdir. Importing options from this location cannot proceed."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.AD",
+   "en": "Panel to choose options for export/import"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.error",
+   "en": "Error while importing options. Run the application with parameter -J-Dorg.netbeans.modules.options.export.level=100 and look at the log for details."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsExportModel.invalid.zipfile",
+   "en": "Invalid zip file: {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsExportModel.export.zip.error",
+   "en": "Writing to file {0} failed."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.title",
+   "en": "Import Confirmation"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.cbRestart.AD",
+   "en": "Decide whether restart the application now or later"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.cbRestart.AN",
+   "en": "Restart the application now?"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.lblMessage.text",
+   "en": "<html>Import may irreversibly overwrite your current settings.<br>Perform export first to backup current options.<br><br><b>The application will restart</b><br>(without restart imported settings may not work)<br><br>Do you want to continue?</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.lblMessage.AD",
+   "en": "Confirmation message"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.AN",
+   "en": "Import Confirmation"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.AD",
+   "en": "Import Confirmation"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.title",
+   "en": "Stored Passwords Warning"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.lblMessage.text",
+   "en": "Exported settings <b>contain stored passwords</b>. Sharing your settings with other users represents a potential security risk. Do you want to continue?"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.cbSkip.text",
+   "en": "&Skip this warning next time"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.cbSkip.AN",
+   "en": "Skip this warning next time?"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.cbSkip.AD",
+   "en": "Decide whether skip or show this warning next time"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.lblMessage.AD",
+   "en": "Confirmation message"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.AN",
+   "en": "Stored passwords warning"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.AD",
+   "en": "Stored passwords warning"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ProgressHandle_Export_DisplayName",
+   "en": "Exporting Options"
+  },
+  {
+   "bundle": "org/netbeans/api/options/Bundle.properties",
+   "key": "CTL_Loading_Options_Waiting",
+   "en": "Loading Options Settings"
+  }
+ ]
+}

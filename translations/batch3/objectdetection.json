@@ -1,0 +1,9 @@
+{
+  "ObjectDetectionFileIngestModule.classifierDetection.text": "分类器检测到 {0} 个对象",
+  "ObjectDetectionFileIngestModule.noClassifiersFound.message": "在 {0} 中未找到分类器，不会执行对象检测。",
+  "ObjectDetectionFileIngestModule.noClassifiersFound.subject": "未找到分类器。",
+  "ObjectDetectionFileIngestModule.notWindowsError": "该模块仅在 Windows 上可用。",
+  "ObjectDetectionFileIngestModule.openCVNotLoaded": "OpenCV 未加载，但运行该模块需要它。",
+  "ObjectDetectionModuleFactory.moduleDescription.text": "使用对象分类器识别图片中的对象。",
+  "ObjectDetectionModuleFactory.moduleName.text": "对象检测"
+}

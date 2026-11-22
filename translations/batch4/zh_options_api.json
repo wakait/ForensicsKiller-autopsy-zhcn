@@ -1,0 +1,676 @@
+{
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CategoryButton_AccessibleDescription",
+   "en": "{0} category button. Use the arrow keys to move between top level categories.",
+   "zh": "{0} 类别按钮。使用方向键在顶级类别之间移动。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Filter_Textfield_Hint",
+   "en": "Filter ({0})",
+   "zh": "筛选 ({0})"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Filter_Textfield_Tooltip",
+   "en": "Press Esc or Enter with empty text to clear the filter",
+   "zh": "在文本为空时按 Esc 或 Enter 可清除筛选"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Get_Config_File_Lengthy_Operation",
+   "en": "Please wait while getting config file.",
+   "zh": "正在获取配置文件，请稍候。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Loading_HelpCtx_Lengthy_Operation",
+   "en": "Please wait while help context is being loaded.",
+   "zh": "正在加载帮助上下文，请稍候。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Options_Window_Action",
+   "en": "&Options",
+   "zh": "&选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Options_Dialog_Title",
+   "en": "Options",
+   "zh": "选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_OK",
+   "en": "OK",
+   "zh": "确定"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_APPLY",
+   "en": "Apply",
+   "zh": "应用"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Classic",
+   "en": "Advanced Options",
+   "zh": "高级选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Classic_Title",
+   "en": "Advanced Options",
+   "zh": "高级选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Modern",
+   "en": "&Basic Options",
+   "zh": "&基本选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Loading_Options",
+   "en": "Loading Settings ...",
+   "zh": "正在加载设置..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Error_Loading_Options",
+   "en": "Loading Options Failed.",
+   "zh": "加载选项失败。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Some_values_changed",
+   "en": "There are some changes. Do you want to apply them?",
+   "zh": "存在一些更改。是否应用这些更改？"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Export",
+   "en": "Expor&t...",
+   "zh": "导&出..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Import",
+   "en": "&Import...",
+   "zh": "&导入..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_OKButton",
+   "en": "OK",
+   "zh": "确定"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_APPLYButton",
+   "en": "Apply button",
+   "zh": "应用按钮"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_ClassicButton",
+   "en": " Invokes Advanced Options dialog",
+   "zh": " 调用高级选项对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_OptionsPanel",
+   "en": "Options Dialog",
+   "zh": "选项对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_Export",
+   "en": "Export Options",
+   "zh": "导出选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "ACS_Import",
+   "en": "Import Options",
+   "zh": "导入选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Saving_Options_Lengthy_Operation",
+   "en": "Please wait while options are being saved.",
+   "zh": "正在保存选项，请稍候。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "Saving_Options_Lengthy_Operation_Title",
+   "en": "Lengthy operation in progress",
+   "zh": "正在执行耗时操作"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "TabbedController.pane.AD",
+   "en": "Options Panel",
+   "zh": "选项面板"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "QuickSearch/GoToOption",
+   "en": "Options",
+   "zh": "选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Searching_Options",
+   "en": "Searching Settings ...",
+   "zh": "正在搜索设置..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/Bundle.properties",
+   "key": "CTL_Options_Search_Nothing_Found",
+   "en": "Nothing found",
+   "zh": "未找到任何内容"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_action_define",
+   "en": "Define Here",
+   "zh": "在此定义"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_action_revert",
+   "en": "Revert Def.",
+   "zh": "恢复默认"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_action_delete",
+   "en": "Delete",
+   "zh": "删除"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "MSG_ask_remove_above_defined_files",
+   "en": "Moving the definition here will remove any values stored in layers left of the selected column.\\n\\nDo you want to proceed?",
+   "zh": "将定义移动到此位置会删除所选列左侧各层中存储的所有值。\\n\\n是否继续？"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_defined",
+   "en": "Setting Definition",
+   "zh": "设置定义"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_ignored",
+   "en": "Unused Setting Value",
+   "zh": "未使用的设置值"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_inherited",
+   "en": "Setting Inherited",
+   "zh": "设置已继承"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_fstate_undefined",
+   "en": "Setting value is not defined here",
+   "zh": "此处未定义设置值"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Session-Layer",
+   "en": "User",
+   "zh": "用户"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Desc_Session-Layer",
+   "en": "Session Settings Level",
+   "zh": "会话设置层级"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Modules-Layer",
+   "en": "Default",
+   "zh": "默认"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_FSP_Desc_Modules-Layer",
+   "en": "Default Installation Settings Level",
+   "zh": "默认安装设置层级"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "Options",
+   "en": "&Options",
+   "zh": "&选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "CTL_close_button",
+   "en": "&Close",
+   "zh": "&关闭"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSD_close_button",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSN_optionsTree",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSD_optionsTree",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_computing",
+   "en": "Initializing settings ...",
+   "zh": "正在初始化设置..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Name",
+   "en": "<<",
+   "zh": "<<"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Description",
+   "en": "Show Levels (press +)",
+   "zh": "显示层级（按 +）"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Name_Expanded",
+   "en": ">>",
+   "zh": ">>"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "LBL_IndicatorProperty_Description_Expanded",
+   "en": "Hide Levels (press +)",
+   "zh": "隐藏层级（按 +）"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "CTL_Templates_name",
+   "en": "Templates",
+   "zh": "模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "CTL_ExplorerTitle",
+   "en": "Explorer",
+   "zh": "资源管理器"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSN_ExplorerBeanTree",
+   "en": "Explorer Tree",
+   "zh": "资源管理器树"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/classic/Bundle.properties",
+   "key": "ACSD_ExplorerBeanTree",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "CTL_Advanced_Options",
+   "en": "&Miscellaneous",
+   "zh": "&杂项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "CTL_Advanced_Options_Title",
+   "en": "Miscellaneous",
+   "zh": "杂项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "CTL_Advanced_Options_Description",
+   "en": "Miscellaneous",
+   "zh": "杂项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "AdvancedPanel.tabbedPanel.AD",
+   "en": "Miscellaneous tabbed panel",
+   "zh": "杂项选项卡面板"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/advanced/Bundle.properties",
+   "key": "Advanced.Export.Category",
+   "en": "Miscellaneous",
+   "zh": "杂项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "Export_Notification_DetailsText",
+   "en": "File saved at {0}",
+   "zh": "文件已保存到 {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OPT_RestartAfterImport",
+   "en": "false",
+   "zh": "false"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.lblHint.text",
+   "en": "&Select Options for Export:",
+   "zh": "&选择要导出的选项："
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.all",
+   "en": "All",
+   "zh": "全部"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.header.tree",
+   "en": "Available Options",
+   "zh": "可用选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.AN",
+   "en": "Available Options",
+   "zh": "可用选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.outline.AD",
+   "en": "Tree of available options",
+   "zh": "可用选项的树"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.lblFile.text",
+   "en": "&Target zip file:",
+   "zh": "&目标 zip 文件："
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.btnBrowse",
+   "en": "B&rowse...",
+   "zh": "浏&览..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.btnBrowse.AN",
+   "en": "Browse",
+   "zh": "浏览"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.btnBrowse.AD",
+   "en": "Browse",
+   "zh": "浏览"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.txtFile.AD",
+   "en": "Source or target of import/export.",
+   "zh": "导入/导出的源或目标。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.loading",
+   "en": "Loading...",
+   "zh": "正在加载..."
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.file.warning",
+   "en": "Please, select a valid target zip file",
+   "zh": "请选择有效的目标 zip 文件"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.nooption.warning",
+   "en": "Please, select something to export",
+   "zh": "请选择要导出的内容"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.noparent.warning",
+   "en": "Please, specify the canonical path for the target zip file",
+   "zh": "请指定目标 zip 文件的规范路径"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.nowrite.warning",
+   "en": "The zip file's targeting folder is not writable",
+   "zh": "zip 文件的目标文件夹不可写入"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.file.chooser.title",
+   "en": "Select target zip file",
+   "zh": "选择目标 zip 文件"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.file.chooser.approve",
+   "en": "OK",
+   "zh": "确定"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.title",
+   "en": "Select Options to Export",
+   "zh": "选择要导出的选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.status.text",
+   "en": "Options Export Finished.",
+   "zh": "选项导出完成。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.passwords.category.displayName",
+   "en": "Keyring & Passwords",
+   "zh": "密钥环和密码"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.export.passwords.displayName",
+   "en": "Passwords",
+   "zh": "密码"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.title",
+   "en": "Select Options to Import",
+   "zh": "选择要导入的选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.lblFile.text",
+   "en": "&Import Source:",
+   "zh": "&导入源："
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.lblHint.text",
+   "en": "&Select Options for Import:",
+   "zh": "&选择要导入的选项："
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.file.warning",
+   "en": "Please, select a valid zip file or userdir",
+   "zh": "请选择有效的 zip 文件或用户目录"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.nooption.warning",
+   "en": "Please, select something to import",
+   "zh": "请选择要导入的内容"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.file.chooser.title",
+   "en": "Select zip file or userdir",
+   "zh": "选择 zip 文件或用户目录"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.invalid.userdir.title",
+   "en": "Invalid Userdir?",
+   "zh": "用户目录无效？"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.invalid.userdir",
+   "en": "Folder {0} does not seem to be a valid userdir. Importing options from this location cannot proceed.",
+   "zh": "文件夹 {0} 似乎不是有效的用户目录。无法从该位置导入选项。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.AD",
+   "en": "Panel to choose options for export/import",
+   "zh": "用于选择导出/导入选项的面板"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsChooserPanel.import.error",
+   "en": "Error while importing options. Run the application with parameter -J-Dorg.netbeans.modules.options.export.level=100 and look at the log for details.",
+   "zh": "导入选项时出错。请使用参数 -J-Dorg.netbeans.modules.options.export.level=100 运行应用程序，并查看日志了解详细信息。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsExportModel.invalid.zipfile",
+   "en": "Invalid zip file: {0}",
+   "zh": "无效的 zip 文件：{0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "OptionsExportModel.export.zip.error",
+   "en": "Writing to file {0} failed.",
+   "zh": "写入文件 {0} 失败。"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.title",
+   "en": "Import Confirmation",
+   "zh": "导入确认"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.cbRestart.AD",
+   "en": "Decide whether restart the application now or later",
+   "zh": "确定是现在还是稍后重启应用程序"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.cbRestart.AN",
+   "en": "Restart the application now?",
+   "zh": "现在重启应用程序？"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.lblMessage.text",
+   "en": "<html>Import may irreversibly overwrite your current settings.<br>Perform export first to backup current options.<br><br><b>The application will restart</b><br>(without restart imported settings may not work)<br><br>Do you want to continue?</html>",
+   "zh": "<html>导入可能会不可逆地覆盖您当前的设置。<br>请先执行导出以备份当前选项。<br><br><b>应用程序将重新启动</b><br>（不重启的话导入的设置可能不生效）<br><br>是否继续？</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.lblMessage.AD",
+   "en": "Confirmation message",
+   "zh": "确认消息"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.AN",
+   "en": "Import Confirmation",
+   "zh": "导入确认"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ImportConfirmationPanel.AD",
+   "en": "Import Confirmation",
+   "zh": "导入确认"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.title",
+   "en": "Stored Passwords Warning",
+   "zh": "已存储密码警告"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.lblMessage.text",
+   "en": "Exported settings <b>contain stored passwords</b>. Sharing your settings with other users represents a potential security risk. Do you want to continue?",
+   "zh": "导出的设置<b>包含已存储的密码</b>。与其他用户共享您的设置会带来潜在的安全风险。是否继续？"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.cbSkip.text",
+   "en": "&Skip this warning next time",
+   "zh": "&下次跳过此警告"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.cbSkip.AN",
+   "en": "Skip this warning next time?",
+   "zh": "下次跳过此警告？"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.cbSkip.AD",
+   "en": "Decide whether skip or show this warning next time",
+   "zh": "确定下次是跳过还是显示此警告"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.lblMessage.AD",
+   "en": "Confirmation message",
+   "zh": "确认消息"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.AN",
+   "en": "Stored passwords warning",
+   "zh": "已存储密码警告"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ExportConfirmationPanel.AD",
+   "en": "Stored passwords warning",
+   "zh": "已存储密码警告"
+  },
+  {
+   "bundle": "org/netbeans/modules/options/export/Bundle.properties",
+   "key": "ProgressHandle_Export_DisplayName",
+   "en": "Exporting Options",
+   "zh": "正在导出选项"
+  },
+  {
+   "bundle": "org/netbeans/api/options/Bundle.properties",
+   "key": "CTL_Loading_Options_Waiting",
+   "en": "Loading Options Settings",
+   "zh": "正在加载选项设置"
+  }
+ ]
+}

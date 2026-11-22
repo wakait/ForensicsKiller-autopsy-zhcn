@@ -1,0 +1,75 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-sendopts.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_MissingArgument",
+   "en": "Option {0} needs an argument"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_CannotTogether",
+   "en": "Option {0} cannot be used together with option {1}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_NeedAtLeastOne",
+   "en": "Need at least one of {0}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_MissingOptions",
+   "en": "Need to use also {0}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_NeedBoth",
+   "en": "Option {0} needs also option {1}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_Unknown",
+   "en": "Unrecognized option {0}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_OneArg",
+   "en": "<arg>"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_OptionalArg",
+   "en": "[<arg>]"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_AddionalArgs",
+   "en": "<arg1>...<argN>"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_OPTION_CANNOT_HAVE_VALUE",
+   "en": "Option {0} cannot have value {1}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_UNKNOWN_OPTION",
+   "en": "Unknown option {0}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_TWO_DEFAULT_OPTIONS",
+   "en": "There cannot be two default options: {0} and {1}"
+  },
+  {
+   "bundle": "org/netbeans/api/sendopts/Bundle.properties",
+   "key": "MSG_NOT_PROCESSED_PARAMS",
+   "en": "There are parameters but nobody wants to proces them: {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/sendopts/Bundle.properties",
+   "key": "MSG_OptionsHeader",
+   "en": "\\nAdditional module options:\\n"
+  }
+ ]
+}

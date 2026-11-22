@@ -1,0 +1,80 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-javahelp.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "EXC_nbdocs_cannot_connect",
+   "en": "Could not connect to URL {0}; no such resource was found."
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "MSG_jh_id_not_found",
+   "en": "Warning: the JavaHelp topic ID {0} was not found."
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "TITLE_loading_help_sets",
+   "en": "Loading help sets..."
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "ACSD_JavaHelp_viewer",
+   "en": "Displays one or more online help references in JavaHelp format"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "ACSD_Loading_Dialog",
+   "en": "Loading help sets"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "LBL_HelpAction",
+   "en": "Help"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "CTL_OpeningHelp",
+   "en": "Opening Help..."
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "org.netbeans.modules.web.monitor",
+   "en": "HTTP Monitor"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "ACSD_Label",
+   "en": "Click here to open this link in a web browser."
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "LOG_SHOWING_HELP",
+   "en": "Showing help ID: {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "LOG_SHOWING_HELP_ICON_BASE",
+   "en": "org/netbeans/modules/javahelp/resources/help.png"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "USG_HELP_SHOW",
+   "en": "Showing help ID: {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "QuickSearch/Help",
+   "en": "Help"
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "Err_CreateJavaHelpSearchEngine",
+   "en": "Failed to create JavaHelp search engine."
+  },
+  {
+   "bundle": "org/netbeans/modules/javahelp/Bundle.properties",
+   "key": "LBL_CopyLinkLocationAction",
+   "en": "Copy Link Location"
+  }
+ ]
+}

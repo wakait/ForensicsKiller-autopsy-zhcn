@@ -1,0 +1,4 @@
+{
+  "UserMachinePreferences_validateTempDirectory_errorOnCreate_text": "为以下路径创建临时目录时出错：{0}",
+  "UserMachinePreferences_validateTempDirectory_errorOnReadWrite_text": "读写以下临时目录路径时出错：{0}"
+}

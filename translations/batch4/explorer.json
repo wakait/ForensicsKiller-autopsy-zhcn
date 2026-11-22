@@ -1,0 +1,940 @@
+{
+ "jar": "platform/modules/org-openide-explorer.jar",
+ "items": [
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_CannotHaveNullRootContext",
+   "en": "Cannot have null root context."
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_ContextMustBeWithinRootContext",
+   "en": "An explored context ({0}) must be within the root context ({1})."
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_handle_failed",
+   "en": "Could not restore Explorer window; the root node \"{0}\" could not be restored correctly."
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_NodeCannotBeNull",
+   "en": "Cannot use null for node selection."
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_NoElementOfNodeSelectionMayBeNull",
+   "en": "No element of a node selection may be null."
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "explorerTitle",
+   "en": "Explorer [{0}]"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_MustNotVetoEmptySelection",
+   "en": "An Explorer view must not veto the empty selection."
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_NodeSelectionCannotContainNodes",
+   "en": "A node selection cannot contain nodes ({0}) not underneath the root ({1})."
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObject",
+   "en": "Are you sure you want to delete {0}?"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteFolder",
+   "en": "Are you sure you want to delete {0} and all of its contents?"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjects",
+   "en": "Are you sure you want to delete these {0} items?"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectTitle",
+   "en": "Confirm Object Deletion"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteFolderTitle",
+   "en": "Confirm Package Deletion"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectsTitle",
+   "en": "Confirm Multiple Object Deletion"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteShadow",
+   "en": "Are you sure you want to delete {0} (link to {3})?"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteShadowTitle",
+   "en": "Confirm Link Deletion"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_ExcIn",
+   "en": "Exception in"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_Editor",
+   "en": "Property Editor"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_EditorTitle",
+   "en": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_ArrayOf",
+   "en": "Array of"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_ErrorSettingProperty",
+   "en": "The property could not be set. {0} is not a valid value for {1}."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_CannotUpdateProperty",
+   "en": "{0} is not a valid value for {1}."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoPropertyEditor",
+   "en": "(No Property Editor)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoProperties",
+   "en": "<No Properties>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Read_Yes",
+   "en": "(r/"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Read_No",
+   "en": "(-/"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_PropertiesNoMnemonic",
+   "en": "Properties"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Write_Yes",
+   "en": "w)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Write_No",
+   "en": "-)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoSort",
+   "en": "Sort by Category"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_NoSort",
+   "en": "Sort by Category"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_AlphaSort",
+   "en": "Sort by Name"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_AlphaSort",
+   "en": "Sort by Name"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_TypeSort",
+   "en": "Sort by Type"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_TypeSort",
+   "en": "Sort by Type"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_VisibleWritableOnly",
+   "en": "Show Editable Properties Only"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_VisibleWritableOnly",
+   "en": "Show Editable Properties Only"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Customize",
+   "en": "Customizer"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_Customize",
+   "en": "Customizer"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Help",
+   "en": "Help"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_Help",
+   "en": "Help"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Help",
+   "en": "Provides help about the object whose properties are displayed in the property sheet"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_DesignTimeUse",
+   "en": "[PropertyPanel:UserInfo]Using property >>{0}<< at design time throws an exception."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_sheet_option",
+   "en": "Property Sheet"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoItem",
+   "en": "No Item Available"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Index",
+   "en": "Property Index:"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Unknown",
+   "en": "Unknown"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_OK",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_OK",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Cancel",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Cancel",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Close",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Close",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Default",
+   "en": "Reset to &Default"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Default",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Paste",
+   "en": "Paste"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_Setter",
+   "en": "Exception in setter method of property: {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_Setter_localized",
+   "en": "Exception in setter method of property {0}:\\n{1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_custom_editor",
+   "en": "<no custom editor>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_property_editor",
+   "en": "<no property editor>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Different_Values",
+   "en": "<Different Values>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Desc_Different_Values",
+   "en": "The selected nodes have different values for this property."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_properties",
+   "en": "<No Properties>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_value",
+   "en": "<No Value>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_type",
+   "en": "<No type>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_ElipsisHint",
+   "en": "Invokes customizer."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_InvalidValue",
+   "en": "Invalid value: {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_SheetButton",
+   "en": "{0,choice,0#Invalid value {1}|1#{1}}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_PropertyPanel",
+   "en": "{0}:"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_PropertyPanel",
+   "en": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_PropertyPanelReadComponent",
+   "en": "{0} {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_PropertyPanelReadComponent",
+   "en": "{0} Type: {1}{2,choice,0#|1# Bean: {3}|2# Beans: {3}}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_PropertyPanelWriteComponent",
+   "en": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_PropertyPanelWriteComponent",
+   "en": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_BeanListDelimiter",
+   "en": ","
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Properties",
+   "en": "&Properties"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_New",
+   "en": "&New"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Delete",
+   "en": "&Delete"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_MoveUp",
+   "en": "Move &up"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_MoveDown",
+   "en": "Move &down"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_HideDetails",
+   "en": "&Hide Details"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_ShowDetails",
+   "en": "&Show Details"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_ErrorInIndexedSetter",
+   "en": "Indexed property value cannot be set"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Properties",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_New",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Delete",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_MoveUp",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_MoveDown",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_HideDetails",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_ShowDetails",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_IndexedEditorPanel",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "COLUMN_NAMES",
+   "en": "Names"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "COLUMN_VALUES",
+   "en": "Values"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "UNREADABLE",
+   "en": "<unreadable>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "NULL",
+   "en": "null"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ERRDLG_TITLE",
+   "en": "Error setting value"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_Unknown_sorting_mode",
+   "en": "Unknown Sorting Mode"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ok",
+   "en": "Ok"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "default",
+   "en": "Restore default value"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "cancel",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "close",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "BOOLEAN_PREPEND",
+   "en": "("
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "BOOLEAN_APPEND",
+   "en": ")"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_BOOLEAN",
+   "en": "{0}{1}{2}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_Description",
+   "en": "Description"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Description",
+   "en": "Description of the currently selected property"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_DescriptionTitle",
+   "en": "Property name"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_DescriptionTitle",
+   "en": "Name of the property currently being edited"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NO_DESCRIPTION",
+   "en": "No description available."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NO_SELECTION",
+   "en": "Nothing selected"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_Splitter",
+   "en": "Splitter"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Splitter",
+   "en": "Visual divider between the properties table and the description area."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Unnamed_Property",
+   "en": "The property"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_ACST_SheetProperty",
+   "en": "{0} equals {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_ACST_SheetSet",
+   "en": "Property group {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACST_No_Selection",
+   "en": "Nothing selected"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Multiple_Selection",
+   "en": "Multiple objects selected"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_EDBUTTON_TIP",
+   "en": "Click, or select and press CTRL-SPACE to open custom editor; right click for menu"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_List_Delimiter",
+   "en": ","
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_ShowDescription",
+   "en": "Show Description Area"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_HideDescription",
+   "en": "Hide Description Area"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_RestoreDefaultValue",
+   "en": "Restore Default Value"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "LBL_BasicTab",
+   "en": "Properties"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "MSG_unknown_property_name",
+   "en": "this property"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_BAD_NUMBER_FORMAT",
+   "en": "Illegal number format: \"{0}\""
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_CUSTOM_DLG_TITLE",
+   "en": "{0} - {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_CUSTOM_DLG_NOPROPNAME_TITLE",
+   "en": "Custom editor: {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "MSG_ELLIPSIS",
+   "en": "..."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSN_SHEET_TABLE",
+   "en": "Properties table"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSN_SHEET_TABBED_PANE",
+   "en": "Property categories"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_SHEET_TABLE",
+   "en": "Table of editable properties representing the current object"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_SHEET_TABBED_PANE",
+   "en": "Can select different sets of properties of the current \\ object to display in the property sheet"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "LBL_QUICKSEARCH",
+   "en": "Quick Search:"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "MSG_SetAsText_InvalidValue",
+   "en": "Invalid value: {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "EmptySubMenu",
+   "en": "Empty"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MenuViewStartFromRoot",
+   "en": "Browse from root"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MenuViewStartFromCurrent",
+   "en": "Browse from current point"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "TabView_RootTab",
+   "en": "Root"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "VetoSelectedNodes",
+   "en": "Selected Nodes"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_QUICKSEARCH",
+   "en": "Search:"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_UP",
+   "en": ".."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "RenameFailed",
+   "en": "This object cannot be renamed from {0} to {1}."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSN_TreeViewCellEditor",
+   "en": "Rename editor"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_TreeViewCellEditor",
+   "en": "In-place editor of node name in the tree view"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_NoPasteTypes",
+   "en": "Target did not accept the content of the transfer."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_ABORT",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACS_TableSheet",
+   "en": "Table of properties"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_TableSheet",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACS_NullPanel",
+   "en": "No property"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_NullPanel",
+   "en": "No property. Bean: {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACS_PropertyPanelRenderer",
+   "en": "{0}: {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_PropertyPanelRenderer",
+   "en": "{0} Type: {1} Bean: {2}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_No_value",
+   "en": "<No Value>"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_No_type",
+   "en": "<No type>"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ColumnDialogTitle",
+   "en": "Change Visible Columns"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ColumnDialogDesc",
+   "en": "Choose the Columns to Display in the List"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ListOptions",
+   "en": "List Options"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ChangeColumns",
+   "en": "Change Visible Columns..."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_SortMenu",
+   "en": "Sort"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_Ascending",
+   "en": "Ascending"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_Descending",
+   "en": "Descending"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ColsMenu",
+   "en": "Column"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_MoveLeft",
+   "en": "Move Left"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_MoveRight",
+   "en": "Move Right"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_NoColumnsToChange",
+   "en": "There are no columns to change their visibility."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_NoSort",
+   "en": "None"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSN_ColumnDialog",
+   "en": "Change Visible Columns"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_ColumnDialog",
+   "en": "Choose the Columns to Display in the List"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSN_TreeTable",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_TreeTable",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_ELLIPSIS",
+   "en": "..."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_QuickFilter",
+   "en": "Show only rows where"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_ColumnsSelector",
+   "en": "Change Visible Columns"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACN_ColumnsSelector",
+   "en": "Columns Selector"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACD_ColumnsSelector",
+   "en": "Select visible columns"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "OutlineViewOutline_NameAndDesc",
+   "en": "{0}: {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ColumnsSelectorHint",
+   "en": "Choose the Columns to Display in the List"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "NodeOutlineModel_NodesColumnLabel",
+   "en": "Nodes"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LOG_NO_READ_ACCESS",
+   "en": "Accessing {0} without Children.MUTEX read access"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "FMT_ErrorSettingValue",
+   "en": "The value could not be set. {0} is not a valid value for {1}."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "FMT_BAD_NUMBER_FORMAT",
+   "en": "Illegal number format: \"{0}\""
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_MatchCase",
+   "en": "Match Case"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_ColumnsToSearch",
+   "en": "Select Columns to Search in:"
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObject",
+   "en": "Are you sure you want to delete {0}?"
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjects",
+   "en": "Are you sure you want to delete these {0} items?"
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectsTitle",
+   "en": "Confirm Multiple Object Deletion"
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectTitle",
+   "en": "Confirm Object Deletion"
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+﻿|||
+ID|||ID
+NO|||否
+OK|||确定
+Low|||低
+URL|||URL
+YES|||是
+/day|||/天
+City|||城市
+Exif|||EXIF
+Fake|||伪造
+File|||文件
+Flag|||标志
+High|||高
+Host|||主机
+IMEI|||IMEI
+IMSI|||IMSI
+Name|||名称
+Path|||路径
+Pool|||池
+Read|||读取
+Root|||根
+SSID|||SSID
+Text|||文本
+Used|||已使用
+ Rule|||规则
+/hour|||/小时
+/week|||/周
+1.0.0|||1.0.0
+BSSID|||BSSID
+Count|||计数
+Email|||电子邮件
+Event|||事件
+ICCID|||ICCID
+Known|||已知
+Local|||本地
+Other|||其他
+Owner|||所有者
+Realm|||域
+Title|||标题
+Value|||值
+known|||已知
+/month|||/月
+Accept|||接受
+Active|||活动
+Browse|||浏览
+Cancel|||取消
+Domain|||域
+Groups|||组
+Medium|||中
+Normal|||正常
+Orphan|||孤立
+Report|||报告
+Unused|||未使用
+Volume|||卷
+at {0}|||于 {0}
+Bearing|||方位角
+Comment|||备注
+Country|||国家
+Deleted|||已删除
+Entropy|||熵
+Exclude|||排除
+Headers|||头部
+ID: {0}|||ID：{0}
+Include|||包含
+Keyword|||关键字
+Malware|||恶意软件
+Notable|||关注
+Path ID|||路径 ID
+Service|||服务
+Started|||已开始
+Subject|||主题
+Unknown|||未知
+User ID|||用户 ID
+Version|||版本
+notable|||关注
+unknown|||未知
+Accessed|||已访问
+Accounts|||账户
+Altitude|||海拔
+Approved|||已批准
+Artifact|||工件
+Call End|||通话结束
+Category|||类别
+Contacts|||联系人
+Detected|||已检测
+Disabled|||已禁用
+GPS Area|||GPS 区域
+Inferred|||推断
+Latitude|||纬度
+Launched|||已启动
+Location|||位置
+MD5 Hash|||MD5 哈希
+Messages|||消息
+Metadata|||元数据
+Multiple|||多个
+Override|||覆盖
+Password|||密码
+Registry|||注册表
+Rejected|||已拒绝
+Set Name|||集名称
+Tag Name|||标签名称
+Username|||用户名
+Velocity|||速度
+YARA Hit|||YARA 命中
+Allocated|||已分配
+Bank Name|||银行名称
+Call Logs|||通话记录
+Cancelled|||已取消
+Card Type|||卡类型
+Completed|||已完成
+Date Sent|||发送时间
+Date/Time|||日期/时间
+Device ID|||设备 ID
+Direction|||方向
+E-Mail CC|||抄送
+E-Mail To|||收件人
+GPS Route|||GPS 路线
+GPS Track|||GPS 轨迹
+Log Entry|||日志条目
+Longitude|||经度
+Map Datum|||地图基准
+Raw Split|||分卷 RAW
+SHA1 Hash|||SHA1 哈希
+Short Cut|||快捷方式
+TL Events|||时间线事件
+Text File|||文本文件
+Thread ID|||线程 ID
+Undecided|||未决定
+Web Cache|||网页缓存
+Backup End|||备份结束
+Brand Name|||品牌名称
+Bytes Sent|||发送字节数
+Call Begin|||通话开始
+Compressed|||已压缩
+Disclaimer|||免责声明
+Disk Image|||磁盘镜像
+E-Mail BCC|||密送
+Email Sent|||邮件发送
+Event Type|||事件类型
+File Level|||文件级
+GPS Routes|||GPS 路线
+GPS Search|||GPS 搜索
+IP Address|||IP 地址
+Is Deleted|||已删除
+Loading...|||正在加载...
+Local Path|||本地路径
+Message ID|||消息 ID
+OS Account|||操作系统账户
+Product ID|||产品 ID
+Raw Single|||单一 RAW
+Referenced|||被引用
+Web Search|||网页搜索
+suspicious|||可疑
+Add License|||添加许可证
+Auto Detect|||自动检测
+Card Number|||卡号
+Card Scheme|||卡组织
+Decoded URL|||解码后 URL
+Description|||描述
+Device Info|||设备信息
+Device Make|||设备厂商
+Device Name|||设备名称
+E-Mail From|||发件人
+Event Types|||事件类型
+File System|||文件系统
+Geolocation|||地理位置
+Interactive|||交互式
+Keyword Set|||关键字集
+MAC Address|||MAC 地址
+Not Notable|||不关注
+Other Cases|||其他案件
+Path Source|||路径来源
+Permissions|||权限
+Person Name|||姓名
+Program Run|||程序运行
+Remote Path|||远程路径
+Screen Shot|||屏幕截图
+Screenshots|||屏幕截图
+Server Name|||服务器名称
+Unallocated|||未分配
+Unsupported|||不支持
+Web Cookies|||网页 Cookie
+Web History|||网页历史
+Account Type|||账户类型
+Backup Begin|||备份开始
+Cyber Triage|||Cyber Triage
+Date Created|||创建时间
+Device Model|||设备型号
+Display Name|||显示名称
+Email (Home)|||电子邮件（个人）
+Expires: {0}|||到期时间：{0}
+File Changed|||文件变更
+File Created|||文件创建
+GPS Bookmark|||GPS 书签
+GPS Searches|||GPS 搜索记录
+General Info|||常规信息
+Hashset Hits|||哈希集命中
+Hashset Name|||哈希集名称
+Host Address|||主机地址
+Intersection|||交集
+Keyword Hits|||关键字命中
+Message Type|||消息类型
+Non Existent|||不存在
+Not Detected|||未检测到
+Organization|||组织
+Phone Number|||电话号码
+Program Name|||程序名
+Referrer URL|||来源 URL
+Remote Drive|||远程驱动器
+Run Programs|||运行程序
+SIM Attached|||SIM 卡接入
+Server Error|||服务器错误
+Tagged Files|||已标记文件
+Time Deleted|||删除时间
+Web Accounts|||网络账户
+Web Activity|||网页活动
+Web Searches|||网页搜索
+Wifi Network|||无线网络

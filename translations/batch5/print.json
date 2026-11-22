@@ -1,0 +1,455 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-print.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Printer_Problem",
+   "en": "Printer problem: {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Page_Setup_Button",
+   "en": "Page &Setup"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Page_Setup_Button",
+   "en": "Invokes the Page Setup dialog"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Option_Button",
+   "en": "Print &Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Print_Option_Button",
+   "en": "Invokes the Print Options dialog"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Button",
+   "en": "&Print"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Print_Button",
+   "en": "Invokes the Print dialog"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Close_Button",
+   "en": "&Close"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Close_Button",
+   "en": "Closes the Print Preview dialog"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Preview",
+   "en": "Print Preview"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_Width",
+   "en": "Fit to Width"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_Height",
+   "en": "Fit to Height"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_All",
+   "en": "Show All Pages"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_First",
+   "en": "&First page (Alt+F)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Previous",
+   "en": "P&revious page (Alt+R)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Next",
+   "en": "&Next Page (Alt+N)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Last",
+   "en": "&Last Page (Alt+L)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit",
+   "en": "Change &Scale (Alt+S)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Zoom_In",
+   "en": "Zoom &In (Alt+I)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Zoom_Out",
+   "en": "Zoom O&ut (Alt+U)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Toggle",
+   "en": "Show &Multiple Pages (Alt+M)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Goto",
+   "en": "<html><body>\\ &nbsp;<b>Navigation:</b>&nbsp;<br>\\ &nbsp;press <code>/</code> or <code>F</code> to show first page&nbsp;<br>\\ &nbsp;press <b><code>-</code></b> or <code>G</code> to show previous page&nbsp;<br>\\ &nbsp;press <b><code>+</code></b> or <code>K</code> to show next page&nbsp;<br>\\ &nbsp;press <code>*</code> or <code>L</code> to show last page&nbsp;\\ </body></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Preview_Scale",
+   "en": "<html><body>\\ &nbsp;<b>Adjusts the preview scale:</b>&nbsp;<br>\\ &nbsp;press &lt;plus&gt; to scale in&nbsp;<br>\\ &nbsp;press &lt;minus&gt; to scale out&nbsp;<br>\\ &nbsp;press <code>Ctrl</code>-&lt;plus&gt; to Zoom In&nbsp;<br>\\ &nbsp;press <code>Ctrl</code>-&lt;minus&gt; to Zoom Out&nbsp;<br>\\ &nbsp;press <code>/</code>&nbsp; to set 100%&nbsp;<br>\\ &nbsp;press <code>*</code> to customize view&nbsp;<br><hr>\\ &nbsp;mouse mouse wheel with <code>Ctrl</code> to Zoom In/Out&nbsp;<br>\\ &nbsp;mouse mouse wheel with right button to Zoom In/Out&nbsp;<br>\\ &nbsp;double click by left mouse button to Zoom In&nbsp;<br>\\ &nbsp;double click by right mouse button to Zoom Out&nbsp;<br>\\ </body></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Options",
+   "en": "Print Options"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Border",
+   "en": "Border"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Border",
+   "en": "Print &Border"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Header",
+   "en": "Print Hea&der"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Footer",
+   "en": "Print &Footer"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Choose_Font",
+   "en": "Choose Font"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Choose_Color",
+   "en": "Choose Color"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Insert_Macros",
+   "en": "Insert Macro:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Text",
+   "en": "Text"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Line_Numbers",
+   "en": "Line N&umbers"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Wrap_Lines",
+   "en": "&Wrap Lines"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Use_Font",
+   "en": "Use Font Attributes // &X"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Use_Color",
+   "en": "Use Color Attributes // &Q"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_As_Editor",
+   "en": "Print as in Editor // &J"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Selection",
+   "en": "Print &Selection"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Line_Spacing",
+   "en": "Line S&pacing:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Text_Font_and_Color",
+   "en": "Text Font and Colo&r:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Background_Color",
+   "en": "Back&ground Color:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Zoom",
+   "en": "Zoom"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Header_Footer",
+   "en": "Header and Footer"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Apply",
+   "en": "&Apply"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Left",
+   "en": "Left:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Center",
+   "en": "Center:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Right",
+   "en": "Right:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Zoom_Value_Is_Invalid",
+   "en": "Zoom value is invalid!"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Header_Size_Is_Too_Big",
+   "en": "Header Size is too big!"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Footer_Size_Is_Too_Big",
+   "en": "Footer Size is too big!"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Page_Number_Is_Invalid",
+   "en": "Number of pages is invalid!"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Page_Number_Is_Too_Big",
+   "en": "Number of pages is too big!"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Apply",
+   "en": "Applies changes"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Border_Color",
+   "en": "Choose Border &Color (Alt+C)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Header_Font",
+   "en": "Choose Header Fo&nt (Alt+N)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Header_Color",
+   "en": "Choose Header C&olor (Alt+O)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Footer_Font",
+   "en": "Choose Footer Fon&t (Alt+T)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Footer_Color",
+   "en": "Choose Footer Co&lor (Alt+L)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Text_Font",
+   "en": "Choose Text Font (Alt+K) // &K"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Text_Color",
+   "en": "Choose Text Colo&r (Alt+R)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Background_Color",
+   "en": "Choose Background Color // &G"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Print_Zoom",
+   "en": "Adjusts the print zoom"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Use_Font",
+   "en": "Use Font (Alt+X)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Use_Color",
+   "en": "Use Color (Alt+Q)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_As_Editor",
+   "en": "Show as in Editor (Alt+J)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Selection",
+   "en": "Print Selection"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Pages",
+   "en": "page(s)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_Width_to",
+   "en": "F&it Width to:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit_Width_to",
+   "en": "Fit Width to"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_Height_to",
+   "en": "Fit H&eight to:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit_Height_to",
+   "en": "Fit Height to"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Zoom_to",
+   "en": "&Zoom to:"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Zoom_to",
+   "en": "Zoom to"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_Page",
+   "en": "Fit to Page // &Y"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit_to_Page",
+   "en": "Fit to Page (Alt+Y)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "LBL_PageSetup_Action",
+   "en": "Pa&ge Setup..."
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "TLT_Print_Action",
+   "en": "Print"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "MNU_Print_Action",
+   "en": "&Print..."
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "ACT_Print_Action",
+   "en": "Print - Ctrl+Alt+Shift+P"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "LBL_Page_of_Count",
+   "en": "{0} of {1}"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "LBL_Row_Column",
+   "en": "{0}.{1}"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "NAME",
+   "en": "The name of printed component"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "ROW",
+   "en": "The row number"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "COLUMN",
+   "en": "The column number"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "USER",
+   "en": "The user name"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "COUNT",
+   "en": "The count of pages"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "MODIFIED_DATE",
+   "en": "Date of the last modification"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "MODIFIED_TIME",
+   "en": "Time of the last modification"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "PRINTED_DATE",
+   "en": "Date of printing"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "PRINTED_TIME",
+   "en": "Time of printing"
+  }
+ ]
+}

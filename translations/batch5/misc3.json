@@ -1,0 +1,245 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-templates.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "Action_Rename",
+   "en": "&Rename"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Add",
+   "en": "&Add..."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Delete",
+   "en": "&Delete"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_JFileChooser_AddButtonName",
+   "en": "Add"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_NewFolder",
+   "en": "&New Folder"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "Err_FileNameExists",
+   "en": "Template with this file name already exists."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "LBL_TemplatesPanel_JFileChooser_Title",
+   "en": "Add Existing Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "LBL_TemplatesPanel_TemplatesLabel",
+   "en": "&Templates\\:"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_RenameButton",
+   "en": "&Rename"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_DuplicateButton",
+   "en": "Du&plicate"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_MoveUp",
+   "en": "Move &Up"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_MoveDown",
+   "en": "Move Do&wn"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Revert",
+   "en": "Re&vert to Default"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Settings",
+   "en": "&Settings"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Add",
+   "en": "Add Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_New",
+   "en": "New Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Duplicate",
+   "en": "Duplicate Selected Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Rename",
+   "en": "Rename Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_MoveUp",
+   "en": "Move Up Selected Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_MoveDown",
+   "en": "Move Down Selected Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Delete",
+   "en": "Delete Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_FileIsLocked",
+   "en": "The file {0} is in use."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_TemplatesPanel_Nonexistent_File",
+   "en": "File ''{0}''\\ndoes not exist, please specify an existing file."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.license.warning.text",
+   "en": "License file name must start with \"{0}\" and end with \"{1}\"."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.title.text",
+   "en": "Rename Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_DisplayName",
+   "en": "Display Name"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_DisplayName_Desc",
+   "en": "Display name of this template. Shown in File|New wizard as well as in Tools|Templates."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_FileName",
+   "en": "File Name"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_FileName_Desc",
+   "en": "File name of file represented by this template."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_License",
+   "en": "License URL(s)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_License_Desc",
+   "en": "Authoritative web location of this license (may include several separated by spaces)."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_ScriptEngine",
+   "en": "Script Engine"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_ScriptEngine_Desc",
+   "en": "Script engine use for processing this template."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_TemplateCategories",
+   "en": "Template Categories"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_TemplateCategories_Desc",
+   "en": "A list of template's categories appropriate for this template."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TT_TemplatesPanel_Add",
+   "en": "Add Template"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.fileNameLabel.text",
+   "en": "Template &File Name:"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.displayNameLabel.text",
+   "en": "Template &Display Name:"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFile",
+   "en": "Are you sure you want to revert {0}?"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFileTitle",
+   "en": "Confirm File Revert"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFiles",
+   "en": "Are you sure you want to revert these {0} files?"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFilesTitle",
+   "en": "Confirm Revert of Multiple Files"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TXT_TemplatesPanel_NewFolderName",
+   "en": "New Folder"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "BTN_TemplatesPanel_CloseButton",
+   "en": "&Close"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "BTN_TemplatesPanel_OpenInEditorButton",
+   "en": "&Open in Editor"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "LBL_TemplatesAction_Name",
+   "en": "&Templates"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "HINT_TemplatesAction",
+   "en": "Customize templates"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "LBL_TemplatesPanel_Title",
+   "en": "Template Manager"
+  }
+ ]
+}

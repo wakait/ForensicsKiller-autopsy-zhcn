@@ -1,0 +1,120 @@
+{
+ "jar": "platform/modules/org-netbeans-spi-quicksearch.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "CTL_QuickSearchAction",
+   "en": "Quick Search"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_INVALID_SEARCH_TEST",
+   "en": "Search text is too long."
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchComboBar.jLabel2.toolTipText",
+   "en": "Click or press Shift+F10 for Category selection"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_DiscoverabilityHint",
+   "en": "Search"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_DiscoverabilityHint2",
+   "en": "Search in {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_MoreResults",
+   "en": "..."
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_AllCategories",
+   "en": "All Categories"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_NoCategory",
+   "en": "Deselect All"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_TooltipCommandPrefix",
+   "en": "<i>Start your term with <b>{0} + &lt;Space&gt;</b> to search in this category.</i>"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_CategoryAndCommandPrefix",
+   "en": "{0} ({1})"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_RightClickDisablesOthers",
+   "en": "Right-click to de-select all other categories"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_RightClickEnablesAllOthers",
+   "en": "Right-click to select all categories excluding this one"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchPopup.searchingLabel.text",
+   "en": "Searching ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchPopup.noResultsLabel.text",
+   "en": "( No Results )"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchPopup.hintLabel.text",
+   "en": "{0}; Press {1} for All Enabled Categories"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "AbstractQuickSearchComboBar.command.toolTipText",
+   "en": "Quick Search in the system {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/web/Bundle.properties",
+   "key": "Err_CannotDisplayURL",
+   "en": "Cannot display URL: {0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/web/Bundle.properties",
+   "key": "quicksearch.web.site",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/web/Bundle.properties",
+   "key": "quicksearch.web.url_patterns",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/spi/quicksearch/Bundle.properties",
+   "key": "QuickSearch/Recent",
+   "en": "Recent Searches"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/recent/Bundle.properties",
+   "key": "LBL_SearchingRecentResult",
+   "en": "Searching for a Quick Search Item"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/recent/Bundle.properties",
+   "key": "MSG_RecentResultNotFound",
+   "en": "Recent Quick Search Item was not found."
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/recent/Bundle.properties",
+   "key": "RecentSearches.clear",
+   "en": "(Clear recent searches)"
+  }
+ ]
+}

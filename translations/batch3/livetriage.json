@@ -1,0 +1,22 @@
+{
+  "CopyFilesWorker.done.text": "已完成现场取证磁盘的创建",
+  "CopyFilesWorker.error.text": "复制现场取证文件时出错",
+  "CreateLiveTriageDriveAction.appPathError.message": "找不到程序目录",
+  "CreateLiveTriageDriveAction.batchFileError.message": "创建批处理文件时出错",
+  "CreateLiveTriageDriveAction.copyError.message": "无法复制程序。仅适用于已安装的版本。",
+  "CreateLiveTriageDriveAction.error.title": "创建现场取证磁盘时出错",
+  "CreateLiveTriageDriveAction.exenotfound.message": "找不到可执行文件",
+  "CreateLiveTriageDriveAction.progressBar.text": "正在把现场取证文件复制到 {0}",
+  "CreateLiveTriageDriveAction.progressBar.title": "请稍候",
+  "CreateLiveTriageDriveAction.success.message": "现场取证磁盘已创建。使用 RunFromUSB.bat 运行本程序",
+  "CTL_CreateLiveTriageDriveAction": "制作现场取证磁盘",
+  "SelectDriveDialog.diskTable.column1.title": "磁盘名称",
+  "SelectDriveDialog.diskTable.column2.title": "磁盘大小",
+  "SelectDriveDialog.errLabel.disksNotDetected.text": "未检测到磁盘。在部分系统上需要管理员权限",
+  "SelectDriveDialog.errLabel.disksNotDetected.toolTipText": "未检测到磁盘。",
+  "SelectDriveDialog.lbSelectDrive.text": "选择要将程序和脚本复制到的驱动器：",
+  "SelectDriveDialog.descriptionTextArea.text": "该功能会把本程序和一个批处理文件复制到可移动驱动器，\\n从而无需安装软件或对磁盘制作映像即可分析系统。\\n\\n要分析系统，请插入该驱动器并以管理员身份运行 \"RunFromUSB.bat\"，\\n然后在“添加数据源”面板中选择“本地磁盘”选项。",
+  "SelectDriveDialog.localDiskModel.nodrives.msg": "找不到可执行文件",
+  "SelectDriveDialog.selectDriveLabel.text": "选择用于现场取证的驱动器（加载可能需要一些时间）：",
+  "SelectDriveDialog.title": "创建现场取证磁盘"
+}

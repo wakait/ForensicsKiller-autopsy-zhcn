@@ -1,0 +1,545 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-print.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Printer_Problem",
+   "en": "Printer problem: {0}",
+   "zh": "打印机问题：{0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Page_Setup_Button",
+   "en": "Page &Setup",
+   "zh": "页面设置(&S)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Page_Setup_Button",
+   "en": "Invokes the Page Setup dialog",
+   "zh": "打开页面设置对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Option_Button",
+   "en": "Print &Options",
+   "zh": "打印选项(&O)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Print_Option_Button",
+   "en": "Invokes the Print Options dialog",
+   "zh": "打开打印选项对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Button",
+   "en": "&Print",
+   "zh": "打印(&P)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Print_Button",
+   "en": "Invokes the Print dialog",
+   "zh": "打开打印对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Close_Button",
+   "en": "&Close",
+   "zh": "关闭(&C)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Close_Button",
+   "en": "Closes the Print Preview dialog",
+   "zh": "关闭打印预览对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Preview",
+   "en": "Print Preview",
+   "zh": "打印预览"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_Width",
+   "en": "Fit to Width",
+   "zh": "适合宽度"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_Height",
+   "en": "Fit to Height",
+   "zh": "适合高度"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_All",
+   "en": "Show All Pages",
+   "zh": "显示所有页面"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_First",
+   "en": "&First page (Alt+F)",
+   "zh": "第一页 (Alt+F)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Previous",
+   "en": "P&revious page (Alt+R)",
+   "zh": "上一页 (Alt+R)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Next",
+   "en": "&Next Page (Alt+N)",
+   "zh": "下一页 (Alt+N)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Last",
+   "en": "&Last Page (Alt+L)",
+   "zh": "最后一页 (Alt+L)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit",
+   "en": "Change &Scale (Alt+S)",
+   "zh": "更改缩放 (Alt+S)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Zoom_In",
+   "en": "Zoom &In (Alt+I)",
+   "zh": "放大 (Alt+I)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Zoom_Out",
+   "en": "Zoom O&ut (Alt+U)",
+   "zh": "缩小 (Alt+U)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Toggle",
+   "en": "Show &Multiple Pages (Alt+M)",
+   "zh": "显示多页 (Alt+M)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Goto",
+   "en": "<html><body>\\ &nbsp;<b>Navigation:</b>&nbsp;<br>\\ &nbsp;press <code>/</code> or <code>F</code> to show first page&nbsp;<br>\\ &nbsp;press <b><code>-</code></b> or <code>G</code> to show previous page&nbsp;<br>\\ &nbsp;press <b><code>+</code></b> or <code>K</code> to show next page&nbsp;<br>\\ &nbsp;press <code>*</code> or <code>L</code> to show last page&nbsp;\\ </body></html>",
+   "zh": "<html><body>\\ &nbsp;<b>导航：</b>&nbsp;<br>\\ &nbsp;按 <code>/</code> 或 <code>F</code> 显示第一页&nbsp;<br>\\ &nbsp;按 <b><code>-</code></b> 或 <code>G</code> 显示上一页&nbsp;<br>\\ &nbsp;按 <b><code>+</code></b> 或 <code>K</code> 显示下一页&nbsp;<br>\\ &nbsp;按 <code>*</code> 或 <code>L</code> 显示最后一页&nbsp;\\ </body></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Preview_Scale",
+   "en": "<html><body>\\ &nbsp;<b>Adjusts the preview scale:</b>&nbsp;<br>\\ &nbsp;press &lt;plus&gt; to scale in&nbsp;<br>\\ &nbsp;press &lt;minus&gt; to scale out&nbsp;<br>\\ &nbsp;press <code>Ctrl</code>-&lt;plus&gt; to Zoom In&nbsp;<br>\\ &nbsp;press <code>Ctrl</code>-&lt;minus&gt; to Zoom Out&nbsp;<br>\\ &nbsp;press <code>/</code>&nbsp; to set 100%&nbsp;<br>\\ &nbsp;press <code>*</code> to customize view&nbsp;<br><hr>\\ &nbsp;mouse mouse wheel with <code>Ctrl</code> to Zoom In/Out&nbsp;<br>\\ &nbsp;mouse mouse wheel with right button to Zoom In/Out&nbsp;<br>\\ &nbsp;double click by left mouse button to Zoom In&nbsp;<br>\\ &nbsp;double click by right mouse button to Zoom Out&nbsp;<br>\\ </body></html>",
+   "zh": "<html><body>\\ &nbsp;<b>调整预览缩放：</b>&nbsp;<br>\\ &nbsp;按 &lt;plus&gt; 放大&nbsp;<br>\\ &nbsp;按 &lt;minus&gt; 缩小&nbsp;<br>\\ &nbsp;按 <code>Ctrl</code>-&lt;plus&gt; 放大&nbsp;<br>\\ &nbsp;按 <code>Ctrl</code>-&lt;minus&gt; 缩小&nbsp;<br>\\ &nbsp;按 <code>/</code>&nbsp; 设为 100%&nbsp;<br>\\ &nbsp;按 <code>*</code> 自定义视图&nbsp;<br><hr>\\ &nbsp;按住 <code>Ctrl</code> 滚动鼠标滚轮可放大/缩小&nbsp;<br>\\ &nbsp;按住鼠标右键滚动滚轮可放大/缩小&nbsp;<br>\\ &nbsp;鼠标左键双击放大&nbsp;<br>\\ &nbsp;鼠标右键双击缩小&nbsp;<br>\\ </body></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Options",
+   "en": "Print Options",
+   "zh": "打印选项"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Border",
+   "en": "Border",
+   "zh": "边框"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Border",
+   "en": "Print &Border",
+   "zh": "打印边框(&B)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Header",
+   "en": "Print Hea&der",
+   "zh": "打印页眉(&D)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Print_Footer",
+   "en": "Print &Footer",
+   "zh": "打印页脚(&F)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Choose_Font",
+   "en": "Choose Font",
+   "zh": "选择字体"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Choose_Color",
+   "en": "Choose Color",
+   "zh": "选择颜色"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Insert_Macros",
+   "en": "Insert Macro:",
+   "zh": "插入宏："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Text",
+   "en": "Text",
+   "zh": "文本"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Line_Numbers",
+   "en": "Line N&umbers",
+   "zh": "行号(&U)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Wrap_Lines",
+   "en": "&Wrap Lines",
+   "zh": "自动换行(&W)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Use_Font",
+   "en": "Use Font Attributes // &X",
+   "zh": "使用字体属性 // &X"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Use_Color",
+   "en": "Use Color Attributes // &Q",
+   "zh": "使用颜色属性 // &Q"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_As_Editor",
+   "en": "Print as in Editor // &J",
+   "zh": "按编辑器样式打印 // &J"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Selection",
+   "en": "Print &Selection",
+   "zh": "打印选定内容(&S)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Line_Spacing",
+   "en": "Line S&pacing:",
+   "zh": "行距(&P)："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Text_Font_and_Color",
+   "en": "Text Font and Colo&r:",
+   "zh": "文本字体和颜色(&R)："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Background_Color",
+   "en": "Back&ground Color:",
+   "zh": "背景颜色(&G)："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Zoom",
+   "en": "Zoom",
+   "zh": "缩放"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Header_Footer",
+   "en": "Header and Footer",
+   "zh": "页眉和页脚"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Apply",
+   "en": "&Apply",
+   "zh": "应用(&A)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Left",
+   "en": "Left:",
+   "zh": "左："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Center",
+   "en": "Center:",
+   "zh": "居中："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Right",
+   "en": "Right:",
+   "zh": "右："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Zoom_Value_Is_Invalid",
+   "en": "Zoom value is invalid!",
+   "zh": "缩放值无效！"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Header_Size_Is_Too_Big",
+   "en": "Header Size is too big!",
+   "zh": "页眉高度过大！"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Footer_Size_Is_Too_Big",
+   "en": "Footer Size is too big!",
+   "zh": "页脚高度过大！"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Page_Number_Is_Invalid",
+   "en": "Number of pages is invalid!",
+   "zh": "页数无效！"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "ERR_Page_Number_Is_Too_Big",
+   "en": "Number of pages is too big!",
+   "zh": "页数过大！"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Apply",
+   "en": "Applies changes",
+   "zh": "应用更改"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Border_Color",
+   "en": "Choose Border &Color (Alt+C)",
+   "zh": "选择边框颜色 (Alt+C)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Header_Font",
+   "en": "Choose Header Fo&nt (Alt+N)",
+   "zh": "选择页眉字体 (Alt+N)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Header_Color",
+   "en": "Choose Header C&olor (Alt+O)",
+   "zh": "选择页眉颜色 (Alt+O)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Footer_Font",
+   "en": "Choose Footer Fon&t (Alt+T)",
+   "zh": "选择页脚字体 (Alt+T)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Footer_Color",
+   "en": "Choose Footer Co&lor (Alt+L)",
+   "zh": "选择页脚颜色 (Alt+L)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Text_Font",
+   "en": "Choose Text Font (Alt+K) // &K",
+   "zh": "选择文本字体 (Alt+K) // &K"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Text_Color",
+   "en": "Choose Text Colo&r (Alt+R)",
+   "zh": "选择文本颜色 (Alt+R)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Background_Color",
+   "en": "Choose Background Color // &G",
+   "zh": "选择背景颜色 // &G"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Print_Zoom",
+   "en": "Adjusts the print zoom",
+   "zh": "调整打印缩放"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Use_Font",
+   "en": "Use Font (Alt+X)",
+   "zh": "使用字体 (Alt+X)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Use_Color",
+   "en": "Use Color (Alt+Q)",
+   "zh": "使用颜色 (Alt+Q)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_As_Editor",
+   "en": "Show as in Editor (Alt+J)",
+   "zh": "按编辑器中的显示效果显示 (Alt+J)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Selection",
+   "en": "Print Selection",
+   "zh": "打印选定内容"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Pages",
+   "en": "page(s)",
+   "zh": "页"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_Width_to",
+   "en": "F&it Width to:",
+   "zh": "适合宽度(&I)："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit_Width_to",
+   "en": "Fit Width to",
+   "zh": "适合宽度"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_Height_to",
+   "en": "Fit H&eight to:",
+   "zh": "适合高度(&E)："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit_Height_to",
+   "en": "Fit Height to",
+   "zh": "适合高度"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Zoom_to",
+   "en": "&Zoom to:",
+   "zh": "缩放至(&Z)："
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Zoom_to",
+   "en": "Zoom to",
+   "zh": "缩放至"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "LBL_Fit_to_Page",
+   "en": "Fit to Page // &Y",
+   "zh": "适合页面 // &Y"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/ui/Bundle.properties",
+   "key": "TLT_Fit_to_Page",
+   "en": "Fit to Page (Alt+Y)",
+   "zh": "适合页面 (Alt+Y)"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "LBL_PageSetup_Action",
+   "en": "Pa&ge Setup...",
+   "zh": "页面设置(&G)..."
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "TLT_Print_Action",
+   "en": "Print",
+   "zh": "打印"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "MNU_Print_Action",
+   "en": "&Print...",
+   "zh": "打印(&P)..."
+  },
+  {
+   "bundle": "org/netbeans/modules/print/action/Bundle.properties",
+   "key": "ACT_Print_Action",
+   "en": "Print - Ctrl+Alt+Shift+P",
+   "zh": "打印 - Ctrl+Alt+Shift+P"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "LBL_Page_of_Count",
+   "en": "{0} of {1}",
+   "zh": "{0} / {1}"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "LBL_Row_Column",
+   "en": "{0}.{1}",
+   "zh": "{0}.{1}"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "NAME",
+   "en": "The name of printed component",
+   "zh": "所打印组件的名称"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "ROW",
+   "en": "The row number",
+   "zh": "行号"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "COLUMN",
+   "en": "The column number",
+   "zh": "列号"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "USER",
+   "en": "The user name",
+   "zh": "用户名"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "COUNT",
+   "en": "The count of pages",
+   "zh": "页数"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "MODIFIED_DATE",
+   "en": "Date of the last modification",
+   "zh": "最后修改日期"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "MODIFIED_TIME",
+   "en": "Time of the last modification",
+   "zh": "最后修改时间"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "PRINTED_DATE",
+   "en": "Date of printing",
+   "zh": "打印日期"
+  },
+  {
+   "bundle": "org/netbeans/modules/print/util/Bundle.properties",
+   "key": "PRINTED_TIME",
+   "en": "Time of printing",
+   "zh": "打印时间"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+{
+  "AbstractFileTikaTextExtract.index.tikaParseTimeout.text": "异常：内容 {0}、{1} 的 Tika 解析超时",
+  "AbstractFileTikaTextExtract.index.exception.tikaParse.msg": "异常：对文件 {0}、{1} 执行 Tika 解析任务时出现意外异常"
+}

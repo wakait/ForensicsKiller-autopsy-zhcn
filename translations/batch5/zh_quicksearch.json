@@ -1,0 +1,143 @@
+{
+ "jar": "platform/modules/org-netbeans-spi-quicksearch.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "CTL_QuickSearchAction",
+   "en": "Quick Search",
+   "zh": "快速搜索"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_INVALID_SEARCH_TEST",
+   "en": "Search text is too long.",
+   "zh": "搜索文本过长。"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchComboBar.jLabel2.toolTipText",
+   "en": "Click or press Shift+F10 for Category selection",
+   "zh": "单击或按 Shift+F10 选择类别"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_DiscoverabilityHint",
+   "en": "Search",
+   "zh": "搜索"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_DiscoverabilityHint2",
+   "en": "Search in {0}",
+   "zh": "在 {0} 中搜索"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_MoreResults",
+   "en": "...",
+   "zh": "..."
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_AllCategories",
+   "en": "All Categories",
+   "zh": "所有类别"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_NoCategory",
+   "en": "Deselect All",
+   "zh": "全部取消选择"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_TooltipCommandPrefix",
+   "en": "<i>Start your term with <b>{0} + &lt;Space&gt;</b> to search in this category.</i>",
+   "zh": "<i>在搜索词前加上 <b>{0} + &lt;Space&gt;</b>，即可在此类别中搜索。</i>"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "LBL_CategoryAndCommandPrefix",
+   "en": "{0} ({1})",
+   "zh": "{0} ({1})"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_RightClickDisablesOthers",
+   "en": "Right-click to de-select all other categories",
+   "zh": "右键单击可取消选择其他所有类别"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "MSG_RightClickEnablesAllOthers",
+   "en": "Right-click to select all categories excluding this one",
+   "zh": "右键单击可选择除本类别外的所有类别"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchPopup.searchingLabel.text",
+   "en": "Searching ...",
+   "zh": "正在搜索 ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchPopup.noResultsLabel.text",
+   "en": "( No Results )",
+   "zh": "( 无结果 )"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "QuickSearchPopup.hintLabel.text",
+   "en": "{0}; Press {1} for All Enabled Categories",
+   "zh": "{0}；按 {1} 显示所有已启用的类别"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/Bundle.properties",
+   "key": "AbstractQuickSearchComboBar.command.toolTipText",
+   "en": "Quick Search in the system {0}",
+   "zh": "在系统 {0} 中快速搜索"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/web/Bundle.properties",
+   "key": "Err_CannotDisplayURL",
+   "en": "Cannot display URL: {0}",
+   "zh": "无法显示 URL：{0}"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/web/Bundle.properties",
+   "key": "quicksearch.web.site",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/web/Bundle.properties",
+   "key": "quicksearch.web.url_patterns",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/spi/quicksearch/Bundle.properties",
+   "key": "QuickSearch/Recent",
+   "en": "Recent Searches",
+   "zh": "最近搜索"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/recent/Bundle.properties",
+   "key": "LBL_SearchingRecentResult",
+   "en": "Searching for a Quick Search Item",
+   "zh": "正在搜索快速搜索项"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/recent/Bundle.properties",
+   "key": "MSG_RecentResultNotFound",
+   "en": "Recent Quick Search Item was not found.",
+   "zh": "未找到最近的快速搜索项。"
+  },
+  {
+   "bundle": "org/netbeans/modules/quicksearch/recent/Bundle.properties",
+   "key": "RecentSearches.clear",
+   "en": "(Clear recent searches)",
+   "zh": "(清除最近搜索)"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "AddEditPersonDialog_addPerson_title": "添加人员",
+  "AddEditPersonDialog_editPerson_title": "编辑人员",
+  "DeletePersonAction_menuTitle": "删除人员",
+  "DeletePersonAction_onError_description": "移除人员时出错：{0}。",
+  "DeletePersonAction_onError_title": "从人员中删除主机时出错",
+  "EditPersonAction_menuTitle": "编辑人员...",
+  "EditPersonAction_onError_description": "编辑人员时出错：{0}。",
+  "EditPersonAction_onError_title": "编辑人员时出错",
+  "PersonNameValidator_getValidationMessage_onDuplicate": "已有其他人员使用相同名称。请换一个名称。",
+  "PersonNameValidator_getValidationMessage_onEmpty": "请为人员名称填写一些文本。",
+  "PersonNameValidator_getValidationMessage_sameAsOriginal": "请为该人员提供一个新名称。"
+}

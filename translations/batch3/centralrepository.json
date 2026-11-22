@@ -1,0 +1,9 @@
+{
+  "AddEditCentralRepoCommentAction.menuItemText.addEditCentralRepoComment": "添加/编辑中央存储库备注",
+  "AddEditCentralRepoCommentAction.menuItemText.addEditCentralRepoCommentEmptyFile": "添加/编辑中央存储库备注（空文件）",
+  "AddEditCentralRepoCommentAction.menuItemText.addEditCentralRepoCommentNoMD5": "添加/编辑中央存储库备注（无 MD5 哈希）",
+  "CentralRepoCommentDialog.title.addEditCentralRepoComment": "添加/编辑中央存储库备注",
+  "OpenIDE-Module-Name": "中央存储库",
+  "OpenIDE-Module-Display-Category": "摄取模块",
+  "OpenIDE-Module-Short-Description": "中央存储库摄取模块"
+}

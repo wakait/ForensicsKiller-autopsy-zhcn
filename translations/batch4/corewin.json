@@ -1,0 +1,1190 @@
+{
+ "jar": "platform/modules/org-netbeans-core-windows.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "LBL_FakeWorkspace",
+   "en": "<Only Workspace>"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "TopComponent.DragAndDrop.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "TopComponent.Resizing.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "TopComponent.Undocking.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "TopComponent.Maximization.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "TopComponent.Sliding.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Editor.TopComponent.Closing.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "View.TopComponent.Closing.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Splitter.Respect.MinimumSize.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Mode.View.DragAndDrop.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Mode.Editor.DragAndDrop.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Mode.View.Undocking.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Mode.Editor.Undocking.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Mode.Sliding.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "TopComponent.Auto.Slide.In.Minimized.Mode.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "Mode.Closing.Enabled",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "WinSys.Show.Hide.MainWindow.While.Switching.Role",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "WinSys.Open.New.Editors.Docked",
+   "en": "false"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "WinSys.DragAndDrop.Sliding.Enabled",
+   "en": "false"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "WinSys.TabControl.SimpleTabs.Enabled",
+   "en": "false"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "WinSys.TabControl.SimpleTabs.Placement",
+   "en": "top"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "WinSys.TabControl.SimpleTabs.MultiRow",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/Bundle.properties",
+   "key": "WinSys.CtrlTabSwitching.In.JTable.Enabled",
+   "en": "false"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CloneDocumentAction",
+   "en": "C&lone Document"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CloseWindowAction",
+   "en": "&Close"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CloseWindowAction_MainMenu",
+   "en": "Close W&indow"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CloseModeAction",
+   "en": "Close Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_RecentViewListAction",
+   "en": "Go to P&revious Window"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_RecentDocumentListAction",
+   "en": "Go to Previous Document"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_SaveWindowsAction",
+   "en": "Save Window Setup"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_SwitchRoleKeepDocumentsAction",
+   "en": "Switch Role"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_SwitchToRecentDocumentAction",
+   "en": "&Editor"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CloseAllDocumentsAction",
+   "en": "Close &All Documents"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_UndockWindowAction",
+   "en": "&Float"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_UndockWindowAction_Dock",
+   "en": "Doc&k"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_UndockModeAction",
+   "en": "Float &Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_UndockModeAction_Dock",
+   "en": "&Dock Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MinimizeModeAction",
+   "en": "Minimize Grou&p"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MinimizeWindowAction",
+   "en": "&Minimize"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "LBL_CloseAllDocumentsAction",
+   "en": "Close &All"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "LBL_AutoHideWindowAction",
+   "en": "M&inimize"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "LBL_SaveDocumentAction",
+   "en": "&Save"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "LBL_CloneDocumentAction",
+   "en": "C&lone"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CloseAllButThisAction",
+   "en": "Close &Other"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CloseAllButThisAction_MainMenu",
+   "en": "Close Ot&her Documents"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MaximizeWindowAction",
+   "en": "Maximi&ze"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_UnmaximizeWindowAction",
+   "en": "&Restore"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_DocumentsAction",
+   "en": "&Documents..."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_ToolbarsListAction",
+   "en": "&Toolbars"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_NextTabAction",
+   "en": "Next Tab"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_PreviousTabAction",
+   "en": "Previous Tab"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_ToggleFullScreenAction",
+   "en": "&Full Screen"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_ResetWindows",
+   "en": "Reset &Windows"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_ReloadWindows",
+   "en": "Reload Windows"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "LBL_ToggleWindowTransparencyAction",
+   "en": "&Transparent Window"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "LBL_WindowTransparencyHint",
+   "en": "Press and hold [Ctrl+NumPad 0] key to make minimized window transparent."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "GlobalProperties",
+   "en": "P&roperties"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_NewTabGroupAction",
+   "en": "New Document Ta&b Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_CollapseTabGroupAction",
+   "en": "&Collapse Document Tab Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_ResizeModeAction",
+   "en": "&Size Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MoveModeAction",
+   "en": "Mo&ve Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MoveWindowAction",
+   "en": "&Move"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MoveWindowLeftAction",
+   "en": "Shift Window Tab Left"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MoveWindowRightAction",
+   "en": "Shift Window Tab Right"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MoveWindowLeftContextAction",
+   "en": "Shift Left"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_MoveWindowRightContextAction",
+   "en": "Shift Right"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/actions/Bundle.properties",
+   "key": "CTL_ShowOnlyEditor",
+   "en": "Show &Only Editor"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "AdvancedOption_DisplayName_WinSys",
+   "en": "Windows"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "AdvancedOption_Tooltip_WinSys",
+   "en": "Window System related options"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "IsAlphaFloatingTooltip",
+   "en": "Makes unfocused floating windows semi-transparent after few seconds"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "IsDragWindowTooltip",
+   "en": "Enables \"ghost\" window image during drag and drop of a window"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "IsAlphaDragTooltip",
+   "en": "Enables transparency in drag window image"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "IsSnapScreenEdgesTooltip",
+   "en": "Enables snapping of floating windows to screen edges"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "IsSnappingTooltip",
+   "en": "Enables automatic snapping of floating windows for easier layout handling"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "NoAlphaSupport",
+   "en": "Window transparency is not supported by OS"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LBL_DragWindowImage",
+   "en": "&Drag window image"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LBL_TransparentDragWindow",
+   "en": "Transparent drag &window image"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LBL_TransparentFloatingWindows",
+   "en": "Transparent &floating windows"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LBL_SnapFloatingWindows",
+   "en": "&Snapping floating windows"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LBL_SnapToScreenEdges",
+   "en": "Snap to screen &edges"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LBL_CloseActivatesRecentDocument",
+   "en": "&Close activates most recent document"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "OptionsCategory_Keywords_Appearance",
+   "en": "look and feel, windows, document tab"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "OptionsCategory_Name_Appearance",
+   "en": "Appearance"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TIP_CloseActivatesMostRecentDocument",
+   "en": "When a document is closed then the most recent document becomes active instead of its neighbor"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "KW_WindowOptions",
+   "en": "Window Options,Appearance, Editor tab placement, Multi-row tabs, Window dragging, Floating Windows, Look and Feel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "Laf_DARK_METAL",
+   "en": "Dark Metal"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "Laf_DARK_NIMBUS",
+   "en": "Dark Nimbus"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "Hint_RESTART_IDE",
+   "en": "Restart IDE"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "Descr_Restart",
+   "en": "<html><a href=\"#\">Click here to restart IDE and apply your selected look and feel."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "Hint_ChangeEditorColors",
+   "en": "Switch to matching editor colors profile."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LafPanel.lblLaf.text",
+   "en": "&Preferred look and feel:"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LafPanel.lblRestart.text",
+   "en": "(needs restart)"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LafPanel.checkMaximizeNativeLaF.toolTipText",
+   "en": "<html>NetBeans uses native UI components when those components offer sufficient\\nfunctionality.  <br>Select this option to force use of native components, even when\\nthat may limit functionality (e.g. standard Mac OS file chooser)."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "LafPanel.checkMaximizeNativeLaF.text",
+   "en": "M&aximize use of native look and feel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.checkMultiRow.text",
+   "en": "&Multi-row tabs"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioBottom.text",
+   "en": "&bottom"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioTop.text",
+   "en": "&top"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioRight.text",
+   "en": "&right"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioLeft.text",
+   "en": "&left"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.isNewDocumentOpensNextToActiveTab.text",
+   "en": "&New document opens next to active document tab"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.isCloseActivatesMostRecentDocument.AccessibleContext.accessibleDescription",
+   "en": "When a document is closed then the most recent document becomes active"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.jLabel1.text",
+   "en": "Tabs placement:"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "Laf_DisplayName",
+   "en": "Look and Feel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "KW_LafOptions",
+   "en": "look, feel, Look and feel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "KW_TabsOptions",
+   "en": "editor tabs, multi-row"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "Tabs_DisplayName",
+   "en": "Document Tabs"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioSortNothing.text",
+   "en": "&Sort nothing"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioSortFullFilePath.text",
+   "en": "Sort by &full file path"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioSortFileNameWithParent.text",
+   "en": "Sort by file name with &parent directory"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.radioSortFileName.text",
+   "en": "Sort by file &name"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/options/Bundle.properties",
+   "key": "TabsPanel.sortTabsLabel.text",
+   "en": "Sort tabs when a document opens:"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "OKButton",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CancelButton",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CloseButton",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "YesButton",
+   "en": "Yes"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "NoButton",
+   "en": "No"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "DetailsButton",
+   "en": "Details"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CTL_Button",
+   "en": "Button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CTL_FileSelectorOkButton",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CTL_FileSelectorCancelButton",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_FileSelectorOkButton",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_FileSelectorCancelButton",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_FileSelectorDialog",
+   "en": "File selector dialog"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSN_FileSelectorTreeView",
+   "en": "Tree View"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_FileSelectorTreeView",
+   "en": "Tree view in file selector"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CTL_Customizer_dialog_title",
+   "en": "Customizer Dialog"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CLOSED_OPTION_CAPTION",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "CANCEL_OPTION_CAPTION",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "HELP_OPTION_CAPTION",
+   "en": "&Help"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "NO_OPTION_CAPTION",
+   "en": "No"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "OK_OPTION_CAPTION",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "YES_OPTION_CAPTION",
+   "en": "Yes"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_YES_OPTION_NAME",
+   "en": "Yes"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_YES_OPTION_DESC",
+   "en": "Yes button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_ErrorMessage",
+   "en": "Error: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_WarningMessage",
+   "en": "Warning: {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_QuestionMessage",
+   "en": "Question {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_InformationMessage",
+   "en": "Information {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACSD_PlainMessage",
+   "en": "{0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_CANCEL_OPTION_NAME",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_CANCEL_OPTION_DESC",
+   "en": "Cancel button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_OK_OPTION_NAME",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_OK_OPTION_DESC",
+   "en": "OK button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_NO_OPTION_NAME",
+   "en": "No"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_NO_OPTION_DESC",
+   "en": "No button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_HELP_OPTION_NAME",
+   "en": "Help"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_HELP_OPTION_DESC",
+   "en": "Help button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_CLOSED_OPTION_NAME",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "ACS_CLOSED_OPTION_DESC",
+   "en": "Close button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "Lbl_CopyToClipboard",
+   "en": "Copy to clipboard"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/services/Bundle.properties",
+   "key": "HelpButtonAtTheLeftSide",
+   "en": "false"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "LBL_EditorAreaFrameTitle",
+   "en": "Editor"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_MainWindow",
+   "en": "Main Window"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "CTL_MainWindow_Title",
+   "en": "Apache NetBeans Platform {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "CTL_MainWindow_Title_No_Project",
+   "en": "Apache NetBeans Platform {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "LBL_Documents",
+   "en": "&Documents:"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "LBL_Description",
+   "en": "Descri&ption:"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "LBL_Activate",
+   "en": "Swi&tch to Document"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "LBL_CloseDocuments",
+   "en": "C&lose Document(s)"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "LBL_SaveDocuments",
+   "en": "&Save Documents(s)"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "LBL_Close",
+   "en": "&Close"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_Activate",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_CloseDocuments",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_SaveDocuments",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_Close",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_ListView",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_DescriptionArea",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_DocumentsDialog",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "CTL_DocumentsTitle",
+   "en": "Documents"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "CTL_SeparateEditorTitle",
+   "en": "{0} - Editor"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "CTL_PropertiesWindow",
+   "en": "Properties"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "CTL_FMT_GlobalProperties",
+   "en": "{0,choice,0#No Properties|1#{1} - Properties|2#Multiple Objects - Properties}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "CTL_FMT_LocalProperties",
+   "en": "{0,choice,0#Properties|1#{1} - Properties|2#Multiple Objects - Properties}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSN_PropertiesSheet",
+   "en": "Property sheet"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "ACSD_PropertiesSheet",
+   "en": "View shows properties for given node."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "EXC_CannotLoadNodes",
+   "en": "Nodes cannot be loaded into the property sheet. They probably no longer exist."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "Lbl_OrderBy",
+   "en": "Order by"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "Lbl_OrderByName",
+   "en": "&name"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/Bundle.properties",
+   "key": "Lbl_OrderByUsage",
+   "en": "&recent usage"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CTL_SmallIcons",
+   "en": "&Small Toolbar Icons"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CTL_CustomizeToolbars",
+   "en": "&Customize"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CTL_NewToolbar",
+   "en": "&New Toolbar..."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CTL_TreeLabel",
+   "en": "Drag items to or from the toolbars to add or remove them..."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "LBL_PleaseWait",
+   "en": "Please wait..."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CTL_Close",
+   "en": "&Close"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CustomizerTitle",
+   "en": "Customize Toolbars"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSD_ActionsTree",
+   "en": "Drag items from here to toolbars."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSN_ActionsTree",
+   "en": "Actions Pool"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSN_ActionsScrollBar",
+   "en": "Actions Pool Scrollbar"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSD_ActionsScrollBar",
+   "en": "Actions Pool Scrollbar"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSD_ToolbarCustomizer",
+   "en": "Toolbar Customizer"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSD_Close",
+   "en": "Close Button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSD_NewToolbar",
+   "en": "New Toolbar Button"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "ACSD_SmallIcons",
+   "en": "Small Icons Checkbox"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CTL_ResetToolbarsAction",
+   "en": "Reset &Toolbars"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "CTL_ResetToolbarsButton",
+   "en": "Reset &Toolbars"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "MSG_ToolbarsInitializing",
+   "en": "Initializing..."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "PROP_newToolbarLabel",
+   "en": "&Name:"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "PROP_newToolbarDialog",
+   "en": "New Toolbar"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "PROP_newToolbar",
+   "en": "Toolbar"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/view/ui/toolbars/Bundle.properties",
+   "key": "MSG_ToolbarExists",
+   "en": "Toolbar {0} already exists."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "CTL_CloseDocumentGroupAction",
+   "en": "<none>"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "CTL_ManageGroupsAction",
+   "en": "Manage..."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "CTL_NewGroupAction",
+   "en": "New Document Group..."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "NewGroupPanel.cbKeepOpenedDocuments.text",
+   "en": "Keep currently opened documents"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "NewGroupPanel.lblName.text",
+   "en": "Name:"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "ManageGroupsPanel.btnRemove.text",
+   "en": "Remove"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "ManageGroupsPanel.btnRemoveAll.text",
+   "en": "Remove All"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "Menu_DOCUMENT_GROUPS",
+   "en": "Document Groups"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "Btn_SELECT",
+   "en": "Select"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "Dlg_DOCUMENT_GROUPS",
+   "en": "Document Groups"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "Txt_NEW_GROUP_NAME",
+   "en": "<new group>"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/documentgroup/Bundle.properties",
+   "key": "Dlg_NEW_GROUP",
+   "en": "Create New Document Group"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_WindowManagerParse",
+   "en": "Cannot parse configuration of window manager {0}."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_GroupParse",
+   "en": "Cannot parse configuration of Group {0}."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_TCGroupParse",
+   "en": "Cannot parse configuration of TCGroup {0}."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_TCRefParse",
+   "en": "Cannot parse configuration of TCRef {0}."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_ModeParse",
+   "en": "Cannot parse configuration of mode {0}."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_RootFolder",
+   "en": "Cannot create root folder {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_CompsFolder",
+   "en": "Cannot create components folder {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_GroupsFolder",
+   "en": "Cannot create groups folder {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_ModesFolder",
+   "en": "Cannot create modes folder {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_BrokenTCSetting",
+   "en": "Top component {0} could not be loaded, either owning module was disabled, has incompatible version or top component's settings file format is broken."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_FailedLocateTC",
+   "en": "Top component {0} could not be located or loaded from 'Components' folder."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_CannotSaveTCSettings",
+   "en": "Settings of top component {0} could not be saved"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "EXC_CopyFails",
+   "en": "Cannot copy component settings file to folder {0}."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "FMT_TCWriteError",
+   "en": "Component {0} could not be saved due to problems with its serialization."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/persistence/Bundle.properties",
+   "key": "FMT_TCReadError",
+   "en": "Component {0} could not be opened due to problems with its deserialization."
+  },
+  {
+   "bundle": "org/netbeans/core/windows/resources/Bundle.properties",
+   "key": "Actions/Window",
+   "en": "Window"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/resources/Bundle.properties",
+   "key": "Menu/Window",
+   "en": "&Window"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/resources/Bundle.properties",
+   "key": "Menu/Window/ConfigureWindow",
+   "en": "Config&ure Window"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/resources/Bundle.properties",
+   "key": "Toolbars.Options.Export.displayName",
+   "en": "Toolbars"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/design/Bundle.properties",
+   "key": "CTL_DesignViewComponentTopComponent",
+   "en": "Mode Component"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/design/Bundle.properties",
+   "key": "CTL_NewMode",
+   "en": "New Mode"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/design/Bundle.properties",
+   "key": "HINT_DesignViewComponentTopComponent",
+   "en": "Represents a mode and allows its rename"
+  },
+  {
+   "bundle": "org/netbeans/core/windows/design/Bundle.properties",
+   "key": "DesignViewComponent.modeName.text",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/core/windows/design/Bundle.properties",
+   "key": "DesignViewComponent.jLabel1.text",
+   "en": "Mode Name:"
+  }
+ ]
+}

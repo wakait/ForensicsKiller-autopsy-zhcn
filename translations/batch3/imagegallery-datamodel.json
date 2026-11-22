@@ -1,0 +1,10 @@
+{
+  "DrawableAttribute.cameraMake": "相机厂商",
+  "DrawableAttribute.cameraModel": "相机型号",
+  "DrawableAttribute.createdTime": "创建时间",
+  "DrawableAttribute.intObjID": "内部对象 ID",
+  "DrawableAttribute.md5hash": "MD5 哈希",
+  "DrawableAttribute.mimeType": "MIME 类型",
+  "DrawableAttribute.modifiedTime": "修改时间",
+  "VideoFile.getMedia.progress": "正在把临时文件写入磁盘"
+}

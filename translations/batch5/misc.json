@@ -1,0 +1,120 @@
+{
+ "jar": "platform/modules/org-netbeans-core-multitabs.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_DocumentList",
+   "en": "Show opened documents list"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_MaximizeRestore",
+   "en": "Maximize/restore window"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_ScrollLeft",
+   "en": "Scroll documents left"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/Bundle.properties",
+   "key": "Hint_ScrollRight",
+   "en": "Scroll documents right"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/impl/Bundle.properties",
+   "key": "BtnClose_Tooltip",
+   "en": "<html>Shift + click to close all documents<br>Alt + click to close other documents"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementTop.text",
+   "en": "T&op"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementLeft.text",
+   "en": "&Left"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementBottom.text",
+   "en": "&Bottom"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioPlacementRight.text",
+   "en": "&Right"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkProjectColors.text",
+   "en": "Same background color for files from the same project"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.jLabel1.text",
+   "en": "Tab placement:"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkMultiRow.text",
+   "en": "&Multi-row tabs"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkSortDocumentList.text",
+   "en": "Sort opened documents list by project"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioRowPerProject.text",
+   "en": "One row per project"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioRowCount.text",
+   "en": "Maximum row count:"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkShowFolderName.text",
+   "en": "Show parent folder name in tab title"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkShowFullPath.text",
+   "en": "Show full file path"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "KW_WindowOptions",
+   "en": "Window Options,Appearance, Editor tab placement, Multi-row tabs, Window dragging, Floating Windows, Look and Feel"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "AdvancedOption_DisplayName_MultiTabs",
+   "en": "Document Tabs"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "AdvancedOption_Keywords_MultiTabs",
+   "en": "Multitabs, Editor, TabControl"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkProjectColors.actionCommand",
+   "en": "Same back&ground color for files from the same project"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.checkMultiRow.actionCommand",
+   "en": "Multi-ro&w tabs"
+  },
+  {
+   "bundle": "org/netbeans/core/multitabs/prefs/Bundle.properties",
+   "key": "InnerTabsPanel.radioRowPerProject.actionCommand",
+   "en": "One row per pro&ject"
+  }
+ ]
+}

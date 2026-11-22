@@ -1,0 +1,16 @@
+{
+  "EncryptionDetectionDataSourceIngestModule.artifactComment.bitlocker": "检测到 BitLocker 加密。",
+  "EncryptionDetectionDataSourceIngestModule.artifactComment.suspected": "由于熵值较高（%f）而怀疑存在加密。",
+  "EncryptionDetectionDataSourceIngestModule.processing.message": "正在检查映像的加密情况。",
+  "EncryptionDetectionFileIngestModule.artifactComment.password": "检测到密码保护。",
+  "EncryptionDetectionFileIngestModule.artifactComment.suspected": "由于熵值较高（%f）而怀疑存在加密。",
+  "EncryptionDetectionFileIngestModule.getDesc.text": "查找熵值不低于指定下限的文件。",
+  "EncryptionDetectionFileIngestModule.moduleName.text": "加密检测",
+  "EncryptionDetectionIngestJobSettingsPanel.minimumEntropyLabel.text": "最小熵值：",
+  "EncryptionDetectionIngestJobSettingsPanel.minimumFileSizeLabel.text": "最小文件大小：",
+  "EncryptionDetectionIngestJobSettingsPanel.fileSizeMultiplesEnforcedCheckbox.text": "仅考虑大小为 512 整数倍的文件。",
+  "EncryptionDetectionIngestJobSettingsPanel.slackFilesAllowedCheckbox.text": "考虑松弛空间中的文件。",
+  "EncryptionDetectionIngestJobSettingsPanel.detectionSettingsLabel.text": "检测设置",
+  "EncryptionDetectionTools.errorMessage.minimumEntropyInput": "最小熵值输入必须是 6.0 到 8.0 之间的数字。",
+  "EncryptionDetectionTools.errorMessage.minimumFileSizeInput": "最小文件大小输入必须是不小于 1 的整数（单位：MB）。"
+}

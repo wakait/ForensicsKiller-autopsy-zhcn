@@ -1,0 +1,22 @@
+{
+  "ExtractOs.debianLinuxOs.label": "Linux（Debian）",
+  "ExtractOs.fedoraLinuxOs.label": "Linux（Fedora）",
+  "ExtractOs.gentooLinuxOs.label": "Linux（Gentoo）",
+  "ExtractOs.mandrakeLinuxOs.label": "Linux（Mandrake）",
+  "ExtractOs.novellSUSEOs.label": "Linux（Novell SUSE）",
+  "ExtractOs.osx.label": "Mac OS X",
+  "ExtractOs.redhatLinuxOs.label": "Linux（Red Hat）",
+  "ExtractOs.slackwareLinuxOs.label": "Linux（Slackware）",
+  "ExtractOs.solarisSparcOs.label": "Linux（Solaris/Sparc）",
+  "ExtractOs.sunJDSLinuxOs.label": "Linux（Sun JDS）",
+  "ExtractOs.ubuntuLinuxOs.label": "Linux（Ubuntu）",
+  "ExtractOs.unitedLinuxOs.label": "Linux（United Linux）",
+  "ExtractOs.yellowDogLinuxOs.label": "Linux（Yellow Dog）",
+  "Progress_Message_Edge_Cookies": "Microsoft Edge Cookie",
+  "Progress_Message_Firefox_Cookies": "Firefox Cookie",
+  "Progress_Message_IE_Cookies": "IE Cookie",
+  "Progress_Message_Safari_Cookies": "Safari Cookie",
+  "Recently_Used_Artifacts_WSL": "适用于 Linux 的 Windows 子系统",
+  "Shellbag_Artifact_Display_Name": "Shell 项（Shellbag）",
+  "WSL_Artifact_Display_Name": "适用于 Linux 的 Windows 子系统"
+}

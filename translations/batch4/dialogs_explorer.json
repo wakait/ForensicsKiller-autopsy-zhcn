@@ -1,0 +1,205 @@
+{
+ "jar": "platform/modules/org-openide-dialogs.jar",
+ "items": [
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ErrorTitle",
+   "en": "Error"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ExceptionTitle",
+   "en": "Exception"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ExceptionalException",
+   "en": "\\ A {0} exception has occurred.\\n\\ Please report this at http://www.netbeans.org/issues.html, including a copy of your messages.log file.\\n\\ The messages.log file is located in your {1} folder."
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ExceptionalExceptionTitle",
+   "en": "Unexpected Exception"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_PlainTitle",
+   "en": "Message"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_QuestionTitle",
+   "en": "Question"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_InformationTitle",
+   "en": "Information"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_WarningTitle",
+   "en": "Warning"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "EXC_OptionsAlign",
+   "en": "Options Align"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_OK",
+   "en": "OK"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_YES",
+   "en": "Yes"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_NO",
+   "en": "No"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_CLOSE",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_CANCEL",
+   "en": "Cancel"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_CANCEL",
+   "en": "n/a"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_NEXT",
+   "en": "Next >"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_NEXT",
+   "en": "{0,choice,1#Moves to next step of the wizard.|2#Next step: {0}. {1}}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_PREVIOUS",
+   "en": "< &Back"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_PREVIOUS_Mnemonic",
+   "en": "B"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_PREVIOUS",
+   "en": "{0,choice,-1#Moves to previous step of the wizard.|0#Previous step: {0}. {1}}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_FINISH",
+   "en": "&Finish"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_FINISH",
+   "en": "n/a"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_InputPanel",
+   "en": "Input line"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_InputField",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACN_NotifyDescriptor_MessageJTextArea",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACD_NotifyDescriptor_MessageJTextArea",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_WizardName",
+   "en": "{0} wizard ({1})"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_WizardPanel",
+   "en": "{0,choice,0#{1}: {2}|1#{0}. {1}: {2}}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_ArrayIteratorName",
+   "en": "{0} of {1}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_ContentName",
+   "en": "Steps"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_HelpName",
+   "en": "Help"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardBackRed",
+   "en": "255"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardBackGreen",
+   "en": "255"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardBackBlue",
+   "en": "255"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardForegroundRed",
+   "en": "0"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardForegroundGreen",
+   "en": "0"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardForegroundBlue",
+   "en": "0"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "STRING_WizardImageAlignment",
+   "en": "South"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_InstantiateProgress_Title",
+   "en": "Please wait."
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "Lbl_CopyToClipboard",
+   "en": "Copy to clipboard"
+  }
+ ]
+}

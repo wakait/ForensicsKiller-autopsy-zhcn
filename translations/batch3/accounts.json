@@ -1,0 +1,18 @@
+{
+  "Accounts.BINNode.bankCityProperty.displayName": "银行所在城市",
+  "Accounts.BINNode.bankCountryProperty.displayName": "银行所在国家",
+  "Accounts.BINNode.bankPhoneProperty.displayName": "银行电话",
+  "Accounts.BINNode.bankURLProperty.displayName": "银行网址",
+  "Accounts.BINNode.binProperty.displayName": "银行识别号（BIN）",
+  "Accounts.BINNode.cardTypeProperty.displayName": "支付卡类型",
+  "Accounts.BINNode.noDescription": "无描述",
+  "Accounts.BINNode.schemeProperty.displayName": "信用卡组织",
+  "Accounts.ByBINNode.displayName": "按 BIN（{0}）",
+  "Accounts.ByBINNode.name": "按 BIN",
+  "Accounts.ByFileNode.displayName": "按文件（{0}）",
+  "Accounts.FileWithCCNNode.noDescription": "无描述",
+  "Accounts.RootNode.displayName": "通信账户",
+  "ApproveAccountsAction.name": "批准账户",
+  "RejectAccountsAction.name": "拒绝账户",
+  "ToggleShowRejected.name": "显示已拒绝的结果"
+}

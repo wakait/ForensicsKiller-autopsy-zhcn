@@ -1,0 +1,13 @@
+{
+  "OptionsCategory_Name_Machine_Translation": "机器翻译",
+  "OptionsCategory_Keywords_Machine_Translation_Settings": "机器翻译设置",
+  "TranslationOptionsPanel.noTextTranslators.text": "不存在文本翻译器，翻译功能已禁用。",
+  "TranslationOptionsPanel.noTextTranslatorSelected.text": "未选择文本翻译器，翻译功能已禁用。",
+  "TranslationOptionsPanel.textTranslatorsUnavailable.text": "无法获取所选的文本翻译器，翻译功能已禁用。",
+  "TranslationOptionsPanel.translationDisabled.text": "翻译已禁用",
+  "TranslationOptionsPanelController.moduleErr": "模块错误",
+  "TranslationOptionsPanelController.moduleErr.msg": "某个模块在监听 TranslationSettingsPanelController 更新时出错。请查看日志以确定是哪个模块。部分数据可能不完整。",
+  "TranslationOptionsPanel.translationServiceLabel.text": "文本翻译器：",
+  "TranslationOptionsPanel.translationOptionsDescription.text": "配置第三方文本翻译服务，以启用文本和文件名翻译。",
+  "TranslationOptionsPanel.enableOcrCheckBox.text": "在翻译内容查看器中启用光学字符识别（OCR）"
+}

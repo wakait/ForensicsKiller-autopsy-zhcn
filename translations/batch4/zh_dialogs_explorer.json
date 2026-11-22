@@ -1,0 +1,244 @@
+{
+ "items": [
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ErrorTitle",
+   "en": "Error",
+   "zh": "错误"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ExceptionTitle",
+   "en": "Exception",
+   "zh": "异常"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ExceptionalException",
+   "en": "\\ A {0} exception has occurred.\\n\\ Please report this at http://www.netbeans.org/issues.html, including a copy of your messages.log file.\\n\\ The messages.log file is located in your {1} folder.",
+   "zh": "\\ 发生了 {0} 异常。\\n\\ 请在 http://www.netbeans.org/issues.html 上报告此问题，并附上 messages.log 文件的副本。\\n\\ messages.log 文件位于您的 {1} 文件夹中。"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_ExceptionalExceptionTitle",
+   "en": "Unexpected Exception",
+   "zh": "意外异常"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_PlainTitle",
+   "en": "Message",
+   "zh": "消息"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_QuestionTitle",
+   "en": "Question",
+   "zh": "问题"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_InformationTitle",
+   "en": "Information",
+   "zh": "信息"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "NTF_WarningTitle",
+   "en": "Warning",
+   "zh": "警告"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "EXC_OptionsAlign",
+   "en": "Options Align",
+   "zh": "选项对齐"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_OK",
+   "en": "OK",
+   "zh": "确定"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_YES",
+   "en": "Yes",
+   "zh": "是"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_NO",
+   "en": "No",
+   "zh": "否"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_CLOSE",
+   "en": "Close",
+   "zh": "关闭"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_CANCEL",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_CANCEL",
+   "en": "n/a",
+   "zh": "n/a"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_NEXT",
+   "en": "Next >",
+   "zh": "下一步 >"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_NEXT",
+   "en": "{0,choice,1#Moves to next step of the wizard.|2#Next step: {0}. {1}}",
+   "zh": "{0,choice,1#移动到向导的下一步。|2#下一步：{0}。{1}}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_PREVIOUS",
+   "en": "< &Back",
+   "zh": "< 上一步(&B)"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_PREVIOUS_Mnemonic",
+   "en": "B",
+   "zh": "B"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_PREVIOUS",
+   "en": "{0,choice,-1#Moves to previous step of the wizard.|0#Previous step: {0}. {1}}",
+   "zh": "{0,choice,-1#移动到向导的上一步。|0#上一步：{0}。{1}}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_FINISH",
+   "en": "&Finish",
+   "zh": "完成(&F)"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_FINISH",
+   "en": "n/a",
+   "zh": "n/a"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_InputPanel",
+   "en": "Input line",
+   "zh": "输入行"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_InputField",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACN_NotifyDescriptor_MessageJTextArea",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACD_NotifyDescriptor_MessageJTextArea",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_WizardName",
+   "en": "{0} wizard ({1})",
+   "zh": "{0} 向导（{1}）"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "ACSD_WizardPanel",
+   "en": "{0,choice,0#{1}: {2}|1#{0}. {1}: {2}}",
+   "zh": "{0,choice,0#{1}：{2}|1#{0}. {1}：{2}}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_ArrayIteratorName",
+   "en": "{0} of {1}",
+   "zh": "{0} / {1}"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_ContentName",
+   "en": "Steps",
+   "zh": "步骤"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_HelpName",
+   "en": "Help",
+   "zh": "帮助"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardBackRed",
+   "en": "255",
+   "zh": "255"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardBackGreen",
+   "en": "255",
+   "zh": "255"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardBackBlue",
+   "en": "255",
+   "zh": "255"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardForegroundRed",
+   "en": "0",
+   "zh": "0"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardForegroundGreen",
+   "en": "0",
+   "zh": "0"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "INT_WizardForegroundBlue",
+   "en": "0",
+   "zh": "0"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "STRING_WizardImageAlignment",
+   "en": "South",
+   "zh": "South"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "CTL_InstantiateProgress_Title",
+   "en": "Please wait.",
+   "zh": "请稍候。"
+  },
+  {
+   "bundle": "org/openide/Bundle.properties",
+   "key": "Lbl_CopyToClipboard",
+   "en": "Copy to clipboard",
+   "zh": "复制到剪贴板"
+  }
+ ]
+}

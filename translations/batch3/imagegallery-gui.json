@@ -1,0 +1,16 @@
+{
+  "StatuBar.toolTip": "部分数据可能已过期。摄取完成后，在“工具 | 选项 | 图像/视频库”中启用图像库，以更新图像库数据。",
+  "StatusBar.fileUpdateTaskLabel.text": "文件更新任务",
+  "Toolbar.categoryImageViewLabel": "对分组的文件分类：",
+  "Toolbar.getDataSources.errMessage": "无法获取当前案例的数据源。",
+  "Toolbar.groupByLabel": "分组依据：",
+  "Toolbar.nonPathGroupingWarning.content": "是否继续重新分组？",
+  "Toolbar.nonPathGroupingWarning.header": "按路径以外的属性分组时不支持数据源筛选。\\n将显示来自所有数据源的文件与分组。",
+  "Toolbar.nonPathGroupingWarning.title": "图像库",
+  "Toolbar.sortByLabel": "排序依据：",
+  "Toolbar.sortHelp": "排序方向（升序/降序）会影响图像库维护的“未查看分组”队列，但只有按下“下一个未查看分组”按钮后，该队列的变化才会显现。",
+  "Toolbar.sortHelpTitle": "分组排序",
+  "Toolbar.tagImageViewLabel": "对分组的文件打标签：",
+  "Toolbar.thumbnailSizeLabel": "缩略图大小（像素）：",
+  "VideoPlayer.errNotice": "{0}\\n详情请查看日志。"
+}

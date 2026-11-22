@@ -1,0 +1,15 @@
+{
+  "DrawableTileBase.externalViewerAction.text": "在外部查看器中打开",
+  "DrawableTileBase.menuItem.extractFiles": "提取文件",
+  "DrawableTileBase.menuItem.showContentViewer": "显示内容查看器",
+  "DrawableUIBase.errorLabel.OOMText": "内存不足",
+  "DrawableUIBase.errorLabel.text": "无法读取文件",
+  "GroupPane.bottomLabel.displayText": "分组查看历史：",
+  "GroupPane.catContainerLabel.displayText": "对所选文件分类：",
+  "GroupPane.gridViewContextMenuItem.extractFiles": "提取文件",
+  "GroupPane.headerString": "{0} -- {1} 个哈希集命中 / {2} 个文件",
+  "GroupPane.hederLabel.displayText": "对所选文件打标签：",
+  "MediaLoadTask.messageText": "正在读取视频：{0}",
+  "MetaDataPane.tableView.placeholder": "选择一个文件以在此显示其详细信息。",
+  "SlideShowView.supplementalText": "分组中的第 {0} 个，共 {1} 个"
+}

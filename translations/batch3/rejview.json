@@ -1,0 +1,14 @@
+{
+  "HexView.statusTemplate.nonZeroLength": "选区：{0} 至 {1}（长度：{2}）[{3} 至 {4}（长度：{5}）",
+  "RegeditExeValueFormatter.valueNotSet.text": "（未设置值）",
+  "RejTreeKeyNode.parseFailed.string": "解析失败。",
+  "RejTreeKeyView.failedToParse.keyName": "无法解析项名称",
+  "RejTreeKeyView.template.dateTime": "修改时间：",
+  "RejTreeKeyView.template.numberOfSubkeys": "子项数量：",
+  "RejTreeKeyView.template.numberOfValues": "值数量：",
+  "RejTreeValueNode.failureValueName.text": "解析失败",
+  "RejTreeValueView.failedToDecode.valueName": "无法解码值名称",
+  "RejTreeValueView.failedToDecode.valueType": "无法解析值类型",
+  "RejTreeValueView.failedToParse.value": "无法解析值数据",
+  "RejTreeView.failureValueName.text": "解析失败"
+}

@@ -1,0 +1,281 @@
+{
+ "jar": "autopsy/modules/org-sleuthkit-autopsy-core.jar",
+ "bundle": "com/basistech/df/cybertriage/autopsy/ctoptions/ctcloud/Bundle.properties",
+ "items": [
+  {
+   "key": "CTLicenseDialog.title",
+   "en": "Add a License...",
+   "zh": "添加许可证..."
+  },
+  {
+   "key": "CTLicenseDialog.licenseNumberLabel.text",
+   "en": "License Number:",
+   "zh": "许可证编号："
+  },
+  {
+   "key": "CTLicenseDialog.licenseNumberTextField.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTLicenseDialog.cancelButton.text",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "key": "CTLicenseDialog.okButton.text",
+   "en": "OK",
+   "zh": "确定"
+  },
+  {
+   "key": "CTLicenseDialog.warningLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTLicenseDialog_verifyInput_licenseNumberError",
+   "en": "<html>Please enter a license number</html>",
+   "zh": "<html>请输入许可证编号</html>"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.hashLookupsRemainingLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.countersResetLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.maxFileUploadsLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.maxHashLookupsLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.malwareScansMessageLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.malwareScansPanel.border.title",
+   "en": "Malware Scanner",
+   "zh": "恶意软件扫描器"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.licenseInfoAddButton.text",
+   "en": "Add License",
+   "zh": "添加许可证"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.licenseInfoIdLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.licenseInfoExpiresLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.fileUploadsRemainingLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.licenseInfoUserLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_getResetSuffix_daily",
+   "en": "/day",
+   "zh": "/天"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_getResetSuffix_hourly",
+   "en": "/hour",
+   "zh": "/小时"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_getResetSuffix_monthly",
+   "en": "/month",
+   "zh": "/月"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_getResetSuffix_weekly",
+   "en": "/week",
+   "zh": "/周"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseAddDialog_desc",
+   "en": "License Number:",
+   "zh": "许可证编号："
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseAddDialog_title",
+   "en": "Add a License...",
+   "zh": "添加许可证..."
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseAddDialogEnteredErr_desc",
+   "en": "The license number has already been entered",
+   "zh": "该许可证编号已输入"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseAddDialogEnteredErr_title",
+   "en": "License Number Already Entered",
+   "zh": "许可证编号已输入"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseAddDialogPatternErr_desc",
+   "en": "Please verify that license number is of format 'AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'",
+   "zh": "请确认许可证编号格式为 'AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseAddDialogPatternErr_title",
+   "en": "Invalid License Number",
+   "zh": "许可证编号无效"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_LicenseFetcher_apiErr_title",
+   "en": "Server Error",
+   "zh": "服务器错误"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_LicenseFetcher_defaultErrMsg_desc",
+   "en": "Error activating boost license {0}",
+   "zh": "启用增强许可证时出错 {0}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_LicenseFetcher_localErr_desc",
+   "en": "A general error occurred while fetching license information.  Please try again later.",
+   "zh": "获取许可证信息时发生常规错误。请稍后重试。"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_LicenseFetcher_localErr_title",
+   "en": "General Error",
+   "zh": "常规错误"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseInfo_expires",
+   "en": "Expires: {0}",
+   "zh": "到期时间：{0}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseInfo_id",
+   "en": "ID: {0}",
+   "zh": "ID：{0}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_licenseInfo_userInfo",
+   "en": "<html>User: {0}<br/>Email: {1}</html>",
+   "zh": "<html>用户：{0}<br/>电子邮件：{1}</html>"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_malwareScans_countersReset",
+   "en": "Counters reset: {0}",
+   "zh": "计数已重置：{0}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_malwareScans_fileUploadsRemaining",
+   "en": "File uploads remaining: {0}",
+   "zh": "剩余文件上传次数：{0}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_malwareScans_hashLookupsRemaining",
+   "en": "Hash lookups remaining: {0}",
+   "zh": "剩余哈希查询次数：{0}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_malwareScans_maxDailyFileLookups",
+   "en": "Max file uploads: {0}{1}",
+   "zh": "文件上传上限：{0}{1}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_malwareScans_maxDailyHashLookups",
+   "en": "Max Hash lookups: {0}{1}",
+   "zh": "哈希查询上限：{0}{1}"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_MalwareScansFetcher_apiErr_title",
+   "en": "Server Error",
+   "zh": "服务器错误"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_MalwareScansFetcher_localErr_desc",
+   "en": "A general error occurred while fetching malware scans information.  Please try again later.",
+   "zh": "获取恶意软件扫描信息时发生常规错误。请稍后重试。"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel_MalwareScansFetcher_localErr_title",
+   "en": "General Error",
+   "zh": "常规错误"
+  },
+  {
+   "key": "CTOPtionsPanel_loadLicenseInfo_loading",
+   "en": "Loading...",
+   "zh": "正在加载..."
+  },
+  {
+   "key": "CTOPtionsPanel_loadMalwareScansInfo_loading",
+   "en": "Loading...",
+   "zh": "正在加载..."
+  },
+  {
+   "key": "EULADialog.cancelButton.text",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "key": "EULADialog.acceptButton.text",
+   "en": "Accept",
+   "zh": "接受"
+  },
+  {
+   "key": "EULADialog.title",
+   "en": "Cyber Triage End User License Agreement",
+   "zh": "Cyber Triage 最终用户许可协议"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.licenseInfoMessageLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.purchaseFromLabel.text",
+   "en": "For licensing information, visit",
+   "zh": "许可证说明请访问"
+  },
+  {
+   "key": "CTLicenseDialog.licenseNumberTextField.toolTipText",
+   "en": "AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+   "zh": "AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.licenseErrorLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.licenseInfoRemoveButton.text",
+   "en": "Remove License",
+   "zh": "移除许可证"
+  },
+  {
+   "key": "CTMalwareScannerOptionsPanel.text",
+   "en": "<html>The Cyber Triage Malware Scanner module uses 40+ malware scanning engines to identify if Windows executables are malicious. It requires a paid subscription to use.</html>",
+   "zh": "<html>Cyber Triage 恶意软件扫描器模块使用 40 多种恶意软件扫描引擎判断 Windows 可执行文件是否恶意。使用该模块需要付费订阅。</html>"
+  },
+  {
+   "key": "Installer_LicenseCheck_cloudExceptionTitle",
+   "en": "Cyber Triage Error",
+   "zh": "Cyber Triage 错误"
+  }
+ ]
+}

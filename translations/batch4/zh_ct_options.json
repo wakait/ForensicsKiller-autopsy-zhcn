@@ -1,0 +1,36 @@
+{
+ "jar": "autopsy/modules/org-sleuthkit-autopsy-core.jar",
+ "bundle": "com/basistech/df/cybertriage/autopsy/ctoptions/Bundle.properties",
+ "items": [
+  {
+   "key": "OptionsCategory_Name_CyberTriage",
+   "en": "Cyber Triage",
+   "zh": "Cyber Triage"
+  },
+  {
+   "key": "OptionsCategory_Keywords_CyberTriage",
+   "en": "Cyber Triage,Cyber,Triage",
+   "zh": "Cyber Triage,Cyber,Triage"
+  },
+  {
+   "key": "LicenseDisclaimerPanel.disclaimer.text",
+   "en": "<html>The Cyber Triage Malware Scanner module uses 40+ malware scanning engines to identify if Windows executables are malicious. It requires a paid subscription to use.</html>",
+   "zh": "<html>Cyber Triage 恶意软件扫描器模块使用 40 多种恶意软件扫描引擎判断 Windows 可执行文件是否恶意。使用该模块需要付费订阅。</html>"
+  },
+  {
+   "key": "LicenseDisclaimerPanel.purchaseFromLabel.text",
+   "en": "You can purchase a license from",
+   "zh": "可从这里购买许可证："
+  },
+  {
+   "key": "LicenseDisclaimerPanel.border.title",
+   "en": "Disclaimer",
+   "zh": "免责声明"
+  },
+  {
+   "key": "LicenseDisclaimerPanel.trialLabel.text",
+   "en": "You can try a free 7-day trial from",
+   "zh": "可从这里试用 7 天免费版："
+  }
+ ]
+}

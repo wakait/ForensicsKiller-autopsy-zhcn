@@ -1,0 +1,580 @@
+{
+ "jar": "platform/modules/org-netbeans-core.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NTF_ExceptionalException",
+   "en": "\\ A {0} exception has occurred.<br/><br/>\\ Click Show Details or see the messages.log file located in your {1} folder."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NTF_ExceptionalExceptionTitle",
+   "en": "Unexpected Exception"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NTF_ExceptionWarning",
+   "en": "\\ A {0} exception has occurred.<br/><br/>\\ However, the system should continue working without further problems.<br/><br/>\\ Click Show Details for the stack trace."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NTF_ExceptionWarningTitle",
+   "en": "Warning"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "MSG_MainWindowInit",
+   "en": "Initializing Main Window..."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "MSG_WindowShowInit",
+   "en": "Opening Main Window..."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_FMT_SavingMessage",
+   "en": "Saving {0} ..."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "MSG_AllSaved",
+   "en": "Save All finished."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_Cannot_save",
+   "en": "Cannot save {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_PasswordProtected",
+   "en": "Password Protected Site"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsEditor.viewByLabel",
+   "en": "View By:"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsEditor.actionsButton.text",
+   "en": "Actions"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsEditor.actionsButton.text_Mnemonic",
+   "en": "C"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsEditor.shortcutsButton.text",
+   "en": "Shortcuts"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsEditor.shortcutsButton.text_Mnemonic",
+   "en": "S"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsPanel.shortcutTextArea.text",
+   "en": "Select View by Actions to Edit Shortcuts for an Action"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsPanel.addButton.text",
+   "en": "Add..."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsPanel.removeButton.text",
+   "en": "Remove"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ShortcutsPanel.AddActionTitle",
+   "en": "New Shortcut"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.shortcutAddButton.text",
+   "en": "Add..."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.shortcutAddButton.text_Mnemonic",
+   "en": "A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.shortcutRemoveButton.text",
+   "en": "Remove"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.shortcutRemoveButton.text_Mnemonic",
+   "en": "R"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.ShortcutsTitle",
+   "en": "Edit Shortcuts"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.AddShortcut",
+   "en": "Add Shortcut"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.ShortcutLabel",
+   "en": "Shortcut:"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ActionsPanel.ShortcutLabel_Mnemonic",
+   "en": "S"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ShortcutsPanel.shortcutTextArea.text.a11yName",
+   "en": "Select View by Actions to Edit Shortcuts for an Action"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ShortcutsEditor.actionsButton.text.a11yDesc",
+   "en": "Select View by Actions to Edit Shortcuts for an Action"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ShortcutsEditor.shortcutsButton.text.a11yDesc",
+   "en": "Select View by Shortcuts, but for Edit Shortcuts should be View by Action selected"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ShortcutsPanel.addButton.text.a11yDesc",
+   "en": "Add New Shortcuts for Actions"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ShortcutsPanel.removeButton.text.a11yDesc",
+   "en": "Remove Shortcuts for Actions"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSN_ShortcutsPanel.shortcutsList",
+   "en": "Shortcuts list"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ShortcutsPanel.shortcutsList",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ActionsPanel.ShortcutLabel.a11yName",
+   "en": "Fill Shorcut"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ActionsPanel.ShortcutLabel.a11yDesc",
+   "en": "Fill Shorcut by Keys combination"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSN_ActionsPanel.actionsTree",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSN_ActionsPanel.shortcutsList",
+   "en": "Shortcuts list"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ActionsPanel.actionsTree",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ActionsPanel.shortcutsList",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ShortcutsEditor.DialogDesc",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ActionsPanel.Dialog",
+   "en": "Add new shortcut to the selected action"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACS_ActionsPanel",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "FMT_ActionsPanel.AlreadyBound",
+   "en": "There is already an action bound to this shortcut ({0}).\\nDo you want to use the newly selected action instead?"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_ExitTitle",
+   "en": "Save"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_Save",
+   "en": "&Save"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_Save",
+   "en": "Save."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_SaveAll",
+   "en": "Save &All"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_SaveAll",
+   "en": "Save all."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_DiscardAll",
+   "en": "&Discard All"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_DiscardAll",
+   "en": "Discard all."
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "EXC_Save",
+   "en": "An exception occurred while saving"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_Title_Exception",
+   "en": "Exception"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_NextException",
+   "en": "&Next >"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_PreviousException",
+   "en": "< &Previous"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_Exception_Hide_Details",
+   "en": "&Hide Details"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_Exception_Show_Details",
+   "en": "&Show Details"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_NextException",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_PreviousException",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_Exception_Hide_Details",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_Exception_Show_Details",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSN_ExceptionStackTrace",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ExceptionStackTrace",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_NotifyExceptionPanel",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSN_ListOfChangedFiles",
+   "en": "List"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ListOfChangedFiles",
+   "en": "List of changed files for save"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACSD_ExitDialog",
+   "en": "Dialog for save any changes"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "MSG_ExceptionHeader",
+   "en": "{0}*********** Exception occurred ************ at {1,time,short} on {1,date,medium}"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_SdiMode",
+   "en": "SDI Mode"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_MdiMode",
+   "en": "MDI Mode"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_NoWorkspaces",
+   "en": "No Workspaces"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACN_NotifyExcPanel_Dialog",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ACD_NotifyExcPanel_Dialog",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "LOG_EventQueueBlocked",
+   "en": "AWT Event Dispatch Thread is blocked for {0} ms"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "LOG_EventQueueBlocked_ICON_BASE",
+   "en": "org/netbeans/core/resources/log-file.gif"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "CTL_Authentication",
+   "en": "Authentication Required"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "USE_Authentication",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NbAuthenticatorPanel.userNameLbl.text",
+   "en": "&User Name:"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NbAuthenticatorPanel.passwordLbl.text",
+   "en": "&Password:"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NbAuthenticatorPanel.password.description",
+   "en": "Password for {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "ProxySettings.password.description",
+   "en": "Proxy password"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "Title_WebBrowser",
+   "en": "Web Browser"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "TimableEventQueue.install",
+   "en": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "StaticNonProxyHosts",
+   "en": "localhost|127.0.0.1"
+  },
+  {
+   "bundle": "org/netbeans/core/Bundle.properties",
+   "key": "NTF_ExceptionalExceptionReport",
+   "en": "Show and Report Problem"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "About",
+   "en": "&About"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "About_title",
+   "en": "About"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "CopyProductInfo",
+   "en": "Copy Info"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "CopyProductInfoAction",
+   "en": "&Copy Info"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "CTL_CopyButton_tooltip",
+   "en": "Copy NetBeans Product Information to clipboard"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "CTL_OpeningBrowser",
+   "en": "Opening Browser ..."
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "HTMLView",
+   "en": "&Web Browser"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "Exit",
+   "en": "E&xit"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "LBL_NextViewCallbackAction",
+   "en": "Next Inner View"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "LBL_PreviousViewCallbackAction",
+   "en": "Previous Inner View"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "JumpNextAction",
+   "en": "Ne&xt Error"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "JumpPrevAction",
+   "en": "&Previous Error"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "MSG_LogTab_name",
+   "en": "IDE &Log"
+  },
+  {
+   "bundle": "org/netbeans/core/actions/Bundle.properties",
+   "key": "MSG_ShortLogTab_name",
+   "en": "IDE Log"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "check_for_updates",
+   "en": "Check for Updates"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "LBL_Copyright",
+   "en": "<div style=\"font-size: {0}pt; font-family: Verdana, 'Verdana CE',  Arial, 'Arial CE', 'Lucida Grande CE', lucida, 'Helvetica CE', sans-serif;\">\\ NetBeans IDE and NetBeans Platform are based on Apache NetBeans from the Apache Software Foundation \\ and are licensed under <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">\\ Apache License Version 2.0</a>. For more information, please visit \\ <a href=\"https://netbeans.apache.org/\">netbeans.apache.org</a>.</div>"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "LBL_AddOnCopyright",
+   "en": "<div style=\"font-size: {1}pt; font-family: Verdana, 'Verdana CE',  Arial, 'Arial CE', 'Lucida Grande CE', lucida, 'Helvetica CE', sans-serif;\">\\ {0} </div>"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "Format_OperatingSystem_Value",
+   "en": "{0} version {1} running on {2}"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "LBL_description",
+   "en": "<div style=\"white-space: nowrap; font-size: {9}pt; font-family: Verdana, 'Verdana CE',  Arial, 'Arial CE', 'Lucida Grande CE', lucida, 'Helvetica CE', sans-serif;\"><p style=\"margin: 0\"><b>Product Version:</b> {0}</p>\\n {8}<p style=\"margin: 0\"><b>Java:</b> {1}; {2}</p>\\n <p style=\"margin: 0\"><b>Runtime:</b> {10}</p>\\n <p style=\"margin: 0\"><b>System:</b> {3}; {4}; {5}</p>\\n <p style=\"margin: 0\"><b>User directory:</b> {6}</p>\\n <p style=\"margin: 0\"><b>Cache directory:</b> {7}</p></div>"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "to_version",
+   "en": "to version {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "updates_found",
+   "en": "<p style=\"margin: 0\"><b>Updates:</b> <a href=\"check-for-updates\">Updates available</a> {0}</p>\\n"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "updates_not_found",
+   "en": "<p style=\"margin: 0\"><b>Updates:</b> NetBeans IDE is updated to version {0}</p>\\n"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "URL_ON_IMG",
+   "en": "https://netbeans.apache.org/"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "LBL_SwingBrowserDescription",
+   "en": "Simple HTML Browser based on a Swing component"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "MSG_cannot_create_browser",
+   "en": "Cannot create Swing HTML Browser."
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "Services/Browsers/SwingBrowser.settings",
+   "en": "Swing HTML Browser"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "LBL_Close",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "MNE_Close",
+   "en": "C"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "ACSN_Close",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/netbeans/core/ui/Bundle.properties",
+   "key": "ACSD_Close",
+   "en": "Close"
+  }
+ ]
+}

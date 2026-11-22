@@ -1,0 +1,682 @@
+{
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "Actions/Window/org-netbeans-modules-exceptions-ReporterResultAction.instance",
+   "en": "ReporterResult",
+   "zh": "报告器结果"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BTN_ReviewAndReport",
+   "en": "&Review and Report Problem",
+   "zh": "&查看并报告问题"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_AfterRestartReportQuestion",
+   "en": "There was an error during the last run of NetBeans IDE.\\nCan you please report the problem?",
+   "zh": "NetBeans IDE 上次运行时发生错误。\\n您能报告该问题吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "METRICS_LOGGER_NAME",
+   "en": "org.myapplication.ui.metrics",
+   "zh": "org.myapplication.ui.metrics"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "TTL_AfterRestartReport",
+   "en": "Unexpected Exception on Last Run",
+   "zh": "上次运行时出现意外异常"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_LOGGER_NAME",
+   "en": "org.myapplication.ui",
+   "zh": "org.myapplication.ui"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_PERFORMANCE_LOGGER_NAME",
+   "en": "org.myapplication.ui.performance",
+   "zh": "org.myapplication.ui.performance"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SubmitDialogTitle",
+   "en": "UI Gestures Collector",
+   "zh": "UI 手势收集器"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_StackTraceElement",
+   "en": "{4}.{2}:{3}",
+   "zh": "{4}.{2}:{3}"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_RootDisplayName",
+   "en": "UI Gestures",
+   "zh": "UI 手势"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_USER_CONFIGURATION",
+   "en": "The operating system is {0}, virtual machine {1}, Application version {2} and user name {3}.",
+   "zh": "操作系统为 {0}，虚拟机为 {1}，应用程序版本为 {2}，用户名为 {3}。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ApplicationVersionResourceBundle",
+   "en": "org.myapplication.Bundle",
+   "zh": "org.myapplication.Bundle"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ApplicationVersionResourceKey",
+   "en": "currentVersion",
+   "zh": "currentVersion"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ApplicationVersionSysPropertyResourceArg",
+   "en": "buildnumber",
+   "zh": "buildnumber"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_DISABLED_MODULES",
+   "en": "List of disabled modules {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} ...",
+   "zh": "已禁用的模块列表 {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_ENABLED_MODULES",
+   "en": "List of enabled modules {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} ...",
+   "zh": "已启用的模块列表 {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} ..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "EXIT_URL",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_EXIT_URL_EXIT",
+   "en": "E&xit without Getting Statistics",
+   "zh": "退&出且不获取统计信息"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "INIT_URL",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_INIT_URL_EXIT",
+   "en": "Remind &Later",
+   "zh": "以后&提醒"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "WELCOME_URL",
+   "en": "https://myapplication.org/uigestures/welcome.html",
+   "zh": "https://myapplication.org/uigestures/welcome.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_WELCOME_URL_EXIT",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "METRICS_URL",
+   "en": "https://myapplication.org/uigestures/metrics.html",
+   "zh": "https://myapplication.org/uigestures/metrics.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_METRICS_URL_EXIT",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ERROR_URL",
+   "en": "https://myapplication.org/uigestures/error.html",
+   "zh": "https://myapplication.org/uigestures/error.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ERROR_URL_EXIT",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SubmitButton",
+   "en": "&Review and Report Problem",
+   "zh": "&查看并报告问题"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "CHECKING_SERVER_URL",
+   "en": "http://statistics.myapplication.org/analytics/authenticate?username={0}&secur_passwd={1}",
+   "zh": "http://statistics.myapplication.org/analytics/authenticate?username={0}&secur_passwd={1}"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LOG_FILE",
+   "en": "var/log/messages.log",
+   "zh": "var/log/messages.log"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LOG_FILE_LAST",
+   "en": "var/log/messages.log.1",
+   "zh": "var/log/messages.log.1"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailed",
+   "en": "Upload of log to {0} failed!",
+   "zh": "日志上传到 {0} 失败！"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailedReport",
+   "en": "Upload of log failed, please report the original problem directly at [URL]http://www.myapplication.org/bugs.html[/URL] and attach messages.log file.\\ \\nThe messages.log file is located at [TTC]{2}[/TTC].",
+   "zh": "日志上传失败。请直接在 [URL]http://www.myapplication.org/bugs.html[/URL] 报告原始问题，并附上 messages.log 文件。\\ \\nmessages.log 文件位于 [TTC]{2}[/TTC]。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailedWithResponse",
+   "en": "Upload of log to {0} failed: {3}",
+   "zh": "日志上传到 {0} 失败：{3}"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_ConnetionFailedReportWithResponse",
+   "en": "Upload of log failed ({3}), please report the original problem directly at [URL]http://www.myapplication.org/bugs.html[/URL] and attach messages.log file.\\ \\nThe messages.log file is located at [TTC]{2}[/TTC].",
+   "zh": "日志上传失败（{3}）。请直接在 [URL]http://www.myapplication.org/bugs.html[/URL] 报告原始问题，并附上 messages.log 文件。\\ \\nmessages.log 文件位于 [TTC]{2}[/TTC]。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadProgressHandle",
+   "en": "Uploading log file",
+   "zh": "正在上传日志文件"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadConnecting",
+   "en": "Connecting...",
+   "zh": "正在连接..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadSending",
+   "en": "Sending logs...",
+   "zh": "正在发送日志..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_UploadReading",
+   "en": "Reading reply...",
+   "zh": "正在读取回复..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ErrorDialogTitle",
+   "en": "Connecting ...",
+   "zh": "正在连接..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "SubmitPanel.jLabel1.text_1",
+   "en": "Show Record\\:",
+   "zh": "显示记录\\:"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "Metrics_title",
+   "en": "Usage Statistics",
+   "zh": "使用统计"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_BottomText1",
+   "en": "<html>Help us improve the MyApplication by providing anonymous usage data.</html>",
+   "zh": "<html>通过提供匿名使用数据，帮助我们改进 MyApplication。</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_BottomText2",
+   "en": "<html>If you agree to participate, the application will send anonymous \\ information about the high-level features that you use to a database at myapplication.org.</html>",
+   "zh": "<html>如果您同意参与，应用程序会将您所使用的高层功能的匿名 \\ 信息发送到 myapplication.org 上的数据库。</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_BottomText3",
+   "en": "<html>The usage statistics help us better understand user \\ requirements and prioritize improvements in future releases. We will never \\ reverse-engineer the collected data to find specific details about your projects.</html>",
+   "zh": "<html>使用统计有助于我们更好地了解用户 \\ 需求，并在未来版本中优先安排改进。我们绝不会 \\ 对收集的数据进行逆向分析以获取有关您项目的具体细节。</html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_MetricsEnable",
+   "en": "I Agree",
+   "zh": "我同意"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSN_MetricsEnable",
+   "en": "Enable usage statistics",
+   "zh": "启用使用统计"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSD_MetricsEnable",
+   "en": "Enable usage statistics",
+   "zh": "启用使用统计"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_MetricsCancel",
+   "en": "No, Thank You",
+   "zh": "不用，谢谢"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSN_MetricsCancel",
+   "en": "Disable usage statistics",
+   "zh": "禁用使用统计"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSD_MetricsCancel",
+   "en": "Disable usage statistics",
+   "zh": "禁用使用统计"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "METRICS_INFO_URL",
+   "en": "https://www.myapplication.org/about/usage-tracking.html",
+   "zh": "https://www.myapplication.org/about/usage-tracking.html"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_LearnMore",
+   "en": "<html><font color=\"#0000FF\" <u>Learn more</u></font></html>",
+   "zh": "<html><font color=\"#0000FF\" <u>了解更多</u></font></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSN_LearnMore",
+   "en": "Learn more",
+   "zh": "了解更多"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ACSD_LearnMore",
+   "en": "Learn more",
+   "zh": "了解更多"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "VIEW_DATA_TILTE",
+   "en": "Data",
+   "zh": "数据"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "UI_TAB_TITLE",
+   "en": "UI Log",
+   "zh": "UI 日志"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "IDE_LOG_TAB_TITLE",
+   "en": "Application Log",
+   "zh": "应用程序日志"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LowPerformance",
+   "en": "Slowness detected. Was it a problem?",
+   "zh": "检测到运行缓慢。是否构成问题？"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BlockedForLowPerformance",
+   "en": "Not responsive for {0,choice,0#{0} ms|5000#{1} s}. \\ Do you want to report it?",
+   "zh": "无响应持续 {0,choice,0#{0} ms|5000#{1} s}。\\ 您要报告吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "GoToType",
+   "en": "Slow Go to Type detected. Was it a problem?",
+   "zh": "检测到“转到类型”较慢。是否构成问题？"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BlockedForGoToType",
+   "en": "Go to Type Action took {0,choice,0#{0} ms|5000#{1} s}. \\ Do you want to report it?",
+   "zh": "“转到类型”操作耗时 {0,choice,0#{0} ms|5000#{1} s}。\\ 您要报告吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "CodeCompletion",
+   "en": "Slow Code Completion detected. Was it a problem?",
+   "zh": "检测到代码补全较慢。是否构成问题？"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "BlockedForCodeCompletion",
+   "en": "Invoking Code Completion took {0,choice,0#{0} ms|5000#{1} s}. \\ Do you want to report it?",
+   "zh": "调用代码补全耗时 {0,choice,0#{0} ms|5000#{1} s}。\\ 您要报告吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "Report",
+   "en": "Review and Report Problem.",
+   "zh": "查看并报告问题。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "IDE_STARTUP",
+   "en": "Application startup",
+   "zh": "应用程序启动"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "SubmitPanel.profileData.text",
+   "en": "Show profiler data",
+   "zh": "显示分析器数据"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "SubmitPanel.heapDump.text",
+   "en": "Show heap dump",
+   "zh": "显示堆转储"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "ReportPanel.sendButton.tooltip",
+   "en": "Sends a report once description or steps to reproduce are provided.",
+   "zh": "提供描述或重现步骤后即可发送报告。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LOADING_TEXT",
+   "en": "Loading ...",
+   "zh": "正在加载..."
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SCAN_CANCELLED",
+   "en": "<html>It is not possible to interrupt the scanning process.<br>\\ If you are encountering a problem related to the scanning process<br>\\ and would like to send us your log file click Send Report.",
+   "zh": "<html>无法中断扫描过程。<br>\\ 如果您遇到与扫描过程相关的问题，<br>\\ 并希望向我们发送日志文件，请单击“发送报告”。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SCAN_CANCELLED2",
+   "en": "<html>It is not possible to interrupt the scanning process.<br>\\ If you are encountering a problem related to the scanning process and would like to send us your<br>\\ log file click Send Report. <p><p>\\ In case the slowness appears repeatedly, you may <b>enable internal profiling</b> for further reports<br>\\ by clicking Send Report and Enable Profiling. Profiling will be enabled for <b>this IDE run only</b> and<br>\\ will be disabled again once the IDE is restarted. By providing profiling data, you significantly<br>\\ enhance the chances the real problem is identified and solved. <p><p>\\ Profiling is off by default, because it might slow the IDE operations. To enable it permanently,<br>\\ add \"-J-Dorg.netbeans.modules.parsing.impl.indexing.RepositoryUpdater.indexerSampling=enable\"<br>\\ option to the etc/netbeans.conf file in your IDE installation.",
+   "zh": "<html>无法中断扫描过程。<br>\\ 如果您遇到与扫描过程相关的问题，并希望向我们发送您的<br>\\ 日志文件，请单击“发送报告”。<p><p>\\ 如果缓慢现象反复出现，您可以<b>启用内部性能分析</b>以提供更多报告<br>\\ 方法是单击“发送报告并启用性能分析”。性能分析仅对<b>本次 IDE 运行</b>启用，<br>\\ IDE 重启后将再次禁用。通过提供性能分析数据，您可以显著<br>\\ 提高真正问题被定位并解决的可能性。<p><p>\\ 默认情况下性能分析处于关闭状态，因为它可能拖慢 IDE 操作。要永久启用，<br>\\ 请将 \"-J-Dorg.netbeans.modules.parsing.impl.indexing.RepositoryUpdater.indexerSampling=enable\"<br>\\ 选项添加到 IDE 安装目录下的 etc/netbeans.conf 文件中。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "TITLE_SCAN_CANCELLED",
+   "en": "Scan canceled",
+   "zh": "扫描已取消"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_SendReport",
+   "en": "Send Report",
+   "zh": "发送报告"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "LBL_SendReportAndProfile",
+   "en": "Send Report and Enable Profiling",
+   "zh": "发送报告并启用性能分析"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "MSG_SCAN_CANCELLED_EARLY",
+   "en": "<html>It is not possible to interrupt the scanning process.<br>\\ If you are encountering a problem related to scanning and would like to report it,<br>\\ please wait for <b>several minutes</b> so statistics are gathered, then the report <br>\\ will be generated and you will be prompted with an option to send the report.",
+   "zh": "<html>无法中断扫描过程。<br>\\ 如果您遇到与扫描相关的问题并希望报告它，<br>\\ 请等待<b>几分钟</b>以便收集统计信息，随后将生成报告，<br>\\ 并会提示您选择是否发送该报告。"
+  },
+  {
+   "bundle": "org/netbeans/modules/uihandler/Bundle.properties",
+   "key": "TITLE_SCAN_CANCELLED_EARLY",
+   "en": "Scan canceled too early",
+   "zh": "扫描取消过早"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "CTL_ReporterResultAction",
+   "en": "E&xception Reporter",
+   "zh": "异&常报告器"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "CTL_ReporterResultTopComponent",
+   "en": "Exception Reporter",
+   "zh": "异常报告器"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "HINT_ReporterResultTopComponent",
+   "en": "This is an Exception Reporter Window",
+   "zh": "这是异常报告器窗口"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "userNameURL",
+   "en": "http://statistics.myapplication.org/analytics/feedback.do?userName=",
+   "zh": "http://statistics.myapplication.org/analytics/feedback.do?userName="
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "userIdURL",
+   "en": "http://statistics.myapplication.org/analytics/feedback.do?userId=",
+   "zh": "http://statistics.myapplication.org/analytics/feedback.do?userId="
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel1.text",
+   "en": "&Username:",
+   "zh": "&用户名："
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel3.text",
+   "en": "If you want to get informed about the state of this problem, you need to be a registered user.",
+   "zh": "如果您想了解此问题的处理状态，需要成为注册用户。"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel2.text",
+   "en": "If you are not registered, you can send the report as a guest, or register now.",
+   "zh": "如果您尚未注册，可以以访客身份发送报告，或立即注册。"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel6.text",
+   "en": "<html><a href=\"#\">Register</a></html>",
+   "zh": "<html><a href=\"#\">注册</a></html>"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.AccessibleContext.accessibleDescription",
+   "en": "Dialog for reporting issues",
+   "zh": "用于报告问题的对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.AccessibleContext.accessibleName",
+   "en": "Report Dialog",
+   "zh": "报告对话框"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.loginField.AccessibleContext.accessibleName",
+   "en": "My Application user name",
+   "zh": "MyApplication 用户名"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.loginField.AccessibleContext.accessibleDescription",
+   "en": "My Application user name. You should fill this field if you are a registered user.",
+   "zh": "MyApplication 用户名。如果您是注册用户，应填写此字段。"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.summaryField.AccessibleContext.accessibleDescription",
+   "en": "You should write short summary of the exception",
+   "zh": "应填写该异常的简短摘要"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.commentArea.AccessibleContext.accessibleDescription",
+   "en": "You can describe here what you were doing when this issue arose.",
+   "zh": "可以在此描述问题出现时您正在进行的操作。"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel9.text",
+   "en": "Su&mmary:",
+   "zh": "摘&要："
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel4.text",
+   "en": "&Describe what you were doing when the problem occurred, please:",
+   "zh": "&请描述问题发生时您正在进行的操作："
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.summaryField.AccessibleContext.accessibleName",
+   "en": "Issue summary",
+   "zh": "问题摘要"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.commentArea.AccessibleContext.accessibleName",
+   "en": "Comment area",
+   "zh": "注释区域"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.summaryField.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "REGISTRATION_URL",
+   "en": "https://www.myapplication.org/people/new",
+   "zh": "https://www.myapplication.org/people/new"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel8.text_1",
+   "en": "The report contains UI gesture data collected prior to the problem.",
+   "zh": "报告包含在问题发生之前收集的 UI 手势数据。"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel5.text_1",
+   "en": "&Password:",
+   "zh": "&密码："
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "jCheckBox1.text",
+   "en": "R&emember password",
+   "zh": "记住密&码"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel10.text",
+   "en": "Username or password is wrong",
+   "zh": "用户名或密码错误"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.checking_password",
+   "en": "Checking your password",
+   "zh": "正在检查您的密码"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jLabel11.text",
+   "en": "(Your MyApplication.org username)",
+   "zh": "（您的 MyApplication.org 用户名）"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.asAGuestCheckBox.text",
+   "en": "Send &Report as a Guest",
+   "zh": "以访客身份发送&报告"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jPasswordField1.AccessibleContext.accessibleName",
+   "en": "Password field",
+   "zh": "密码字段"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.jPasswordField1.AccessibleContext.accessibleDescription",
+   "en": "Type your MyApplication.org password",
+   "zh": "输入您的 MyApplication.org 密码"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.rememberCheckBox.AccessibleContext.accessibleDescription",
+   "en": "null",
+   "zh": "null"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReporterResultTopComponent.jButton1.text",
+   "en": "Show my issues",
+   "zh": "显示我的问题"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "no_data_found",
+   "en": "<p>No data found at <a href=\"{0}\">{0}</a>.\\ <p>The problem can be caused by broken internet connection or on server side. \\ Try to report problem later again. If you would face this problem repeatedly, \\ submit a bug at <a href=\"https://myapplication.org/bugzilla/enter_bug.cgi?product=app&component=Report%20Exception\">\\ https://myapplication.org/bugzilla/enter_bug.cgi</a> against Exception reporter, please.",
+   "zh": "<p>未在 <a href=\"{0}\">{0}</a> 找到数据。\\ <p>该问题可能由网络连接中断或服务器端故障引起。\\ 请稍后重试报告问题。如果您反复遇到此问题，\\ 请针对异常报告器在 <a href=\"https://myapplication.org/bugzilla/enter_bug.cgi?product=app&component=Report%20Exception\">\\ https://myapplication.org/bugzilla/enter_bug.cgi</a> 提交缺陷报告。"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "LoadingMessage",
+   "en": "Loading",
+   "zh": "正在加载"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.oomInfo.text",
+   "en": "Heap dump is needed to resolve this problem, the upload might have up to 30MB.",
+   "zh": "解决此问题需要堆转储，上传内容可能达到 30MB。"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ExceptionsSettings.password.description",
+   "en": "Exception reporter login",
+   "zh": "异常报告器登录"
+  },
+  {
+   "bundle": "org/netbeans/modules/exceptions/Bundle.properties",
+   "key": "ReportPanel.commentArea.text",
+   "en": "<Please provide a description of the problem or the steps to reproduce>",
+   "zh": "<请提供问题描述或重现步骤>"
+  }
+ ]
+}

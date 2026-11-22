@@ -1,0 +1,20 @@
+{
+  "BaseTypes.fileSystem.name": "文件系统",
+  "BaseTypes.webActivity.name": "网络活动",
+  "BaseTypes.miscTypes.name": "其他类型",
+  "FileSystemTypes.fileModified.name": "文件已修改",
+  "FileSystemTypes.fileAccessed.name": "文件已访问",
+  "FileSystemTypes.fileCreated.name": "文件已创建",
+  "FileSystemTypes.fileChanged.name": "文件属性已变更",
+  "MiscTypes.GPSRoutes.name": "GPS 路线",
+  "MiscTypes.GPSTrackpoint.name": "位置历史",
+  "MiscTypes.recentDocuments.name": "最近文档",
+  "MiscTypes.installedPrograms.name": "已安装程序",
+  "MiscTypes.devicesAttached.name": "已接入设备",
+  "RootEventType.eventTypes.name": "事件类型",
+  "WebTypes.webDownloads.name": "网络下载",
+  "WebTypes.webCookies.name": "网络 Cookie",
+  "WebTypes.webBookmarks.name": "网络书签",
+  "WebTypes.webHistory.name": "浏览器历史",
+  "WebTypes.webSearch.name": "网络搜索"
+}

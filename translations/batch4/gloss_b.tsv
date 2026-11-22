@@ -1,0 +1,299 @@
+﻿Activity Type|||活动类型
+Backup Events|||备份事件
+Communication|||通信
+Data Artifact|||数据工件
+Date Accessed|||访问时间
+Date Modified|||修改时间
+Date Received|||接收时间
+EXIF Metadata|||EXIF 元数据
+End Date/Time|||结束日期/时间
+Face Detected|||检测到人脸
+File Accessed|||文件访问
+File Modified|||文件修改
+GPS Bookmarks|||GPS 书签
+General Error|||常规错误
+Message (RTF)|||邮件正文（RTF）
+Minimum Count|||最小计数
+Password Hint|||密码提示
+PhotoDNA Hash|||PhotoDNA 哈希
+SHA2-256 Hash|||SHA2-256 哈希
+SHA2-512 Hash|||SHA2-512 哈希
+Tagged Result|||已标记结果
+Text Language|||文本语言
+Volume System|||卷系统
+Web Bookmarks|||网页书签
+Web Downloads|||网页下载
+Bytes Received|||接收字节数
+Email (Office)|||电子邮件（工作）
+Email Received|||邮件接收
+Extracted Text|||提取的文本
+GPS Trackpoint|||GPS 轨迹点
+Home Directory|||主目录
+Likely Notable|||可能关注
+Local Settings|||本地设置
+Message (HTML)|||邮件正文（HTML）
+Must be tagged|||必须有标记
+Processor Name|||处理器名称
+Remove License|||移除许可证
+Tagged Results|||已标记结果
+Web Categories|||网页分类
+Analysis Result|||分析结果
+Download Source|||下载来源
+E-Mail Messages|||电子邮件
+Ending Latitude|||结束纬度
+GPS Trackpoints|||GPS 轨迹点
+Ingest Settings|||导入设置
+Invalid License|||许可证无效
+Keyword Preview|||关键字预览
+License Number:|||许可证编号：
+Malware Scanner|||恶意软件扫描器
+Object Detected|||检测到对象
+Previously Seen|||此前已见
+Program Deleted|||程序删除
+Raw Tool Output|||工具原始输出
+ReplyTo Address|||回复地址
+Service Account|||服务账户
+Start Date/Time|||开始日期/时间
+To Phone Number|||被叫号码
+Web Cookies End|||网页 Cookie 结束
+Account Settings|||账户设置
+Add a License...|||添加许可证...
+Calendar Entries|||日历条目
+Correlation Type|||关联类型
+DHCP Information|||DHCP 信息
+Deleted Programs|||已删除程序
+Devices Attached|||设备接入
+Document Created|||文档创建
+Ending Longitude|||结束经度
+Hash Lookups Low|||哈希查询次数不足
+Hide Known Files|||隐藏已知文件
+Interesting File|||关注文件
+Is Administrator|||是否为管理员
+Lookup API error|||查询 API 错误
+Malware Detected|||检测到恶意软件
+Message Reply ID|||消息回复 ID
+Recent Documents|||最近文档
+Web Account Type|||网络账户类型
+Associated Object|||关联对象
+Bluetooth Adapter|||蓝牙适配器
+Bluetooth Pairing|||蓝牙配对
+Card Service Code|||卡服务代码
+Clipboard Content|||剪贴板内容
+Correlation Value|||关联值
+Data Source Level|||数据源级
+Data Source Usage|||数据源使用情况
+Distance Traveled|||行驶距离
+From Phone Number|||主叫号码
+Hash Lookup Error|||哈希查询错误
+Incident Importer|||事件导入器
+Interesting Files|||关注文件
+Interesting Items|||关注项
+Last Printed Date|||最后打印时间
+List of Waypoints|||航点列表
+Missing hostname.|||缺少主机名。
+Missing password.|||缺少密码。
+Missing username.|||缺少用户名。
+Password Settings|||密码设置
+Previously Unseen|||此前未见
+Program Installed|||程序安装
+Starting Latitude|||起始纬度
+User Activity End|||用户活动结束
+Web Cookies Start|||网页 Cookie 开始
+Web Form Autofill|||网页表单自动填充
+Wireless Networks|||无线网络
+BlueTooth Pairings|||蓝牙配对
+Calendar Entry End|||日历条目结束
+Cyber Triage Error|||Cyber Triage 错误
+Installed Programs|||已安装程序
+Likely Not Notable|||可能不关注
+Must have hash hit|||必须有哈希命中
+Must include text:|||必须包含文本：
+Not Able to Upload|||无法上传
+Password Fail Date|||密码失败时间
+Previously Notable|||此前已关注
+Processing Timeout|||处理超时
+Speed Dial Entries|||快速拨号条目
+Starting Longitude|||起始经度
+User Device Events|||用户设备事件
+Vertical Precision|||垂直精度
+Web Cookies Create|||网页 Cookie 创建
+Web Form Addresses|||网页表单地址
+Application Deleted|||应用删除
+Associated Artifact|||关联工件
+Calendar Entry Type|||日历条目类型
+Counters reset: {0}|||计数已重置：{0}
+Document Last Saved|||文档最后保存
+Encryption Detected|||检测到加密
+Interesting Results|||关注结果
+Keyword Search Type|||关键字搜索类型
+Limit file types to|||限定文件类型为
+Message (Plaintext)|||邮件正文（纯文本）
+Message Attachments|||消息附件
+Password Reset Date|||密码重置时间
+Phone Number (Home)|||电话号码（住宅）
+USB Device Attached|||USB 设备接入
+User Activity Begin|||用户活动开始
+Web History Created|||网页历史创建
+Calendar Entry Begin|||日历条目开始
+Encryption Suspected|||疑似加密
+FAT (Auto Detection)|||FAT（自动检测）
+HFS (Auto Detection)|||HFS（自动检测）
+Horizontal Precision|||水平精度
+Limit event types to|||限定事件类型为
+List of Track Points|||轨迹点列表
+Missing port number.|||缺少端口号。
+No remaining lookups|||没有剩余查询次数
+Program Notification|||程序通知
+RAW (Auto Detection)|||RAW（自动检测）
+Verification Failure|||校验失败
+Web Cookies Accessed|||网页 Cookie 访问
+Web History Accessed|||网页历史访问
+APFS (Auto Detection)|||APFS（自动检测）
+Custom Artifact Event|||自定义工件事件
+Document Last Printed|||文档最后打印
+ExtX (Auto Detection)|||ExtX（自动检测）
+File Type (extension)|||文件类型（扩展名）
+File Type (signature)|||文件类型（特征）
+Limit data sources to|||限定数据源为
+NTFS (Auto Detection)|||NTFS（自动检测）
+Phone Number (Mobile)|||电话号码（移动）
+Phone Number (Office)|||电话号码（办公）
+Program Notifications|||程序通知
+SWAP (Auto Detection)|||SWAP（自动检测）
+Card Expiration (YYMM)|||卡有效期（YYMM）
+File Uploads Limit Low|||文件上传次数不足
+Hash Lookups Exhausted|||哈希查询次数已用尽
+Invalid License Number|||许可证编号无效
+Lookup Limits Exceeded|||超出查询上限
+Manually Created Event|||手动创建事件
+Processor Architecture|||处理器架构
+Steganography Detected|||检测到隐写
+User Content Suspected|||疑似用户内容
+Card Discretionary Data|||卡附加数据
+Distance from Homepoint|||距原点距离
+GPS Last Known Location|||GPS 最后已知位置
+No Cyber Triage License|||没有 Cyber Triage 许可证
+Standard Artifact Event|||标准工件事件
+Unsupported File System|||不支持的文件系统
+YAFFS2 (Auto Detection)|||YAFFS2（自动检测）
+Authentication API error|||认证 API 错误
+Batch Processing Timeout|||批处理超时
+Cyber Triage Data Folder|||Cyber Triage 数据文件夹
+ISO9660 (Auto Detection)|||ISO9660（自动检测）
+Max Hash lookups: {0}{1}|||哈希查询上限：{0}{1}
+Max file uploads: {0}{1}|||文件上传上限：{0}{1}
+Web Form Address Created|||网页表单地址创建
+Cyber Triage,Cyber,Triage|||Cyber Triage,Cyber,Triage
+No Remaining File Uploads|||没有剩余文件上传次数
+No TagType of value\: {0}|||不存在值为 {0} 的 TagType
+No remaining file uploads|||没有剩余文件上传次数
+Temporary Files Directory|||临时文件目录
+Web Form Address Modified|||网页表单地址修改
+Web Form Autofill Created|||网页表单自动填充创建
+Wireless Network Adapters|||无线网卡
+Batch processing timed out|||批处理超时
+Keyword Regular Expression|||关键字正则表达式
+Keyword Search Document ID|||关键字搜索文档 ID
+Web Form Autofill Accessed|||网页表单自动填充访问
+Cyber Triage Import Module:|||Cyber Triage 导入模块：
+Extension Mismatch Detected|||检测到扩展名不匹配
+File Upload Results Timeout|||文件上传结果超时
+File uploads remaining: {0}|||剩余文件上传次数：{0}
+Hash lookups remaining: {0}|||剩余哈希查询次数：{0}
+No FileKnown of value\: {0}|||不存在值为 {0} 的 FileKnown
+Cannot read local file\: {0}|||无法读取本地文件：{0}
+Cyber Triage Malware Scanner|||Cyber Triage 恶意软件扫描器
+No ObjectType of value\: {0}|||不存在值为 {0} 的 ObjectType
+Operating System Information|||操作系统信息
+Operating System User Account|||操作系统用户账户
+Schema version does not match|||架构版本不匹配
+Error reading local file\: {0}|||读取本地文件出错：{0}
+License Number Already Entered|||许可证编号已输入
+No EncodingType of value\: {0}|||不存在值为 {0} 的 EncodingType
+Waiting for File Upload Results|||正在等待文件上传结果
+You can purchase a license from|||可从这里购买许可证：
+For licensing information, visit|||许可证说明请访问
+Operating System Account Created|||操作系统账户创建
+Bluetooth Pairing Last Connection|||蓝牙配对最后连接
+Invalid username and/or password.|||用户名或密码无效。
+No CollectedStatus of value\: {0}|||不存在值为 {0} 的 CollectedStatus
+Operating System Account Accessed|||操作系统账户访问
+Card Longitudinal Redundancy Check|||卡纵向冗余校验
+Error activating boost license {0}|||启用增强许可证时出错 {0}
+No TSK_FS_TYPE_ENUM of value\: {0}|||不存在值为 {0} 的 TSK_FS_TYPE_ENUM
+No TSK_VS_TYPE_ENUM of value\: {0}|||不存在值为 {0} 的 TSK_VS_TYPE_ENUM
+No TSK_IMG_TYPE_ENUM of value\: {0}|||不存在值为 {0} 的 TSK_IMG_TYPE_ENUM
+You can try a free 7-day trial from|||可从这里试用 7 天免费版：
+Invalid hostname and/or port number.|||主机名或端口号无效。
+No TSK_FILE_TYPE_ENUM of value\: {0}|||不存在值为 {0} 的 TSK_FILE_TYPE_ENUM
+<html>User: {0}<br/>Email: {1}</html>|||<html>用户：{0}<br/>电子邮件：{1}</html>
+Cyber Triage Importer Module Required|||需要 Cyber Triage 导入模块
+Operating System Account Password Fail|||操作系统账户密码错误
+Cyber Triage End User License Agreement|||Cyber Triage 最终用户许可协议
+No TSK_FS_ATTR_TYPE_ENUM of value\: {0}|||不存在值为 {0} 的 TSK_FS_ATTR_TYPE_ENUM
+No TSK_FS_META_TYPE_ENUM of value\: {0}|||不存在值为 {0} 的 TSK_FS_META_TYPE_ENUM
+No TSK_FS_NAME_FLAG_ENUM of value\: {0}|||不存在值为 {0} 的 TSK_FS_NAME_FLAG_ENUM
+Operating System Account Password Reset|||操作系统账户密码重置
+AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX|||AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+No KeywordSearchQueryType of value\: {0}|||不存在值为 {0} 的 KeywordSearchQueryType
+Identifies executable files with malware.|||识别带有恶意软件的可执行文件。
+<html>Please enter a license number</html>|||<html>请输入许可证编号</html>
+The license number has already been entered|||该许可证编号已输入
+No TSK_FS_NAME_TYPE_ENUM matching type\: {0}|||没有匹配类型 {0} 的 TSK_FS_NAME_TYPE_ENUM
+This license only has {0} lookups remaining.|||该许可证仅剩 {0} 次查询。
+A timeout occurred while finishing processing|||完成处理时发生超时
+Image file does not exist or is inaccessible.|||镜像文件不存在或无法访问。
+Error creating a derived file, file name\: {0}|||创建派生文件出错，文件名：{0}
+Error getting derived method for file id\: {0}|||获取文件 ID {0} 的派生方法时出错
+Error finding files in the data source by name,|||按名称在数据源中查找文件时出错，
+Error reading local file, local path is not set|||读取本地文件出错，未设置本地路径
+Issue with installation. JDBC driver not found.|||安装有问题。未找到 JDBC 驱动程序。
+List of points making up the outline of an area|||构成区域轮廓的点列表
+Query for existing results using file\u2019s hash|||使用文件哈希查询已有结果
+This license only has {0} file uploads remaining.|||该许可证仅剩 {0} 次文件上传。
+For instructions on obtaining the module refer to:|||获取该模块的说明请参见：
+Waiting for all uploaded files to complete scanning.|||正在等待所有已上传文件完成扫描。
+Internal PostgreSQL issue. Database may be corrupted.|||PostgreSQL 内部问题。数据库可能已损坏。
+An error occurred while processing hash lookup results|||处理哈希查询结果时发生错误
+Error closing result set after getting last object id.|||获取最后一个对象 ID 后关闭结果集出错。
+Some settings cannot be modified while a case is open.|||案件打开时无法修改部分设置。
+Upload file content for files that do not have results|||对没有结果的文件上传其内容
+Error adding local file\: {0}, parent to add to is null|||添加本地文件出错：{0}，要添加到的父对象为空
+Received error: ''{0}'' when fetching hash lookup results|||获取哈希查询结果时收到错误：''{0}''
+This volume's parent should be a VolumeSystem, but it's not.|||该卷的父对象应为卷系统，但实际不是。
+A file did not meet requirements for upload (object id: {0}).|||有文件不满足上传要求（对象 ID：{0}）。
+Error reading local file, file not readable at local path\: {0}|||读取本地文件出错，本地路径 {0} 处文件不可读
+Error reading local file, it does not exist at local path\: {0}|||读取本地文件出错，本地路径 {0} 处不存在该文件
+The remaining hash lookups for this license have been exhausted|||该许可证剩余的哈希查询次数已用尽
+\nPossible Incomplete Image\: Error reading volume at offset {0}|||\n可能是不完整镜像：读取偏移 {0} 处的卷时出错
+Error, data source should be Image or VirtualDirectory, got\: {0}|||错误，数据源应为镜像或虚拟目录，实际为：{0}
+User launched a program or had an interactive session on the host.|||用户在该主机上启动了程序或进行了交互式会话。
+"PostgreSQL server issue. PostgreSQL server may need to be restarted.|||"PostgreSQL 服务器问题。PostgreSQL 服务器可能需要重启。
+\nPossible Incomplete Image\: Error reading file system at offset {0}|||\n可能是不完整镜像：读取偏移 {0} 处的文件系统时出错
+Error, data source should be parent-less (images, file-sets), got\: {0}|||错误，数据源应无父对象（镜像、文件集），实际为：{0}
+<html>For more information, refer to the Cyber Triage Users Guide</html>|||<html>更多信息请参阅 Cyber Triage 用户指南</html>
+Invalid hostname, port number, username, password, and firewall settings.|||主机名、端口号、用户名、密码或防火墙设置无效。
+Invalid hostname, port, username, and/or password. Check firewall settings.|||主机名、端口、用户名或密码无效。请检查防火墙设置。
+Error creating a local file, cannot get new id of the object, file name\: {0}|||创建本地文件出错，无法获取对象的新 ID，文件名：{0}
+Error creating a derived file, cannot get new id of the object, file name\: {0}|||创建派生文件出错，无法获取对象的新 ID，文件名：{0}
+This module requires a paid license. \nSee the Global Options panel for details|||该模块需要付费许可证。\n详情见全局选项面板
+User accessed resources on the host via a service or created a file on the host.|||用户通过服务访问主机资源，或在该主机上创建了文件。
+Received error: ''{0}'' when fetching the API authentication token for the license|||获取许可证 API 认证令牌时收到错误：''{0}''
+Verify that PostgreSQL server is running, it's port number, and firewall settings.|||请确认 PostgreSQL 服务器正在运行，并检查端口号和防火墙设置。
+No Cyber Triage license could be loaded.  Cyber Triage processing will be disabled.|||无法加载 Cyber Triage 许可证。Cyber Triage 处理将被禁用。
+A general error occurred while fetching license information.  Please try again later.|||获取许可证信息时发生常规错误。请稍后重试。
+Please verify that license number is of format 'AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'|||请确认许可证编号格式为 'AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+PostgreSQL server issue. Check disk space and memory availabilty on the PostgreSQL server.|||PostgreSQL 服务器问题。请检查 PostgreSQL 服务器的磁盘空间与内存。
+<html>Update the Cyber Triage Data Folder if you are not using the default location:</html>|||<html>若不使用默认位置，请修改 Cyber Triage 数据文件夹：</html>
+A general error occurred while fetching malware scans information.  Please try again later.|||获取恶意软件扫描信息时发生常规错误。请稍后重试。
+An exception occurred on MalwareScanIngestModule startup.  See the log for more information.|||MalwareScanIngestModule 启动时发生异常。详情请查看日志。
+There was a timeout while waiting for file uploads to be processed.  Please try again later.|||等待文件上传处理时超时。请稍后重试。
+There are no more remaining file uploads for this license at this time.  File uploading will be disabled.|||该许可证目前没有剩余文件上传次数。文件上传将被禁用。
+There are no more remaining hash lookups for this license at this time.  Malware scanning will be disabled.|||该许可证目前没有剩余哈希查询次数。恶意软件扫描将被禁用。
+Not all files were processed because hash lookup limits were exceeded. Please try again when your limits reset.|||由于超出哈希查询上限，部分文件未处理。请在配额重置后重试。
+There are no more file uploads on this license at this time.  File uploads will be disabled for remaining uploads.|||该许可证目前没有剩余文件上传次数。剩余上传将被禁用。
+The current Cyber Triage license is no longer valid.  Please remove the license from the Cyber Triage options panel.|||当前 Cyber Triage 许可证已失效。请在 Cyber Triage 选项面板中移除该许可证。
+User was referenced on the host and it is unclear if they had any access. For example, if they are mentioned in a log file.|||该用户在此主机上被引用，但无法确定其是否访问过。例如仅出现在日志文件中。
+<html>The Cyber Triage Malware Scanner module uses 40+ malware scanning engines to identify if Windows executables are malicious. It requires a paid subscription to use.</html>|||<html>Cyber Triage 恶意软件扫描器模块使用 40 多种恶意软件扫描引擎判断 Windows 可执行文件是否恶意。使用该模块需要付费订阅。</html>
+<html>The Cyber Triage Incident Import module allows you to open data collected by Cyber Triage in Autopsy.  To use this feature you must install the Cyber Triage Import Module.</html>|||<html>Cyber Triage 事件导入模块允许在 Autopsy 中打开 Cyber Triage 采集的数据。要使用此功能，必须先安装 Cyber Triage 导入模块。</html>
+<html><body><p>The Cyber Triage Importer Module is required to open this case. </p><p>To open this case:</p><ul><li>Extract the module from the Integrations tab in the Cyber Triage options panel.</li><li>Select the 'Plugins' option from the 'Tools' menu, and go to the 'Downloaded' tab.</li><li>Click 'Add Plugins...' and select the path of the plugin.</li><li>Press 'Install' to finish the installation.</li></ul></body></html>|||<html><body><p>打开此案件需要 Cyber Triage 导入模块。</p><p>打开此案件：</p><ul><li>在 Cyber Triage 选项面板的“集成”标签页中提取该模块。</li><li>从“工具”菜单中选择“插件”，切换到“已下载”标签页。</li><li>点击“添加插件...”，选择插件路径。</li><li>点击“安装”完成安装。</li></ul></body></html>

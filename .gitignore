@@ -1,0 +1,7 @@
+backups/
+__pycache__/
+*.pyc
+scripts/classes/
+INSTALL_LOG.json
+*.bmp
+*.tmp

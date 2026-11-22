@@ -1,0 +1,557 @@
+{
+ "jar": "platform/core/core.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_continue",
+   "en": "Disable Modules and Continue",
+   "zh": "禁用模块并继续"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_exit",
+   "en": "Exit",
+   "zh": "退出"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_failed_install_new",
+   "en": "Warning - could not install some modules:",
+   "zh": "警告 - 无法安装某些模块："
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_failed_install_new_unexpected",
+   "en": "Warning - could not install module {0}",
+   "zh": "警告 - 无法安装模块 {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_auto_restore",
+   "en": "Done loading modules.",
+   "zh": "模块加载完成。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_disable_modules",
+   "en": "Turning off modules...done.",
+   "zh": "正在关闭模块...完成。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_enable_modules",
+   "en": "Turning on modules...done.",
+   "zh": "正在启用模块...完成。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_load_boot_modules",
+   "en": "Loading core...done.",
+   "zh": "正在加载核心...完成。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_finish_read",
+   "en": "Reading module storage...done.",
+   "zh": "正在读取模块存储...完成。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_info",
+   "en": "Information",
+   "zh": "信息"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_install",
+   "en": "Installing {0}",
+   "zh": "正在安装 {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_load_layers",
+   "en": "Loading module services...",
+   "zh": "正在加载模块服务..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_load_section",
+   "en": "Loading modules...",
+   "zh": "正在加载模块..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_restore",
+   "en": "Starting modules...",
+   "zh": "正在启动模块..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_auto_restore",
+   "en": "Loading modules...",
+   "zh": "正在加载模块..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_disable_modules",
+   "en": "Turning off modules...",
+   "zh": "正在关闭模块..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_enable_modules",
+   "en": "Turning on modules...",
+   "zh": "正在启用模块..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_load_boot_modules",
+   "en": "Loading core...",
+   "zh": "正在加载核心..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_start_read",
+   "en": "Reading module storage...",
+   "zh": "正在读取模块存储..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_startlevelinfo",
+   "en": ", startlevel={0}",
+   "zh": ", 启动级别={0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_uninstall",
+   "en": "Stopping {0}",
+   "zh": "正在停止 {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_update",
+   "en": "Starting a new version of {0}",
+   "zh": "正在启动 {0} 的新版本"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_warning",
+   "en": "Warning",
+   "zh": "警告"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "currentVersion",
+   "en": "Apache NetBeans Platform Dev (Build {0})",
+   "zh": "Apache NetBeans 平台开发版（内部版本 {0}）"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_no_user_directory",
+   "en": "netbeans.user is not set.\\nPlease check your NetBeans startup script.",
+   "zh": "netbeans.user 未设置。\\n请检查您的 NetBeans 启动脚本。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_user_dir_is_inside_home",
+   "en": "Your user directory ({0}) cannot reside inside your NetBeans installation directory ({1}).",
+   "zh": "您的用户目录（{0}）不能位于 NetBeans 安装目录（{1}）内。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "LBL_splash_window_title",
+   "en": "Starting Apache NetBeans Platform",
+   "zh": "正在启动 Apache NetBeans 平台"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_About_Title",
+   "en": "About",
+   "zh": "关于"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_About_Detail",
+   "en": "Detail",
+   "zh": "详细信息"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ACSD_AboutDialog",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ACSN_AboutTabs",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ACSD_AboutTabs",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashOnByDefault",
+   "en": "true",
+   "zh": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SPLASH_WIDTH",
+   "en": "473",
+   "zh": "473"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SPLASH_HEIGHT",
+   "en": "300",
+   "zh": "300"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashShowProgressBar",
+   "en": "true",
+   "zh": "true"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_globalFontSize",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextBounds",
+   "en": "10, 235, 450, 12",
+   "zh": "10, 235, 450, 12"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarBounds",
+   "en": "0, 249, 473, 3",
+   "zh": "0, 249, 473, 3"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextFontSize",
+   "en": "11",
+   "zh": "11"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextFontType",
+   "en": "Dialog",
+   "zh": "Dialog"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashRunningTextColor",
+   "en": "0xFFFFFF",
+   "zh": "0xFFFFFF"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarColor",
+   "en": "0xE00000",
+   "zh": "0xE00000"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarEdgeColor",
+   "en": "0xC5646F",
+   "zh": "0xC5646F"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "SplashProgressBarCornerColor",
+   "en": "0xB4A2B5",
+   "zh": "0xB4A2B5"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_UIExpected",
+   "en": "UI class name expected, using default UI...",
+   "zh": "应提供 UI 类名，将使用默认 UI..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_UserDirExpected",
+   "en": "Directory expected after --userdir or --cachedir switch",
+   "zh": "在 --userdir 或 --cachedir 开关后应提供目录"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_UINotFound",
+   "en": "UI class {0} not found, using default UI...",
+   "zh": "未找到 UI 类 {0}，将使用默认 UI..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_FontSizeExpected",
+   "en": "Font size expected, using default font size...",
+   "zh": "应提供字体大小，将使用默认字体大小..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_BadFontSize",
+   "en": "Bad format of the font size, using default font size...",
+   "zh": "字体大小格式错误，将使用默认字体大小..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_BrandingNeedsArgument",
+   "en": "Option --branding requires one argument",
+   "zh": "选项 --branding 需要一个参数"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "ERR_LocaleExpected",
+   "en": "Locale specification expected after --locale switch",
+   "zh": "在 --locale 开关后应提供区域设置"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome_notexists",
+   "en": "netbeans.home points to a non-existent directory.",
+   "zh": "netbeans.home 指向的目录不存在。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome1",
+   "en": "netbeans.home does not point to a directory.",
+   "zh": "netbeans.home 未指向目录。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome2",
+   "en": "netbeans.user points to a non-existent directory.",
+   "zh": "netbeans.user 指向的目录不存在。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Netbeanshome3",
+   "en": "netbeans.user does not point to a directory.",
+   "zh": "netbeans.user 未指向目录。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_CannotCreate_text",
+   "en": "Cannot create system directory in {0}. A file with the same name already exists.",
+   "zh": "无法在 {0} 中创建系统目录。已存在同名文件。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_CannotCreateSysDir_text",
+   "en": "Cannot create system directory in {0}.",
+   "zh": "无法在 {0} 中创建系统目录。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "CTL_Cannot_mount_system_fs",
+   "en": "Cannot add System filesystem, exiting...",
+   "zh": "无法添加系统文件系统，正在退出..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_IDEInit",
+   "en": "Initializing...",
+   "zh": "正在初始化..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_nbres_cannot_connect",
+   "en": "Could not connect to URL {0}. No such resource was found.",
+   "zh": "无法连接到 URL {0}。未找到该资源。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "GTK_FONTSIZE_UNSUPPORTED",
+   "en": "--fontsize is not supported on GTK look and feel. \\ Adjust your desktop font size instead.",
+   "zh": "--fontsize 在 GTK 外观下不受支持。 \\ 请改为调整桌面字体大小。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_GraphicsStartFails1",
+   "en": "Error: {0}",
+   "zh": "错误：{0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_GraphicsStartFails2",
+   "en": "See the {0} for details.",
+   "zh": "详情请参见 {0}。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_too_old",
+   "en": "The module {0} was requested in version >= {1} but only {2} was found.",
+   "zh": "请求的模块 {0} 版本为 >= {1}，但只找到 {2}。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_disabled",
+   "en": "The module {0} would also need to be installed.",
+   "zh": "还需要安装模块 {0}。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "LBL_no_impl_version",
+   "en": "[no version specified]",
+   "zh": "[未指定版本]"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_wrong_version",
+   "en": "The module {0} was requested in implementation version \"{1}\" but only \"{2}\" was found.",
+   "zh": "请求的模块 {0} 实现版本为 \"{1}\"，但只找到 \"{2}\"。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_other_needed_not_found",
+   "en": "The module named {0} was needed and not found.",
+   "zh": "需要的模块 {0} 未找到。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_require_disabled",
+   "en": "None of the modules providing the capability {0} could be installed.",
+   "zh": "无法安装任何提供功能 {0} 的模块。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_require_not_found",
+   "en": "No module providing the capability {0} could be found.",
+   "zh": "找不到提供功能 {0} 的模块。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_class_not_loaded",
+   "en": "The package containing the class {0} was not loaded.",
+   "zh": "包含类 {0} 的包未加载。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_package_not_loaded_or_old",
+   "en": "The package {0} was not loaded or was an outdated version.",
+   "zh": "包 {0} 未加载或版本过旧。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_problem_java_too_old",
+   "en": "The Java platform version {0} or higher was requested but only {1} is running.",
+   "zh": "请求的 Java 平台版本为 {0} 或更高，但当前仅运行 {1}。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "MSG_also_dep_modules",
+   "en": "{0,choice,1#Another module|1<{0} further modules} could not be installed due to the above problems.",
+   "zh": "{0,choice,1#另一个模块|1<另外 {0} 个模块} 因上述问题而无法安装。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_MissingResourceException_class_name",
+   "en": "Missing resource from class: {0}",
+   "zh": "类中缺少资源：{0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_MissingResourceException_key",
+   "en": "Key which was not found: {0}",
+   "zh": "未找到的键：{0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_sax_parse",
+   "en": "Parse error in file {1} (PUBLIC {0})",
+   "zh": "文件 {1} 中解析错误（PUBLIC {0}）"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "EXC_sax_parse_col_line",
+   "en": "Parse error in file {1} line {3} column {2} (PUBLIC {0})",
+   "zh": "文件 {1} 第 {3} 行第 {2} 列解析错误（PUBLIC {0}）"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_cant_delete_enabled_autoload",
+   "en": "The module {0} could not be deleted as it was an autoload or eager module and still in use.",
+   "zh": "无法删除模块 {0}，因为它是自动加载或 eager 模块，且仍在使用中。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_finish_deploy_test_module",
+   "en": "Finished deploying test module.",
+   "zh": "已完成测试模块的部署。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_finish_disable_modules",
+   "en": "Turning off modules:",
+   "zh": "正在关闭模块："
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_finish_enable_modules",
+   "en": "Turning on modules:",
+   "zh": "正在启用模块："
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_install",
+   "en": "Installing new module: {0}",
+   "zh": "正在安装新模块：{0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_misc_prop_mismatch",
+   "en": "An attempt was made to change the property {1} of the module {0} in the system/Modules folder.\\nThe actual value is \"{3}\" but it was changed on disk to read \"{2}\".\\nThis property cannot be changed while the IDE is running, so this attempt had no effect.",
+   "zh": "有人尝试更改 system/Modules 文件夹中模块 {0} 的属性 {1}。\\n实际值为 \"{3}\"，但磁盘上的值已被改为 \"{2}\"。\\n此属性在 IDE 运行期间无法更改，因此该尝试未生效。"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_missing_jar_file",
+   "en": "Warning: the module {0} could not be found, ignoring...",
+   "zh": "警告：找不到模块 {0}，已忽略..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_patch",
+   "en": "Module patch or custom extension: {0}",
+   "zh": "模块补丁或自定义扩展：{0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_start_deploy_test_module",
+   "en": "Deploying test module in {0} ...",
+   "zh": "正在 {0} 中部署测试模块..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "TEXT_update",
+   "en": "Updating module: {0}",
+   "zh": "正在更新模块：{0}"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/Bundle.properties",
+   "key": "UpdateAllResources",
+   "en": "always",
+   "zh": "always"
+  },
+  {
+   "bundle": "org/netbeans/core/startup/impl/Bundle.properties",
+   "key": "MSG_start_load_cache",
+   "en": "Loading cached objects...",
+   "zh": "正在加载缓存对象..."
+  },
+  {
+   "bundle": "org/netbeans/core/startup/impl/Bundle.properties",
+   "key": "MSG_end_load_cache",
+   "en": "Loading cached objects...done.",
+   "zh": "正在加载缓存对象...完成。"
+  }
+ ]
+}

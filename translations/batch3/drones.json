@@ -1,0 +1,6 @@
+{
+  "DATExtractor_process_message": "正在处理 DJI DAT 文件：%s",
+  "DATFileExtractor_Extractor_Name": "DAT 文件提取器",
+  "DroneIngestModule_Description": "分析部分 DJI 无人机生成的文件。",
+  "DroneIngestModule_Name": "DJI 无人机分析器"
+}

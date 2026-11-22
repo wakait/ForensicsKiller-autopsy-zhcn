@@ -1,0 +1,12 @@
+{
+  "StringContentPanel_Loading_String": "正在加载文本...",
+  "StringsTextViewer.goToPageTextField.msgDlg": "请输入 1 到 {0} 之间的有效页码",
+  "StringsTextViewer.goToPageTextField.err": "页码无效",
+  "StringsTextViewer.setDataView.errorText": "（无法读取偏移 {0}-{1}）",
+  "StringsTextViewer.setDataView.errorNoText": "（偏移 {0}-{1} 不含文本）",
+  "StringsTextViewer.toolTip": "显示从文件中提取的 ASCII 与 Unicode 字符串。",
+  "StringsContentPanel.selectAllMenuItem.text": "全选",
+  "StringsContentPanel.languageCombo.toolTipText": "从二进制数据中解释（提取与解码）字符串时尝试使用的语言",
+  "StringsContentPanel.goToPageLabel.text": "转到页：",
+  "TextContentViewer.tooltip": "显示与所选项目关联的文本"
+}

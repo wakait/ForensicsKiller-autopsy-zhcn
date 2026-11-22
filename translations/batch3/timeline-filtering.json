@@ -1,0 +1,7 @@
+{
+  "FilsetSetPanel.hiddenDescriptionsPane.displayName": "已隐藏的描述",
+  "FilterSetPanel.applyButton.longText": "（重新）应用筛选器",
+  "FilterSetPanel.hiddenDescriptionsListView.remove": "从列表中移除",
+  "FilterSetPanel.hiddenDescriptionsListView.unhideAndRemove": "取消隐藏并从列表中移除",
+  "Timeline.ui.filtering.promptText": "输入筛选字符串"
+}

@@ -1,0 +1,6 @@
+{
+  "EventNode.getAction.errorTitle": "获取操作时出错",
+  "EventNode.getAction.linkedFileMessage": "获取所选结果的操作时出现问题。“在时间线中查看文件”操作将不可用。",
+  "EventRoodNode.tooManyNode.displayName": "事件过多，无法显示。上限为 {0}，但有 {1} 个待显示。",
+  "NodeProperty.displayName.eventType": "事件类型"
+}

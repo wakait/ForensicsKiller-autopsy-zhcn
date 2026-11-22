@@ -1,0 +1,19 @@
+{
+  "OptionsCategory_Name_Machine_Translation": "机器翻译",
+  "OptionsCategory_Keywords_Machine_Translation_Settings": "机器翻译设置",
+  "TranslatedContentPanel.comboBoxOption.originalText": "原文（最大 25KB）",
+  "TranslatedContentPanel.comboBoxOption.translatedText": "译文",
+  "TranslatedContentViewer.emptyTranslation": "机器翻译软件未返回任何文本。",
+  "TranslatedContentViewer.errorExtractingText": "提取文本时发生错误（{0}）。",
+  "TranslatedContentViewer.extractingText": "正在提取文本，请稍候...",
+  "TranslatedContentViewer.fileHasNoText": "文件不含文本。",
+  "TranslatedContentViewer.noServiceProvider": "找不到机器翻译软件。",
+  "TranslatedContentViewer.ocrNotEnabled": "未启用 OCR。如需更改，请前往“工具”→“选项”→“机器翻译”",
+  "TranslatedContentViewer.translatingText": "正在翻译文本，请稍候...",
+  "TranslatedContentViewer.translationException": "翻译文本时发生错误（{0}）。",
+  "TranslatedTextViewer.maxPayloadSize": "仅翻译前 %dKB 的文本",
+  "TranslatedTextViewer.toolTip": "显示翻译后的文件文本。",
+  "TranslationContentPanel.autoDetectOCR": "自动检测语言",
+  "TranslationOptionsPanelController.moduleErr": "模块错误",
+  "TranslationOptionsPanelController.moduleErr.msg": "某个模块在监听 TranslationSettingsPanelController 更新时出错。请查看日志以确定是哪个模块。部分数据可能不完整。"
+}

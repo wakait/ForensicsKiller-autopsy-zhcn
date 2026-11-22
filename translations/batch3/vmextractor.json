@@ -1,0 +1,15 @@
+{
+  "deviceIdQueryErrMsg": "数据源 {0} 缺少设备 ID",
+  "VMExtractorIngestModule.cannotCreateOutputDir.message": "无法创建输出目录：{0}。",
+  "VMExtractorIngestModule.noOpenCase.errMsg": "没有已打开的案例。",
+  "VMExtractorIngestModuleFactory.moduleDisplayName": "虚拟机提取器",
+  "VMExtractorIngestModuleFactory.moduleDescription": "提取虚拟机文件，并作为数据源添加到案例。",
+  "VMExtractorIngestModule.addedVirtualMachineImage.message": "已添加虚拟机映像 {0}",
+  "VMExtractorIngestModule.searchingImage.message": "正在映像中搜索虚拟机文件",
+  "VMExtractorIngestModule.exportingToDisk.message": "正在把虚拟机文件导出到磁盘",
+  "VMExtractorIngestModule.queuingIngestJobs.message": "正在为已提取的虚拟机排队摄取作业",
+  "VMExtractorIngestModule.msgNotify.failedExtractVM.title.txt": "提取虚拟机文件失败",
+  "VMExtractorIngestModule.msgNotify.failedExtractVM.msg.txt": "未能把虚拟机文件 {0} 写入磁盘。",
+  "VMExtractorIngestModule.msgNotify.failedIngestVM.title.txt": "摄取虚拟机失败",
+  "VMExtractorIngestModule.msgNotify.failedIngestVM.msg.txt": "未能摄取虚拟机文件 {0}"
+}

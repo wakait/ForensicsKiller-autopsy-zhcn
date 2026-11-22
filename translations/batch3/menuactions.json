@@ -1,0 +1,10 @@
+{
+  "DataContentDynamicMenu.contentViewers.text": "内容查看器",
+  "DataContentDynamicMenu.menu.dataContentWin.text": "数据内容窗口",
+  "DataContentMenu.getName.text": "数据内容菜单",
+  "DataExplorerMenu.getName.text": "数据浏览工具",
+  "DataResultMenu.menu.dataResWin.text": "数据结果窗口",
+  "DataResultMenu.getName.text": "数据结果菜单",
+  "SearchResultMenu.menu.dataRes.text": "数据结果",
+  "SearchResultMenu.resultViewers.text": "结果查看器"
+}

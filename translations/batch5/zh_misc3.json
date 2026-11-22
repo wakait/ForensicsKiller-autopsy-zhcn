@@ -1,0 +1,293 @@
+{
+ "jar": "platform/modules/org-netbeans-modules-templates.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "Action_Rename",
+   "en": "&Rename",
+   "zh": "重命名(&R)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Add",
+   "en": "&Add...",
+   "zh": "添加(&A)..."
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Delete",
+   "en": "&Delete",
+   "zh": "删除(&D)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_JFileChooser_AddButtonName",
+   "en": "Add",
+   "zh": "添加"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_NewFolder",
+   "en": "&New Folder",
+   "zh": "新建文件夹(&N)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "Err_FileNameExists",
+   "en": "Template with this file name already exists.",
+   "zh": "具有此文件名的模板已存在。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "LBL_TemplatesPanel_JFileChooser_Title",
+   "en": "Add Existing Template",
+   "zh": "添加现有模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "LBL_TemplatesPanel_TemplatesLabel",
+   "en": "&Templates\\:",
+   "zh": "模板(&T)\\:"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_RenameButton",
+   "en": "&Rename",
+   "zh": "重命名(&R)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_DuplicateButton",
+   "en": "Du&plicate",
+   "zh": "复制(&P)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_MoveUp",
+   "en": "Move &Up",
+   "zh": "上移(&U)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_MoveDown",
+   "en": "Move Do&wn",
+   "zh": "下移(&W)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Revert",
+   "en": "Re&vert to Default",
+   "zh": "恢复为默认值(&V)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "BTN_TemplatesPanel_Settings",
+   "en": "&Settings",
+   "zh": "设置(&S)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Add",
+   "en": "Add Template",
+   "zh": "添加模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_New",
+   "en": "New Template",
+   "zh": "新建模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Duplicate",
+   "en": "Duplicate Selected Template",
+   "zh": "复制选定的模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Rename",
+   "en": "Rename Template",
+   "zh": "重命名模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_MoveUp",
+   "en": "Move Up Selected Template",
+   "zh": "上移选定的模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_MoveDown",
+   "en": "Move Down Selected Template",
+   "zh": "下移选定的模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "ACD_TemplatesPanel_Delete",
+   "en": "Delete Template",
+   "zh": "删除模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_FileIsLocked",
+   "en": "The file {0} is in use.",
+   "zh": "文件 {0} 正在使用中。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_TemplatesPanel_Nonexistent_File",
+   "en": "File ''{0}''\\ndoes not exist, please specify an existing file.",
+   "zh": "文件 ''{0}''\\n不存在，请指定一个存在的文件。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.license.warning.text",
+   "en": "License file name must start with \"{0}\" and end with \"{1}\".",
+   "zh": "许可证文件名必须以 \"{0}\" 开头，并以 \"{1}\" 结尾。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.title.text",
+   "en": "Rename Template",
+   "zh": "重命名模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_DisplayName",
+   "en": "Display Name",
+   "zh": "显示名称"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_DisplayName_Desc",
+   "en": "Display name of this template. Shown in File|New wizard as well as in Tools|Templates.",
+   "zh": "此模板的显示名称。在“文件|新建”向导以及“工具|模板”中显示。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_FileName",
+   "en": "File Name",
+   "zh": "文件名"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_FileName_Desc",
+   "en": "File name of file represented by this template.",
+   "zh": "此模板所表示的文件的文件名。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_License",
+   "en": "License URL(s)",
+   "zh": "许可证 URL"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_License_Desc",
+   "en": "Authoritative web location of this license (may include several separated by spaces).",
+   "zh": "此许可证的权威网址（可包含多个，以空格分隔）。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_ScriptEngine",
+   "en": "Script Engine",
+   "zh": "脚本引擎"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_ScriptEngine_Desc",
+   "en": "Script engine use for processing this template.",
+   "zh": "用于处理此模板的脚本引擎。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_TemplateCategories",
+   "en": "Template Categories",
+   "zh": "模板类别"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TemplatesPanel_TemplateNode_TemplateCategories_Desc",
+   "en": "A list of template's categories appropriate for this template.",
+   "zh": "适用于此模板的模板类别列表。"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TT_TemplatesPanel_Add",
+   "en": "Add Template",
+   "zh": "添加模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.fileNameLabel.text",
+   "en": "Template &File Name:",
+   "zh": "模板文件名(&F)："
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "RenameTemplatePanel.displayNameLabel.text",
+   "en": "Template &Display Name:",
+   "zh": "模板显示名称(&D)："
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFile",
+   "en": "Are you sure you want to revert {0}?",
+   "zh": "确定要恢复 {0} 吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFileTitle",
+   "en": "Confirm File Revert",
+   "zh": "确认恢复文件"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFiles",
+   "en": "Are you sure you want to revert these {0} files?",
+   "zh": "确定要恢复这 {0} 个文件吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "MSG_ConfirmRevertFilesTitle",
+   "en": "Confirm Revert of Multiple Files",
+   "zh": "确认恢复多个文件"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/ui/Bundle.properties",
+   "key": "TXT_TemplatesPanel_NewFolderName",
+   "en": "New Folder",
+   "zh": "新建文件夹"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "BTN_TemplatesPanel_CloseButton",
+   "en": "&Close",
+   "zh": "关闭(&C)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "BTN_TemplatesPanel_OpenInEditorButton",
+   "en": "&Open in Editor",
+   "zh": "在编辑器中打开(&O)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "LBL_TemplatesAction_Name",
+   "en": "&Templates",
+   "zh": "模板(&T)"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "HINT_TemplatesAction",
+   "en": "Customize templates",
+   "zh": "自定义模板"
+  },
+  {
+   "bundle": "org/netbeans/modules/templates/actions/Bundle.properties",
+   "key": "LBL_TemplatesPanel_Title",
+   "en": "Template Manager",
+   "zh": "模板管理器"
+  }
+ ]
+}

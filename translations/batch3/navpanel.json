@@ -1,0 +1,11 @@
+{
+  "GroupComparators.groupName": "分组名称",
+  "GroupComparators.groupSize": "分组大小",
+  "GroupComparators.hitCount": "命中数量",
+  "GroupComparators.hitDensity": "命中密度",
+  "GroupComparators.uncategorizedCount": "未分类数量",
+  "GroupTree.displayName.allGroups": "所有分组",
+  "HashHitGroupList.displayName.onlyHashHits": "仅哈希命中",
+  "NavPanel.placeHolder.text": "没有分组。",
+  "NavPanel.sortByBoxLabel.text": "排序依据："
+}

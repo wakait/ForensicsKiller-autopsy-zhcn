@@ -1,0 +1,820 @@
+{
+ "items": [
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_OUTPUT",
+   "en": "Output",
+   "zh": "输出"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_OUTPUT",
+   "en": "{0} - {1}",
+   "zh": "{0} - {1}"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_CannotWrite",
+   "en": "Cannot write to system temp directory ({0})",
+   "zh": "无法写入系统临时目录 ({0})"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_GenericError",
+   "en": "Problem writing to output file",
+   "zh": "写入输出文件时出错"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_STDOUT",
+   "en": "Standard output",
+   "zh": "标准输出"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_FILE_EXISTS",
+   "en": "{0} exists.  Overwrite?",
+   "zh": "{0} 已存在。是否覆盖？"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "STATUS_Initializing",
+   "en": "Output Window is Initializing",
+   "zh": "输出窗口正在初始化"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "TITLE_SAVE_DLG",
+   "en": "Save Output As",
+   "zh": "另存输出为"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_SaveAsFailedTitle",
+   "en": "Save as failed",
+   "zh": "另存为失败"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_SaveAsFailed",
+   "en": "Writing to file {0} failed.",
+   "zh": "写入文件 {0} 失败。"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_SearchFromBeg",
+   "en": "End of the ouput reached. Continuing search from beginning.",
+   "zh": "已到达输出末尾。将从开头继续搜索。"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_SearchFromEnd",
+   "en": "Beginning of the ouput reached. Continuing search from end.",
+   "zh": "已到达输出开头。将从末尾继续搜索。"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_Found",
+   "en": "''{0}'' found at {1}:{2}",
+   "zh": "在 {1}:{2} 处找到 ''{0}''"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_NotFound",
+   "en": "''{0}'' not found",
+   "zh": "未找到 ''{0}''"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "OutputWindow",
+   "en": "&Output",
+   "zh": "&输出"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Find_Title",
+   "en": "Find",
+   "zh": "查找"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Find_What",
+   "en": "Find:",
+   "zh": "查找："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Use_RegExp",
+   "en": "Regular &Expression",
+   "zh": "正则&表达式"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Match_Case",
+   "en": "&Match Case",
+   "zh": "&区分大小写"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "BTN_Find",
+   "en": "&Find",
+   "zh": "&查找"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSN_Find",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSD_Find",
+   "en": "Find",
+   "zh": "查找"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSD_FindBTN",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSD_Find_What",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Filter_Title",
+   "en": "Filter",
+   "zh": "筛选"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Filter_What",
+   "en": "Keep lines containing:",
+   "zh": "保留包含以下内容的行："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "BTN_Filter",
+   "en": "&Filter",
+   "zh": "&筛选"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Font_Chooser_Title",
+   "en": "Font Chooser",
+   "zh": "字体选择器"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "BTN_Defaul_Font",
+   "en": "Default Font",
+   "zh": "默认字体"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "TITLE_FILE_EXISTS",
+   "en": "Overwrite file?",
+   "zh": "覆盖文件？"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Invalid_RegExp",
+   "en": "Invalid Regular Expression",
+   "zh": "无效的正则表达式"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_Invalid_RegExp",
+   "en": "Syntax error in {0}",
+   "zh": "{0} 中存在语法错误"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COPY",
+   "en": "Copy",
+   "zh": "复制"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PASTE",
+   "en": "Paste",
+   "zh": "粘贴"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_WRAP",
+   "en": "Wrap text",
+   "zh": "自动换行"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SAVEAS",
+   "en": "Save As...",
+   "zh": "另存为..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLOSE",
+   "en": "Close",
+   "zh": "关闭"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLEAR",
+   "en": "Clear",
+   "zh": "清除"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PREV_ERROR",
+   "en": "Previous Error",
+   "zh": "上一个错误"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_NEXT_ERROR",
+   "en": "Next Error",
+   "zh": "下一个错误"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SELECT_ALL",
+   "en": "Select all",
+   "zh": "全选"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND",
+   "en": "Find...",
+   "zh": "查找..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_NEXT",
+   "en": "Find Next",
+   "zh": "查找下一个"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_PREVIOUS",
+   "en": "Find Previous",
+   "zh": "查找上一个"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_LARGER_FONT",
+   "en": "Larger Font",
+   "zh": "增大字体"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SMALLER_FONT",
+   "en": "Smaller Font",
+   "zh": "减小字体"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SETTINGS",
+   "en": "Settings...",
+   "zh": "设置..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FILTER",
+   "en": "Filter...",
+   "zh": "筛选..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_OutputFolds",
+   "en": "Output Folds",
+   "zh": "输出折叠"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COLLAPSE_FOLD",
+   "en": "Collapse Fold",
+   "zh": "折叠"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_EXPAND_FOLD",
+   "en": "Expand Fold",
+   "zh": "展开"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COLLAPSE_ALL",
+   "en": "Collapse All",
+   "zh": "全部折叠"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_EXPAND_ALL",
+   "en": "Expand All",
+   "zh": "全部展开"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COLLAPSE_TREE",
+   "en": "Collapse Fold Tree",
+   "zh": "折叠折叠树"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_EXPAND_TREE",
+   "en": "Expand Fold Tree",
+   "zh": "展开折叠树"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COPY.accel",
+   "en": "C-C",
+   "zh": "C-C"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PASTE.accel",
+   "en": "C-V",
+   "zh": "C-V"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_WRAP.accel",
+   "en": "C-R",
+   "zh": "C-R"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SAVEAS.accel",
+   "en": "C-S",
+   "zh": "C-S"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLOSE.accel",
+   "en": "C-F4",
+   "zh": "C-F4"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PREV_ERROR.accel",
+   "en": "F12",
+   "zh": "F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_NEXT_ERROR.accel",
+   "en": "S-F12",
+   "zh": "S-F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SELECT_ALL.accel",
+   "en": "C-A",
+   "zh": "C-A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND.accel",
+   "en": "C-F",
+   "zh": "C-F"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_NEXT.accel",
+   "en": "F3",
+   "zh": "F3"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_PREVIOUS.accel",
+   "en": "S-F3",
+   "zh": "S-F3"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLEAR.accel",
+   "en": "C-L",
+   "zh": "C-L"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_LARGER_FONT.accel",
+   "en": "D-UP",
+   "zh": "D-UP"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SMALLER_FONT.accel",
+   "en": "D-DOWN",
+   "zh": "D-DOWN"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SETTINGS.accel",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FILTER.accel",
+   "en": "C-G",
+   "zh": "C-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COPY.accel.mac",
+   "en": "M-C",
+   "zh": "M-C"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PASTE.accel.mac",
+   "en": "M-V",
+   "zh": "M-V"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_LARGER_FONT.accel.mac",
+   "en": "D-UP",
+   "zh": "D-UP"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SMALLER_FONT.accel.mac",
+   "en": "D-DOWN",
+   "zh": "D-DOWN"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SETTINGS.accel.mac",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_WRAP.accel.mac",
+   "en": "M-R",
+   "zh": "M-R"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SAVEAS.accel.mac",
+   "en": "M-S",
+   "zh": "M-S"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLOSE.accel.mac",
+   "en": "M-F4",
+   "zh": "M-F4"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PREV_ERROR.accel.mac",
+   "en": "F12",
+   "zh": "F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_NEXT_ERROR.accel.mac",
+   "en": "M-F12",
+   "zh": "M-F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SELECT_ALL.accel.mac",
+   "en": "M-A",
+   "zh": "M-A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND.accel.mac",
+   "en": "M-F",
+   "zh": "M-F"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_NEXT.accel.mac",
+   "en": "M-G",
+   "zh": "M-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_PREVIOUS.accel.mac",
+   "en": "S-M-G",
+   "zh": "S-M-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLEAR.accel.mac",
+   "en": "M-L",
+   "zh": "M-L"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FILTER.accel.mac",
+   "en": "C-G",
+   "zh": "C-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_DiskSpace",
+   "en": "Ran out of disk space in {0} for temporary output files.  \\ Either make more disk space available, change the system temporary \\ directory or run with -J-Dnb.output.heap=true",
+   "zh": "临时输出文件所在的 {0} 磁盘空间不足。\\ 请释放更多磁盘空间、更改系统临时 \\ 目录，或以 -J-Dnb.output.heap=true 运行"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_LINE_TOO_LONG",
+   "en": "...line is too long, please switch to wrapped mode to see whole line...",
+   "zh": "...行过长，请切换到自动换行模式以查看整行..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "AdvancedOption_DisplayName_OutputSettings",
+   "en": "Output",
+   "zh": "输出"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "AdvancedOption_Keywords_OutputSettings",
+   "en": "Output Window Font Color",
+   "zh": "输出窗口字体颜色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Background",
+   "en": "Background",
+   "zh": "背景"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Color",
+   "en": "Color",
+   "zh": "颜色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Font",
+   "en": "Font",
+   "zh": "字体"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Output_Window",
+   "en": "Output Window",
+   "zh": "输出窗口"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Underline",
+   "en": "Underline",
+   "zh": "下划线"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "LBL_Description",
+   "en": "Output Window Settings",
+   "zh": "输出窗口设置"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "LBL_None",
+   "en": "None",
+   "zh": "无"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "LBL_Underline",
+   "en": "Underline",
+   "zh": "下划线"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblFontFamily.text",
+   "en": "&Font:",
+   "zh": "&字体："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblFontSize.text",
+   "en": "Font Si&ze:",
+   "zh": "字体大&小："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblStandardColor.text",
+   "en": "&Standard Color:",
+   "zh": "&标准颜色："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblErrorColor.text",
+   "en": "&Error Color:",
+   "zh": "&错误颜色："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblBackgroundColor.text",
+   "en": "&Background Color:",
+   "zh": "&背景颜色："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblLinkColor.text",
+   "en": "&Link Color:",
+   "zh": "&链接颜色："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblLinkStyle.text",
+   "en": "Link St&yle:",
+   "zh": "链接样&式："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblTitle.text",
+   "en": "Output Window Settings",
+   "zh": "输出窗口设置"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnSelectFont.text",
+   "en": "...",
+   "zh": "..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.fldFontFamily.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel1.text",
+   "en": "Im&portant Link Color:",
+   "zh": "重要链接&颜色："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnRestore.text",
+   "en": "&Restore",
+   "zh": "&恢复"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnSelectFont.toolTipText",
+   "en": "Select font family, style and size",
+   "zh": "选择字体族、样式和大小"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnRestore.toolTipText",
+   "en": "Restore default settings",
+   "zh": "恢复默认设置"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.spnFontSize.toolTipText",
+   "en": "Adjust font size",
+   "zh": "调整字体大小"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbBackgroundColor.toolTipText",
+   "en": "Select background color",
+   "zh": "选择背景颜色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbStandardColor.toolTipText",
+   "en": "Select standard text foreground color",
+   "zh": "选择标准文本前景色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbErrorColor.toolTipText",
+   "en": "Select error text foreground color",
+   "zh": "选择错误文本前景色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbLinkColor.toolTipText",
+   "en": "Select link foreground color",
+   "zh": "选择链接前景色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbImportantLinkColor.toolTipText",
+   "en": "Select important link foreground color",
+   "zh": "选择重要链接前景色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbLinkStyle.toolTipText",
+   "en": "Select link style",
+   "zh": "选择链接样式"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblUnwrappedOnly.text",
+   "en": "(Does not apply to wrapped text)",
+   "zh": "（不适用于自动换行的文本）"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblInputColor.text",
+   "en": "&Input Color",
+   "zh": "&输入颜色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbInputColor.toolTipText",
+   "en": "Select input text foreground color",
+   "zh": "选择输入文本前景色"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel2.text",
+   "en": "Debug:",
+   "zh": "调试："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel3.text",
+   "en": "Warning:",
+   "zh": "警告："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel4.text",
+   "en": "Failure:",
+   "zh": "失败："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel5.text",
+   "en": "Success:",
+   "zh": "成功："
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_INPUT",
+   "en": "&Input",
+   "zh": "&输入"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_EOF",
+   "en": "&Close Input",
+   "zh": "&关闭输入"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "MSG_TerminateProcess",
+   "en": "Terminate the process?",
+   "zh": "终止进程？"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "MSG_TooMuchTextSelected",
+   "en": "Selecting large parts of text can cause Out-Of-Memory errors. Do you want to continue?",
+   "zh": "选择大量文本可能导致内存不足错误。是否继续？"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "TIP_EOF",
+   "en": "Closes the input component and sends end-of-file to any readers",
+   "zh": "关闭输入组件并向所有读取器发送文件结束符"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "TIP_INPUT",
+   "en": "Enter text and press enter to send it to the running process",
+   "zh": "输入文本并按回车键将其发送到正在运行的进程"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_Close",
+   "en": "Close Tab",
+   "zh": "关闭标签页"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_CloseAll",
+   "en": "Close All Tabs",
+   "zh": "关闭所有标签页"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_CloseOthers",
+   "en": "Close Other Tabs",
+   "zh": "关闭其他标签页"
+  }
+ ]
+}

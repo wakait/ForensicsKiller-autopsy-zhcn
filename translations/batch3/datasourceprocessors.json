@@ -1,0 +1,17 @@
+{
+  "AddRawImageTask.for.device": "设备 ",
+  "AddRawImageTask.image.critical.error.adding": "添加以下映像时发生严重错误 ",
+  "AddRawImageTask.image.noncritical.error.adding": "添加以下映像时发生非严重错误 ",
+  "AddRawImageTask.image.notExisting": "不存在。",
+  "AddRawImageTask.noOpenCase.errMsg": "没有已打开的案例。",
+  "AddRawImageTask.progress.add.text": "正在添加原始映像：",
+  "RawDSInputPanel.error.text": "多用户数据源路径位于“C:”盘",
+  "RawDSInputPanel.noOpenCase.errMsg": "获取已打开的案例时发生异常。",
+  "RawDSInputPanel.pathLabel.text": "浏览未分配空间映像文件：",
+  "RawDSInputPanel.errorLabel.text": "错误标签",
+  "RawDSInputPanel.jBreakFileUpLabel.text": "把映像拆分为：",
+  "RawDSInputPanel.jNoBreakupRadioButton.text": "不拆分",
+  "RawDSInputPanel.j2GBBreakupRadioButton.text": "2GB 分块",
+  "RawDSInputPanel.timeZoneLabel.text": "请选择输入时区：",
+  "RawDSProcessor.dataSourceType": "未分配空间映像文件"
+}

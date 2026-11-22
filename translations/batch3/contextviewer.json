@@ -1,0 +1,13 @@
+{
+  "ContextUsagePanel.jUsageGoToResultButton.text": "转到结果",
+  "ContextSourcePanel.jSourceGoToResultButton.text": "转到结果",
+  "ContextViewer.attachmentSource": "附件来自：",
+  "ContextViewer.downloadSource": "下载自：",
+  "ContextViewer.on": "打开于",
+  "ContextViewer.programExecution": "程序执行：",
+  "ContextViewer.recentDocs": "最近文档：",
+  "ContextViewer.runOn": "程序运行于",
+  "ContextViewer.runUnknown": "程序运行时间未知",
+  "ContextViewer.toolTip": "显示所选文件的上下文信息。",
+  "ContextViewer.unknown": "打开时间未知"
+}

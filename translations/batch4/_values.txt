@@ -1,0 +1,518 @@
+
+ID
+NO
+OK
+Low
+URL
+YES
+/day
+City
+Exif
+Fake
+File
+Flag
+High
+Host
+IMEI
+IMSI
+Name
+Path
+Pool
+Read
+Root
+SSID
+Text
+Used
+ Rule
+/hour
+/week
+1.0.0
+BSSID
+Count
+Email
+Event
+ICCID
+Known
+Local
+Other
+Owner
+Realm
+Title
+Value
+known
+/month
+Accept
+Active
+Browse
+Cancel
+Domain
+Groups
+Medium
+Normal
+Orphan
+Report
+Unused
+Volume
+at {0}
+Bearing
+Comment
+Country
+Deleted
+Entropy
+Exclude
+Headers
+ID: {0}
+Include
+Keyword
+Malware
+Notable
+Path ID
+Service
+Started
+Subject
+Unknown
+User ID
+Version
+notable
+unknown
+Accessed
+Accounts
+Altitude
+Approved
+Artifact
+Call End
+Category
+Contacts
+Detected
+Disabled
+GPS Area
+Inferred
+Latitude
+Launched
+Location
+MD5 Hash
+Messages
+Metadata
+Multiple
+Override
+Password
+Registry
+Rejected
+Set Name
+Tag Name
+Username
+Velocity
+YARA Hit
+Allocated
+Bank Name
+Call Logs
+Cancelled
+Card Type
+Completed
+Date Sent
+Date/Time
+Device ID
+Direction
+E-Mail CC
+E-Mail To
+GPS Route
+GPS Track
+Log Entry
+Longitude
+Map Datum
+Raw Split
+SHA1 Hash
+Short Cut
+TL Events
+Text File
+Thread ID
+Undecided
+Web Cache
+Backup End
+Brand Name
+Bytes Sent
+Call Begin
+Compressed
+Disclaimer
+Disk Image
+E-Mail BCC
+Email Sent
+Event Type
+File Level
+GPS Routes
+GPS Search
+IP Address
+Is Deleted
+Loading...
+Local Path
+Message ID
+OS Account
+Product ID
+Raw Single
+Referenced
+Web Search
+suspicious
+Add License
+Auto Detect
+Card Number
+Card Scheme
+Decoded URL
+Description
+Device Info
+Device Make
+Device Name
+E-Mail From
+Event Types
+File System
+Geolocation
+Interactive
+Keyword Set
+MAC Address
+Not Notable
+Other Cases
+Path Source
+Permissions
+Person Name
+Program Run
+Remote Path
+Screen Shot
+Screenshots
+Server Name
+Unallocated
+Unsupported
+Web Cookies
+Web History
+Account Type
+Backup Begin
+Cyber Triage
+Date Created
+Device Model
+Display Name
+Email (Home)
+Expires: {0}
+File Changed
+File Created
+GPS Bookmark
+GPS Searches
+General Info
+Hashset Hits
+Hashset Name
+Host Address
+Intersection
+Keyword Hits
+Message Type
+Non Existent
+Not Detected
+Organization
+Phone Number
+Program Name
+Referrer URL
+Remote Drive
+Run Programs
+SIM Attached
+Server Error
+Tagged Files
+Time Deleted
+Web Accounts
+Web Activity
+Web Searches
+Wifi Network
+Activity Type
+Backup Events
+Communication
+Data Artifact
+Date Accessed
+Date Modified
+Date Received
+EXIF Metadata
+End Date/Time
+Face Detected
+File Accessed
+File Modified
+GPS Bookmarks
+General Error
+Message (RTF)
+Minimum Count
+Password Hint
+PhotoDNA Hash
+SHA2-256 Hash
+SHA2-512 Hash
+Tagged Result
+Text Language
+Volume System
+Web Bookmarks
+Web Downloads
+Bytes Received
+Email (Office)
+Email Received
+Extracted Text
+GPS Trackpoint
+Home Directory
+Likely Notable
+Local Settings
+Message (HTML)
+Must be tagged
+Processor Name
+Remove License
+Tagged Results
+Web Categories
+Analysis Result
+Download Source
+E-Mail Messages
+Ending Latitude
+GPS Trackpoints
+Ingest Settings
+Invalid License
+Keyword Preview
+License Number:
+Malware Scanner
+Object Detected
+Previously Seen
+Program Deleted
+Raw Tool Output
+ReplyTo Address
+Service Account
+Start Date/Time
+To Phone Number
+Web Cookies End
+Account Settings
+Add a License...
+Calendar Entries
+Correlation Type
+DHCP Information
+Deleted Programs
+Devices Attached
+Document Created
+Ending Longitude
+Hash Lookups Low
+Hide Known Files
+Interesting File
+Is Administrator
+Lookup API error
+Malware Detected
+Message Reply ID
+Recent Documents
+Web Account Type
+Associated Object
+Bluetooth Adapter
+Bluetooth Pairing
+Card Service Code
+Clipboard Content
+Correlation Value
+Data Source Level
+Data Source Usage
+Distance Traveled
+From Phone Number
+Hash Lookup Error
+Incident Importer
+Interesting Files
+Interesting Items
+Last Printed Date
+List of Waypoints
+Missing hostname.
+Missing password.
+Missing username.
+Password Settings
+Previously Unseen
+Program Installed
+Starting Latitude
+User Activity End
+Web Cookies Start
+Web Form Autofill
+Wireless Networks
+BlueTooth Pairings
+Calendar Entry End
+Cyber Triage Error
+Installed Programs
+Likely Not Notable
+Must have hash hit
+Must include text:
+Not Able to Upload
+Password Fail Date
+Previously Notable
+Processing Timeout
+Speed Dial Entries
+Starting Longitude
+User Device Events
+Vertical Precision
+Web Cookies Create
+Web Form Addresses
+Application Deleted
+Associated Artifact
+Calendar Entry Type
+Counters reset: {0}
+Document Last Saved
+Encryption Detected
+Interesting Results
+Keyword Search Type
+Limit file types to
+Message (Plaintext)
+Message Attachments
+Password Reset Date
+Phone Number (Home)
+USB Device Attached
+User Activity Begin
+Web History Created
+Calendar Entry Begin
+Encryption Suspected
+FAT (Auto Detection)
+HFS (Auto Detection)
+Horizontal Precision
+Limit event types to
+List of Track Points
+Missing port number.
+No remaining lookups
+Program Notification
+RAW (Auto Detection)
+Verification Failure
+Web Cookies Accessed
+Web History Accessed
+APFS (Auto Detection)
+Custom Artifact Event
+Document Last Printed
+ExtX (Auto Detection)
+File Type (extension)
+File Type (signature)
+Limit data sources to
+NTFS (Auto Detection)
+Phone Number (Mobile)
+Phone Number (Office)
+Program Notifications
+SWAP (Auto Detection)
+Card Expiration (YYMM)
+File Uploads Limit Low
+Hash Lookups Exhausted
+Invalid License Number
+Lookup Limits Exceeded
+Manually Created Event
+Processor Architecture
+Steganography Detected
+User Content Suspected
+Card Discretionary Data
+Distance from Homepoint
+GPS Last Known Location
+No Cyber Triage License
+Standard Artifact Event
+Unsupported File System
+YAFFS2 (Auto Detection)
+Authentication API error
+Batch Processing Timeout
+Cyber Triage Data Folder
+ISO9660 (Auto Detection)
+Max Hash lookups: {0}{1}
+Max file uploads: {0}{1}
+Web Form Address Created
+Cyber Triage,Cyber,Triage
+No Remaining File Uploads
+No TagType of value\: {0}
+No remaining file uploads
+Temporary Files Directory
+Web Form Address Modified
+Web Form Autofill Created
+Wireless Network Adapters
+Batch processing timed out
+Keyword Regular Expression
+Keyword Search Document ID
+Web Form Autofill Accessed
+Cyber Triage Import Module:
+Extension Mismatch Detected
+File Upload Results Timeout
+File uploads remaining: {0}
+Hash lookups remaining: {0}
+No FileKnown of value\: {0}
+Cannot read local file\: {0}
+Cyber Triage Malware Scanner
+No ObjectType of value\: {0}
+Operating System Information
+Operating System User Account
+Schema version does not match
+Error reading local file\: {0}
+License Number Already Entered
+No EncodingType of value\: {0}
+Waiting for File Upload Results
+You can purchase a license from
+For licensing information, visit
+Operating System Account Created
+Bluetooth Pairing Last Connection
+Invalid username and/or password.
+No CollectedStatus of value\: {0}
+Operating System Account Accessed
+Card Longitudinal Redundancy Check
+Error activating boost license {0}
+No TSK_FS_TYPE_ENUM of value\: {0}
+No TSK_VS_TYPE_ENUM of value\: {0}
+No TSK_IMG_TYPE_ENUM of value\: {0}
+You can try a free 7-day trial from
+Invalid hostname and/or port number.
+No TSK_FILE_TYPE_ENUM of value\: {0}
+<html>User: {0}<br/>Email: {1}</html>
+Cyber Triage Importer Module Required
+Operating System Account Password Fail
+Cyber Triage End User License Agreement
+No TSK_FS_ATTR_TYPE_ENUM of value\: {0}
+No TSK_FS_META_TYPE_ENUM of value\: {0}
+No TSK_FS_NAME_FLAG_ENUM of value\: {0}
+Operating System Account Password Reset
+AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+No KeywordSearchQueryType of value\: {0}
+Identifies executable files with malware.
+<html>Please enter a license number</html>
+The license number has already been entered
+No TSK_FS_NAME_TYPE_ENUM matching type\: {0}
+This license only has {0} lookups remaining.
+A timeout occurred while finishing processing
+Image file does not exist or is inaccessible.
+Error creating a derived file, file name\: {0}
+Error getting derived method for file id\: {0}
+Error finding files in the data source by name,
+Error reading local file, local path is not set
+Issue with installation. JDBC driver not found.
+List of points making up the outline of an area
+Query for existing results using file\u2019s hash
+This license only has {0} file uploads remaining.
+For instructions on obtaining the module refer to:
+Waiting for all uploaded files to complete scanning.
+Internal PostgreSQL issue. Database may be corrupted.
+An error occurred while processing hash lookup results
+Error closing result set after getting last object id.
+Some settings cannot be modified while a case is open.
+Upload file content for files that do not have results
+Error adding local file\: {0}, parent to add to is null
+Received error: ''{0}'' when fetching hash lookup results
+This volume's parent should be a VolumeSystem, but it's not.
+A file did not meet requirements for upload (object id: {0}).
+Error reading local file, file not readable at local path\: {0}
+Error reading local file, it does not exist at local path\: {0}
+The remaining hash lookups for this license have been exhausted
+\nPossible Incomplete Image\: Error reading volume at offset {0}
+Error, data source should be Image or VirtualDirectory, got\: {0}
+User launched a program or had an interactive session on the host.
+"PostgreSQL server issue. PostgreSQL server may need to be restarted.
+\nPossible Incomplete Image\: Error reading file system at offset {0}
+Error, data source should be parent-less (images, file-sets), got\: {0}
+<html>For more information, refer to the Cyber Triage Users Guide</html>
+Invalid hostname, port number, username, password, and firewall settings.
+Invalid hostname, port, username, and/or password. Check firewall settings.
+Error creating a local file, cannot get new id of the object, file name\: {0}
+Error creating a derived file, cannot get new id of the object, file name\: {0}
+This module requires a paid license. \nSee the Global Options panel for details
+User accessed resources on the host via a service or created a file on the host.
+Received error: ''{0}'' when fetching the API authentication token for the license
+Verify that PostgreSQL server is running, it's port number, and firewall settings.
+No Cyber Triage license could be loaded.  Cyber Triage processing will be disabled.
+A general error occurred while fetching license information.  Please try again later.
+Please verify that license number is of format 'AUT-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+PostgreSQL server issue. Check disk space and memory availabilty on the PostgreSQL server.
+<html>Update the Cyber Triage Data Folder if you are not using the default location:</html>
+A general error occurred while fetching malware scans information.  Please try again later.
+An exception occurred on MalwareScanIngestModule startup.  See the log for more information.
+There was a timeout while waiting for file uploads to be processed.  Please try again later.
+There are no more remaining file uploads for this license at this time.  File uploading will be disabled.
+There are no more remaining hash lookups for this license at this time.  Malware scanning will be disabled.
+Not all files were processed because hash lookup limits were exceeded. Please try again when your limits reset.
+There are no more file uploads on this license at this time.  File uploads will be disabled for remaining uploads.
+The current Cyber Triage license is no longer valid.  Please remove the license from the Cyber Triage options panel.
+User was referenced on the host and it is unclear if they had any access. For example, if they are mentioned in a log file.
+<html>The Cyber Triage Malware Scanner module uses 40+ malware scanning engines to identify if Windows executables are malicious. It requires a paid subscription to use.</html>
+<html>The Cyber Triage Incident Import module allows you to open data collected by Cyber Triage in Autopsy.  To use this feature you must install the Cyber Triage Import Module.</html>
+<html><body><p>The Cyber Triage Importer Module is required to open this case. </p><p>To open this case:</p><ul><li>Extract the module from the Integrations tab in the Cyber Triage options panel.</li><li>Select the 'Plugins' option from the 'Tools' menu, and go to the 'Downloaded' tab.</li><li>Click 'Add Plugins...' and select the path of the plugin.</li><li>Press 'Install' to finish the installation.</li></ul></body></html>

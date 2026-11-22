@@ -1,0 +1,11 @@
+{
+  "GEOArea_point_label_header": "区域 {0} 的轮廓点",
+  "GEOTrack_point_label_header": "轨迹 {0} 的轨迹点",
+  "LastKnownWaypoint_Label": "最后已知位置",
+  "Route_Label": "直线路径",
+  "Route_point_label": "路径的航点",
+  "SearchWaypoint_DisplayLabel": "GPS 搜索",
+  "Track_distanceFromHome_displayName": "距起点的距离",
+  "Track_distanceTraveled_displayName": "已行进距离",
+  "TrackpointWaypoint_DisplayLabel": "GPS 轨迹点"
+}

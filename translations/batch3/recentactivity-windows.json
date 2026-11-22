@@ -1,0 +1,5 @@
+{
+  "ExtractThumbcache_module_name": "缩略图缓存分析器",
+  "Thumbcache_Files_Not_Found": "未找到缩略图缓存文件",
+  "Thumbcache_process_error_executing_export_thumbcache_program": "运行缩略图缓存程序时出错"
+}

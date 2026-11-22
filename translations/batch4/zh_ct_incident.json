@@ -1,0 +1,76 @@
+{
+ "jar": "autopsy/modules/org-sleuthkit-autopsy-core.jar",
+ "bundle": "com/basistech/df/cybertriage/autopsy/incidentoptions/Bundle.properties",
+ "items": [
+  {
+   "key": "CTIncidentImportOptionsPanel.border.title",
+   "en": "Local Settings",
+   "zh": "本地设置"
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.fileRepoPathLabel.text",
+   "en": "<html>Update the Cyber Triage Data Folder if you are not using the default location:</html>",
+   "zh": "<html>若不使用默认位置，请修改 Cyber Triage 数据文件夹：</html>"
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.fileRepoPathField.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.fileRepoBrowseButton.text",
+   "en": "Browse",
+   "zh": "浏览"
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.caseOpenWarningLabel.text",
+   "en": "Some settings cannot be modified while a case is open.",
+   "zh": "案件打开时无法修改部分设置。"
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.fileRepoFileChooser.title",
+   "en": "Cyber Triage Data Folder",
+   "zh": "Cyber Triage 数据文件夹"
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.border.title_1",
+   "en": "Incident Importer",
+   "zh": "事件导入器"
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.incidentTextLabel.text",
+   "en": "<html>The Cyber Triage Incident Import module allows you to open data collected by Cyber Triage in Autopsy.  To use this feature you must install the Cyber Triage Import Module.</html>",
+   "zh": "<html>Cyber Triage 事件导入模块允许在 Autopsy 中打开 Cyber Triage 采集的数据。要使用此功能，必须先安装 Cyber Triage 导入模块。</html>"
+  },
+  {
+   "key": "CTincidentImportOptionsPanel.instructionsTextLabel.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.instructionsTextLabel.text",
+   "en": "For instructions on obtaining the module refer to:",
+   "zh": "获取该模块的说明请参见："
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.importModule.text",
+   "en": "Cyber Triage Import Module:",
+   "zh": "Cyber Triage 导入模块："
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel.importModuleDetected.text",
+   "en": "",
+   "zh": ""
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel_setModuleDetected_detected",
+   "en": "Detected",
+   "zh": "已检测"
+  },
+  {
+   "key": "CTIncidentImportOptionsPanel_setModuleDetected_notDetected",
+   "en": "Not Detected",
+   "zh": "未检测到"
+  }
+ ]
+}

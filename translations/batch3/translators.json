@@ -1,0 +1,19 @@
+{
+  "BingTranslator.name.text": "必应翻译",
+  "BingTranslatorSettingsPanel.warning.invalidKey": "翻译身份验证密钥无效",
+  "BingTranslatorSettingsPanel.warning.targetLanguageFailure": "无法获取目标语言列表，或无法解析返回结果",
+  "GoogleTranslator.name.text": "谷歌翻译",
+  "GoogleTranslatorSettingsPanel.credentialsLabel.text": "凭据路径：",
+  "GoogleTranslatorSettingsPanel.errorMessage.fileNotFound": "找不到凭据文件，请把位置设置为有效的 JSON 凭据文件。",
+  "GoogleTranslatorSettingsPanel.errorMessage.noFileSelected": "必须选择一个 JSON 文件以提供谷歌翻译的凭据。",
+  "GoogleTranslatorSettingsPanel.errorMessage.translationFailure": "使用指定凭据进行翻译失败",
+  "GoogleTranslatorSettingsPanel.errorMessage.unableToMakeCredentials": "无法从凭据文件构造凭据对象，请把位置设置为有效的 JSON 凭据文件。",
+  "GoogleTranslatorSettingsPanel.errorMessage.unableToReadCredentials": "无法从凭据文件读取凭据，请把位置设置为有效的 JSON 凭据文件。",
+  "GoogleTranslatorSettingsPanel.errorMessage.unknownFailureGetting": "使用当前凭据文件获取支持的语言列表失败。",
+  "GoogleTranslatorSettingsPanel.errorMessage.unknownFailurePopulating": "使用当前凭据文件填充支持的语言列表失败。",
+  "GoogleTranslatorSettingsPanel.json.description": "JSON 文件",
+  "GoogleTranslatorSettingsPanel.targetLanguageLabel.text": "目标语言：",
+  "BingTranslatorSettingsPanel.targetLanguageLabel.text": "目标语言：",
+  "BingTranslatorSettingsPanel.authenticationKeyField.toolTipText": "请输入以下服务的哈希值：",
+  "BingTranslatorSettingsPanel.authenticationKeyLabel.text": "身份验证密钥："
+}

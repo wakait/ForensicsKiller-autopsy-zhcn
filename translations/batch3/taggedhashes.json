@@ -1,0 +1,11 @@
+{
+  "AddTaggedHashesToHashDb.error.noHashSetsSelected": "未选择要导出的哈希集。",
+  "AddTaggedHashesToHashDb.error.noTagsSelected": "未选择要导出的标签。",
+  "AddTaggedHashesToHashDb.error.unableToOpenCase": "获取已打开的案例时发生异常。",
+  "SaveTaggedHashesToHashDbConfigPanel.deselectAllButton.text": "取消全选",
+  "SaveTaggedHashesToHashDbConfigPanel.selectAllButton.text": "全选",
+  "SaveTaggedHashesToHashDbConfigPanel.jAllTagsCheckBox.text": "所有已标记结果",
+  "SaveTaggedHashesToHashDbConfigPanel.jLabel2.text": "导出到哈希集：",
+  "SaveTaggedHashesToHashDbConfigPanel.configureHashDatabasesButton.text": "配置哈希集...",
+  "SaveTaggedHashesToHashDbConfigPanel.jLabel1.text": "导出按以下标签标记的文件的哈希："
+}

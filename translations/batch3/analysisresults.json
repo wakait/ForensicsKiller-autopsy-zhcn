@@ -1,0 +1,7 @@
+{
+  "AnalysisResultsContentPanel_aggregateScore_displayKey": "综合评分",
+  "AnalysisResultsContentPanel_result_headerKey": "分析结果 {0}",
+  "AnalysisResultsContentViewer_setNode_errorMessage": "加载结果时出错。",
+  "AnalysisResultsContentViewer_title": "分析结果",
+  "AnalysisResultsContentViewer_tooltip": "查看与所选节点相关的分析结果。"
+}

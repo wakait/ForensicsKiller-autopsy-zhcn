@@ -1,0 +1,685 @@
+{
+ "jar": "platform/modules/org-netbeans-core-output2.jar",
+ "items": [
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_OUTPUT",
+   "en": "Output"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_OUTPUT",
+   "en": "{0} - {1}"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_CannotWrite",
+   "en": "Cannot write to system temp directory ({0})"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_GenericError",
+   "en": "Problem writing to output file"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_STDOUT",
+   "en": "Standard output"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_FILE_EXISTS",
+   "en": "{0} exists.  Overwrite?"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "STATUS_Initializing",
+   "en": "Output Window is Initializing"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "TITLE_SAVE_DLG",
+   "en": "Save Output As"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_SaveAsFailedTitle",
+   "en": "Save as failed"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_SaveAsFailed",
+   "en": "Writing to file {0} failed."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_SearchFromBeg",
+   "en": "End of the ouput reached. Continuing search from beginning."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_SearchFromEnd",
+   "en": "Beginning of the ouput reached. Continuing search from end."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_Found",
+   "en": "''{0}'' found at {1}:{2}"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_NotFound",
+   "en": "''{0}'' not found"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "OutputWindow",
+   "en": "&Output"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Find_Title",
+   "en": "Find"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Find_What",
+   "en": "Find:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Use_RegExp",
+   "en": "Regular &Expression"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Match_Case",
+   "en": "&Match Case"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "BTN_Find",
+   "en": "&Find"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSN_Find",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSD_Find",
+   "en": "Find"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSD_FindBTN",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACSD_Find_What",
+   "en": "N/A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Filter_Title",
+   "en": "Filter"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Filter_What",
+   "en": "Keep lines containing:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "BTN_Filter",
+   "en": "&Filter"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Font_Chooser_Title",
+   "en": "Font Chooser"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "BTN_Defaul_Font",
+   "en": "Default Font"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "TITLE_FILE_EXISTS",
+   "en": "Overwrite file?"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_Invalid_RegExp",
+   "en": "Invalid Regular Expression"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "FMT_Invalid_RegExp",
+   "en": "Syntax error in {0}"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COPY",
+   "en": "Copy"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PASTE",
+   "en": "Paste"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_WRAP",
+   "en": "Wrap text"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SAVEAS",
+   "en": "Save As..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLOSE",
+   "en": "Close"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLEAR",
+   "en": "Clear"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PREV_ERROR",
+   "en": "Previous Error"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_NEXT_ERROR",
+   "en": "Next Error"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SELECT_ALL",
+   "en": "Select all"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND",
+   "en": "Find..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_NEXT",
+   "en": "Find Next"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_PREVIOUS",
+   "en": "Find Previous"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_LARGER_FONT",
+   "en": "Larger Font"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SMALLER_FONT",
+   "en": "Smaller Font"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SETTINGS",
+   "en": "Settings..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FILTER",
+   "en": "Filter..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "LBL_OutputFolds",
+   "en": "Output Folds"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COLLAPSE_FOLD",
+   "en": "Collapse Fold"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_EXPAND_FOLD",
+   "en": "Expand Fold"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COLLAPSE_ALL",
+   "en": "Collapse All"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_EXPAND_ALL",
+   "en": "Expand All"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COLLAPSE_TREE",
+   "en": "Collapse Fold Tree"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_EXPAND_TREE",
+   "en": "Expand Fold Tree"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COPY.accel",
+   "en": "C-C"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PASTE.accel",
+   "en": "C-V"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_WRAP.accel",
+   "en": "C-R"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SAVEAS.accel",
+   "en": "C-S"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLOSE.accel",
+   "en": "C-F4"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PREV_ERROR.accel",
+   "en": "F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_NEXT_ERROR.accel",
+   "en": "S-F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SELECT_ALL.accel",
+   "en": "C-A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND.accel",
+   "en": "C-F"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_NEXT.accel",
+   "en": "F3"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_PREVIOUS.accel",
+   "en": "S-F3"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLEAR.accel",
+   "en": "C-L"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_LARGER_FONT.accel",
+   "en": "D-UP"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SMALLER_FONT.accel",
+   "en": "D-DOWN"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SETTINGS.accel",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FILTER.accel",
+   "en": "C-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_COPY.accel.mac",
+   "en": "M-C"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PASTE.accel.mac",
+   "en": "M-V"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_LARGER_FONT.accel.mac",
+   "en": "D-UP"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SMALLER_FONT.accel.mac",
+   "en": "D-DOWN"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SETTINGS.accel.mac",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_WRAP.accel.mac",
+   "en": "M-R"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SAVEAS.accel.mac",
+   "en": "M-S"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLOSE.accel.mac",
+   "en": "M-F4"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_PREV_ERROR.accel.mac",
+   "en": "F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_NEXT_ERROR.accel.mac",
+   "en": "M-F12"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_SELECT_ALL.accel.mac",
+   "en": "M-A"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND.accel.mac",
+   "en": "M-F"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_NEXT.accel.mac",
+   "en": "M-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FIND_PREVIOUS.accel.mac",
+   "en": "S-M-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_CLEAR.accel.mac",
+   "en": "M-L"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "ACTION_FILTER.accel.mac",
+   "en": "C-G"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_DiskSpace",
+   "en": "Ran out of disk space in {0} for temporary output files.  \\ Either make more disk space available, change the system temporary \\ directory or run with -J-Dnb.output.heap=true"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/Bundle.properties",
+   "key": "MSG_LINE_TOO_LONG",
+   "en": "...line is too long, please switch to wrapped mode to see whole line..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "AdvancedOption_DisplayName_OutputSettings",
+   "en": "Output"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "AdvancedOption_Keywords_OutputSettings",
+   "en": "Output Window Font Color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Background",
+   "en": "Background"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Color",
+   "en": "Color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Font",
+   "en": "Font"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Output_Window",
+   "en": "Output Window"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "KW_Underline",
+   "en": "Underline"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "LBL_Description",
+   "en": "Output Window Settings"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "LBL_None",
+   "en": "None"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "LBL_Underline",
+   "en": "Underline"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblFontFamily.text",
+   "en": "&Font:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblFontSize.text",
+   "en": "Font Si&ze:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblStandardColor.text",
+   "en": "&Standard Color:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblErrorColor.text",
+   "en": "&Error Color:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblBackgroundColor.text",
+   "en": "&Background Color:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblLinkColor.text",
+   "en": "&Link Color:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblLinkStyle.text",
+   "en": "Link St&yle:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblTitle.text",
+   "en": "Output Window Settings"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnSelectFont.text",
+   "en": "..."
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.fldFontFamily.text",
+   "en": ""
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel1.text",
+   "en": "Im&portant Link Color:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnRestore.text",
+   "en": "&Restore"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnSelectFont.toolTipText",
+   "en": "Select font family, style and size"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.btnRestore.toolTipText",
+   "en": "Restore default settings"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.spnFontSize.toolTipText",
+   "en": "Adjust font size"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbBackgroundColor.toolTipText",
+   "en": "Select background color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbStandardColor.toolTipText",
+   "en": "Select standard text foreground color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbErrorColor.toolTipText",
+   "en": "Select error text foreground color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbLinkColor.toolTipText",
+   "en": "Select link foreground color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbImportantLinkColor.toolTipText",
+   "en": "Select important link foreground color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbLinkStyle.toolTipText",
+   "en": "Select link style"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblUnwrappedOnly.text",
+   "en": "(Does not apply to wrapped text)"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.lblInputColor.text",
+   "en": "&Input Color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.cmbInputColor.toolTipText",
+   "en": "Select input text foreground color"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel2.text",
+   "en": "Debug:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel3.text",
+   "en": "Warning:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel4.text",
+   "en": "Failure:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/options/Bundle.properties",
+   "key": "OutputSettingsPanel.jLabel5.text",
+   "en": "Success:"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_INPUT",
+   "en": "&Input"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_EOF",
+   "en": "&Close Input"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "MSG_TerminateProcess",
+   "en": "Terminate the process?"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "MSG_TooMuchTextSelected",
+   "en": "Selecting large parts of text can cause Out-Of-Memory errors. Do you want to continue?"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "TIP_EOF",
+   "en": "Closes the input component and sends end-of-file to any readers"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "TIP_INPUT",
+   "en": "Enter text and press enter to send it to the running process"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_Close",
+   "en": "Close Tab"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_CloseAll",
+   "en": "Close All Tabs"
+  },
+  {
+   "bundle": "org/netbeans/core/output2/ui/Bundle.properties",
+   "key": "LBL_CloseOthers",
+   "en": "Close Other Tabs"
+  }
+ ]
+}

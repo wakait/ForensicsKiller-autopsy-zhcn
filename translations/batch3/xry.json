@@ -1,0 +1,15 @@
+{
+  "XRYDataSourceProcessor.childNotReadable": "顶层路径 [ %s ] 不可读",
+  "XRYDataSourceProcessor.dataSourceType": "XRY 文本导出",
+  "XRYDataSourceProcessor.fileAdded": "已把 %s 添加到案例数据库",
+  "XRYDataSourceProcessor.ioError": "测试所选文件夹时发生 I/O 错误",
+  "XRYDataSourceProcessor.noCurrentCase": "没有已打开的案例。",
+  "XRYDataSourceProcessor.noPathSelected": "请选择包含已导出 XRY 文本文件的文件夹",
+  "XRYDataSourceProcessor.notAFolder": "所选路径不是文件夹",
+  "XRYDataSourceProcessor.notReadable": "所选路径不可读",
+  "XRYDataSourceProcessor.notXRYFolder": "所选文件夹中不包含任何 XRY 文本文件",
+  "XRYDataSourceProcessor.preppingFiles": "正在准备把文件添加到案例数据库",
+  "XRYDataSourceProcessor.processingFiles": "正在处理所有 XRY 文件...",
+  "XRYDataSourceProcessor.unexpectedError": "处理 XRY 报告时发生内部错误",
+  "XRYDataSourceProcessorConfigPanel.xrySelectFolderLabel.text": "选择包含已导出 XRY 文本文件的文件夹"
+}

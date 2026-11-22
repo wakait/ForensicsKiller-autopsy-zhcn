@@ -1,0 +1,7 @@
+{
+  "AbstractLoadableComponent_errorMessage_defaultText": "加载结果时出错。",
+  "AbstractLoadableComponent_loadingMessage_defaultText": "正在加载结果...",
+  "AbstractLoadableComponent_noDataExists_defaultText": "不存在数据。",
+  "IngestRunningLabel_defaultMessage": "摄取正在运行。",
+  "PieChartPanel_noDataLabel": "无数据"
+}

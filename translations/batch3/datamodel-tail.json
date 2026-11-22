@@ -1,0 +1,8 @@
+{
+  "AbstractAbstractFileNode.md5HashColLbl": "MD5 哈希",
+  "AbstractAbstractFileNode.sha256HashColLbl": "SHA-256 哈希",
+  "BlackboardArtifactNode.createSheet.artifactMD5.displayName": "MD5 哈希",
+  "BlackboardArtifactNode.createSheet.artifactMD5.name": "MD5 哈希",
+  "ContentTagNode.createSheet.artifactMD5.displayName": "MD5 哈希",
+  "ContentTagNode.createSheet.artifactMD5.name": "MD5 哈希"
+}

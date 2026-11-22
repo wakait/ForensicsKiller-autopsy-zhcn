@@ -1,0 +1,1126 @@
+{
+ "items": [
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_CannotHaveNullRootContext",
+   "en": "Cannot have null root context.",
+   "zh": "根上下文不能为 null。"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_ContextMustBeWithinRootContext",
+   "en": "An explored context ({0}) must be within the root context ({1}).",
+   "zh": "被浏览的上下文 ({0}) 必须位于根上下文 ({1}) 内。"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_handle_failed",
+   "en": "Could not restore Explorer window; the root node \"{0}\" could not be restored correctly.",
+   "zh": "无法恢复资源管理器窗口；根节点 \"{0}\" 未能正确恢复。"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_NodeCannotBeNull",
+   "en": "Cannot use null for node selection.",
+   "zh": "节点选择不能使用 null。"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_NoElementOfNodeSelectionMayBeNull",
+   "en": "No element of a node selection may be null.",
+   "zh": "节点选择中的任何元素都不能为 null。"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "explorerTitle",
+   "en": "Explorer [{0}]",
+   "zh": "资源管理器 [{0}]"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_MustNotVetoEmptySelection",
+   "en": "An Explorer view must not veto the empty selection.",
+   "zh": "资源管理器视图不得否决空选择。"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "EXC_NodeSelectionCannotContainNodes",
+   "en": "A node selection cannot contain nodes ({0}) not underneath the root ({1}).",
+   "zh": "节点选择不能包含不在根 ({1}) 之下的节点 ({0})。"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObject",
+   "en": "Are you sure you want to delete {0}?",
+   "zh": "确定要删除 {0} 吗？"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteFolder",
+   "en": "Are you sure you want to delete {0} and all of its contents?",
+   "zh": "确定要删除 {0} 及其全部内容吗？"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjects",
+   "en": "Are you sure you want to delete these {0} items?",
+   "zh": "确定要删除这 {0} 个项目吗？"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectTitle",
+   "en": "Confirm Object Deletion",
+   "zh": "确认删除对象"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteFolderTitle",
+   "en": "Confirm Package Deletion",
+   "zh": "确认删除包"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectsTitle",
+   "en": "Confirm Multiple Object Deletion",
+   "zh": "确认删除多个对象"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteShadow",
+   "en": "Are you sure you want to delete {0} (link to {3})?",
+   "zh": "确定要删除 {0}（链接到 {3}）吗？"
+  },
+  {
+   "bundle": "org/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteShadowTitle",
+   "en": "Confirm Link Deletion",
+   "zh": "确认删除链接"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_ExcIn",
+   "en": "Exception in",
+   "zh": "异常发生于"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_Editor",
+   "en": "Property Editor",
+   "zh": "属性编辑器"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_EditorTitle",
+   "en": "{0}",
+   "zh": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "PS_ArrayOf",
+   "en": "Array of",
+   "zh": "数组，元素类型："
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_ErrorSettingProperty",
+   "en": "The property could not be set. {0} is not a valid value for {1}.",
+   "zh": "无法设置属性。{0} 不是 {1} 的有效值。"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_CannotUpdateProperty",
+   "en": "{0} is not a valid value for {1}.",
+   "zh": "{0} 不是 {1} 的有效值。"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoPropertyEditor",
+   "en": "(No Property Editor)",
+   "zh": "（无属性编辑器）"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoProperties",
+   "en": "<No Properties>",
+   "zh": "<无属性>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Read_Yes",
+   "en": "(r/",
+   "zh": "(r/"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Read_No",
+   "en": "(-/",
+   "zh": "(-/"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_PropertiesNoMnemonic",
+   "en": "Properties",
+   "zh": "属性"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Write_Yes",
+   "en": "w)",
+   "zh": "w)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_Write_No",
+   "en": "-)",
+   "zh": "-)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoSort",
+   "en": "Sort by Category",
+   "zh": "按类别排序"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_NoSort",
+   "en": "Sort by Category",
+   "zh": "按类别排序"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_AlphaSort",
+   "en": "Sort by Name",
+   "zh": "按名称排序"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_AlphaSort",
+   "en": "Sort by Name",
+   "zh": "按名称排序"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_TypeSort",
+   "en": "Sort by Type",
+   "zh": "按类型排序"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_TypeSort",
+   "en": "Sort by Type",
+   "zh": "按类型排序"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_VisibleWritableOnly",
+   "en": "Show Editable Properties Only",
+   "zh": "仅显示可编辑属性"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_VisibleWritableOnly",
+   "en": "Show Editable Properties Only",
+   "zh": "仅显示可编辑属性"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Customize",
+   "en": "Customizer",
+   "zh": "定制器"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_Customize",
+   "en": "Customizer",
+   "zh": "定制器"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Help",
+   "en": "Help",
+   "zh": "帮助"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_CTL_Help",
+   "en": "Help",
+   "zh": "帮助"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Help",
+   "en": "Provides help about the object whose properties are displayed in the property sheet",
+   "zh": "提供属性表中所显示属性所属对象的帮助信息"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_DesignTimeUse",
+   "en": "[PropertyPanel:UserInfo]Using property >>{0}<< at design time throws an exception.",
+   "zh": "[PropertyPanel:UserInfo]设计时使用属性 >>{0}<< 会抛出异常。"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Property_sheet_option",
+   "en": "Property Sheet",
+   "zh": "属性表"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NoItem",
+   "en": "No Item Available",
+   "zh": "无可用项"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Index",
+   "en": "Property Index:",
+   "zh": "属性索引："
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Unknown",
+   "en": "Unknown",
+   "zh": "未知"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_OK",
+   "en": "OK",
+   "zh": "确定"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_OK",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Cancel",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Cancel",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Close",
+   "en": "Close",
+   "zh": "关闭"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Close",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Default",
+   "en": "Reset to &Default",
+   "zh": "重置为默认值(&D)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_CTL_Default",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Paste",
+   "en": "Paste",
+   "zh": "粘贴"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_Setter",
+   "en": "Exception in setter method of property: {0}",
+   "zh": "属性的 setter 方法异常：{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_Setter_localized",
+   "en": "Exception in setter method of property {0}:\\n{1}",
+   "zh": "属性 {0} 的 setter 方法异常：\\n{1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_custom_editor",
+   "en": "<no custom editor>",
+   "zh": "<无自定义编辑器>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_property_editor",
+   "en": "<no property editor>",
+   "zh": "<无属性编辑器>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Different_Values",
+   "en": "<Different Values>",
+   "zh": "<值不同>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Desc_Different_Values",
+   "en": "The selected nodes have different values for this property.",
+   "zh": "所选节点在此属性上的值不同。"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_properties",
+   "en": "<No Properties>",
+   "zh": "<无属性>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_value",
+   "en": "<No Value>",
+   "zh": "<无值>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_No_type",
+   "en": "<No type>",
+   "zh": "<无类型>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_ElipsisHint",
+   "en": "Invokes customizer.",
+   "zh": "调用定制器。"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_InvalidValue",
+   "en": "Invalid value: {0}",
+   "zh": "无效值：{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_SheetButton",
+   "en": "{0,choice,0#Invalid value {1}|1#{1}}",
+   "zh": "{0,choice,0#无效值 {1}|1#{1}}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_PropertyPanel",
+   "en": "{0}:",
+   "zh": "{0}："
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_PropertyPanel",
+   "en": "{0}",
+   "zh": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_PropertyPanelReadComponent",
+   "en": "{0} {1}",
+   "zh": "{0} {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_PropertyPanelReadComponent",
+   "en": "{0} Type: {1}{2,choice,0#|1# Bean: {3}|2# Beans: {3}}",
+   "zh": "{0} 类型：{1}{2,choice,0#|1# Bean：{3}|2# Bean：{3}}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_PropertyPanelWriteComponent",
+   "en": "{0}",
+   "zh": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_PropertyPanelWriteComponent",
+   "en": "{0}",
+   "zh": "{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_BeanListDelimiter",
+   "en": ",",
+   "zh": ","
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Properties",
+   "en": "&Properties",
+   "zh": "属性(&P)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_New",
+   "en": "&New",
+   "zh": "新建(&N)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Delete",
+   "en": "&Delete",
+   "zh": "删除(&D)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_MoveUp",
+   "en": "Move &up",
+   "zh": "上移(&U)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_MoveDown",
+   "en": "Move &down",
+   "zh": "下移(&D)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_HideDetails",
+   "en": "&Hide Details",
+   "zh": "隐藏详细信息(&H)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_ShowDetails",
+   "en": "&Show Details",
+   "zh": "显示详细信息(&S)"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_ErrorInIndexedSetter",
+   "en": "Indexed property value cannot be set",
+   "zh": "无法设置索引属性值"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Properties",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_New",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Delete",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_MoveUp",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_MoveDown",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_HideDetails",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_ShowDetails",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_IndexedEditorPanel",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "COLUMN_NAMES",
+   "en": "Names",
+   "zh": "名称"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "COLUMN_VALUES",
+   "en": "Values",
+   "zh": "值"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "UNREADABLE",
+   "en": "<unreadable>",
+   "zh": "<不可读>"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "NULL",
+   "en": "null",
+   "zh": "null"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ERRDLG_TITLE",
+   "en": "Error setting value",
+   "zh": "设置值出错"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "EXC_Unknown_sorting_mode",
+   "en": "Unknown Sorting Mode",
+   "zh": "未知排序模式"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ok",
+   "en": "Ok",
+   "zh": "确定"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "default",
+   "en": "Restore default value",
+   "zh": "恢复默认值"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "cancel",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "close",
+   "en": "Close",
+   "zh": "关闭"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "BOOLEAN_PREPEND",
+   "en": "(",
+   "zh": "("
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "BOOLEAN_APPEND",
+   "en": ")",
+   "zh": ")"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_BOOLEAN",
+   "en": "{0}{1}{2}",
+   "zh": "{0}{1}{2}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_Description",
+   "en": "Description",
+   "zh": "描述"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Description",
+   "en": "Description of the currently selected property",
+   "zh": "当前所选属性的描述"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_DescriptionTitle",
+   "en": "Property name",
+   "zh": "属性名称"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_DescriptionTitle",
+   "en": "Name of the property currently being edited",
+   "zh": "当前正在编辑的属性名称"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NO_DESCRIPTION",
+   "en": "No description available.",
+   "zh": "无可用描述。"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_NO_SELECTION",
+   "en": "Nothing selected",
+   "zh": "未选择任何内容"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACS_Splitter",
+   "en": "Splitter",
+   "zh": "分隔条"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_Splitter",
+   "en": "Visual divider between the properties table and the description area.",
+   "zh": "属性表与描述区域之间的可视分隔条。"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Unnamed_Property",
+   "en": "The property",
+   "zh": "该属性"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_ACST_SheetProperty",
+   "en": "{0} equals {1}",
+   "zh": "{0} 等于 {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_ACST_SheetSet",
+   "en": "Property group {0}",
+   "zh": "属性组 {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACST_No_Selection",
+   "en": "Nothing selected",
+   "zh": "未选择任何内容"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_Multiple_Selection",
+   "en": "Multiple objects selected",
+   "zh": "已选择多个对象"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_EDBUTTON_TIP",
+   "en": "Click, or select and press CTRL-SPACE to open custom editor; right click for menu",
+   "zh": "单击，或选中后按 CTRL-SPACE 打开自定义编辑器；右键单击显示菜单"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_List_Delimiter",
+   "en": ",",
+   "zh": ","
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_ShowDescription",
+   "en": "Show Description Area",
+   "zh": "显示描述区域"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_HideDescription",
+   "en": "Hide Description Area",
+   "zh": "隐藏描述区域"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "CTL_RestoreDefaultValue",
+   "en": "Restore Default Value",
+   "zh": "恢复默认值"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "LBL_BasicTab",
+   "en": "Properties",
+   "zh": "属性"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "MSG_unknown_property_name",
+   "en": "this property",
+   "zh": "此属性"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_BAD_NUMBER_FORMAT",
+   "en": "Illegal number format: \"{0}\"",
+   "zh": "数字格式非法：\"{0}\""
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_CUSTOM_DLG_TITLE",
+   "en": "{0} - {1}",
+   "zh": "{0} - {1}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "FMT_CUSTOM_DLG_NOPROPNAME_TITLE",
+   "en": "Custom editor: {0}",
+   "zh": "自定义编辑器：{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "MSG_ELLIPSIS",
+   "en": "...",
+   "zh": "..."
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSN_SHEET_TABLE",
+   "en": "Properties table",
+   "zh": "属性表"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSN_SHEET_TABBED_PANE",
+   "en": "Property categories",
+   "zh": "属性类别"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_SHEET_TABLE",
+   "en": "Table of editable properties representing the current object",
+   "zh": "表示当前对象的可编辑属性表"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "ACSD_SHEET_TABBED_PANE",
+   "en": "Can select different sets of properties of the current \\ object to display in the property sheet",
+   "zh": "可选择当前 \\ 对象的不同属性集，在属性表中显示"
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "LBL_QUICKSEARCH",
+   "en": "Quick Search:",
+   "zh": "快速搜索："
+  },
+  {
+   "bundle": "org/openide/explorer/propertysheet/Bundle.properties",
+   "key": "MSG_SetAsText_InvalidValue",
+   "en": "Invalid value: {0}",
+   "zh": "无效值：{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "EmptySubMenu",
+   "en": "Empty",
+   "zh": "空"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MenuViewStartFromRoot",
+   "en": "Browse from root",
+   "zh": "从根浏览"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MenuViewStartFromCurrent",
+   "en": "Browse from current point",
+   "zh": "从当前位置浏览"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "TabView_RootTab",
+   "en": "Root",
+   "zh": "根"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "VetoSelectedNodes",
+   "en": "Selected Nodes",
+   "zh": "所选节点"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_QUICKSEARCH",
+   "en": "Search:",
+   "zh": "搜索："
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_UP",
+   "en": "..",
+   "zh": ".."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "RenameFailed",
+   "en": "This object cannot be renamed from {0} to {1}.",
+   "zh": "无法将此对象从 {0} 重命名为 {1}。"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSN_TreeViewCellEditor",
+   "en": "Rename editor",
+   "zh": "重命名编辑器"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_TreeViewCellEditor",
+   "en": "In-place editor of node name in the tree view",
+   "zh": "树视图中节点名称的就地编辑器"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_NoPasteTypes",
+   "en": "Target did not accept the content of the transfer.",
+   "zh": "目标未接受传送的内容。"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_ABORT",
+   "en": "Cancel",
+   "zh": "取消"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACS_TableSheet",
+   "en": "Table of properties",
+   "zh": "属性表"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_TableSheet",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACS_NullPanel",
+   "en": "No property",
+   "zh": "无属性"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_NullPanel",
+   "en": "No property. Bean: {0}",
+   "zh": "无属性。Bean：{0}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACS_PropertyPanelRenderer",
+   "en": "{0}: {1}",
+   "zh": "{0}：{1}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_PropertyPanelRenderer",
+   "en": "{0} Type: {1} Bean: {2}",
+   "zh": "{0} 类型：{1} Bean：{2}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_No_value",
+   "en": "<No Value>",
+   "zh": "<无值>"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_No_type",
+   "en": "<No type>",
+   "zh": "<无类型>"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ColumnDialogTitle",
+   "en": "Change Visible Columns",
+   "zh": "更改可见列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ColumnDialogDesc",
+   "en": "Choose the Columns to Display in the List",
+   "zh": "选择要在列表中显示的列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ListOptions",
+   "en": "List Options",
+   "zh": "列表选项"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ChangeColumns",
+   "en": "Change Visible Columns...",
+   "zh": "更改可见列..."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_SortMenu",
+   "en": "Sort",
+   "zh": "排序"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_Ascending",
+   "en": "Ascending",
+   "zh": "升序"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_Descending",
+   "en": "Descending",
+   "zh": "降序"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_ColsMenu",
+   "en": "Column",
+   "zh": "列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_MoveLeft",
+   "en": "Move Left",
+   "zh": "左移"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_MoveRight",
+   "en": "Move Right",
+   "zh": "右移"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_NoColumnsToChange",
+   "en": "There are no columns to change their visibility.",
+   "zh": "没有可更改可见性的列。"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_NoSort",
+   "en": "None",
+   "zh": "无"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSN_ColumnDialog",
+   "en": "Change Visible Columns",
+   "zh": "更改可见列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_ColumnDialog",
+   "en": "Choose the Columns to Display in the List",
+   "zh": "选择要在列表中显示的列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSN_TreeTable",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACSD_TreeTable",
+   "en": "N/A",
+   "zh": "N/A"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "MSG_ELLIPSIS",
+   "en": "...",
+   "zh": "..."
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LBL_QuickFilter",
+   "en": "Show only rows where",
+   "zh": "仅显示满足以下条件的行"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_ColumnsSelector",
+   "en": "Change Visible Columns",
+   "zh": "更改可见列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACN_ColumnsSelector",
+   "en": "Columns Selector",
+   "zh": "列选择器"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ACD_ColumnsSelector",
+   "en": "Select visible columns",
+   "zh": "选择可见列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "OutlineViewOutline_NameAndDesc",
+   "en": "{0}: {1}",
+   "zh": "{0}：{1}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "ColumnsSelectorHint",
+   "en": "Choose the Columns to Display in the List",
+   "zh": "选择要在列表中显示的列"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "NodeOutlineModel_NodesColumnLabel",
+   "en": "Nodes",
+   "zh": "节点"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "LOG_NO_READ_ACCESS",
+   "en": "Accessing {0} without Children.MUTEX read access",
+   "zh": "在未获得 Children.MUTEX 读访问权限的情况下访问 {0}"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "FMT_ErrorSettingValue",
+   "en": "The value could not be set. {0} is not a valid value for {1}.",
+   "zh": "无法设置值。{0} 不是 {1} 的有效值。"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "FMT_BAD_NUMBER_FORMAT",
+   "en": "Illegal number format: \"{0}\"",
+   "zh": "数字格式非法：\"{0}\""
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_MatchCase",
+   "en": "Match Case",
+   "zh": "区分大小写"
+  },
+  {
+   "bundle": "org/openide/explorer/view/Bundle.properties",
+   "key": "CTL_ColumnsToSearch",
+   "en": "Select Columns to Search in:",
+   "zh": "选择要搜索的列："
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObject",
+   "en": "Are you sure you want to delete {0}?",
+   "zh": "确定要删除 {0} 吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjects",
+   "en": "Are you sure you want to delete these {0} items?",
+   "zh": "确定要删除这 {0} 个项目吗？"
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectsTitle",
+   "en": "Confirm Multiple Object Deletion",
+   "zh": "确认删除多个对象"
+  },
+  {
+   "bundle": "org/netbeans/modules/openide/explorer/Bundle.properties",
+   "key": "MSG_ConfirmDeleteObjectTitle",
+   "en": "Confirm Object Deletion",
+   "zh": "确认删除对象"
+  }
+ ]
+}

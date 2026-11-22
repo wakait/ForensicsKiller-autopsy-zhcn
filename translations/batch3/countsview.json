@@ -1,0 +1,22 @@
+{
+  "BarClickHandler.selectTimeAndType.errorMessage": "选择时间与类型时出错。",
+  "BarClickHandler_zoomIn_errorMessage": "放大时出错。",
+  "CountsViewPane.detailSwitchMessage": "没有比“秒”更小的时间分辨率。\\n是否改为切换到详细信息视图？",
+  "CountsViewPane.detailSwitchTitle": "切换到详细信息视图？",
+  "CountsViewPane.loggedTask.name": "正在更新计数视图",
+  "CountsViewPane.loggedTask.updatingCounts": "正在填充视图",
+  "CountsViewPane.numberOfEvents": "事件数量（{0}）",
+  "CountsViewPane.scaleHelpLinear": "线性刻度适用于多数场景。选用该刻度时，柱高以线性一一对应的方式表示计数，y 轴以数值标注。当数值范围很大时，计数较低的时间段对应的柱子可能小到看不见。为便于用户察觉，含事件的日期范围标签会加粗显示。要看到过小的柱子有三种办法：调整窗口大小让时间轴获得更多纵向空间；调整显示的时间范围以排除柱子较大的时间段；或把刻度改为对数刻度。",
+  "CountsViewPane.scaleHelpLog": "对数刻度以非线性的方式表示事件数量，从而压缩大数与小数值之间的差异。请注意，即使使用对数刻度，计数差异极大时仍可能产生小到看不见的柱子。此时唯一的办法可能是筛选事件以减小计数差异。注意：由于对数刻度是对每种事件类型分别应用的，合并后的柱高含义并不直观，为强调这一点，使用对数刻度时 y 轴不再标注数值。对数刻度应用于快速比较计数",
+  "CountsViewPane.scaleHelpLog2": "在同一类型内跨越时间，或在同一时间段内跨越不同类型，但不能同时用于两者。",
+  "CountsViewPane.scaleHelpLog3": "绝对比较应使用实际计数（可在工具提示或结果查看器中获取）。请谨慎使用对数刻度。",
+  "CountsViewPane.tooltip.text": "{0} {1} 个事件\\n介于 {2}\\n至     {3}",
+  "SelectIntervalAction.errorMessage": "选择时间区间时出错。",
+  "SelectIntervalAndTypeAction.errorMessage": "选择时间区间与类型时出错。",
+  "SelectTypeAction.errorMessage": "选择类型时出错。",
+  "Timeline.ui.countsview.menuItem.selectEventType": "选择事件类型",
+  "Timeline.ui.countsview.menuItem.selectTimeandType": "选择时间与类型",
+  "Timeline.ui.countsview.menuItem.selectTimeRange": "选择时间范围",
+  "Timeline.ui.countsview.menuItem.zoomIntoTimeRange": "放大到该时间范围",
+  "ZoomToIntervalAction.errorMessage": "缩放到时间区间时出错。"
+}

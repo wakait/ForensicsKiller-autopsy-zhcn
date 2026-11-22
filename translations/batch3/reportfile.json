@@ -1,0 +1,6 @@
+{
+  "ReportFileTextConfigurationPanel.tabDelimitedButton.text": "制表符分隔",
+  "ReportFileTextConfigurationPanel.commaDelimitedButton.text": "逗号分隔",
+  "FileReportText.getName.text": "文件 - 文本",
+  "FileReportText.getDesc.text": "包含案例中各文件信息的分隔符文本文件。"
+}

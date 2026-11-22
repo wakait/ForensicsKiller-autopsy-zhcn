@@ -1,0 +1,12 @@
+{
+  "MessageServiceConnectionInfo.ConnectionCheck.Everything": "主机名、端口号、用户名和/或密码无效。",
+  "MessageServiceConnectionInfo.ConnectionCheck.Hostname": "主机名无效。",
+  "MessageServiceConnectionInfo.ConnectionCheck.Port": "端口号无效。",
+  "MessageServiceConnectionInfo.ConnectionCheck.Username": "用户名无效。",
+  "MessageServiceConnectionInfo.ConnectionCheck.Password": "密码无效。",
+  "MessageServiceConnectionInfo.ConnectionCheck.UsernameAndPassword": "用户名和/或密码无效。",
+  "MessageServiceConnectionInfo.ConnectionCheck.HostnameOrPort": "主机名和/或端口号无效。",
+  "MessageServiceConnectionInfo.MissingHostname": "缺少主机名。",
+  "MessageServiceConnectionInfo.MissingUsername": "缺少用户名。",
+  "MessageServiceConnectionInfo.MissingPassword": "缺少密码。"
+}

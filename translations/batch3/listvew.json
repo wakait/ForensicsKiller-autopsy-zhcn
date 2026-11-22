@@ -1,0 +1,15 @@
+{
+  "EventRow.updateItem.errorMessage": "按 ID 获取事件时出错。",
+  "EventTableCell.updateItem.errorMessage": "按 ID 获取事件时出错。",
+  "ListChart.errorMsg": "获取所选事件内容时出现问题。",
+  "ListTimeline.hashHitTooltip.error": "获取所选事件的哈希集名称时出现问题。",
+  "ListTimeline.hashHitTooltip.text": "哈希集：\\n{0}",
+  "ListTimeline.taggedTooltip.error": "获取所选事件的标签名称时出现问题。",
+  "ListView.EventTypeCell.accessedTooltip": "文件已访问（A）",
+  "ListView.EventTypeCell.changedTooltip": "文件属性已变更（C）",
+  "ListView.EventTypeCell.createdTooltip": "文件已创建（B，取自 Born）",
+  "ListView.EventTypeCell.modifiedTooltip": "文件已修改（M）",
+  "ListViewPane.loggedTask.name": "正在更新列表视图",
+  "ListViewPane.loggedTask.queryDb": "正在检索事件数据",
+  "ListViewPane.loggedTask.updateUI": "正在填充视图"
+}
