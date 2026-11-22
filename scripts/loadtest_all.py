@@ -14,6 +14,14 @@ ROOT = Path(os.environ.get("AUTOPSY_HOME", r"D:/kit-ascii/autopsy"))
 JRE = ROOT / "jre" / "bin"
 MAN = json.loads((PACK / "MANIFEST.json").read_text(encoding="utf-8"))
 
+# 首次运行自动编译 tools/LoadCheck.java（用 Autopsy 自带 javac）
+CLASSES = PACK / "scripts" / "classes"
+SRC = PACK / "tools" / "LoadCheck.java"
+if not (CLASSES / "LoadCheck.class").is_file() and SRC.is_file():
+    CLASSES.mkdir(parents=True, exist_ok=True)
+    subprocess.run([str(JRE / "javac.exe"), "-d", str(CLASSES), str(SRC)],
+                   capture_output=True, env=dict(os.environ, MSYS2_ARG_CONV_EXCL="*"))
+
 bases, jars = [], []
 for rel, info in sorted(MAN["bundles"].items()):
     bases.append(rel.replace("\\", "/").replace("/", ".")[:-len(".properties")])
