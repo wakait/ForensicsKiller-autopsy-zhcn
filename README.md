@@ -1,5 +1,8 @@
 # Autopsy 简体中文语言包（资源补丁版）
 
+> **直接下载安装包**：[Releases · v2026.12-FINAL-R3](https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest)（约 0.3 MB，免 Python，双击安装）
+
+
 面向 **Autopsy 4.23.1**（Sleuth Kit Labs）的独立汉化仓库：不改官方安装包、不重编译，只往 jar 里补资源文件，可一键安装、一键回滚。
 
 - 覆盖 **180 个 bundle、约 8900 个中文条目**：Autopsy 主界面 + Sleuth Kit 数据模型 + NetBeans 平台层 + Cyber Triage 插件
