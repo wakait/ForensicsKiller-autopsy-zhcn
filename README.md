@@ -1,6 +1,19 @@
-# Autopsy 简体中文语言包（资源补丁版）
+<p align="center">
+  <img src="docs/assets/logo.svg" width="120" alt="Autopsy 简体中文语言包">
+</p>
+
+<h1 align="center">Autopsy 简体中文语言包</h1>
+
+<p align="center">
+  <a href="https://wakait.github.io/ForensicsKiller-autopsy-zhcn/">官网</a> ·
+  <a href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest">下载</a> ·
+  <a href="docs/原理与排错.md">原理与排错</a> ·
+  <a href="RELEASE.md">发布说明</a>
+</p>
 
 > **直接下载安装包**：[Releases · v2026.12-FINAL-R3](https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest)（约 0.3 MB，免 Python，双击安装）
+>
+> **介绍页**：<https://wakait.github.io/ForensicsKiller-autopsy-zhcn/>
 
 
 面向 **Autopsy 4.23.1**（Sleuth Kit Labs）的独立汉化仓库：不改官方安装包、不重编译，只往 jar 里补资源文件，可一键安装、一键回滚。

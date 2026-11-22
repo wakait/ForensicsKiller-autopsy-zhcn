@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autopsy 简体中文语言包 · 一键汉化 Autopsy 4.23.1</title>
+<meta name="description" content="Autopsy 4.23.1 简体中文语言包：180 个资源包、约 8900 条中文文案，一键安装、可完整还原。支持一键下载官方安装包并自动配置。">
+<meta property="og:title" content="Autopsy 简体中文语言包">
+<meta property="og:description" content="一键汉化 Autopsy 4.23.1：180 个资源包、约 8900 条中文文案。">
+<meta property="og:image" content="assets/og.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.png" sizes="64x64">
+<link rel="apple-touch-icon" href="assets/logo-192.png">
+<style>
+  :root {
+    --bg: #0d0716;
+    --bg2: #170d28;
+    --card: rgba(255,255,255,.045);
+    --card-brd: rgba(167,139,250,.18);
+    --text: #EDE9FE;
+    --muted: #A78BFA;
+    --muted2: #8B7BA8;
+    --accent: #8B5CF6;
+    --accent2: #6D28D9;
+    --ok: #34D399;
+    --radius: 16px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: radial-gradient(1200px 700px at 15% -10%, #2a1150 0%, transparent 60%),
+                radial-gradient(900px 600px at 90% 10%, #3b1273 0%, transparent 55%),
+                var(--bg);
+    color: var(--text);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--muted); text-decoration: none; }
+  a:hover { color: #fff; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* 顶栏 */
+  header {
+    position: sticky; top: 0; z-index: 20;
+    backdrop-filter: blur(14px);
+    background: rgba(13,7,22,.72);
+    border-bottom: 1px solid rgba(167,139,250,.12);
+  }
+  .nav { display: flex; align-items: center; gap: 14px; height: 64px; }
+  .nav img { width: 30px; height: 30px; }
+  .nav b { font-size: 16px; letter-spacing: .3px; }
+  .nav .sp { flex: 1; }
+  .nav a.link { font-size: 14px; color: var(--muted2); padding: 6px 10px; border-radius: 8px; }
+  .nav a.link:hover { color: var(--text); background: rgba(167,139,250,.1); }
+
+  /* Hero */
+  .hero { padding: 84px 0 40px; text-align: center; }
+  .hero .logo { width: 132px; height: 132px; filter: drop-shadow(0 18px 40px rgba(109,40,217,.55)); }
+  h1 { font-size: clamp(30px, 5vw, 50px); line-height: 1.2; margin: 22px 0 12px; letter-spacing: -.5px; }
+  h1 .grad { background: linear-gradient(100deg,#C4B5FD,#8B5CF6 55%,#A78BFA); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .lede { color: var(--muted2); font-size: 17px; max-width: 660px; margin: 0 auto; }
+  .badges { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 22px 0 26px; }
+  .badge { font-size: 13px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--card-brd); color: var(--muted); background: rgba(139,92,246,.08); }
+  .cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 13px 22px; border-radius: 12px; font-weight: 600; font-size: 15px;
+    border: 1px solid transparent; transition: .18s;
+  }
+  .btn.primary { background: linear-gradient(135deg,#8B5CF6,#6D28D9); color: #fff; box-shadow: 0 12px 30px rgba(109,40,217,.45); }
+  .btn.primary:hover { transform: translateY(-2px); box-shadow: 0 16px 36px rgba(109,40,217,.55); }
+  .btn.ghost { border-color: var(--card-brd); color: var(--text); background: rgba(255,255,255,.03); }
+  .btn.ghost:hover { border-color: var(--accent); background: rgba(139,92,246,.12); }
+  .btn small { font-weight: 400; opacity: .75; }
+
+  /* 通用区块 */
+  section { padding: 54px 0; }
+  h2 { font-size: 24px; margin: 0 0 8px; letter-spacing: -.2px; }
+  .sub { color: var(--muted2); margin-bottom: 26px; font-size: 15px; }
+
+  /* 三种包 */
+  .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 18px; }
+  .card {
+    position: relative; padding: 24px; border-radius: var(--radius);
+    background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.02));
+    border: 1px solid var(--card-brd);
+    transition: .2s;
+  }
+  .card:hover { transform: translateY(-3px); border-color: rgba(167,139,250,.45); }
+  .card .tag { position: absolute; top: 18px; right: 18px; font-size: 12px; padding: 3px 9px; border-radius: 999px; background: rgba(52,211,153,.14); color: var(--ok); }
+  .card h3 { margin: 0 0 6px; font-size: 17px; }
+  .card .size { font-size: 13px; color: var(--muted2); margin-bottom: 12px; }
+  .card p { margin: 0 0 16px; color: #C9BEE3; font-size: 14.5px; }
+  .card ol { margin: 0 0 18px; padding-left: 20px; color: #C9BEE3; font-size: 14px; }
+  .card ol li { margin: 4px 0; }
+
+  /* 数据 */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 14px; }
+  .stat { padding: 20px; border-radius: 14px; background: var(--card); border: 1px solid rgba(167,139,250,.12); text-align: center; }
+  .stat b { display: block; font-size: 28px; background: linear-gradient(120deg,#fff,#C4B5FD); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .stat span { font-size: 13px; color: var(--muted2); }
+
+  /* 菜单对照 */
+  .cmp { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .cmp > div { padding: 18px 20px; border-radius: 14px; border: 1px solid rgba(167,139,250,.14); font-size: 14.5px; }
+  .cmp .en { background: rgba(255,255,255,.03); color: var(--muted2); }
+  .cmp .zh { background: rgba(139,92,246,.12); border-color: rgba(167,139,250,.35); }
+  .cmp .k { display: block; font-size: 12px; letter-spacing: .6px; text-transform: uppercase; color: var(--muted2); margin-bottom: 8px; }
+  .cmp code { font-family: ui-monospace, Consolas, monospace; font-size: 14px; }
+
+  /* 步骤 */
+  .steps { counter-reset: s; display: grid; gap: 14px; }
+  .step { display: flex; gap: 16px; padding: 18px 20px; border-radius: 14px; background: var(--card); border: 1px solid rgba(167,139,250,.12); }
+  .step::before {
+    counter-increment: s; content: counter(s);
+    flex: 0 0 30px; height: 30px; border-radius: 50%;
+    display: grid; place-items: center; font-size: 14px; font-weight: 700;
+    background: linear-gradient(135deg,#8B5CF6,#6D28D9); color: #fff;
+  }
+  .step div { flex: 1; }
+  .step b { display: block; margin-bottom: 4px; }
+  .step p { margin: 0; color: var(--muted2); font-size: 14.5px; }
+
+  pre {
+    background: #120a1f; border: 1px solid rgba(167,139,250,.18); border-radius: 12px;
+    padding: 14px 16px; overflow-x: auto; font-size: 13.5px; line-height: 1.6;
+  }
+  code { font-family: ui-monospace, Consolas, "Courier New", monospace; }
+
+  /* FAQ */
+  details { border: 1px solid rgba(167,139,250,.14); border-radius: 12px; padding: 14px 18px; margin-bottom: 10px; background: rgba(255,255,255,.025); }
+  details[open] { border-color: rgba(167,139,250,.35); }
+  summary { cursor: pointer; font-weight: 600; font-size: 15px; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "＋"; color: var(--accent); margin-right: 10px; }
+  details[open] summary::before { content: "－"; }
+  details p { margin: 10px 0 0; color: var(--muted2); font-size: 14.5px; }
+
+  footer { border-top: 1px solid rgba(167,139,250,.12); padding: 34px 0 50px; color: var(--muted2); font-size: 13.5px; }
+  footer .row { display: flex; gap: 20px; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+  footer img { width: 22px; height: 22px; vertical-align: -5px; margin-right: 8px; }
+
+  @media (max-width: 640px) {
+    .hero { padding: 56px 0 24px; }
+    .cmp { grid-template-columns: 1fr; }
+    .nav a.link { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <img src="assets/logo.svg" alt="logo">
+    <b>Autopsy 简体中文</b>
+    <span class="sp"></span>
+    <a class="link" href="#packages">下载</a>
+    <a class="link" href="#features">覆盖范围</a>
+    <a class="link" href="#start">安装</a>
+    <a class="link" href="#faq">常见问题</a>
+    <a class="link" href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn">GitHub</a>
+  </div>
+</header>
+
+<main>
+
+  <div class="wrap hero">
+    <img class="logo" src="assets/logo.svg" alt="Autopsy 简体中文语言包">
+    <h1>让 <span class="grad">Autopsy</span> 说中文</h1>
+    <p class="lede">面向 Autopsy 4.23.1 的完整汉化：180 个资源包、约 8900 条中文文案。不改官方安装包、不重编译，一键安装，随时还原。</p>
+    <div class="badges">
+      <span class="badge">v2026.12-FINAL-R3</span>
+      <span class="badge">Autopsy 4.23.1</span>
+      <span class="badge">180 资源包</span>
+      <span class="badge">约 8900 条中文</span>
+      <span class="badge">可完整回滚</span>
+    </div>
+    <div class="cta">
+      <a class="btn primary" id="btn-setup" href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest">
+        一键安装包 <small>0.3 MB</small>
+      </a>
+      <a class="btn ghost" href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest">全部下载</a>
+      <a class="btn ghost" href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn">查看源码</a>
+    </div>
+  </div>
+
+  <section id="packages">
+    <div class="wrap">
+      <h2>三种取用方式</h2>
+      <p class="sub">按你机器上的情况选一个即可。</p>
+      <div class="cards">
+
+        <article class="card">
+          <span class="tag">推荐</span>
+          <h3>一键安装包</h3>
+          <div class="size">约 0.3 MB · 需要联网</div>
+          <p>还没有 Autopsy？这个包替你全办好：下载官方安装包、静默安装、套用中文、建桌面快捷方式、逐项自检。</p>
+          <ol>
+            <li>解压压缩包</li>
+            <li>右键「一键安装.bat」以管理员运行</li>
+            <li>等待 5–15 分钟，看到全部 <code>[√]</code> 即可</li>
+          </ol>
+          <a class="btn primary" href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest">下载 Setup 包</a>
+        </article>
+
+        <article class="card">
+          <h3>完整便携版</h3>
+          <div class="size">约 1.05 GB · 完全离线</div>
+          <p>解压即用的完整 Autopsy，已配置好中文。适合内网、无网环境或想随身带走一份。</p>
+          <ol>
+            <li>解压到不含中文/空格的目录</li>
+            <li>双击「启动.bat」</li>
+            <li>首次启动自动清缓存，约 60–90 秒</li>
+          </ol>
+          <a class="btn ghost" data-a="portable" href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest">下载便携包</a>
+        </article>
+
+        <article class="card">
+          <h3>仅汉化补丁</h3>
+          <div class="size">约 0.3 MB · 已有 Autopsy</div>
+          <p>已经装好 Autopsy，只想把界面变中文。脚本会备份原文件，可一键还原英文。</p>
+          <ol>
+            <li>完全退出 Autopsy</li>
+            <li>双击「安装.bat」</li>
+            <li>重新启动即为中文</li>
+          </ol>
+          <a class="btn ghost" data-a="patch" href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases/latest">下载补丁包</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>覆盖范围</h2>
+      <p class="sub">不只是菜单——日常取证操作路径上的文字都翻了。</p>
+      <div class="stats">
+        <div class="stat"><b>180</b><span>资源包（bundle）</span></div>
+        <div class="stat"><b>~8900</b><span>中文文案</span></div>
+        <div class="stat"><b>99%</b><span>可译内容覆盖率</span></div>
+        <div class="stat"><b>0</b><span>资源加载异常</span></div>
+      </div>
+      <div style="height:22px"></div>
+      <div class="cmp">
+        <div class="en"><span class="k">汉化前</span><code>Case　View　Tools　Window　Help</code></div>
+        <div class="zh"><span class="k">汉化后</span><code>案件　视图(V)　工具(T)　窗口(W)　帮助(H)</code></div>
+        <div class="en"><span class="k">汉化前</span><code>Add Data Source　Ingest　Keyword Search</code></div>
+        <div class="zh"><span class="k">汉化后</span><code>添加数据源　摄取　关键词搜索</code></div>
+        <div class="en"><span class="k">汉化前</span><code>Data Artifacts　Timeline　Examiner</code></div>
+        <div class="zh"><span class="k">汉化后</span><code>数据制品　时间线　检验员</code></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="start">
+    <div class="wrap">
+      <h2>三分钟上手</h2>
+      <p class="sub">以「一键安装包」为例，其余两种更简单。</p>
+      <div class="steps">
+        <div class="step"><div><b>完全退出 Autopsy</b><p>任务管理器里不要有 <code>autopsy64.exe</code>，也不要有残留的 <code>java.exe</code>。</p></div></div>
+        <div class="step"><div><b>右键「一键安装.bat」→ 以管理员身份运行</b><p>脚本会自动下载官方 MSI、静默安装，并套用中文语言包。</p></div></div>
+        <div class="step"><div><b>看自检清单</b><p>主程序、内置 JRE、中文资源、界面语言、桌面快捷方式逐项打勾；全部 <code>[√]</code> 就完成了。</p></div></div>
+      </div>
+      <div style="height:18px"></div>
+      <pre><code>:: 想装到别的目录
+一键安装.bat -Target "D:\Autopsy"
+
+:: 已经下好 MSI，跳过下载
+一键安装.bat -Msi "D:\autopsy-4.23.1-64bit.msi"
+
+:: 已经装过 Autopsy，只套中文
+一键安装.bat -SkipInstall -Target "D:\Autopsy"</code></pre>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>常见问题</h2>
+      <p class="sub">按踩坑概率排序。</p>
+
+      <details open><summary>装完菜单还是英文？</summary>
+        <p>99% 是菜单缓存没清。关闭 Autopsy，删除 <code>%LOCALAPPDATA%\autopsy\Cache\dev</code> 下的全部内容，再启动。安装脚本已自动清过一次；如果你之前装过另一个 Autopsy，两者交替使用时需要再清一次。</p></details>
+
+      <details><summary>会影响取证结果吗？</summary>
+        <p>不会。只替换界面文案资源，不触碰任何分析逻辑、数据库结构或解析代码。</p></details>
+
+      <details><summary>个别地方仍是英文？</summary>
+        <p>约 181 条字符串写死在程序代码里（多为日志与异常提示），资源文件改不到，需要改字节码，本版未做。另有 77 条按规范刻意保留英文，如格式模板、字体名、产品名。</p></details>
+
+      <details><summary>Autopsy 升级后还能用吗？</summary>
+        <p>不能直接套用。安装脚本会对每个要改的 layer 做哈希校验，版本不符会自动跳过，不会破坏安装；需要按新版本的 bundle 重新翻译。</p></details>
+
+      <details><summary>怎么卸载 / 恢复英文？</summary>
+        <p>一键安装包与补丁包都附带「还原英文.bat」，从安装时的备份完整还原。便携版直接删目录即可。</p></details>
+
+      <details><summary>为什么第一次启动要等一分多钟？</summary>
+        <p>Autopsy（NetBeans 平台）会把合并后的菜单结构缓存起来。清空缓存后首次启动需要重建，约 60–90 秒，之后恢复正常速度。</p></details>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap row">
+    <div><img src="assets/logo.svg" alt="">Autopsy 简体中文语言包 · v2026.12-FINAL-R3</div>
+    <div>
+      <a href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn">仓库</a> ·
+      <a href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/releases">下载</a> ·
+      <a href="https://github.com/wakait/ForensicsKiller-autopsy-zhcn/blob/main/docs/原理与排错.md">原理与排错</a>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:14px;opacity:.65">
+    仅包含翻译资源与脚本，不含 Autopsy 任何代码或二进制。Autopsy / The Sleuth Kit 版权归 Sleuth Kit Labs，按其原始许可分发。
+  </div>
+</footer>
+
+<script>
+  // 用最新 release 的实际资产填充下载按钮（失败则保留静态链接）
+  (function () {
+    var api = "https://api.github.com/repos/wakait/ForensicsKiller-autopsy-zhcn/releases/latest";
+    fetch(api).then(function (r) { return r.ok ? r.json() : null; }).then(function (rel) {
+      if (!rel || !rel.assets) return;
+      var pick = function (re) {
+        for (var i = 0; i < rel.assets.length; i++) if (re.test(rel.assets[i].name)) return rel.assets[i];
+        return null;
+      };
+      var map = [
+        ["#btn-setup", /Setup.*\.zip$/i],
+        ["[data-a=portable]", /portable.*\.7z$/i],
+        ["[data-a=patch]", /zhCN-v.*\.zip$/i]
+      ];
+      map.forEach(function (m) {
+        var el = document.querySelector(m[0]);
+        var a = pick(m[1]);
+        if (el && a) {
+          el.href = a.browser_download_url;
+          el.title = a.name + " · " + (a.size / 1048576).toFixed(1) + " MB";
+        }
+      });
+    }).catch(function () {});
+  })();
+</script>
+</body>
+</html>
