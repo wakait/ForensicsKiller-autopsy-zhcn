@@ -5,3 +5,4 @@ scripts/classes/
 INSTALL_LOG.json
 *.bmp
 *.tmp
+QA_LOADTEST.txt
