@@ -1,0 +1,93 @@
+[
+ {
+  "jar": "autopsy\\modules\\org-sleuthkit-autopsy-core.jar",
+  "entry": "org/sleuthkit/autopsy/core/layer.xml",
+  "file": "l/org-sleuthkit-autopsy-core__c4ad2fe8.xml",
+  "expect": "b0844a20ef8c25256585660ca78945fb50fddf6253a4ac4e29f3c93da4a6af68",
+  "added": 6
+ },
+ {
+  "jar": "autopsy\\modules\\org-sleuthkit-autopsy-experimental.jar",
+  "entry": "org/sleuthkit/autopsy/experimental/autoingest/layer.xml",
+  "file": "l/org-sleuthkit-autopsy-experimental__4f66a5c4.xml",
+  "expect": "04e55fe0d9723d9e314886574fd9d4fa11198238ed3dcd520d458baafbe8fba2",
+  "added": 1
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-api-search.jar",
+  "entry": "META-INF/generated-layer.xml",
+  "file": "l/org-netbeans-api-search__97905a00.xml",
+  "expect": "0bbf873115262144ad4c198cb93960d04335ef029064eda899626ce5297c657a",
+  "added": 1
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-core-multiview.jar",
+  "entry": "org/netbeans/core/multiview/resources/mf-layer.xml",
+  "file": "l/org-netbeans-core-multiview__7112d22b.xml",
+  "expect": "7d3713d282975a590fc65812baede168913406a109a85867fd5945c6169c5377",
+  "added": 2
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-core-ui.jar",
+  "entry": "org/netbeans/core/ui/resources/layer.xml",
+  "file": "l/org-netbeans-core-ui__7849eb89.xml",
+  "expect": "2aa841b096b27f2402836e7524e43dda2276f754cde00b6ed1d570dee1d5d3b0",
+  "added": 9
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-core-windows.jar",
+  "entry": "org/netbeans/core/windows/resources/layer.xml",
+  "file": "l/org-netbeans-core-windows__b1f5bac3.xml",
+  "expect": "5c0d49849b6e2b3c7510e73eee21536c3524c4d205e9111b34329c74c174905f",
+  "added": 3
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-modules-applemenu.jar",
+  "entry": "org/netbeans/modules/applemenu/layer.xml",
+  "file": "l/org-netbeans-modules-applemenu__1145f2d2.xml",
+  "expect": "a49d722abff0bb469b960682989a4ff6dd9e240277898b56e4cdb597ffcd8176",
+  "added": 4
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-modules-autoupdate-ui.jar",
+  "entry": "META-INF/generated-layer.xml",
+  "file": "l/org-netbeans-modules-autoupdate-ui__97905a00.xml",
+  "expect": "6a51bebe709c75f6fa2f9a500342c57c1e02d39f0224cf35c05973a6539b9b1a",
+  "added": 2
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-modules-javahelp.jar",
+  "entry": "org/netbeans/modules/javahelp/resources/layer.xml",
+  "file": "l/org-netbeans-modules-javahelp__f2cbad4a.xml",
+  "expect": "a467fffb6c276a2bff124e30d156c7b0c1312cabf512f3858229872729a41587",
+  "added": 1
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-modules-options-keymap.jar",
+  "entry": "org/netbeans/modules/options/keymap/mf-layer.xml",
+  "file": "l/org-netbeans-modules-options-keymap__48489c34.xml",
+  "expect": "eb6dd84d3143f839b278ec585442024f87d3ca1c98f0913a6096a962fd3fc286",
+  "added": 1
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-modules-print.jar",
+  "entry": "org/netbeans/modules/print/resources/layer.xml",
+  "file": "l/org-netbeans-modules-print__9e0d1fb1.xml",
+  "expect": "2711f8d74b2594bc1e32ad4dc2b0ab8c17e9fe63cab2b50d41dfdb5a55f23129",
+  "added": 1
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-modules-progress-ui.jar",
+  "entry": "META-INF/generated-layer.xml",
+  "file": "l/org-netbeans-modules-progress-ui__97905a00.xml",
+  "expect": "085f46991fd08d2d681178791643e5883cb07c40698d7a9371d9058425562322",
+  "added": 2
+ },
+ {
+  "jar": "platform\\modules\\org-netbeans-modules-uihandler.jar",
+  "entry": "org/netbeans/modules/uihandler/layer.xml",
+  "file": "l/org-netbeans-modules-uihandler__aec9df01.xml",
+  "expect": "a57920933a320c61d159680716a7584b8f9304547f9dc569a03c1c2770c689ff",
+  "added": 2
+ }
+]

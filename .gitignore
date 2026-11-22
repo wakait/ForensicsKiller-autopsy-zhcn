@@ -6,3 +6,7 @@ INSTALL_LOG.json
 *.bmp
 *.tmp
 QA_LOADTEST.txt
+dist/
+release/payload/
+release/payload_b/
+release/_使用说明.txt
