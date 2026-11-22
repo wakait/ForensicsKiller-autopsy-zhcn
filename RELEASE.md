@@ -104,3 +104,43 @@ SHA256: <填入 dist/SHA256.txt 中的值>
       jar 内出现 `Bundle_zh_CN.properties`、layer 出现 `视图`、`autopsy.conf` 含中文参数
 - [ ] 跑 `uninstall.ps1 -Root <测试目录> -Quiet`，确认三者均还原
 - [ ] 真机安装后启动 Autopsy，截图确认菜单为 `案件 视图 工具 窗口 帮助`
+
+---
+
+## 6. 完整版 / 引导安装包的构建
+
+### 6.1 引导安装包（推荐发布物，0.3 MB）
+
+```bat
+python scripts\build_release.py --reuse
+```
+
+除精简补丁包外，会额外产出 `dist/Autopsy-4.23.1-zhCN-Setup-R3.zip`：
+
+```
+一键安装.bat / setup.ps1      下载官方 MSI → 静默安装 → 套包 → 快捷方式 → 自检
+还原英文.bat / uninstall.ps1  从备份还原
+payload/                      180 资源 + 13 菜单补丁
+使用说明.txt
+```
+
+`setup.ps1` 的关键行为：
+
+- 校验 64 位系统、目标盘 ≥6 GB、MSI 大小（1,289,204,224 字节）
+- 非管理员时自动提权（UAC 弹窗）
+- 静默安装时把 `APPDIR / INSTALLDIR / TARGETDIR` 三个属性都给到目标目录，装完**再探测真实安装路径**（MSI 可能忽略自定义路径）
+- 逐项自检：主程序、内置 JRE、中文资源、界面语言、桌面快捷方式
+- 快捷方式创建失败时自动降级为桌面 `.bat`
+
+### 6.2 完整便携版（约 1 GB）
+
+```bat
+:: 1. 把中文包装进一个干净安装目录
+python scripts\install_pack.py --root "D:\Autopsy-4.23.1" --set-locale
+
+:: 2. 打包（内含 autopsy/ + 启动脚本）
+python scripts\build_full_release.py --root "D:\Autopsy-4.23.1" --version R3
+```
+
+前提：本机装有 7-Zip（`C:\Program Files\7-Zip\7z.exe`）。
+压缩后约 1.05 GB。启动脚本带版本标记，只在首次运行时清一次菜单缓存。

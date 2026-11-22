@@ -168,6 +168,30 @@ A: 运行「卸载.bat」。
     path.write_text(text, encoding="utf-8-sig")
 
 
+
+def build_setup_zip(man: dict, layers: list) -> Path:
+    """生成引导式安装包：setup.ps1 + payload + 说明。"""
+    boot = REL / "bootstrapper"
+    DIST.mkdir(exist_ok=True)
+    name = "Autopsy-4.23.1-zhCN-Setup-%s.zip" % man["version"].split("-")[-1]
+    out = DIST / name
+    if out.exists():
+        out.unlink()
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        for f in ["一键安装.bat", "setup.ps1", "还原英文.bat", "uninstall.ps1", "使用说明.txt"]:
+            p = boot / f
+            if p.is_file():
+                z.write(p, "Autopsy-4.23.1-zhCN-Setup/%s" % f)
+        payload = REL / "payload"
+        for root, _d, files in os.walk(payload):
+            for f in files:
+                pp = Path(root) / f
+                z.write(pp, "Autopsy-4.23.1-zhCN-Setup/payload/%s" % pp.relative_to(payload).as_posix())
+    print("\n安装包：%s（%.2f MB）" % (out, out.stat().st_size / 1048576))
+    print("SHA256: %s" % sha(out.read_bytes()))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--backup-root", default=str(DEFAULT_BACKUP))
@@ -226,6 +250,7 @@ def main():
     size = zip_path.stat().st_size
     digest = sha(zip_path.read_bytes())
     (DIST / "SHA256.txt").write_text("%s  %s\n" % (digest, zip_path.name), encoding="utf-8")
+    build_setup_zip(man, layers)
     print("\n完成：%s（%.1f MB）" % (zip_path, size / 1048576))
     print("SHA256: %s" % digest)
     print("条目：bundle %d、layer %d" % (len(bundles), len(layers)))
